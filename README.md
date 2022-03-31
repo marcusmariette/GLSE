@@ -1,10 +1,10 @@
-# GLSE
+## GLSE
 Software Engineering Project - Grammar and Linguistics Search Engine
 
-# Project Description
+## Project Description
 This project has been proposed by our Client at Monash University, Xiao Chen, who wants us to develop a web application that will help non-english speaking researchers to write professional research papers.
 
-# Team Members
+## Team Members
 ### Project Lead
 Edric Loh
 
