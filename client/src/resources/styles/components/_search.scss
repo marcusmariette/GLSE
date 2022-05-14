@@ -1,0 +1,23 @@
+.search-container {
+    border-radius: 100vw;
+    background-color: $white;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1.5rem;
+
+    box-shadow: 0px 0px 10px rbga(#000, 0.7);
+
+    fieldset {
+        border: none;
+    }
+
+    .search-field {
+        width: 100%;
+        input {
+            font-size: 18px;
+        }
+    }
+}
