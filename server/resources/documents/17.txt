@@ -1,0 +1,62 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+Outline
+1/9
+
+
+
+Previous PDFNext PDF
+Article start
+Futures 142 (2022) 102993
+Available online 12 July 2022
+0016-3287/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).Limits of conceivability in the study of the future. Lessons from
+philosophy of science☆
+Veli Virmajoki
+Finland Futures Research Centre, University of Turku, Verkapiha 1 as. 31 20100, Turku, Finland
+A R T I C L E I N F O
+Keywords:
+Conceivability
+Counterfactuals
+Alternative futures
+Plausible futures
+Possible futures
+History
+Philosophy of science
+A B S T R A C T
+In this paper, the epistemological and conceptual limits of our ability to conceive and reason
+about future possibilities are analyzed. It is argued that more attention should be paid in futures
+studies on these epistemological and conceptual limits. Drawing on three cases from philosophy
+of science, the paper argues that there are deep epistemological and conceptual limits in our
+ability to conceive and reason about alternatives to the current world. The nature and existence of
+these limits are far from obvious and become visible only through careful investigation. The cases
+establish that we often are unable to conceive relevant alternatives; that historical and coun-
+terfactual considerations are more limited than has been suggested; and that the present state of
+affairs reinforces its hegemony through multiple conceptual and epistemological mechanisms.
+The paper discusses the reasons behind the limits of the conceivability and the consequences that
+follow from the considerations that make the limits visible. The paper suggests that the episte-
+mological and conceptual limits in our ability to conceive and reason about possible futures
+should be mapped systematically. The mapping would provide a better understanding of the
+creative and critical bite of futures studies.
+1. Introduction
+In futures studies, possible, probable, and preferable futures are studied (Amara 1974; Bell, 2009 [1997]). To formulate future
+scenarios and to vision alternative futures require that one is able to conceive and reason about states of affairs that differ from the
+current state of affairs. Much of the theoretical and methodological discussion in futures studies concern the nature, limits, and
+prospects of the processes that aim to produce the scenarios of the future. The question is usually how to systematically formulate and
+identify relevant and plausible scenarios. It is remarkable that the underlying ability to conceive and reason about possible futures is
+often taken for granted, and the main questions concerns how to tease out, resource, and encourage the ability. This assumption is well
+characterized when Bell writes that “[t]he exploration of possible futures includes trying to look at the present in new and different
+ways, often deliberately breaking out of the straitjacket of conventional, orthodox, or traditional thinking and taking unusual, even
+unpopular perspectives” (2009, p. 76–77) and his main warning concerns rejecting ideas out of hand (2009, 78). This
+taking-for-granted is true of even the most critical tones about the practices described by Bell. For example, when Groves argues that it
+can “be problematic to represent the future as empty, as open to being written” (Groves, 2017), the assumption is made that we can
+conceive a variety of alternative futures. It is, in fact, the source of the problem. Also, Slaughter’s eerie warning that “What [futures
+studies] cannot, and in this view, should not do in this historical moment is to imply that there are any generically alternative global
+☆ This study was funded by Kone Foundation
+E-mail address: vevirm@utu.fi.
+Contents lists available at ScienceDirect
+Futures
+journal homepage: www.elsevier.com/locate/futures
+https://doi.org/10.1016/j.futures.2022.102993
+Received 1 January 2022; Received in revised form 7 May 2022; Accepted 6 July 2022
+Veli VirmajokiAmara 1974Bell, 2009Groves, 2017
+Previous PDFNext PDF

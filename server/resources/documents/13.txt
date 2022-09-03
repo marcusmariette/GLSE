@@ -1,0 +1,95 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (3)
+1/17
+
+
+
+Previous PDFNext PDF
+Article start
+Available online at www.sciencedirect.com
+ScienceDirect
+Nuclear Physics B 959 (2020) 115158
+www.elsevier.com/locate/nuclphysb
+New physics probes: Atomic parity violation, polarized
+electron scattering and neutrino-nucleus coherent
+scattering
+Giorgio Arcadi a,b, Manfred Lindner c, Jessica Martins d,
+Farinaldo S. Queiroz e,∗
+a Dipartimento di Matematica e Fisica, Università di Roma 3, Via della Vasca Navale 84, 00146, Roma, Italy
+b INFN Sezione Roma 3, Italy
+c Max-Planck-Institut für Kernphysik (MPIK), Saupfercheckweg 1, 69117 Heidelberg, Germany
+d Instituto de Física Teórica, Universidade Estadual Paulista, São Paulo, Brazil
+e International Institute of Physics, Universidade Federal do Rio Grande do Norte, Campus Universitário, Lagoa Nova,
+Natal-RN 59078-970, Brazil
+Received 7 April 2020; received in revised form 22 July 2020; accepted 20 August 2020
+Available online 27 August 2020
+Editor: Hong-Jian He
+Abstract
+Atomic Parity Violation (APV) is usually quantified in terms of the weak nuclear charge QW of a nucleus,
+which depends on the coupling strength between the atomic electrons and quarks. In this work, we review
+the importance of APV to probing new physics using effective field theory. Furthermore, we correlate our
+findings with the results from neutrino-nucleus coherent scattering. We revisit signs of parity violation in
+polarized electron scattering and show how precise measurements on the Weinberg’s angle give rise to
+competitive bounds on light mediators over a wide range of masses and interactions strengths. Our bounds
+are firstly derived in the context of simplified setups and then applied to several concrete models, namely
+Dark Z, Two Higgs Doublet Model-U (1)X and 3-3-1, considering both light and heavy mediator regimes.
+© 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/). Funded by SCOAP3.
+* Corresponding author.
+E-mail addresses: giorgio.arcadi@uniroma3.it (G. Arcadi), manfred.lindner@mpi-hd.mpg.de (M. Lindner),
+jessica.martins@unesp.br (J. Martins), farinaldo.queiroz@iip.ufrn.br (F.S. Queiroz).
+https://doi.org/10.1016/j.nuclphysb.2020.115158
+0550-3213/© 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/). Funded by SCOAP3.
+Giorgio ArcadiManfred LindnerJessica MartinsFarinaldo S. Queiroz
+2 G. Arcadi et al. / Nuclear Physics B 959 (2020) 115158
+1. Introduction
+For decades it was assumed that the laws of nature preserved parity, but the seminal paper
+of Lee and Yang in 1956 gave rise to a different perspective [1]. It was indeed confirmed in
+1957 in the realm of weak interactions, via the beta decay in Cobalt [2] and muon decay [3]. In
+1959 the possibility of observing parity violation in atomic physics and electron scattering was
+contemplated [4] and further investigated in the late 70’s [5–7]. Interestingly these ideas preceded
+the theory of electroweak interactions. The following decades were populated by experiments
+that aimed at probing parity violation [8]. For interesting reviews on APV see [9–14].
+Our current understanding of parity and APV has greatly improved. Given the experimental
+precision acquired over the years, we may now test new physics models that feature parity-
+violating interactions. The main objects of study in this regard are the Weak Charge of the Cesium
+(Cs) and polarized electron scattering.
+Concerning the first observable, the weak charge of a nucleus, QW , is an analogous of the
+electromagnetic charge, where the Z boson is the key player of the atomic electron and nucleus
+interactions instead. QW is the sum of the weak charges of all constituents of the atomic nucleus,
+QW = (2Z + N )QW (u) + (Z + 2N )QW (d), where QW (u, d) accounts for the Z interactions
+with up and down quarks and it depends on sin2 θW , with θW being Weinberg’s angle. To un-
+derstand how the Z boson can affect atomic transitions and QW is extracted from experiments,
+one needs to perform precise atomic physics calculations and measure the left-right asymmetry
+ALR , which is naively estimated to be ALR  α2m2
+e/m2
+Z ∼ 10−15. Despite atoms with a high
+atomic number be, in principle, better suited for experimental observation of APV [15], because
+of the enhancement in ALR by orders of magnitude, such high atomic number makes the theoret-
+ical determination of ALR extremely challenging. For this reason, Cesium has become a popular
+target because it offers a good compromise between high atomic number, necessary to have siz-
+able effects, and relatively simple atomic structure, required to make precise atomic calculations.
+Precise measurements of APV in Cesium have been presented in [16,17]. Based on them, de-
+tailed atomic physic computations yielded the following determination: Qexp
+W = −72.62 ± 0.43
+[18,19], in slight disagreement with the SM prediction Qth
+W = −73.23 ± 0.01 [20,21]. Such pre-
+cise measurements of the Cs weak charge can be used to constraint new physics effects.
+The other parity violation observable, polarized electron scattering, also constitutes an impor-
+tant laboratory to new physics searches. Again, the left-right asymmetry is the key observable.
+For deep inelastic scattering processes of the type eL,RN → eX, the left-right asymmetry can be
+expressed, in the quark model and in the limit of zero nucleon mass, in the relatively simple form
+A/Q2 = a1 + a2f (y).1 The coefficients a1, a2 depend on the axial-vector coupling between the
+electron and quarks, which, in turns, depends on sin2 θW , θW being Weinberg’s angle. y and Q
+represent, respectively, the fraction of energy transferred from the electron to the hadrons and the
+momentum transfer. Detailed expressions for a1, a2 and f can be found, for example, in [8,22].
+Measurement of A translates into a measurement of sin2 θW at a given momentum Q. It is well-
+known that photon exchange diagrams conserve parity but processes mediated by the Z do not
+as it not interact with left-handed and right-handed fermions in the same way. In a similar vein,
+eventual additional massive vector bosons from new physics models might also contribute to the
+left-right asymmetry. This kind of contribution can be conveniently parametrized as a shift on
+1 In the case of electron-positron scattering or the so-called Moeller scattering (scattering on electrons), the Q2 depen-
+dence of the asymmetry is more complicated and is parametrized by a form factor.
+[1][2][3][4][5–7][8][9–14][15][16,17][20,21][8,22]
+Previous PDFNext PDF

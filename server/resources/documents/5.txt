@@ -1,0 +1,216 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineFigures (18)
+1/14
+
+
+
+Previous PDFNext PDF
+Article start
+International Journal of Information Management Data Insights 2 (2022) 100112
+Contents lists available at ScienceDirect
+International Journal of Information Management Data
+Insights
+journal homepage: www.elsevier.com/locate/jjimei
+Blockchain technology for cybersecurity: A text mining literature analysis
+Ravi Prakash a, V.S. Anoop a,∗, S. Asharaf b
+a Kerala Blockchain Academy, Kerala University of Digital Sciences, Innovation and Technology, Technocity Campus, Thiruvananthapuram, India
+b Kerala University of Digital Sciences, Innovation and Technology, Technocity Campus, Thiruvananthapuram, India
+a r t i c l e i n f o
+Keywords:
+Blockchain technology
+Cybersecurity
+Vulnerability assessment
+Text mining
+Topic modeling
+Literature analysis
+a b s t r a c t
+Blockchain, the technology infrastructure behind the famous cryptocurrency bitcoin, can take away the notion
+of trust from centralized organizations to a decentralized platform that is mathematically verifiable and cryp-
+tographically secure. It is gaining more significant momentum exponentially and disrupts the way businesses
+function beyond the digital currency aspects. This work presents a text mining literature analysis of research
+articles published in major digital libraries on blockchain technology and cybersecurity. This literature analysis
+employs automated text mining approaches such as topic modeling and keyphrase extraction for unearthing the
+themes from a vast body of literature. This analysis highlights the multidisciplinary nature of blockchain tech-
+nology within the cybersecurity domain. The findings also show the cyber threats and vulnerabilities that evolve
+with blockchain technology developments. This analysis also showcases the computer security research commu-
+nity’s vulnerabilities and provides future research dimensions that are crucial for designing secure blockchain
+applications and platforms.
+1. Introduction
+Blockchain was initially introduced with the concept of cryptocur-
+rencies Tandon, Revankar, Palivela, & Parihar (2021), especially Bitcoin
+Nakamoto (2009). However, this back-end transaction recording tech-
+nology has great potential in taking out the notion of trust from the cen-
+tral third parties to the cryptographically verifiable platform. The idea
+of decentralization of doing businesses has grown leaps and bounds and
+has already found its scope in supply chains Ahsan & Siddique (2022);
+Deepu & Ravi (2021), health-care Hussien, Yasin, Udzir, Zaidan, &
+Zaidan (2019); Yaqoob, Salah, Jayaraman, & Al-Hammadi (2021), mar-
+keting Jain, Dash, Kumar, & Luthra (2021) & finance Grover, Kar,
+Janssen, & Ilavarasan (2019b),food Yadav, Misra, & Goundar (2020) &
+agriculture marketing Yadav, Misra, & Goundar (0000), banking, in-
+surance, sports Yadav, Misra, Rana, & Singh (2021a); Yadav, Misra,
+Rana, Singh, & Goundar (2021b), cyber-security Azmoodeh, Dehghan-
+tanha, Conti, & Choo (2018); Kar & Navin (2021); Mittal, Gupta,
+Chaturvedi, Chansarkar, & Gupta (2021), and many more Grover, Kar,
+& Janssen (2019a); Upadhyay (2020). The well defined and established
+cryptographical Luntovskyy & Guetter (2018) and mathematical tech-
+niques like hashing Alkandari, Al-Shaikhli, & Alahmad (2013) make
+the ever-growing ledger of blockchain tamper-proof, secure and im-
+mutable Yaga, Mell, Roby, & Scarfone (2018). However, they have cer-
+tain limitations Ali Syed et al. (2019); Lee, Yang, Onik, & Kim (2019).
+Blockchain also uses consensus algorithms for verifying and joining the
+∗ Corresponding author.
+E-mail addresses: ravi.prakash@duk.ac.in (R. Prakash), anoop.vs@duk.ac.in (V.S. Anoop), asharaf.s@duk.ac.in (S. Asharaf).
+blocks to it. For instance, the Proof-of-Work (PoW) consensus algo-
+rithm Gemeliarana & Sari (2018); Gupta & Mahajan (2020), the ma-
+jor public blockchain networks such as bitcoin and Ethereum uses was
+prone to vulnerabilities Kaushal, Bagga, & Sobti (2017) such as 51%
+attack Apostolaki, Zohar, & Vanbever (2017). Such threats and flaws
+boosted the scope of the research in the security domain of blockchain
+technology. Later evolved Blockchain 2.0, which focuses on the idea
+of smart contracts was initially coined by Nike Szabo Szabo (1997).
+Smart contracts Ferreira (2021) or law of code Filippi & Hassan (2018),
+has the potential to eliminate the requirements of any trusted third
+party. Ethereum Buterin (2013) and the Hyperledger Fabric, with the
+chain code Dinh et al. (2018), came to be a few of the widely ac-
+cepted blockchains with smart contracts. Unlike the bitcoin blockchain
+where the total number of bitcoins is limited to 21 million, Ethereum
+has no such limit. However, Ethereum also uses the PoW consensus al-
+gorithm. After analyzing a significant number of blockchain literature,
+it is evident that smart contracts can have prominent use in the fields
+beyond finance Ferreira da Silva & Moro (2021); Stallone, Wetzels, &
+Klaas (2021), yet there is a wide scope of improvement with respect
+to the cyber security Gehem, Usanov, Frinking, & Rademaker (2015);
+Kim, Jeong, Kim, & So (2011); Li & Liu (2021).
+The systematic literature analysis on the body of knowledge re-
+lated to blockchain technology using topic modeling highlights the
+trends and gaps and suggests prominent future trends are invaluable.
+Topic models are a suite of text understanding algorithms that un-
+https://doi.org/10.1016/j.jjimei.2022.100112
+Received 14 June 2022; Received in revised form 19 August 2022; Accepted 19 August 2022
+2667-0968/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+RaviPrakashV.S.AnoopS.AsharafTandon,Revankar,Palivela,&Parihar(2021)Nakamoto(2009)Ahsan&Siddique(2022)Deepu&Ravi(2021)Hussien,Yasin,Udzir,Zaidan,&Zaidan(2019)Yaqoob,Salah,Jayaraman,&Al-Hammadi(2021)Jain,Dash,Kumar,&Luthra(2021)Grover,Kar,Janssen,&Ilavarasan(2019b)Yadav,Misra,&Goundar(2020)Yadav,Misra,&Goundar(0000)Yadav,Misra,Rana,&Singh(2021a)Yadav,Misra,Rana,Singh,&Goundar(2021b)Azmoodeh,Dehghantanha,Conti,&Choo(2018)Kar&Navin(2021)Mittal,Gupta,Chaturvedi,Chansarkar,&Gupta(2021)Grover,Kar,&Janssen(2019a)Upadhyay(2020)Luntovskyy&Guetter(2018)Alkandari,Al-Shaikhli,&Alahmad(2013)Yaga,Mell,Roby,&Scarfone(2018)AliSyedetal.(2019)Lee,Yang,Onik,&Kim(2019)Gemeliarana&Sari(2018)Gupta&Mahajan(2020)Kaushal,Bagga,&Sobti(2017)Apostolaki,Zohar,&Vanbever(2017)Szabo(1997)Ferreira(2021)Filippi&Hassan(2018)Buterin(2013)Dinhetal.(2018)FerreiradaSilva&Moro(2021)Stallone,Wetzels,&Klaas(2021)Gehem,Usanov,Frinking,&Rademaker(2015)Kim,Jeong,Kim,&So(2011)Li&Liu(2021)
+R. Prakash, V.S. Anoop and S. Asharaf International Journal of Information Management Data Insights 2 (2022) 100112
+earth the latent patterns from large bodies of unstructured text docu-
+ments. This method is widely used in several applications Jadil, Rana,
+& Dwivedi (2022); Jutla, Bodorik, & Zhang (2006); Wandabwa, Naeem,
+Mirza, & Pears (2021). The natural language processing Nair, Agrawal,
+Domnic, & Kumar (2021); R, Kuanr, & KR (2021) based approach
+has itself spread over several fields like journalism Ma, Nadamoto,
+& Tanaka (2006) etc. and for different application including business
+Verma, Sharma, Deb, & Maitra (2021), IoT Herath & Mittal (2022).
+There are several topic modeling algorithms available Gallinucci, Gol-
+farelli, & Rizzi (2015); Kinoshita, Takasu, & Adachi (2015), those dif-
+fer in the way they make assumptions to generate hidden word col-
+lections called ”topics”. A paper by Vayansky et. al. Vayansky & Ku-
+mar (2020) presents a more detailed review of the topic modeling. La-
+tent Semantic Analysis (LSA), Latent Semantic Indexing (LSI), Proba-
+bilistic Latent Semantic Indexing (pLSI), etc., were the topic modeling al-
+gorithms introduced early in the natural language processing literature.
+A mixed model of top-down and bottom-up approaches was presented
+by Catarina et al. Ferreira da Silva & Moro (2021) to analyze the applica-
+tion of blockchain technology for consumer trust. Jiang et al. Jiang, Xie,
+& Fan (2021) analyzed 282 articles in their study to present the research
+trends focused on the business & management in blockchain networks.
+In another related study on the review of blockchain cyber security
+Taylor, Dargahi, Dehghantanha, Parizi, & Choo (2020), the blockchain-
+based security applications are analyzed, showing the increase in the
+adoption of blockchain networks in various domains. Taylor et al. have
+also discussed the security of blockchain in IoT and AI data security
+in their article Taylor et al. (2020). Blockchain technologies have been
+considered an effective solution for shared data protection and provid-
+ing data trust as a service as suggested by Richard et. al. Lomotey, Kumi,
+& Deters (2022).
+By adopting text mining, it is possible to cover a vast body of
+knowledge that otherwise would render infeasible only at the expense
+of computational power Feng, Chiam, & Lo (2017); Moro, Cortez, &
+Rita (2015); Skute (2019). In contrast, we focus on studies that highlight
+the cyber threats and vulnerabilities, and their mitigation in blockchain
+technology. We adopt an existing top-down and a bottom-up procedure
+based on the blockchain taxonomies to draw the list of keywords from
+each of the gathered 833 articles, published until April 2022. This ap-
+proach enriches existing blockchain taxonomies by benefiting from a
+passive crowd-sourcing effect. The authors defined the articles’ key-
+words and considered them essential for indexing purposes. The arti-
+cles are then automatically analyzed using text mining and topic mod-
+eling to unveil interesting topics that summarize the existing body of
+knowledge. The use of text mining to conduct literature analyses is be-
+coming mainstream as science keeps developing grounded on Internet
+media Feng et al. (2017); Skute (2019). Through such an approach, we
+aim to contribute to a better understanding of BC from the critical con-
+sumer trust perspective. We raise the research questions (RQ) as given
+in Table 1.
+The remainder of this article is organized as follows: We discuss the
+inception and evolution of blockchain technology, the prominence of
+blockchain in cybersecurity, and discuss topic modeling with reference
+to one of the most widely used algorithms called Latent Dirichlet Allo-
+cation (LDA) in Section 2. Section 3 presents the materials and methods
+adopted in this analysis, and Section 4 presents the results and the de-
+liberations. The applications and limitations of the proposed approach
+are discussed in Section 5, and the future research trends are outlined
+in Section 6. In Section 7, the authors conclude the findings, and some
+perspectives are also presented.
+2. Cybersecurity and the prominence of blockchain technology
+Improving security measures, building a safe environment over the
+internet, and ensuring the quick availability of information at the same
+time seems to be an ever-lasting challenge. Unfortunately, even after
+this many technical advancements, many of the previous research works
+show that the overall blockchain network is still prone to cyber-attacks
+Chen et al. (2022); Christen, Schnell, Ranbaduge, & Vidanage (2022);
+Wang, Wang, Cao, Li, & Xiong (2019). Vulnerable consensus mecha-
+nisms are one of the reasons for some security threats, which ultimately
+can affect the entire blockchain network. As per the data collected from
+the CVEs cve (1999) database, we found that some of the most com-
+mon vulnerabilities on blockchain networks are (a) 51% or Majority At-
+tack (in PoW-based blockchains like Bitcoin), (b) Routine attack (double
+coin spent), (c) BC Endpoint Vulnerabilities, (d) Attacks due to vulnera-
+bility in smart-contracts and their deployment, (e) Transaction Privacy
+Leakage, and, (f) Phishing Attacks. As per the official portal of CVEs
+cve (1999), the DoS (denial of service) was the very first cyber attack
+launched on the Bitcoin blockchain in 2010.
+Till now, over sixty easy and hard level vulnerabilities have been re-
+ported just for bitcoin and related blockchain networks in the last few
+years. Due to having a reward mechanism in PoW, the vulnerable proof-
+of-work consensus algorithm is responsible for most of these attacks.
+However, along with the high threat of 51% attack, bitcoin was also
+found to be vulnerable to some other cyber-attacks, including denial-of-
+service Baek et al. (2019) and bypassing the authentication Singh, Ho-
+sen, & Yoon (2021), in many cases. Ethereum overcame many of these
+security issues, but it was found to be vulnerable. Decentralized Au-
+tonomous Organization (DAO) Zhao, Chen, Chen, Wang, & Tang (2017),
+the largest crowdfunded project on Ethereum blockchain, was one of the
+well-known applications of blockchain during 2016. However, later, the
+attack on DAO further led the Ethereum blockchain to split into two
+branches forming the Ethereum & Ethereum Classic. Several smart con-
+tracts were also vulnerable, and such incidents have kept on occurring.
+It brought in new ideas leading to a rapid improvement in the secu-
+rity side of blockchain. Many improvements were suggested in the tra-
+ditional PoW consensus algorithm by developing new alternative con-
+sensus mechanisms Masseport, Darties, Giroudeau, & Lartigau (2020);
+Xue et al. (2018). One such method is Proof-of-Stack (PoS) Nair & Do-
+rai (2021) that does not require mining and hence reduces the environ-
+mental loss as in PoW. We went through some previous research works
+that came up with strengthening these blockchains and focusing on the
+security aspects of the same Kushwaha, Joshi, Singh, Kaur, & Lee (2022);
+Nam & Kil (2022); Sayeed, Marco-Gisbert, & Caira (2020).
+To ensure the proper security of the existing and the upcoming
+blockchains, early detection and mitigation of possible cyber attacks is
+a good idea. Due to being closely related to the previous attack vectors,
+some specific sub-part of the blockchains could be highly vulnerable
+to the different attacks. So, we considered some interesting articles re-
+lated to the topic modeling for blockchain and its applications. One such
+work related to the topic modeling by Catarina et al. Ferreira da Silva &
+Moro (2021) presents an intelligent approach for not only understand-
+ing the work but also opens the doors for even more research areas based
+on the similar areas of the applications George & Birla (2018). The topic
+Table 1
+Research Questions raised for the study .
+Research Question Description
+RQ1 Are there any correlations between the cybersecurity researches and blockchain vulnerabilities? If so, how both these are correlated?
+RQ2 What are the major types of cyber-attacks that blockchain networks are highly prone to?
+RQ3 How the blockchain technology has span over different application areas and what could be its security consequences?
+RQ4 How the previous security vulnerabilities and research could be useful for research communities in protecting the existing and upcoming blockchain networks?
+2
+Jadil,Rana,&Dwivedi(2022)Jutla,Bodorik,&Zhang(2006)Wandabwa,Naeem,Mirza,&Pears(2021)Nair,Agrawal,Domnic,&Kumar(2021)R,Kuanr,&KR(2021)Ma,Nadamoto,&Tanaka(2006)Verma,Sharma,Deb,&Maitra(2021)Herath&Mittal(2022)Gallinucci,Golfarelli,&Rizzi(2015)Kinoshita,Takasu,&Adachi(2015)Vayansky&Kumar(2020)FerreiradaSilva&Moro(2021)Jiang,Xie,&Fan(2021)Taylor,Dargahi,Dehghantanha,Parizi,&Choo(2020)Tayloretal.(2020)Lomotey,Kumi,&Deters(2022)Feng,Chiam,&Lo(2017)Moro,Cortez,&Rita(2015)Skute(2019)Fengetal.(2017)Skute(2019)Chenetal.(2022)Christen,Schnell,Ranbaduge,&Vidanage(2022)Wang,Wang,Cao,Li,&Xiong(2019)cve(1999)cve(1999)Baeketal.(2019)Singh,Hosen,&Yoon(2021)Zhao,Chen,Chen,Wang,&Tang(2017)Masseport,Darties,Giroudeau,&Lartigau(2020)Xueetal.(2018)Nair&Dorai(2021)Kushwaha,Joshi,Singh,Kaur,&Lee(2022)Nam&Kil(2022)Sayeed,Marco-Gisbert,&Caira(2020)FerreiradaSilva&Moro(2021)George&Birla(2018)
+Previous PDFNext PDF

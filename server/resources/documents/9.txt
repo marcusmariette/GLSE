@@ -1,0 +1,123 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (8)
+1/21
+
+
+
+Previous PDFNext PDF
+Article start
+Futures 124 (2020) 102649
+Available online 17 October 2020
+0016-3287/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).A common ground? Constructing and exploring scenarios for
+infrastructure network-of-networks
+Robin Neef *, Stefan Verweij, Tim Busscher, Jos Arts
+University of Groningen, Landleven 1, 9747AD Groningen, the Netherlands
+A R T I C L E I N F O
+Keywords:
+Scenarios
+Infrastructure
+Network-of-networks
+Institutional fragmentation
+Disaggregative Policy Delphi
+Futures-oriented workshop
+A B S T R A C T
+Contemporary infrastructure networks require large investments especially due to aging. In-
+vestment opportunities of network-of-networks are often obscured because current scenarios
+often concern single infrastructure networks. Major barriers to the construction and use of
+network-of-networks scenarios are institutional fragmentation and the disconnection of scenario-
+development phases. This paper aims to construct and enhance the use of network-of-networks
+scenarios through a participatory scenario process. We employed a hybrid-method approach
+comprising document analysis, Disaggregative Policy Delphi, and futures-oriented workshop for
+five large national infrastructure administrations in the Netherlands. This approach yielded
+twelve key infrastructure developments for which 28 infrastructure experts provided future es-
+timates. We constructed seven scenarios through cluster analysis of experts’ quantitative esti-
+mates, qualitative direct content analysis of the qualitative data, and a futures table. The
+scenarios are: Infraconomy; Techno-Pessimism; Safety; Technological; Missed Boat; Hyperloop;
+and Green. Our results stress the importance of collaboration: desired scenarios are improbable
+when infrastructure administrations maintain their current sectoral perspective, whereas an inter-
+sectoral perspective may generate more investment opportunities. However, these network-of-
+networks investment opportunities do not simply emerge from network-of-networks scenarios;
+reasons include administrators’ prevailing conception that sufficient optimization capacity re-
+mains within their own networks, and that no common ground exists that helps to overcome
+institutional fragmentation.
+1. Introduction
+Infrastructure planners in many western countries are increasingly confronted with new challenges. On the one hand, these relate
+to aging infrastructures and to increased quantity and quality demands of infrastructures1 such as roads, railways, and sea- and airports
+* Corresponding author.
+E-mail addresses: robin.neef@rug.nl (R. Neef), s.verweij@rug.nl (S. Verweij), t.busscher@rug.nl (T. Busscher), jos.arts@rug.nl (J. Arts).
+1 More precisely, with infrastructure we broadly refer to “the physical network that channels a flux (...) through conduits (...) or a medium (...)
+with the purpose of supporting a human population” (Neuman, 2006, p. 6). In our study, infrastructure concerns the physical conduits, i.e., the
+nodes and links of the network, demarcated to utilities (e.g., gas and electricity), public works (also when they are not publicly administered, e.g.,
+highways and bridges), and individual physical facilities (e.g., ports and airports) at a national scale (as opposed to component or asset scale). We
+focus on transport and energy distribution infrastructures. We do not refer to social infrastructure (e.g., parks, sport facilities, hospitals, etc.) and
+knowledge networks (e.g., schools, universities).
+Contents lists available at ScienceDirect
+Futures
+journal homepage: www.elsevier.com/locate/futures
+https://doi.org/10.1016/j.futures.2020.102649
+Received 17 February 2020; Received in revised form 18 August 2020; Accepted 5 October 2020
+Robin NeefStefan VerweijTim BusscherJos ArtsNeuman, 2006, p. 6
+Futures 124 (2020) 102649
+2(EIB, 2015; Herder & Wijnia, 2012; Womack, 2008). On the other hand, these relate to increasing interdependencies between systems
+generally (Biggs et al., 2015; De Roo & Silva, 2010; Loorbach, 2010) and different infrastructure networks specifically that can cause
+malperformance and cascade from one infrastructure network to another (D’Agostino & Scala, 2014; Lee et al., 2007; Rinaldi et al.,
+2001; Zimmerman, 2001). Because of the increasing demand for infrastructure services due to, inter alia, economic growth, and so-
+cietal requirements such as sustainability and climate adaptation (Anand et al., 2018; Hansman et al., 2006; Schuckmann et al., 2012;
+Schwab et al., 2017), aging and interdependent infrastructures increasingly threaten the uninterrupted flows of services – such as
+energy provision, transportation of goods and persons, and even human life in the case of, e.g., fatal breakdowns, gas explosions, or
+floods (De Bruijne, 2006; Verbong & van der Vleuten, 2004).
+Considerable investments are needed to prevent infrastructure failures (EIB, 2015; OECD, 2017). These investments should address
+the long lifespan of infrastructures, because infrastructures are characterized by high sunk costs and therefore invoke path de-
+pendencies and lock-in; once constructed, infrastructures are not easily abandoned and they become sources of inertia (De Bruijne,
+2006; Geels, 2004; Wegener & Fürst, 1999). Additionally, future developments and societal needs are characterized by uncertainty
+(Maier et al., 2016; Pot et al., 2018; Rauws, 2017; Rittel and Webber, 1973; Walker et al., 2013), and different developments and needs
+may require different infrastructures. Therefore, infrastructure planners should anticipate multiple possible futures (cf. B ̈orjeson et al.,
+2006) collectively, given network interdependency effects (cf. Rinaldi et al., 2001).
+Usually, however, infrastructure administrators only moderately collaborate in strategic infrastructure planning processes (Van der
+Duin & Ligtvoet, 2019a, 2019b). A major barrier for collaboration in infrastructure planning is institutional fragmentation due to
+sectoral optimization (Busscher et al., 2015; De Bruijne & Van Eeten, 2007; Heeres et al., 2016; Loorbach et al., 2010). Sectoral
+optimization results in sectoral isolation instead of sectoral integration (De Bruijne, 2006; Geels, 2004), making strategic infrastructure
+planning processes vulnerable to myopia (Pot et al., 2018). Fragmentation also applies to infrastructure administrators’ strategic
+policy and innovation agendas, which are largely determined by government and politics. In turn, “this means that major decisions
+may be made on a political spur, while more incremental or maintenance-related decisions require careful readjustment of increasingly
+rationalized budgets” (Van der Duin & Ligtvoet, 2019a, p. 72). Whilst sectoral isolation may decrease the perceived complexity of
+decision-making processes with the promise of increased efficiency (Teisman et al., 2009), it hampers the collective anticipation of
+multiple possible futures. Furthermore, institutional fragmentation may hamper strategic planning processes that address the in-
+terdependencies between infrastructure networks, thence obscuring investment opportunities on a network-of-networks level. A
+network-of-networks is the combination of multiple networks, where the functionality of one infrastructure network may (positively or
+negatively) affect another network, through geographic co-location or functional interdependence of goods or information (Rinaldi
+et al., 2001). Importantly, an infrastructure network in a network-of-networks may malfunction – despite having no investment need of
+itself – because of disruptions and interconnections of (tightly) coupled networks with direct interconnections. For example, the
+disruption of an energy network may inhibit the operation of an airport, which may cause departure halls to overcrowd, for which the
+access to the airport may be restricted to prevent panic by closing parts of the highway and railroad networks connecting to the airport.
+Therefore, despite institutional fragmentation, infrastructure administrations involved in making investments in infrastructure net-
+works should address both this network-of-networks level and multiple possible futures to explore investment opportunities and
+improve network functioning.
+In this paper, we address the challenges of anticipating multiple possible futures of network-of-networks. We argue that strategic
+infrastructure (investment) planning processes require insight in a set of possible futures – i.e., scenarios – that a network-of-networks
+is required to accommodate, and that those scenarios should be collectively enacted upon between infrastructure administrators (cf.
+Hertogh & Bakker, 2017; Moloney et al., 2017). Whereas recent scenario studies focused on single networks (e.g. Liimatainen et al.,
+2014; Linz, 2012; Tapio et al., 2017), scenarios on a network-of-networks level are largely absent (Hall et al., 2013). Furthermore, this
+paper provides insight into how the phases of scenario construction and use can be bridged. This is pivotal because the disconnection of
+these scenario phases hampers effective anticipation (O’Brien & Meadows, 2013) and because little is known about how to effectively
+connect these phases, despite contemporary developments in participatory scenario studies (e.g. Heger and Rohrbeck, 2012; Nygr ́en,
+2019; van der Duin et al., 2014).
+The aim of this paper is to investigate possible future developments surrounding infrastructure networks by constructing scenarios
+for the network-of-networks, and to explore the use of those scenarios for the planning of individual infrastructure networks and the
+network-of-networks by infrastructure administrators. The research questions are: (1) what are possible scenarios on a network-of-
+networks level and (2) what are the consequences of the constructed scenarios for infrastructure planning? We focused our study
+on the Netherlands, because Dutch infrastructure planning is often characterized as institutionally fragmented, and because the
+country’s high spatial density of inhabitants and infrastructure networks gives rise to many interdependencies and possibly network-
+of-networks investment opportunities.
+2. Scenarios as products and processes
+Acknowledging the versatility of the concept of scenarios and the discussion about definitions and approaches in the literature
+(Bradfield et al., 2005; Spaniol & Rowland, 2018; Vecchiato & Roveda, 2010), scenarios can generally be defined as fundamentally
+different futures that are analytically coherent and internally consistent, encompassing concrete and plausible end states, their sur-
+roundings, and the wider environments in a concrete and focused narrative (Bishop et al., 2007; Hirschhorn, 1980; Nowack et al.,
+2011; Ramirez et al., 2008; Schoemaker, 1993; Wright & Goodwin, 2009). Scenarios are a purposeful basis for further inquiry of, and
+for imaginatively engaging with, the future: they intend to capture and bound the mental mode of decision-makers, highlight pre-
+dictability and uncertainty, and reduce the risk of being surprised or unprepared. Scenarios thus aid in changing decision-makers’
+R. Neef et al.
+Biggs et al., 2015De Roo&Silva, 2010Loorbach, 2010D’Agostino&Scala, 2014Lee et al., 2007Rinaldi et al.,2001Zimmerman, 2001Anand et al., 2018Hansman et al., 2006Schuckmann et al., 2012Schwab et al., 2017De Bruijne, 2006Verbong&van der Vleuten, 2004EIB, 2015OECD, 2017De Bruijne,2006Geels, 2004Wegener&Fürst, 1999Maier et al., 2016Pot et al., 2018Rauws, 2017Rittel and Webber, 1973Walker et al., 2013Rinaldi et al., 2001Van derDuin&Ligtvoet, 2019a2019bBusscher et al., 2015De Bruijne&Van Eeten, 2007Heeres et al., 2016Loorbach et al., 2010De Bruijne, 2006Geels, 2004Pot et al., 2018Van der Duin&Ligtvoet, 2019a, p. 72Teisman et al., 2009Rinaldiet al., 2001Hertogh&Bakker, 2017Moloney et al., 2017Liimatainen et al.,2014Linz, 2012Tapio et al., 2017Hall et al., 2013O’Brien&Meadows, 2013Heger and Rohrbeck, 2012van der Duin et al., 2014Bradfield et al., 2005Spaniol&Rowland, 2018Vecchiato&Roveda, 2010Bishop et al., 2007Hirschhorn, 1980Nowack et al.,2011Ramirez et al., 2008Schoemaker, 1993Wright&Goodwin, 2009
+Previous PDFNext PDF

@@ -1,0 +1,134 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (19)
+1/36
+
+
+
+Previous PDFNext PDF
+Article start
+Physics Reports 882 (2020) 1–36
+Contents lists available at ScienceDirect
+Physics Reports
+journal homepage: www.elsevier.com/locate/physrep
+Yang–Mills physics in spintronics
+Seng Ghee Tan a,∗, Son-Hsien Chen b, Cong Son Ho c,d, Che-Chun Huang e,
+Mansoor B.A. Jalil d, Ching Ray Chang e, Shuichi Murakami f
+a Department of Optoelectric Physics, Chinese Culture University, 55 Hwa-Kang Road, Yang-Ming-Shan, Taipei 11114, Taiwan
+b Department of Applied Physics and Chemistry, University of Taipei, No.1, Ai-Guo West Road, Taipei 10048, Taiwan
+c Chemical and Quantum Physics, School of Science, RMIT University, Melbourne 3000, Australia
+d Department of Electrical and Computer Engineering, National University of Singapore, 4 Engineering Drive
+3, Singapore 117576, Singapore
+e Department of Physics, National Taiwan University, Taipei 10617, Taiwan
+f Department of Physics, Tokyo Institute of Technology, 2-12-1 Ookayama, Meguro-ku, Tokyo 152-8551, Japan
+a r t i c l e i n f o
+Article history:
+Received 8 October 2019
+Received in revised form 4 April 2020
+Accepted 3 August 2020
+Available online 18 August 2020
+Editor: F. Parmigiani
+Keywords:
+Gauge
+Spintronics
+Yang–Mills
+Condensed matter
+Force
+Phase
+a b s t r a c t
+We review briefly the origin of gauge physics as well as their modern manifestations
+e.g. in Yang–Mills, Aharonov–Bohm, Aharonov–Casher, and the Berry–Pancharatnam
+effects. Yang–Mills has its origin in the high energy physics, and has since been
+widely studied in condensed matter and atomic physics. Recently research in spin–orbit
+coupling is increasingly being cast in the light of Yang–Mills, leading to new approaches
+in the study of quantum transport in nanoscale settings like the 2D-graphene and
+semiconductor nanostructures. It is important to note that this paper will not review
+non-Abelian physics in condensed matter systems like superfluid, Mott insulators, and
+atomic quantum gases. The main coverage of this paper would be the non-Abelian, Yang–
+Mills-inspired gauge physics in fields that straddle condensed matter and quantum spin
+transport – a technologically relevant field of research also known as the spintronics.
+Our perspectives are the force and phase physics and their connection with well-known
+spintronic and magnetic phenomena. The force physics of the spintronic gauge, e.g. the
+spin Hall, spin jitter motion, quantum spin Hall, and spin torque is discussed. The other
+important aspect of the gauge field, i.e. its phase physics would be discussed in the
+context of spin interference and the persistent spin helix.
+© 2020 The Author(s). Published by Elsevier B.V. This is an open access article under the CC
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Contents
+1. Introduction............................................................................................................................................................................................... 2
+1.1. A brief history of the gauge theories ........................................................................................................................................ 2
+1.2. Gauge physics in spintronics...................................................................................................................................................... 3
+1.3. Yang–Mills theory ...................................................................................................................................................................... 4
+1.3.1. Local gauge invariance................................................................................................................................................. 4
+1.3.2. Yang–Mills and spintronics ......................................................................................................................................... 4
+1.4. Quantum physics of forces ......................................................................................................................................................... 5
+1.4.1. Forceless gauge............................................................................................................................................................. 6
+1.4.2. Aharonov–Bohm effect ................................................................................................................................................ 7
+1.4.3. Aharonov–Casher effect ............................................................................................................................................... 7
+∗ Corresponding author.
+E-mail address: csy16@ulive.pccu.edu.tw (S.G. Tan).
+https://doi.org/10.1016/j.physrep.2020.08.002
+0370-1573/© 2020 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.
+org/licenses/by-nc-nd/4.0/).
+Seng Ghee TanSon-Hsien ChenCong Son HoChe-Chun HuangMansoor B.A. JalilChing Ray ChangShuichi Murakami
+2 S.G. Tan, S.-H. Chen, C.S. Ho et al. / Physics Reports 882 (2020) 1–36
+1.4.4. Forceful gauge - magnetic field.................................................................................................................................. 8
+1.5. Berry-Pancharatnam .................................................................................................................................................................... 9
+2. Spintronics and magnetism..................................................................................................................................................................... 10
+2.1. Spin orbit coupling ...................................................................................................................................................................... 11
+2.2. Spin–orbit gauge – force physics............................................................................................................................................... 12
+2.3. Spin–orbit gauge - phase physics .............................................................................................................................................. 13
+2.3.1. Spin precession-local transformation ........................................................................................................................ 13
+2.3.2. Curvature of emergent spin–orbit gauge .................................................................................................................. 14
+2.4. Non-uniform spin–orbit gauge................................................................................................................................................... 15
+2.5. Physics of forces - summary ...................................................................................................................................................... 16
+3. Spin force .................................................................................................................................................................................................. 17
+3.1. Classical and quantum pictures ................................................................................................................................................. 17
+3.1.1. Lorentz-Yang–Mills ...................................................................................................................................................... 17
+3.1.2. Heisenberg .................................................................................................................................................................... 17
+3.2. Spin Hall ....................................................................................................................................................................................... 19
+3.3. Spin jitter motion ........................................................................................................................................................................ 20
+3.3.1. Introduction to jitter motion ...................................................................................................................................... 20
+3.3.2. Spin force physics of jitter motion ............................................................................................................................ 20
+3.3.3. Detection of spin jitter motion................................................................................................................................... 21
+3.4. Quantum spin Hall ...................................................................................................................................................................... 22
+4. Spin torque................................................................................................................................................................................................ 22
+4.1. Spin torque and magnetic technology ...................................................................................................................................... 22
+4.2. Spin–orbit gauge and spin torque ............................................................................................................................................. 23
+4.2.1. Hybrid spin–orbit gauge.............................................................................................................................................. 23
+4.2.2. Spin–orbit torque ......................................................................................................................................................... 24
+5. Spin interference ...................................................................................................................................................................................... 25
+5.1. Physics of spin interference........................................................................................................................................................ 25
+5.2. Spin interferometer ..................................................................................................................................................................... 26
+6. Persistent spin helix................................................................................................................................................................................. 27
+6.1. Spin texture .................................................................................................................................................................................. 27
+6.2. Spin–orbit gauge and spin propagator...................................................................................................................................... 27
+6.3. Persistent spin helix .................................................................................................................................................................... 28
+7. Conclusion ................................................................................................................................................................................................. 29
+Declaration of competing interest.......................................................................................................................................................... 30
+Acknowledgment ...................................................................................................................................................................................... 30
+Appendix A. Local gauge transformation .............................................................................................................................................. 31
+Appendix B. Invariance of the free Lagrangian..................................................................................................................................... 32
+Appendix C. Emergent spin–orbit gauge and curvature...................................................................................................................... 33
+References ................................................................................................................................................................................................. 33
+1. Introduction
+1.1. A brief history of the gauge theories
+Gauge concept in physics was first brought up in the 19th century in the field of electromagnetism. From Michael
+Faraday’s rather obscure idea of the electro-tonic states of matter, gauge concept firmed up significantly in the 1860s
+with its mathematical formulation as a vector field by James C. Maxwell. This was the first physical theory of gauge which
+described the invariance of the magnetic field with respect to a magnetic vector potential. In the next one hundred years,
+gauge concepts made tremendous advances, leaping across different fields of physics. In the 1920s, due to Hermann Weyl,
+links were made to the scale symmetry in classical dynamics, and later the phase symmetry in quantum mechanics. In fact,
+the realization of the electromagnetic field effect on a charged-particle’s wave-function by the 1940s unified all previous
+notions of gauge symmetry and probably marked the first modern foundation of gauge theory. But the importance of
+gauge symmetry as a theory remained unappreciated in the Abelian form it was discussed during the 1940s. In 1954,
+Chen-Ning Yang and Robert Mills introduced a gauge field in the non-Abelian form, and a physically significant Yang–
+Mills theory [1] was born. Apparently, a very similar idea was being pursued by Ronald Shaw in his doctoral thesis at
+around the same time. Originally designed to explain the physics that permanently glue fundamental particles together,
+Yang–Mills has today expanded far beyond the realm of its original proposition. Concepts that were introduced in the
+high-energy model have now found useful applications in condensed matter systems [2,3] e.g. spin superfluid, and Mott
+insulators, as well as atomic and optical systems [4–7]. Recently, Yang–Mills-inspired physics expanded to modern areas
+that straddle condensed matter and the quantum spin transport in nanoscale devices, e.g. 2D-graphene and semiconductor
+nanostructures with strong spin–orbit coupling. Apart from conferring physical significance to an otherwise trivial theory
+(e.g. in electromagnetism), Yang–Mills also inspired intuitions into the physics of non-commutative algebra aka the
+[1][2,3][4–7]
+Previous PDFNext PDF

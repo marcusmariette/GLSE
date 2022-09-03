@@ -1,0 +1,203 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+Outline
+1/14
+
+
+
+Previous PDFNext PDF
+Article start
+Acta Psychologica 222 (2022) 103476
+Available online 30 December 2021
+0001-6918/© 2022 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).Addressing joint action challenges in HRI: Insights from psychology
+and philosophy
+Kathleen Belhassein a,b, Víctor Fern ́andez-Castro c,*, Amandine Mayima b, Aur ́elie Clodic b,
+Elisabeth Pacherie d, Mich`ele Guidetti a, Rachid Alami b, H ́el`ene Cochet a
+a CLLE, UMR5263, Toulouse University, CNRS, UT2J, France
+b LAAS-CNRS, UPR8001, Toulouse University, CNRS, France
+c Filo-Lab Unit, University of Granada, Spain
+d Institut Jean Nicod, UMR8129, CNRS, DEC, ENS, PSL University, France
+A R T I C L E I N F O
+Keywords:
+HRI
+Joint action
+Communication
+Mutual recognition
+Philosophy
+Psychology
+A B S T R A C T
+The vast expansion of research in human-robot interactions (HRI) these last decades has been accompanied by
+the design of increasingly skilled robots for engaging in joint actions with humans. However, these advances
+have encountered significant challenges to ensure fluent interactions and sustain human motivation through the
+different steps of joint action. After exploring current literature on joint action in HRI, leading to a more precise
+definition of these challenges, the present article proposes some perspectives borrowed from psychology and
+philosophy showing the key role of communication in human interactions. From mutual recognition between
+individuals to the expression of commitment and social expectations, we argue that communicative cues can
+facilitate coordination, prediction, and motivation in the context of joint action. The description of several no-
+tions thus suggests that some communicative capacities can be implemented in the context of joint action for
+HRI, leading to an integrated perspective of robotic communication.
+1. Introduction
+In the following decades, human societies will witness a pervasive
+use of robotic agents in all contexts of public and private social in-
+teractions. Social robotics is currently producing and designing robotic
+agents with use in numerous contexts like game companion (Sanghvi
+et al., 2011), education and therapy (Brage et al., 2018; McGlynn et al.,
+2014), or services (Kanda et al., 2010). For continuing these advances,
+social robotics needs to successfully design robots able to engage with
+humans, so they can collaborate on shared activities which require high
+levels of coordination. This need explains the fast expansion of the field
+of human-robot interaction (HRI), which attempts to develop different
+avenues for enabling robots to encounter social interactions. As part of
+this expansion, HRI research has taken inspiration from some important
+findings in psychology, philosophy of mind, and neuroscience to provide
+robotic agents with the necessary cognitive capabilities for achieving
+joint actions (Giger et al., 2019; Thomaz et al., 2016).
+This approach in social robotics focuses on equipping robots with
+devices based on human psychological mechanisms underlying shared
+activities. Some of the mechanisms that roboticists have attempted to
+design include theory of mind, emotional recognition, or human-aware
+navigation (see Thomaz et al. (2016) for a review). Despite these ad-
+vances, research in HRI suggests that equipping robots with social skills
+can sometimes, rather counterintuitively, undermine user experience
+and hinder the interaction between humans and robots (Giger et al.,
+2019; Sciutti et al., 2018). For instance, robot’s human-like appearance
+or personality can be perceived as deceptive (Vandemeulebroucke et al.,
+2018): human robot interactions may be undermined by the novelty
+effect or the expectation gap between what people believe about the
+robot –especially when people did not have contact with robots and their
+expectations are infected by popular culture (see e.g., Sandoval et al.,
+2014)– and the actual competence of the robots (see Kwon et al., 2016,
+also Section 2.3.2). Furthermore, some of the robot’s attributes or be-
+haviors, like for example head-nodding (Thepsoonthorn et al., 2021),
+may trigger attributions of minds (Gray & Wegner, 2012) leading to a
+feeling of strangeness or unfamiliarity (known as the Uncanny valley
+effect), which can impact the humans’ levels of trust toward the robot
+(Lewis et al., 2018). These negative effects may be increased with the
+* Corresponding author at: Departamento de Filosofía I Edificio de la Facultad de Psicología, Campus de la Cartuja, 18011 Granada, Spain.
+E-mail address: vfernandezcastro@ugr.es (V. Fern ́andez-Castro).
+Contents lists available at ScienceDirect
+Acta Psychologica
+journal homepage: www.elsevier.com/locate/actpsy
+https://doi.org/10.1016/j.actpsy.2021.103476
+Received 3 June 2021; Received in revised form 19 November 2021; Accepted 15 December 2021
+Kathleen BelhasseinVíctor Fernandez-CastroAmandine MayimaAurelie ClodicElisabeth PacherieRachid AlamiSanghviet al., 2011Brage et al., 2018McGlynn et al.,2014Kanda et al., 2010Giger et al., 2019Thomaz et al., 2016Thomaz et al. (2016)Giger et al.,2019Sciutti et al., 2018Vandemeulebroucke et al.,2018Sandoval et al.,2014Kwon et al., 2016Thepsoonthorn et al., 2021Gray&Wegner, 2012Lewis et al., 2018
+Acta Psychologica 222 (2022) 103476
+2implementation of certain social capacities and behaviors, especially
+when they are implemented in isolation. For instance, Thepsoonthorn
+et al. (2021) have found that the feeling of uncanniness related to head
+nodding does not appear when the behavior is accompanied with a
+manual gesture. Also, Riek et al. (2010) found that certain types of
+cooperative behaviors are more effective than others, but also that
+negative attitudes toward robots are strongly correlated with a
+decreased ability in decoding human gestures. The choice to focus on
+some socio-cognitive mechanisms in isolation usually goes with exper-
+tise in the field, given that specialization usually requires researchers to
+“dissect” some processes or situations. This appears necessary to gain
+some expertise, however, it also raises important questions for social
+robotics and its attempt to equip robots with the capacity to carry out
+joint action with humans.1 Are we gaining expertise at the expense of
+considering the “broad picture”? Are we missing something when
+focusing on specific socio-cognitive capacities? Are there different
+strategies to explore to ensure fluency to interact with the robot? Be-
+sides, are there general strategies to influence human attitudes during
+HRI?
+The aim of this paper is twofold. First, we argue that the sub-optimal
+or even negative effects of considering and designing specific capacities
+in isolation can be overcome if we focus on communicative capacities
+seen in human interactions, which can be implemented in the context of
+joint action for HRI. Second, we review psychological and philosophical
+literature that explores these human communicative capabilities to
+provide some exploratory ideas for design strategies in HRI.
+The paper is structured as follows. In Section 2, after a brief overview
+of the notion of joint action and its underlying mechanisms, we present
+some well-known challenges of social robotics for establishing inter-
+personal relations between humans and robots. We suggest that these
+challenges can be addressed through an emphasis on the communicative
+mechanisms present in joint action, including those found in human-
+human interactions. In Section 3, we review different studies in devel-
+opmental psychology, cognitive psychology, and philosophy of mind
+and language to demonstrate how such literature can help meet some of
+the challenges in HRI. We describe several mechanisms that may pro-
+vide perspectives for social robotics in order to equip robots with robust
+communication capacities for joint action.
+2. HRI and joint action: (some) current challenges
+2.1. How can we define joint action?
+An important number of social interactions and encounters are
+encompassed by the notion of joint action. Broadly considered, joint
+action is any form of social interaction whereby two agents or more
+coordinate their actions in order to pursue a joint goal. However, the
+notion of joint action has been subject to debate in philosophy and
+psychology. For instance, according to Sebanz et al. (2006), joint actions
+require the partners to coordinate “their actions in space and time to
+bring about a change in the environment” (p. 70); while other authors
+(Carpenter, 2009; Cohen & Levesque, 1991; Fiebich & Gallagher, 2012;
+Tomasello et al., 2005) resist the idea that instances of mere coordina-
+tion – e.g. two partners walking side by side – constitute a joint action,
+considering that it requires some necessary conditions like sharing goals
+and intentions.
+Moreover, while the notion of joint action is used interchangeably
+with the notion of collaboration or cooperation for some authors (Bec-
+chio et al., 2010; Kobayashi et al., 2018), other authors (Amici & Bietti,
+2015; Chalmeau & Gallo, 1995) establish a hierarchy of interactions
+depending on the processes involved. According to Amici and Bietti
+(2015), for example, coordination is a fast low-level process of behav-
+ioral matching and interactional synchrony which could, but not
+necessarily, facilitate middle-level processes like cooperation (where
+some individuals bear certain costs to provide benefits to others) or
+high-level processes like joint action, which requires other resources like
+turn-taking and alignment of linguistic resources during dialogue.
+2.2. What is necessary for joint action?
+Leaving aside the debate on the concept of joint action, we aim to
+focus on the mechanisms that enable the consecution of joint actions.
+Three interrelated mechanisms appear to be key conditions for joint
+action: coordination, planning, and motivational alignment, each of
+them being supported by other processes. There has been an important
+deal of conceptual and empirical work investigating these processes
+(Knoblich et al., 2011; Pacherie, 2012; Vesper et al., 2016), from the
+sharing of a common ground to the anticipation of a partner’s actions by
+way of emergent coordination (Curioni et al., 2017).
+Most of all, joint actions require individuals to anchor their plans in
+the actual situation and generate particular coordinated actions (Kno-
+blich et al., 2011; Vesper et al., 2016). This coordination can rely on
+different mechanisms, which are not necessarily intentional, including
+for example entrainment or rhythmic synchronization (Harrison &
+Richardson, 2009; Keller et al., 2014; Richardson et al., 2007; Schmidt &
+O’Brien, 1997), perception-action matching (Brass et al., 2001; Brass &
+Heyes, 2005), perception of joint affordances (Ramenzoni et al., 2008),
+emotion understanding (Michael, 2011), joint attention (Emery, 2000;
+Kourtis et al., 2014), rational co-efficiency (T ̈or ̈ok et al., 2019) or action
+simulation (Blakemore & Decety, 2001; Sebanz & Knoblich, 2009).
+Partners can thus execute so-called ‘coordination smoothers’ to facilitate
+coordination (Vesper et al., 2010); they can reduce the temporal vari-
+ability of their actions (Vesper et al., 2011) or adapt their actions all the
+more so when they have an easier sub-task (Skewes et al., 2015) to
+improve coordination.
+More specifically, intentional coordination – sometimes referred to
+as planned coordination (Curioni et al., 2017) – requires the partners: (i)
+to represent their own and others’ actions, as well as the consequences of
+these actions, (ii) to represent the hierarchy of sub-goals and sub-tasks of
+the plan, (iii) to generate predictions of their joint actions, and (iv) to
+monitor the progress toward the joint goal in order to possibly
+compensate or help others to achieve their contributions (Pacherie,
+2012).
+Indeed, joint action often involves planning several aspects, which
+involves the representation of the goal and the whole plan, and/or even
+the sequence of actions to be performed. The formation of these types of
+representations could rely on different mechanisms, which include high-
+level processes such as theory of mind, team reasoning, or verbal
+negotiation (Bratman, 2014) or more low-level processes as minimally
+representing the joint action goal and knowing that it will be achieved
+with others (Michael & Sz ́ekely, 2019; Vesper et al., 2010). An example
+of the mechanisms involved in planning a joint action is task co-
+representations, which allows individuals to represent the details of
+each other’s task. Several studies have demonstrated that people tend to
+represent others’ tasks even when it is pernicious for their own task
+performance (Eskenazi et al., 2013; Sebanz et al., 2003, 2005). Such
+capacity appears early in development; for instance, 5-years-old chil-
+dren can incorporate their partner’s role into their own action plan
+1 The concerns raised by this otherwise necessary compartmentalisation of
+work not only come from the experience of some of us, but are also a recurring
+debate in social robotics (see, e.g., Belhassein et al., 2020, Menezes et al., 2014,
+Seibt et al., 2020, Young et al., 2011).
+K. Belhassein et al.
+Thepsoonthornet al. (2021)Riek et al. (2010)Sebanz et al. (2006)Carpenter, 2009Cohen&Levesque, 1991Fiebich&Gallagher, 2012Tomasello et al., 2005Becchio et al., 2010Kobayashi et al., 2018Amici&Bietti,2015Chalmeau&Gallo, 1995Amici and Bietti(2015)Knoblich et al., 2011Pacherie, 2012Vesper et al., 2016Curioni et al., 2017Knoblich et al., 2011Vesper et al., 2016Harrison&Richardson, 2009Keller et al., 2014Richardson et al., 2007Schmidt&O’Brien, 1997Brass et al., 2001Brass&Heyes, 2005Ramenzoni et al., 2008Michael, 2011Emery, 2000Sebanz&Knoblich, 2009Vesper et al., 2010Vesper et al., 2011Skewes et al., 2015Curioni et al., 2017Pacherie,2012Bratman, 2014Eskenazi et al., 2013Sebanz et al., 2003, 2005Belhassein et al., 2020Menezes et al., 2014Seibt et al., 2020Young et al., 2011
+Previous PDFNext PDF

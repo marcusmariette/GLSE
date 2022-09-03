@@ -1,0 +1,98 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (12)
+1/8
+
+
+
+Previous PDFNext PDF
+Article start
+Statistical analysis of the crack sensitivity of fiber networks
+P. Isaksson a,⇑, P.J.J. Dumont b, S. Rolland du Roscoat c
+a Uppsala University, Solid Mechanics, Box 534, SE-75121 Uppsala, Sweden
+b Univ Lyon, INSA-Lyon, CNRS UMR5259, LaMCoS, F-69621 Lyon, France
+c Univ. Grenoble Alpes, CNRS, Grenoble INP, 3SR, UMR 5521, F-38000 Grenoble, France
+a r t i c l e i n f o
+Article history:
+Received 29 May 2020
+Received in revised form 7 October 2020
+Accepted 18 October 2020
+Available online 3 November 2020
+Keywords:
+Fracture localization
+Crack sensitivity
+Fiber network
+Image analysis
+Finite element model
+a b s t r a c t
+Fracturing two-dimensional random fiber networks of different densities (porosities) were statistically
+analyzed using both high-resolution finite element models and image analysis algorithms. Under small
+strains, the finite element fracture models revealed that networks with high relative densities were able
+to localize evolving fractures to small cracks while surprisingly larger cracks were required to localize
+fractures in networks of lower density. Further, it is indicated that the pore size distribution in fiber net-
+works is rather diverse and can be captured using two mixed Gamma distributions; one part describing
+the background size distribution containing the vast majority of pores, and a second part describing the
+size distribution of larger pores and open regions. The second part covers less than 5% of the total net-
+work area but seems to be of paramount importance for the network’s global fracture behavior. It seems
+as a fiber network’s crack sensitivity is related to the average pore size in the second part of the mixed
+Gamma distribution. The analysis is remarkably consistent with reported experiments.
+Ó 2020 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://
+creativecommons.org/licenses/by/4.0/).
+1. Introduction
+Fracture of randomly distributed fiber materials (e.g. paper or
+nonwoven fabrics) has been extensively studied during the past
+decades (among others Seth and Page, 1974; Niskanen, 1993;
+Considine et al., 2011; Mäkelä and Fellers, 2012; Hagman and
+Nygårds, 2012; Coffin et al., 2013; Isaksson and Hägglund, 2007;
+saksson and Hägglund, 2009; Hägglund and Isaksson, 2006). Other
+studies on the topic include Ridruejo et al. (2015) who reported
+crack insensitivity in experiments on polypropylene nonwoven
+fabrics. Stachewicz et al. (2011) reported crack insensitivity in frac-
+ture experiments on electro spun nanofiber networks. Koh et al.
+(2013) monitored fracture experiments on polymeric fiber net-
+works to analyze the mechanical behavior in the vicinity of crack
+tips. While some experimental observations were reported, Koh
+et al. (2013) concluded that computer models have to be applied
+to reveal relations between microstructural properties and failure
+mechanisms in fiber networks. Further, Kulachenko and Uesaka
+(2012) used a sophisticated finite element model to analyze defor-
+mation and failure behavior of wet networks with dynamic bond-
+ing/debonding properties. Goutianos et al. (2018) applied a finite
+element model to reveal the mechanical behavior of inter-fiber
+bonds in cellulose networks and how they influence a network’s
+global tensile strength. Deogekar and Picu (2018) studied fracture
+accumulation in fiber network models and reported that global
+strength increases linearly with network density and with bond
+strength, and that heterogeneity in bond strength retards fracture
+localization thus promoting ductility on a global scale. In recent
+experimental studies (Krasnoshlyk et al., 2018a, 2018b) it was
+reported that the presence of relatively large open regions in a fiber
+network heavily influenced the material’s ability to localize frac-
+tures to present cracks: a high-density paper was able to localize
+fracture to very small cracks while a rather large crack was
+required in a low-density paper. Using image analysis,
+Krasnoshlyk et al. (2018a) reported that a critical crack size to
+obtain fracture localization was about three times larger than the
+average size of open regions. Similarly, Chen and Isaksson
+(2018a) conducted fracture experiments on brittle open solid
+foams and reported that a crack of about 3–4 cells was needed to
+obtain localization of evolving fractures, meaning that from a glo-
+bal fracture point of view, the foams were insensitive to cracks
+smaller than this critical size. In finite element analyses, Chen
+and Isaksson (2018b) later confirmed the experimental results.
+Carlsson and Isaksson (2020) obtained similar results in highly
+resolved numerical phase field fracture models of wood. Thus, from
+both experimental and numerical studies it is clear that porous
+materials with a larger pore size have a relatively higher crack
+insensitivity than porous materials with smaller pores, because
+the pores act as naturally existing defects/cracks. Even though both
+https://doi.org/10.1016/j.ijsolstr.2020.10.021
+0020-7683/Ó 2020 The Authors. Published by Elsevier Ltd.
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+⇑ Corresponding author.
+E-mail address: per.isaksson@angstrom.uu.se (P. Isaksson).
+International Journal of Solids and Structures 208–209 (2021) 133–140
+Contents lists available at ScienceDirect
+International Journal of Solids and Structures
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / i j s o l s t r
+P. IsakssonP.J.J. DumontS. Rolland du RoscoatSeth and Page, 1974Niskanen, 1993Considine et al., 2011Mäkelä and Fellers, 2012Hagman andNygårds, 2012Coffin et al., 2013Isaksson and Hägglund, 2007saksson and Hägglund, 2009Hägglund and Isaksson, 2006Ridruejo et al. (2015)Stachewicz et al. (2011)Koh et al.(2013)Kohet al. (2013)Kulachenko and Uesaka(2012)Goutianos et al. (2018)Deogekar and Picu (2018)Krasnoshlyk et al., 2018a, 2018bKrasnoshlyk et al. (2018a)ChenandIsaksson(2018a)Chenand Isaksson (2018b)Carlsson and Isaksson (2020)
+Previous PDFNext PDF

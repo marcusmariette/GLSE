@@ -1,0 +1,86 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+Outline
+1/9
+
+
+
+Article start
+Hypotheses in Kant's philosophy of science
+Andrew Cooper
+Department of Philosophy, University of Warwick, Coventry, CV4 7AL, UK
+A R T I C L E I N F O
+Keywords:
+Kant
+Laws of nature
+Hypotheses
+Scientific method
+Necessitation
+A B S T R A C T
+In this paper I extend the case for a necessitation account of particular laws in Kant's philosophy of science by
+examining the relation between reason's hypothetical use in the Appendix to the Transcendental Dialectic and the
+legitimate hypotheses identified in the Doctrine of Method. Building on normative accounts of reason's ideas, I
+argue that reason's hypothetical use does not describe the connections between objects and their grounds, which
+lie beyond the reach of the understanding, but merely prescribes the relations between appearances and their
+conditions, for which the understanding must seek. A legitimate hypothesis, I suggest, is a proposition we hold to
+be true that fills in one or several of those relations. The problematic character of hypotheses requires that we
+evaluate our reasons for holding them to be true. While natural modality is grounded in the nature of things,
+which cannot be fully known, our reasons for assent can and must be grounded on features of objects that are
+epistemically available to us.
+1. Introduction
+What distinguishes a law of nature from a generalization about nat-
+ural facts? The necessity we typically associate with a natural law is not
+satisfied by a proposition that merely tracks a natural process (all
+observed xs have P). It is satisfied by a proposition that presents a gov-
+erning relation, which contains a robust modal thought (if X were the
+case, then Y necessarily would be the case). This modal thought separates
+accidently true generalizations, such as ‘all trees in Jane's garden are
+jacarandas', from laws of nature, such as ‘jacaranda seeds grow into
+jacaranda trees.’ If I were to throw any old seed into Jane's garden, and if
+that seed were to grow, it wouldn't necessarily be a jacaranda. Yet if I
+were to throw a jacaranda seed in Jane's garden, and if that seed were to
+grow, then it would, necessarily, be a jacaranda.
+The modal thought that characterizes laws of nature is captured by W.
+E. Johnson's (1924, pp. 4–5) separation of ‘universals of fact’ from ‘uni-
+versals of law’. For Johnson, universals of fact take the form ‘all Xs are
+Ys’; for example, all metals expand when heated. Universals of fact entail
+a logical form of necessity that analytically follows from a concept.
+Universals of law, in contrast, take the form, ‘If anything of some given
+kind were characterized as X, it would be characterized as Y’; anything,
+being metal, would expand if it were heated. In contrast to logical
+necessity, universals of law carry what Johnson terms ‘nomic’ necessity.
+The grammatical shift from universals of fact to universals of law extends
+the range of the law into the modal realm—from the actual to the pos-
+sible—which implies a shift from epistemology to metaphysics. This
+raises a puzzle for philosophers of science. If natural laws are determined
+metaphysically, and if scientific method begins with experience, how can
+we come to know them?
+In his critical philosophy, Kant advances a radical account of the
+epistemology and metaphysics of the laws of nature. Critique of Pure
+Reason (1781/7) outlines a new conception of epistemology in which
+human cognition prescribes certain laws to nature that make it the case
+that objects are structured in a determinate way. The law that ‘everything
+that happens has its cause’ (A9/B13) is transcendentally necessary, for
+any relation between two states we call a ‘happening’ (that is, any change
+in an object) presupposes the concept of the relation of cause and effect.1
+Yet as Kant argues in Metaphysical Foundations of Natural Science (1786),
+it is also nomically necessary, for the synthetic application of causality to
+all possible objects entails that it has the metaphysical correlate, ‘every
+change in matter has an external cause’ (MF 4:543). The correlate is
+nomically necessary, for it is necessarily true for any possible change in
+material nature. The determination of every change for cognition does
+not merely track regularities that happen to hold in nature. It tells us how
+E-mail address: andrew.j.cooper@warwick.ac.uk.
+1 References to Kant's works refer to the volume and page number of Kants gesammelte Schriften, Akadamie Ausgabe. They are given in text using the following
+abbreviations: MH ¼ Metaphysik Herder; ML ¼ Metaphysik L; BL ¼ Blomberg Logic; VL ¼ Vienna Logic; J€asche Logic ¼ JL; MF ¼ Metaphysical Foundations of Natural Science;
+P ¼ Prolegomena to Any Future Metaphysics; CPJ ¼ Critique of the Power of Judgment; PG ¼ Physical Geography. Citations to Critique of Pure Reason follow the customary
+A/B pagination. Where possible, translations are taken from the Cambridge editions noted in the reference list.
+Contents lists available at ScienceDirect
+Studies in History and Philosophy of Science
+journal homepage: www.elsevier.com/locate/shpsa
+https://doi.org/10.1016/j.shpsa.2022.04.007
+Available online xxxx
+0039-3681/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Studies in History and Philosophy of Science xxx (xxxx) xxx
+Please cite this article as: Cooper, A., Hypotheses in Kant's philosophy of science, Studies in History and Philosophy of Science, https://doi.org/
+10.1016/j.shpsa.2022.04.007
+Andrew CooperW.E. Johnson's (1924MF

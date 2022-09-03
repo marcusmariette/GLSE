@@ -1,0 +1,227 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (11)
+1/12
+
+
+
+Previous PDFNext PDF
+Article start
+Future Generation Computer Systems 106 (2020) 22–33
+Contents lists available at ScienceDirect
+Future Generation Computer Systems
+journal homepage: www.elsevier.com/locate/fgcs
+A zone-based content pre-caching strategy in vehicular edge networks
+Hui Guo, Lan-lan Rui ∗, Zhi-peng Gao
+State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing 100876, China
+a r t i c l e i n f o
+Article history:
+Received 14 August 2019
+Received in revised form 13 November 2019
+Accepted 30 December 2019
+Available online 7 January 2020
+Keywords:
+Vehicular edge networks
+Content pre-caching
+Zone-based
+Zone sojourn time
+a b s t r a c t
+Content pre-caching is a kind of significant technology to lower response delay and improve network
+performance, especially for the delay-sensitive services in dynamic vehicular edge networks. Therefore,
+in this paper, we propose a zone-based content pre-caching strategy, which aims to implement an
+active content caching through two algorithms: pre-caching zone selecting algorithm- PCZS and pre-
+caching node selecting algorithm- PCNS. Firstly, we organize the edge servers (ESs) with a zone-based
+way at the edge, and assign a Manager node to collect the information of each zone; with the help of
+road topology and tables information recorded in Manager nodes, PCZS can predict the vehicle motion
+and zone sojourn time with a high accuracy, and further get a content pre-caching zone by comparing
+estimated request delay and zone sojourn time; then, PCNS checks whether the content has been
+cached in the CST of the zone selected by PCZS, if CST hits, the pre-caching process is over, otherwise,
+by combining ES centrality, load degree with content popularity, we perform PCNS to select a specific
+ES node to pre-cache the content; simulation results show that our strategy has a higher prediction
+accuracy and dynamic adaptability, it also outperforms in terms of average response delay and cache
+hit ratio.
+© 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+1. Introduction
+Under the rapid proliferation of mobile network technology
+and devices, we have witnessed an unprecedented mobile data
+explosion in the past decade. Cisco predicts that the growth rate
+of global mobile traffic will reach 7.2 exabytes per month in
+2021 [1]. On the basis of cloud computing technology, we can
+handle mobile requests with centralized cloud servers locating
+in remote core networks [2]. However, in edge networks, such
+as MANET (mobile ad hoc network), VANET (vehicular ad hoc
+network) and so on, it is no longer suitable to serve the massive
+distributed and dynamic edge requests through a central com-
+puting model [3]. On the one hand, remote computing resource
+and long-distance data transmission not only increase the mobile
+network load greatly [4], but also cause a high transmission
+delay and low QOE (Quality of Experience) to users; on the other
+hand, the centralized resource management is not good for the
+protection of data privacy and security [5,6], for example, during
+the process of uploading and downloading, the transmitted data
+is easy to be leaked or attacked.
+Motivated by the above issues, edge computing [7] is put
+forward and further applied to mobile networks [8,9]: by placing
+edge servers (ESs) at mobile network edge, mobile edge com-
+puting (MEC) transforms the cloud servers deployment from a
+∗ Corresponding author.
+E-mail addresses: guohui@bupt.edu.cn (H. Guo), llrui@bupt.edu.cn
+(L.-l. Rui).
+remote centralized to a near-edge distributed mode [10], which
+offers a better support (caching capacity, computing power and so
+on) for mobile services [11] , thus ensuring a faster response for
+dynamic requests and lowering delay significantly; what is more,
+edge computing avoids the remote data transmission process and
+its distributed deployment increases the difficulty and threshold
+of attack; it is also worth mentioning that security mechanism at
+the small-scale edge would be more flexible and efficient, such as
+introducing blockchain technology [12,13]
+In vehicular edge networks, in spite of the above advantages,
+the continuity of mobile services is hard to be guaranteed due
+to the short-period dynamic connections caused by limited ser-
+vice coverage and users’ fast movement [14], frequent service
+interruptions and connection handovers lead to a high delay and
+servere network performance degradation. Therefore, focusing on
+the delay-sensitive services in vehicular edge networks, we think
+it is valuable to have the contents to be pre-downloaded when ve-
+hicles are approaching ESs, such that the short vehicle-correlated
+connection can be fully dedicated to content response process,
+and then a zone-based content pre-caching strategy is designed to
+achieve proactive content caching in dynamic vehicular networks.
+We think the benefits of our work lie in the followings.
+• We design a zone-based organization for edge servers (ESs),
+which not only enlarges the computing power and storage
+capacity of ESs, but also expands their coverage to a bigger
+zone, it is conducive to enhancing the continuity of dynamic
+services and reducing the connection handovers.
+https://doi.org/10.1016/j.future.2019.12.050
+0167-739X/© 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Hui GuoLan-lan RuiZhi-peng Gao[1][2][3][4][5,6][7][8,9][10][11][12,13][14]
+H. Guo, L.-l. Rui and Z.-p. Gao / Future Generation Computer Systems 106 (2020) 22–33 23
+• We propose a pre-caching zone selecting algorithm-PCZS.
+Upon the road topology and tables information recorded in
+Manager nodes, PCZS can predict the vehicle motion with a
+high accuracy, and further get a content pre-caching zone by
+comparing estimated request delay and zone sojourn time,
+which pledges the future requests will be served timely and
+improves the dynamic adaptability and reliability of mobile
+pre-caching strategy.
+• We also design a pre-caching node selecting algorithm-
+PCNS. After PCZS, it is necessary to check whether the con-
+tent has been cached in the CST of the selected zone imme-
+diately, if CST hits PCNS is over. Otherwise, we perform PCNS
+by taking ES centrality, load degree and content popularity
+into account, and aim to find an ES with a lower workload
+to reduce the future response delay.
+This paper is organized as follows. Section 2 introduces the
+related works. Section 3 presents the system designing in detail.
+Our proposed zone-based content pre-caching strategy is elabo-
+rated in Section 4. The experimental evaluation and performance
+results are presented in Section 5. Finally, Section 6 concludes this
+paper and foresees future works.
+2. Related works
+An efficient contents pre-caching scheme is meaningful for
+improving network performance, the relevant studies are emerg-
+ing constantly, and we have made a performance comparsion in
+Table 1.
+To shorten the distance between mobile users (MU) and com-
+puter resources and reduce the content download delay, re-
+searchers from Carnegie Mellon University propose a mobile
+content caching and prediction strategy [15] for MobilityFirst ar-
+chitecture. Firstly, they design a separate popularity based cache
+and a prefetch buffer at the network edge to capture both long-
+term and short-term content access patterns. Next, a prediction
+model based on the aggregated network-level statistics is put
+forward. With Markov chain and a real motion data set [16],
+the scheme can predict the movement of MU from spatial and
+temporal dimensions, and then obtain the estimated residence
+time, motion direction and pre-fetching content for a specific MU.
+Simulation results show it has a good performance in prediction
+accuracy and cache hit ratio, but it depends on MobilityFirst
+architecture, which limits its scalability strictly.
+Ref. [17] shows a content pre-fetching scheme to deal with
+the dynamic topology in 5G-VANET, authors think the prefetch-
+ing scheme should associate with multi-place and multi-factor,
+by mining the historical trace data and using machine learning
+technology, they could combine the driver preference with road
+topology and navigation information to predict the travel journey
+of vehicles. Moreover, there are two types of prefetching nodes:
+vehicles and Micro Base Stations (MBSs), on the one hand, the
+vehicles whose routes have a wider coverage over the road are
+selected as the place for prefetching; on the other hand, the
+prefetching MBSs are decided by the real-time traffic prediction.
+Researchers verify their design on SUMO and NS-3 platform. We
+think the design of content pre-fetching lacks the consideration
+of vehicular dynamic parameters, which are important factors to
+improve its adaptability to the mobile environment.
+Researchers of [18] believe that prefetching the correspond-
+ing content before users’ requests can effectively reduce content
+transmission time, and it is essential to determine what should
+be prefetched and when and where to prefetch, thus they design
+a vehicle mobility prediction-based over-the-top (OTT) content
+prefetching solution. Firstly, they have a vehicle mobility predic-
+tion module to estimate vehicles’ future connected roadside units
+(RSUs); then a multi-tier caching mechanism with an OTT con-
+tent popularity estimation scheme is considered to forecast the
+content request distribution, and the solution also implements a
+learning-based algorithm to proactively prefetch the user content
+at RSUs; finally, the authors prove their design can optimize
+network resource utilization and reduce bandwidth consumption.
+But we think the definition of predictive quality function can be
+further optimized and refined, for example, taking into account
+the dynamic network parameters.
+Some works focus on using OBU (On Board Unit) as con-
+tent caching. Yao et al. [19] propose using prediction based on
+Partial Matching method (PPM) to predict vehicles’ probability
+of reaching different hot spot regions and select nodes with
+longer sojourn time in a hot region as caching nodes. However,
+PPM-based approach is only suitable for selecting users belonged
+to grouped cluster, which does not fit with RSU-OBU content
+prefetching scenarios; the hot region would change in the dy-
+namic environment, and it lacks a real-time updating mechanism;
+the selection of cache nodes can also be further improved, such
+as taking the nodes’ workload into account.
+A content pre-fetching operation can improve network perfor-
+mance only when it is performed timely and accurately, there-
+fore, the work in [20] gives a cohesive end-to-end architecture,
+which fully exploits Information-Centric Networking (ICN) to-
+gether with the Mobile Follow-Me Cloud (FMC) approach. By
+considering the evolution of content popularity, which is used by
+a caching algorithm to keep track of the user requests, the scheme
+attains content-availability improvements of up to 500% when
+a mobile user performs a request and compared against other
+existing solutions. However, the impact of the dynamic model
+building overhead is not considered in the experiments.
+The work in [21] focuses on prefetching content to the clients’
+devices. Caching and prefetching are highly intertwined as both of
+them require a deep understanding of the content characteristics,
+and work towards the goal of reducing peak bandwidth consump-
+tion. Therefore, a content distribution network in vehicles should
+consider the particularities of each content object [22] that will be
+cached. However, they all neglects the function of users’ motion
+and network parameters changing, it is not enough to make a
+prefetching decision with content attributes.
+In this paper, we focus on the delay-sensitive services in
+vehicular edge networks and propose a zone-based content pre-
+caching strategy with PCZS and PCNS algorithms. Compared with
+the above research, our scheme has taken account of the vehicular
+motion parameters, road topology, network load and content
+popularity, so it has a much better dynamic adaptability and
+motion prediction accuracy.
+3. System models
+3.1. Terminology
+We list the notation and terminology used in this paper in Ta-
+ble 2. It should be noted that in order to ensure the reliability and
+availability of dynamic parameters, we discretize time slots into
+successive detection periods, and the duration of each period is T
+seconds, at the beginning of a new period, the parameters would
+be updated upon the information collected from the previous
+period.
+3.2. Network model
+The network architecture is shown in Fig. 1. Firstly, We or-
+ganize ESs and vehicles with a zone-based way, a zone covers
+several connected ESs (Manager nodes act as access point) and
+ESs in different zone are connectionless, ESs have an equal and
+[15][16][17][18][19][20][21][22]Fig. 1
+Previous PDFNext PDF
