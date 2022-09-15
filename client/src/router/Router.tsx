@@ -1,15 +1,17 @@
-import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from "../views/Home";
+import Home from '../views/Home';
+import Help from '../views/Help';
+import Header from '../components/header/Header';
 
-const Router: React.FC = () => {
+const Router = () => {
     return (
         <BrowserRouter>
-            <div>
-                <Switch>
-                    <Route path="/" element={<Home />} />
-                </Switch>
-            </div>
+            <Header />
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/help' element={<Help />} />
+            </Routes>
         </BrowserRouter>
     );
 };
