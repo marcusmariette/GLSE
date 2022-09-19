@@ -1,14 +1,12 @@
-import { IconButton } from "@mui/material";
-import { Menu2 } from "tabler-icons-react";
-import { StyledHeaderBox } from "./HeaderStyles";
+import { StyledHeaderBox, StyledTextButton } from './HeaderStyles';
+import { useNavigate } from 'react-router-dom';
 
 const Header: React.FC = () => {
+    const navigate = useNavigate();
+
     return (
         <StyledHeaderBox>
-            <IconButton>
-                <Menu2 color="white" width={48} height={48} />
-            </IconButton>
-            <h4>GLSE</h4>
+            <StyledTextButton onClick={() => navigate('/')}>{'GLSE'}</StyledTextButton>
         </StyledHeaderBox>
     );
 };
