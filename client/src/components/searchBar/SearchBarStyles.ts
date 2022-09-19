@@ -1,12 +1,12 @@
-import styled from "styled-components";
-import { Box, TextField } from "@mui/material";
-import { background, white } from "../../resources/styles/variables";
+import styled from 'styled-components';
+import { Box, TextField } from '@mui/material';
+import { background, white } from '../../resources/styles/variables';
 
 export const StyledSearchBarBox = styled(Box)`
     border-radius: 100vw;
     background-color: ${white};
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
     gap: 1rem;
