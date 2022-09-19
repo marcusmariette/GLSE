@@ -1,0 +1,180 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (2)
+1/6
+
+
+
+Previous PDFNext PDF
+Article start
+REVIEW ARTICLE Feature Issue: Update on Pulmonary Fibrosis
+Research in Pulmonary Fibrosis
+Across Species: Unleashing Discovery
+Through Comparative Biology
+Teresa Barnes, BS1, Kevin K. Brown, MD2,
+Brendan Corcoran, MVD, DipPharm, PhD, MRCVS3,
+Marilyn K. Glassberg, MD4, Dolly J. Kervitsky, RCP5,
+Andrew H. Limper, MD6, Kay McGuire, DVM, MS7,
+Kurt Williams, DVM, PhD8 and Jesse Roman, MD9,
+for the Comparative Biology of Pulmonary Fibrosis Group
+1 Independent Research and Patient Advocacy, Westie Foundation of America
+Board of Directors, formerly with the Coalition for Pulmonary Fibrosis, Culver City,
+California; 2 National Jewish Health, Denver, Colorado; 3 The Royal School of
+Veterinary Studies and the Roslin Institute, University of Edinburgh, Midlothian, UK;
+4 University of Miami, Miller School of Medicine Miami, Florida; 5 PF Strategies,
+Golden, Colorado; 6 Mayo Clinic, Rochester, Minnesota; 7 Westie Foundation of
+America; 8 College of Veterinary Medicine, Michigan State University, East Lansing,
+Michigan; 9 Jane & Leonard Korman Respiratory Institute, Thomas Jefferson
+University, Philadelphia, Pennsylvania
+Key Indexing Terms: Comparative biology; Lung fibrosis; Recommendations. [Am J Med Sci 2019;357(5):399−404.]
+P rogressive scarring of the lung, also termed pul-monary fibrosis, has become the focus of many
+basic, translational and clinical investigations
+throughout the world. To date, this research has revealed
+much needed information about the epidemiology and
+pathogenesis of pulmonary fibrosing disorders, with par-
+ticular attention to idiopathic pulmonary fibrosis (IPF), the
+most common of the idiopathic interstitial pneumonias
+and the most devastating due to its poor prognosis.1
+However, despite many recent advances, only 2
+so-called antifibrotic drugs are currently approved for the
+treatment of IPF; these drugs slow-down lung function
+decline, but do not improve the condition, and their role
+in other progressive fibrosing lung disorders remains
+unknown.2 Thus, much research is still needed to gain
+further insights into the pathogenesis of these disorders,
+to identify reliable diagnostic and prognostic biomarkers,
+and to develop effective and safe interventions that
+improve survival. If successful, this resea:\c:rch has the
+potential of positively affecting the natural course of
+related fibrosing disorders of the skin, kidney, heart, liver
+and other organs.
+A major hindrance to progress in pulmonary fibrosis
+research is the lack of animal models capable of better
+resembling fibrosing lung disorders in humans and ade-
+quately predicting the efficacy of new interventions.
+Most animal models of pulmonary fibrosis available
+today require induction of lung injury by exogenous
+agents (e.g., bleomycin) and do not adequately model
+human disease, thereby raising questions about their
+utility in the quest for novel treatments.3 Even if animal
+models were able to duplicate most of the characteristics
+of human disease, such as the usual interstitial pneumo-
+nia or UIP histologic pattern found in IPF, it would be dif-
+ficult to duplicate the genetic and environmental factors
+that contribute to disease development in humans. This,
+compounded by the anatomic and behavior differences
+between animals and humans, has prevented the devel-
+opment of a truly relevant model.4
+Interestingly, spontaneous progressive pulmonary
+fibrosis is not restricted to humans. In fact, this disorder
+has been recognized for over 2 decades in veterinary
+medicine in a variety of domestic animal species includ-
+ing cats, dogs and horses.5,6 Unfortunately, these disor-
+ders have received little attention in the biomedical
+community outside of veterinary medicine. Given that the
+affected species are long-lived animals that share a com-
+mon environment with humans, they might represent
+relevant models of spontaneously occurring, progressive
+lung fibrosis. If so, investigating pulmonary fibrosis in
+these species could advance progress in this area.
+Because of the potential of such approaches to
+accelerate discovery and to promote awareness, com-
+munication and collaboration regarding spontaneous
+progressive fibrosing lung disorders in mammals, the
+Westie Foundation of America (WFA) sponsored a 1-day
+meeting in October 2007 held in Lafayette, Indiana, USA.
+The WFA is the official breed association of the West
+Highland Terrier, a breed of dogs that is known to be
+afflicted with progressive lung fibrosis. This workshop
+Copyright © 2019 Published by Elsevier Inc. on behalf of Southern Society for Clinical Investigation. This is an open access article under the
+CC BY-NC-ND license. (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+www.amjmedsci.com  www.ssciweb.org
+399
+Teresa BarnesKevin K. BrownBrendan CorcoranMarilyn K. GlassbergDolly J. KervitskyAndrew H. LimperKay McGuireKurt WilliamsJesse Roman12345,6
+brought together international physicians, veterinarians,
+pathologists, researchers and advocacy experts to dis-
+cuss fibrotic lung disorders in humans and domestic
+animals. Afterward, a working group of the American
+Thoracic Society and participants of the initial workshop
+reported on the workshop findings and made the
+following recommendations7: (1) Promote the conduc-
+tion of detailed descriptive studies in affected domestic
+animals to define the clinical, imaging and pathologic
+presentation of pulmonary fibrosis in these species;
+(2) Emphasize the need for performing genetic studies
+and other pathogenesis-based investigations in natu-
+rally-occurring spontaneous models of pulmonary
+fibrosis to investigate the potential translation to IPF in
+humans as these models should provide more relevant
+tools to investigate the potential effectiveness of novel
+antifibrosis drugs in prehuman trials; (3) Emphasize the
+need for studies defining the anatomic and cellular differ-
+ences in the lungs of different species for the adequate
+interpretation of discordant findings; (4) Stimulate the
+generation of suitable reagents to adequately test
+hypotheses in different species of animals; and (5) Pro-
+mote the establishment of a consortium of interested
+centers and a central repository of clinical information
+and biologic specimens from naturally-occurring sponta-
+neous models of lung fibrosis in domestic animals to
+enable further research that may benefit both physicians
+and veterinarians in their efforts to adequately manage
+lung fibrosis in their patient populations.
+In May 2014, a second meeting on Comparative
+Biology of Pulmonary Fibrosis was held in Louisville,
+Kentucky. As before, clinicians, researchers, veterinary
+doctors, pathologists and patient advocates came
+together to discuss the state of research in this field. The
+meeting was again endorsed by members of the Working
+Group on Lung Fibrosis of the Assembly of Respiratory
+Cell and Molecular Biology of the American Thoracic
+Society, and was supported by industry, The Westie
+Foundation, The Morris Animal Foundation and The AKC
+Canine Health Foundation. During the meeting, extensive
+discussions surrounded the limited progress made in the
+field since the first meeting. However, energized by the
+potential this field of investigation could have on under-
+standing fibrosing lung disorders, the team powered
+through an ambitious agenda hoping to define a new
+path for such efforts. The proceedings of this meeting
+were not published; however, considering the perceived
+importance of the discussions held, a group of meeting
+organizers and participants came together to summarize
+its proceedings in this document.
+The group discussion first focused on the fact that
+key clinical manifestations of pulmonary fibrosis are
+common in both humans and domestic animals. These
+similarities are best highlighted in recent publications
+showing that in canine IPF, for example, the disease is a
+chronic, progressive, interstitial lung disease affecting
+mainly middle-aged and old West Highland white terri-
+ers.8 It is clinically characterized by exercise intolerance,
+restrictive dyspnea and coughing, and course crackles
+are present on lung auscultation. Abnormal blood gases
+and shortened “6-minute walk test” distance, a test that
+evaluates endurance and gas exchange capability, are
+common, and secondary pulmonary hypertension is not
+infrequent.9 These data emphasize the striking similari-
+ties in the clinical presentation of spontaneously occur-
+ring pulmonary fibrosis observed in humans and
+domestic animals as highlighted previously.7
+More data about the imaging presentation of pulmo-
+nary fibrosis in domestic animals have also emerged (see
+Figure 1). In a retrospective study including 21 West
+Highland white terriers (WHWT), the severity of pulmo-
+nary computer tomography (CT) findings was positively
+correlated with severity of clinical signs, and negatively
+associated with survival time after diagnosis. The most
+common CT findings included ground glass pattern
+(16/21 dogs) and focal reticular and mosaic ground-glass
+opacities (10/21 dogs), with very rare and minimal honey-
+combing identified.10
+In addition to the above, the group also discussed
+that noted similarities between dogs and humans began
+FIGURE 1. Computed tomography scan image of dog with pulmonary fibrosis. (A) Ground glass opacity in mildly affected dog. (B) Extensive
+ground glass opacity with prominent mosaic attenuation in moderately affected dog. (C) Ground glass opacity, traction bronchiectasis and
+parenchymal bands in severely affected dog.
+Barnes et al
+400 THE AMERICAN JOURNAL OF THE MEDICAL SCIENCES
+VOLUME 357 NUMBER 5 MAY 2019
+7897Figure 110
+Previous PDFNext PDF

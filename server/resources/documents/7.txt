@@ -1,0 +1,288 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (1)
+1/6
+
+
+
+Previous PDFNext PDF
+Article start
+Melanoma to Vitiligo: The Melanocyte in Biology &
+MedicineeJoint Montagna Symposium on the
+Biology of Skin/PanAmerican Society for Pigment
+Cell Research Annual Meeting
+Sancy A. Leachman1,2, Thomas J. Hornyak3,4, Greg Barsh5,6, Boris C. Bastian7,8, Douglas E. Brash9,
+James E. Cleaver8, Cynthia D. Cooper10, John A. D’Orazio11, Mayumi Fujita12,13, Sheri L. Holmen14,
+Arup K. Indra1,2,15, Kenneth H. Kraemer16, I. Caroline Le Poole17,18, Roger S. Lo19,
+Amanda W. Lund1,2,20,21, Prashiela Manga22, William J. Pavan23, Vijayasaradhi Setaluri24,
+Clara E. Stemwedel1 and Molly F. Kulesz-Martin1,2,20
+Journal of Investigative Dermatology (2020) 140, 269e274; doi:10.1016/j.jid.2019.03.1164
+INTRODUCTION
+Melanoma to Vitiligo: The Melanocyte
+in Biology & Medicine generated and
+amplified a growing understanding of
+the scientific basis of and clinical and
+pathologic relationship between mela-
+noma, a by-product of uncontrolled
+growth of melanocytes, and vitiligo, a
+disorder of undesirable death of mela-
+nocytes. This meeting, held October
+17e22, 2018, at Salishan Resort on the
+Oregon Coast, incorporated the full
+spectrum of pigment cell biology and
+chemistry, as well as the biological
+underpinnings of clinical disease. Each
+of seven sessions, incorporating session
+keynote and established and junior
+investigator talks, endeavored to (i)
+present cutting-edge pigment cell
+biology and/or chemistry; (ii)
+emphasize the application of science to
+melanoma, vitiligo, and other medical
+disorders; (iii) bring together widely
+divergent disciplines to enhance trans-
+disciplinary discussion on these topics;
+and (iv) support promising young in-
+vestigators with an interest in this topic
+area.
+Pre-meeting patient symposium and
+opening keynote
+A pre-meeting Vitiligo and Melanoma
+Patient Symposium and Opening Key-
+note brought together patients with
+vitiligo, melanoma, and xeroderma
+pigmentosum (XP) to learn from one
+another and share perspectives with
+clinicians and researchers attending
+the main scientific meeting. Through
+this inspiring event, we created a
+venue where patients and supporters
+could share their thoughts about their
+diseases, react to science, and have
+their questions answered by experts in
+the field. This special introduction
+created a sense of urgency and rele-
+vance for the scientific sessions that
+followed.
+With this unique audience, Michael
+Shapiro (University of Utah, Salt Lake
+City) shared the remarkable story of
+how the pigmentation and physical
+characteristics of pigeons have been
+used to uncover important pigmenta-
+tion genes, their functions, and utility as
+a model system for better understand-
+ing evolutionary genetics and diversity
+of color. Not only do some of the same
+genes that underlie color variation in
+birds also regulate pigment diversity
+1Department of Dermatology, Oregon Health & Science University, Portland, Oregon; 2Knight Cancer Institute, Oregon Health & Science University,
+Portland, Oregon; 3Research and Development Service, VA Maryland Health Care System, Baltimore, Maryland; 4Departments of Dermatology and
+Biochemistry and Molecular Biology, University of Maryland School of Medicine, Baltimore, Maryland; 5HudsonAlpha Institute for Biotechnology,
+Huntsville, Alabama; 6Department of Genetics, Stanford University, Stanford, California; 7Helen Diller Family Comprehensive Cancer Center, University of
+California, San Francisco, San Francisco, California; 8Department of Dermatology, University of California, San Francisco, San Francisco, California;
+9Departments of Therapeutic Radiology and Dermatology and Yale Cancer Center, Yale University School of Medicine, New Haven, Connecticut; 10School of
+Molecular Biosciences and College of Arts and Sciences, Washington State University Vancouver, Vancouver, Washington; 11The Markey Cancer Center and
+the Departments of Toxicology and Cancer Biology and Pediatrics, University of Kentucky College of Medicine, Lexington, Kentucky; 12Departments of
+Dermatology and Immunology & Microbiology, University of Colorado School of Medicine, Aurora, Colorado; 13Denver VA Medical Center, Denver,
+Colorado; 14Huntsman Cancer Institute and Departments of Oncological Sciences and Surgery, University of Utah Health Sciences Center, Salt Lake City,
+Utah; 15Department of Pharmaceutical Sciences, College of Pharmacy, Linus Pauling Institute, and Molecular and Cellular Biology Program, Oregon State
+University, Corvallis, Oregon; 16Laboratory of Cancer Biology and Genetics, Center for Cancer Research, National Cancer Institute, Bethesda, Maryland;
+17Oncology Research Institute, Loyola University Chicago, Maywood, Illinois; 18Departments of Dermatology and Microbiology and Immunology, Feinberg
+School of Medicine, Northwestern University, Chicago, Illinois; 19Division of Dermatology, Department of Medicine, and Department of Molecular and
+Medical Pharmacology, David Geffen School of Medicine, and Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles,
+California; 20Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon; 21Department of Molecular
+Microbiology & Immunology, Oregon Health & Science University, Portland, Oregon; 22Ronald O. Perelman Department of Dermatology and Department of
+Cell Biology, New York University School of Medicine, New York, New York; 23Genetic Disease Research Branch, National Human Genome Research
+Institute, National Institutes of Health, Bethesda, Maryland; and 24Department of Dermatology, University of Wisconsin-Madison, Madison, Wisconsin
+Correspondence: Molly Kulesz-Martin, Department of Dermatology, Oregon Health & Science University, 3181 SW Sam Jackson Park Rd., L468R, Portland,
+Oregon 97239. E-mail: kuleszma@ohsu.edu
+Abbreviations: MITF, microphthalmia-associated transcription factor; XP, xeroderma pigmentosum
+Received 1 March 2019; revised 18 March 2019; accepted 19 March 2019; accepted manuscript published online 23 July 2019; corrected proof published
+online 10 October 2019
+ª 2019 The Authors. Published by Elsevier, Inc. on behalf of the Society for Investigative Dermatology. www.jidonline.org 269
+MEETING REPORT
+Sancy A. LeachmanThomas J. HornyakGreg BarshBoris C. BastianDouglas E. BrashJames E. CleaverCynthia D. CooperJohn A. D’OrazioMayumi FujitaSheri L. HolmenArup K. IndraKenneth H. KraemerI. Caroline Le PooleRoger S. LoAmanda W. LundPrashiela MangaWilliam J. PavanVijayasaradhi SetaluriClara E. StemwedelMolly F. Kulesz-Martin
+and disease in humans, but also sur-
+prising molecular links emerged be-
+tween color patterning in pigeons and
+vision defects in both pigeons and
+humans (Boer et al., 2017; Domyan
+et al., 2014; Vickrey et al., 2018).
+Session 1: Animal models
+In a fascinating convergence of disci-
+plines leading to transdisciplinary dis-
+cussion, Karen Osborn (Smithsonian
+Institution, Washington, DC) presented
+on the diversity of form and function in
+ocean creatures that live in the mid-
+water “Twilight Zone,” where light is so
+scarce that everything looks dark to the
+human eye (Bagge et al., 2016). Deep-
+sea fish, such as viperfish, are super
+black, absorbing >99.9% of light to
+make them all but invisible. Using so-
+phisticated microscopy, Osborn and
+colleagues revealed that the secret to
+being super black was not only black
+pigment but also the arrangement of
+pigment granules into complex orga-
+nized structures that trapped virtually
+all light.
+Genetically engineered mouse
+models and/or specialized cell lines
+have enabled investigation of various
+aspects of melanoma and vitiligo
+pathogenesis and treatment. Helen
+Michael (National Cancer Institute,
+Bethesda, Maryland) presented her
+work in the Glenn Merlino lab on the
+use of DNA sequencing of UV-induced
+melanomas in hepatocyte growth fac-
+tor transgenic mice to identify a series
+of genes that drive the pathogenesis of
+these melanocytic lesions. Lively dis-
+cussion followed on the potential in-
+fluence of the dermis in this melanoma
+model.
+Catherine van Raamsdonk (Univer-
+sity of British Columbia, Vancouver,
+Canada) presented data on a novel
+mouse model for uveal melanoma,
+leptomeningeal melanoma, and blue
+nevuselike melanoma. In the mouse,
+mutant GNAQ, when expressed in the
+melanocytic lineage, leads to marked
+proliferation of melanocytes in the
+uveal tract, leptomeninges, and dermal
+melanocytic neoplasms recapitulating
+the distribution of tumor with Gq
+pathway mutations in the human.
+Pivoting to a vitiligo model, Zhus-
+sipbek Mukhatayev (Northwestern
+University, Evanston, Illinois) described
+an innovative approach to vitiligo
+treatment based on regulatory T cells
+targeted, through chimeric antigen re-
+ceptor technology, to a molecule that is
+upregulated in vitiligo skin. Preliminary
+evidence suggested that these cells
+act as immunosuppressive engines,
+decreasing the expression of signature
+cytokines and representing a promising
+approach for suppression of vitiligo.
+Session 2: Human model systems
+Hensin Tsao (Harvard Medical School,
+Boston, Massachusetts), Margaret
+Tucker (National Cancer Institute,
+Bethesda, Maryland), and Kenneth
+Kraemer (National Cancer Institute,
+Bethesda, Maryland) described over 40
+years of research into melanoma and
+XP genetics and its direct impact on
+patients. The spectrum of familial mel-
+anoma has been expanded to include
+familial atypical mole and melanoma
+syndrome and the BAP1 tumor syn-
+drome. Sequencing of large cohorts
+identified association with mutations in
+CDKN2A, CDK4, and EBF3. Detailed
+study of XP patients revealed a 10,000-
+fold increase in nonmelanoma skin
+cancer and a 2,000-fold increase in
+melanoma in patients under 20 years;
+comparison of nonmelanoma skin
+cancer and melanoma in these patients
+showed differential anatomic site dis-
+tributions and genetic mutational asso-
+ciations relative to the general
+population, suggesting differential
+mechanisms of carcinogenesis.
+Understanding the basic biology of
+DNA damage repair and the phenotype
+of patients with genetic repair syn-
+dromes has opened multiple avenues
+for cancer therapy with the goal of
+improving chemotherapy for cases
+where targeted therapy and immuno-
+therapy are unavailable. Sarah Arron
+(University of California, San Francisco)
+discussed multiple compounds in clin-
+ical development targeting ATM,
+CHK1/2, and nucleotide excision
+repair, which regulate the cell cycle
+and allow repair of DNA damage.
+A clinician-driven panel discussion
+addressed recent developments in
+sunscreen-based prevention of skin
+cancer. Panelist John DiGiovanna (Na-
+tional Cancer Institute, Bethesda,
+Maryland) discussed sunscreens
+causing death of coral reefs, whereas
+Douglas Brash (Yale University, New
+Haven, Connecticut) noted the
+development of biodegradable bio-
+adhesive nanoparticle sunscreens.
+Poster session young investigator
+talks. Supporting young investigators
+fulfills a primary mission of both the
+Montagna Symposium on the Biology of
+Skin and the PanAmerican Society for
+Pigment Cell Research. Young in-
+vestigators, in dedicated short-talk ses-
+sions, explored mouse models of basic
+melanocyte biology, improvement of
+treatment options for melanoma, and
+clarification of the order and identity of
+mutations acquired during melanoma-
+genesis from phenotypically normal
+cell(s) to metastatic status.
+Two of these presentations highlighted
+results from the use of CRISPR technol-
+ogy. Corinne Rauck (University of Cin-
+cinnati, Ohio) showed that excision of the
+adhesion protein CEACAM1 decreased
+tumor growth upon transplantation into
+syngeneic and immunodeficient mice.
+This suggests potential for targeting of
+CEACAM1 with other immune check-
+point antigens, including PD-1, PD-L1,
+and CTLA-4, in advanced melanoma.
+Isoforms of microphthalmia-associated
+transcription factor (MITF) are mutated
+in familial melanoma and Waardenburg
+syndrome, and Jessica Flesher (University
+of California, Irvine) pursued studies in
+mice selectively lacking isoforms MITF-A
+and -F. On the one hand, Mitf-Menull
+mice lacked melanocytes in hair follicles
+and choroid but had a normal retinal
+pigment epithelium, whereas the skin and
+eyes of the Mitf-Aenull mice developed
+normally, indicating a functional redun-
+dancy between MITF isoforms.
+Noel Turner (Yale University, New Ha-
+ven, Connecticut) used a congenic mouse
+melanoma cell model (Meeth et al., 2016)
+to discover that immune checkpoint in-
+hibitors impede growth of the melanoma
+cells treated with UV-B (BrafV600E,
+Pten-/-, Cdkn2a-/- cells, YUMMER1.7)
+compared with the untreated parental
+tumors (YUMM1.7). This was IFNgR-
+dependent, correlating efficacy with the
+increased somatic mutations and immu-
+nogenic neoepitopes that are considered
+hallmarks of human melanoma vulnera-
+bility to immune checkpoint inhibitors.
+Session 3: Stem cells and development
+A focus of this session was develop-
+ment and disease progression in
+zebrafish models. David Parichy (Uni-
+versity of Virginia, Charlottesville) pre-
+sented his group’s work on single
+cell RNA sequencing to identify
+SA Leachman et al.
+Melanoma to Vitiligo: Montagna/PASPCR Meeting 2018
+Journal of Investigative Dermatology (2020), Volume 140270
+Boer et al., 2017Domyanet al., 2014Vickrey et al., 2018Bagge et al., 2016Meeth et al., 2016
+Previous PDFNext PDF

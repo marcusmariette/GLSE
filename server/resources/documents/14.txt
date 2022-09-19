@@ -1,0 +1,582 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineCited byFigures (12)
+4/11
+
+
+
+Previous PDFNext PDF
+Article start
+Contents lists available at ScienceDirect
+Nuclear Engineering and Design
+journal homepage: www.elsevier.com/locate/nucengdes
+Extension and preliminary validation of the Polaris lattice physics code for
+CANDU analysis
+Simon Younan⁎, David Novog
+McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L8, Canada
+A R T I C L E I N F O
+Keywords:
+Lattice physics
+CANDU reactors
+Method of characteristics
+Embedded self-shielding method
+A B S T R A C T
+Polaris is a 2D lattice physics code available for the study of light water reactors (LWRs). It includes a method of
+characteristics (MoC) transport solver and the embedded self-shielding method (ESSM). Its advantages include a
+simplified user input structure, quick performance, and integration into the SCALE package, utilizing its nuclear
+data libraries, along with other codes such as the ORIGEN depletion code and the Sampler stochastic uncertainty
+analysis sequence. This work extends the Polaris code to support CANDU lattice transport calculations and
+performs some preliminary verification and validation, comparing the code to NEWT and KENO, along with to
+benchmark experimental data. Heavy-water specific self-shielding factors were also compared to those dis-
+tributed with SCALE. In general, some differences are observed, but these are generally comparable to other
+code-to-code differences and smaller than nuclear data uncertainties. The generation of self-shielding factors has
+a noticeable effect, particularly on the benchmark coolant void reactivity calculation. Heavy-water specific self-
+shielding factors, while not required, can potentially improve the accuracy of ESSM-based calculations, but the
+choice of parameters can significantly affect the results. Overall, the Polaris transport and self-shielding calcu-
+lations should be suitable for CANDU analysis.
+1. Introduction and literature review
+1.1. Overview of Polaris
+Polaris is a lattice physics sequence in SCALE, introduced in version
+6.2 (Oak Ridge National Laboratory, 2017), provided as an alternative
+to, but not a replacement of, the older TRITON sequence. Its defining
+features include a streamlined input model and an implementation of
+the embedded self-shielding method (ESSM).
+Unlike TRITON, Polaris accepts geometry input through specifica-
+tion of typical LWR pin and lattice properties, rather than the unit and
+surface definitions used in TRITON. The Moonraker module is then
+responsible for building the lattice out of units and surfaces to the user’s
+specification. This greatly reduces the amount of repetition in the user
+input, along with automating tasks such as pin and material subdivi-
+sions. The cost is a lack of flexibility, being unable to model not only
+exotic lattices, but even unsupported yet typical lattices such as CANDU
+or VVER lattices.
+The Embedded Self-Shielding Method (ESSM) is a modified
+Bondarenko method which uses a set of independent one-group trans-
+port solutions over the problem geometry to calculate the escape cross-
+section, eliminating the requirement of calculating Dancoff factors with
+only a minimal performance penalty over the standard Bondarenko
+method (Jessee et al., 2014). Unlike TRITON, Polaris does not require a
+CELLDATA section, eliminating a potential source of model incon-
+sistency that can arise from user error. This method is further detailed
+in the following section and in the referenced literature.
+Several studies have performed verification and validation for
+Polaris, for the currently-supported PWR and BWR applications. For
+BWR models, k∞ is found to be within a ±2 mk bias target as compared
+to a reference continuous energy calculation for most models, and
+generally showing a small positive bias of about +1 mk on average for
+unrodded configurations, when compared to continuous energy KENO
+(Jessee et al., 2017, p. 1305). Actinide and fission product concentra-
+tions for depleted BWR fuel, compared to assay measurements, show
+similar trends as TRITON on PWR fuel (Gauld and Mertyurek, 2019).
+For PWR analysis, a preliminary version of Polaris calculated reason-
+ably accurate quantities, with the exception of certain quantities such
+as macroscopic fission cross-sections for a rodded assembly, while being
+an order of magnitude faster than TRITON (Labarile et al., 2015, p.
+422.5).
+The main goal of this project is to demonstrate that the Polaris code
+can be extended to support the CANDU lattice geometry, and compare
+results to existing SCALE modules for CANDU calculations, as well as
+https://doi.org/10.1016/j.nucengdes.2020.110540
+Received 26 September 2019; Received in revised form 21 January 2020; Accepted 27 January 2020
+⁎ Corresponding author.
+E-mail addresses: younans@mcmaster.ca (S. Younan), novog@mcmaster.ca (D. Novog).
+Nuclear Engineering and Design 361 (2020) 110540
+Available online 14 February 2020
+0029-5493/ © 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/BY/4.0/).
+T
+Simon YounanDavid NovogOak Ridge National Laboratory, 2017Jessee et al., 2014Jessee et al., 2017Gauld and Mertyurek, 2019Labarile et al., 2015
+for benchmark against well-established criticality experiments. The
+work focuses on the applicability of the ESSM self-shielding factors as
+provided within SCALE (based on LWR spectra) to CANDU conditions.
+1.2. Overview of self-shielding methods
+The three self-shielding methods available in the SCALE code
+system are CENTRM, BONAMI, and ESSM. CENTRM is a continuous-
+energy transport solver which solves for the pointwise flux spectrum for
+resonance energies, for simple geometries such as pin cells. BONAMI is
+a Bondarenko method code, upgraded to use the Intermediate
+Resonance (IR) approximation to permit full energy range Bondarenko
+calculations. ESSM is the embedded self-shielding method used by
+Polaris. These methods are described in detail in the SCALE manual
+(Oak Ridge National Laboratory, 2017); a summary of this literature
+follows.
+Traditionally, SCALE multi-group sequences first apply BONAMI to
+self-shield the AMPX library over all energies, then apply CENTRM to
+refine the solution for the resolved resonances (Williams, 2011, p. 160).
+Originally, BONAMI only supported the narrow resonance (NR) ap-
+proximation, which was suitable for higher energies above 20 keV. This
+is still the default sequence for TRITON, but the addition of the IR
+approximation allows for the option of using BONAMI on its own, when
+speed is more important than accuracy.
+1.2.1. CENTRM
+CENTRM is the most rigorous and mathematically accurate self-
+shielding method. The method solves directly for the problem-specific
+continuous-energy flux in order to collapse into the desired self-
+shielded multi-group structure. All resonance interactions, and there-
+fore resonance interference effects, are accurately accounted for. This
+comes at two costs. The first cost is in terms of geometrical accuracy.
+The continuous-energy solver can only operate on pin cells and other
+equally simple structures. Irregular pin structures are accounted for
+through the Dancoff factor, which describes the probability of a neutron
+streaming from the fuel pin to another fuel pin without scattering, and
+may be calculated for each pin in an irregular structure by deterministic
+or Monte Carlo methods. CENTRM can then calculate a Dancoff-
+equivalent lattice pitch for a regular lattice, and run the solver. The
+second cost is speed. Even with the simple geometry, self-shielding of a
+single pin takes several minutes. This can become time-consuming for
+problems with many unique pins, or with many branch points. This can
+be simplified by TRITON by assigning multiple depletion materials to
+one self-shielding material as an approximation (Oak Ridge National
+Laboratory, 2017, p. 3–29); the compositions are averaged for the self-
+shielding calculation.
+1.2.2. BONAMI
+The traditional method of resonance self-shielding, also known as
+the Bondarenko method, is to generate a nuclear library with a self-
+shielding factor table. The flux behaviour depends on the background
+cross-section, or the strength of the scattering of all nuclides in the
+system besides the resonant nuclide (Knott and Yamamoto, 2010, p.
+924). Flux-weighted average cross-sections are computed for different
+background cross-sections, which are then tabulated in the nuclear li-
+brary.
+The background cross-section consists of a “volume component” for
+other nuclides in the fuel, and a “surface component” for the moderator
+(2010, p. 925). The latter, also known as an “escape cross-section”
+depends on the pellet geometry as well as a Dancoff factor (2010, p.
+926).
+BONAMI is a straightforward implementation of this method. In
+SCALE 6.2, it is extended to apply an intermediate resonance (IR) ap-
+proximation, allowing for the use of full-range Bondarenko factors (Oak
+Ridge National Laboratory, 2017). For a regular lattice, the Dancoff
+factor can be calculated automatically; the analyst inputs the Dancoff
+factor in other cases.
+In SCALE, the Bondarenko factors are tabulated in the multi-group
+library, and interpolation is performed to obtain problem-specific self-
+shielded cross-sections. The calculation of background cross-sections
+along with table interpolation is much faster than the continuous-en-
+ergy solver of CENTRM. For the NR approximation, there is an analy-
+tical solution. This is used for all nuclei where Z < 40. For the more
+general IR approximation, there is no analytical solution, so, to gen-
+erate the tables, CENTRM solves the transport equation for re-
+presentative models. For 235U, 238U, 239Pu, 240Pu, 241Pu, 91Zr, and 96Zr,
+the model is a LWR pin cell. For other nuclides where Z > 39, the
+model is a homogeneous mixture of the resonant nuclide with hy-
+drogen.
+1.2.3. ESSM
+The Embedded Self-Shielding Method (Williams and Kim, 2012) is
+similar to the Bondarenko method, relying on the same approximations
+and most of the same calculation steps. The primary difference between
+BONAMI and ESSM is that the latter has a different method of calcu-
+lating the escape cross-section. When the IR approximation is applied to
+the slowing-down equation, Eq. (1.1) is obtained (Jessee et al., 2014, p.
+3). Eq. (1.1) is a one-group fixed-source transport equation – Polaris
+uses its own transport solver to calculate the flux for the entire geo-
+metry.( V (r r r r r r u( , ) ( ) ( , ) 1
+4 ( ) ( ) 1
+4 ( )g t g g wr g g nr g g, , ,
+(1.1)r ” r r ” r( ) ( )(1 ) , ( ) ( )wr g
+i
+i g i p i nr g
+i
+i g i p i, , , , , ,
+Under equivalence theory, the effect of the non-fuel materials is
+replaced by an equivalent NR scatterer. In Eq. (1.1), the transport termr( , )g
+expresses the effect of the non-fuel materials, and applying
+equivalence theory yields Eq. (1.2):( V ( (r r r r r r r u( ( ) ( )) ( ) ( ) ( ) ( ( ) ( ))t g esc g g wr g g nr g esc g g, , , , ,
+(1.2)
+By plugging in the flux from Eq. (1.1), Eq. (1.2) can be solved for the
+escape cross-section, which is then used to calculate background cross-
+sections and self-shielding factors for the entire geometry, without re-
+quiring a Dancoff factor or equivalent regular lattice. As the above
+equations depend on self-shielded cross-sections (e.g.r( )t g, ), the cal-
+culation is iterated until the cross-sections converge. This is done in-
+dependently for each energy group, as shown in Fig. 1.1. Each iteration
+can take a fraction of a second, with the entire calculation being much
+quicker than CENTRM. As well, while more detailed geometries take
+longer to solve than simple geometries, ESSM solves the entire geo-
+metry at once, rather than one pin at a time.
+1.2.4. Summary of self-shielding methods
+Overall, CENTRM makes the fewest assumptions on the physics of
+the resonance self-shielding effect. By comparison, BONAMI and ESSM
+make several assumptions:
+1. The scattering source can be described by the IR approximation.
+2. Resonance interference effects are unimportant.
+3. The self-shielding factor tables are representative for the system
+under analysis.
+Assumption 2 may be considered true when only the overall as-
+sembly properties are desired, such as k∞ and macroscopic cross-sec-
+tions, but is untrue when considering nuclide densities and reaction
+rates for certain nuclides, such as 151Sm (Knott and Yamamoto, 2010, p.
+1061). However, resonance interference effects with 238U can be sig-
+nificant (2010, p. 1062). In SCALE, Bondarenko iterations crudely
+S. Younan and D. Novog Nuclear Engineering and Design 361 (2020) 110540
+2
+Oak Ridge National Laboratory, 2017Williams, 2011Oak Ridge NationalLaboratory, 2017Knott and Yamamoto, 2010OakRidge National Laboratory, 2017Williams and Kim, 2012Jessee et al., 2014Fig. 1.1Knott and Yamamoto, 2010
+account for resonance interference (Oak Ridge National Laboratory,
+2017, p. 7–198). The effect of resonance interference is also reduced by
+resolving the low-lying 238U resonances in the multi-group structure.
+The current version of Polaris and its implementation of ESSM have
+only been tested on light water reactor designs, as those are the only
+designs currently supported. ESSM in general has been implemented
+and tested with other codes and models, with one study using it for
+double-heterogeneous fuel, though new self-shielding factors were re-
+quired (Li et al., 2017, p. 2). Therefore, the extension of Polaris to other
+reactor types should include a validation of the self-shielding results to
+show whether the same self-shielding factors can be used, or whether
+new self-shielding factors are required for each reactor class.
+Assumption 3 shall be tested in this study. While the 252-group
+SCALE library should be suited for most classes of thermal reactors, the
+self-shielding factors were generated using LWR models. Therefore, the
+verification and validation should determine whether these LWR-based
+self-shielding factors and assumptions are appropriate for HWRs.
+1.3. Previous literature on CANDU lattice physics
+Typical reactor physics analysis for CANDU reactors is similar to
+that for light water reactors, in that a lattice physics code calculates the
+few-group homogenized cross-sections, while a diffusion code uses
+these cross-sections to solve a full-core model. A typical lattice cell code
+used for CANDU reactors is WIMS-AECL. However, one challenge with
+modelling the CANDU reactor is that control devices are perpendicular
+to the fuel channels, so must be modelled in 3D, by codes such as
+MULTICELL or DRAGON (Yoo et al., 2015, p. 2). Alternatively, a Monte
+Carlo code may be used to generate the group constants if it supports
+such capability, including the capability of performing a B1 spectrum
+correction (2015, p. 2). One study showed that the two methods pro-
+duced group constants generally within 2% of each other, along with
+good agreement in nodal calculations for keff and power distribution
+(2015, p. 6).
+Light water reactor analysis typically uses assembly discontinuity
+factors (ADFs) which are ratios of the heterogeneous and homogeneous
+fluxes at each surface. These allow for flux discontinuities in the nodal
+solution – where the heterogeneous flux is continuous at an interface, if
+the ADFs are unequal, the homogeneous flux becomes non-continuous.
+However, CANDU reactor analysis using a finite difference method
+without discontinuity factors typically gives adequate results, so dis-
+continuity factors can often be omitted (Kim et al., 2012, p. 1138).
+However, significant differences appear for control device insertion and
+for reflector cells, and a study shows that the use of ADFs can poten-
+tially improve the results of nodal calculations (2012, p. 1140). To
+account for the behaviour near the reflector, common practice in
+CANDU analyses is to use a multi-cell treatment wherein a 3 × 3 or
+larger lattice is solved using a deterministic code and suitable few-
+group cross sections for the lattice cells near the reflector are extracted.
+2. Methodology
+2.1. Polaris geometry and code changes
+The current version of Polaris only has geometry support for LWRs.
+While it can model various features present in PWRs and BWRs, it
+cannot model more general configurations, such as the circular cluster
+lattice present for the CANDU bundle, or the circular pressure tube and
+calandria tube. This is not an intrinsic limitation of the ATLAS geometry
+package, but a limitation of the structure of the Polaris input (Oak
+Ridge National Laboratory, 2017).
+Other SCALE codes use the SCALE Generalized Geometry Package,
+which is extremely flexible. Units can be modelled using quadratic
+surfaces, and embedded within one another using arrays or holes. This
+allows for almost any desired geometry to be modelled, which can be
+particularly important for shielding calculations. However, the analyst
+must model individual surfaces, or simple shapes such as cylinders,
+cuboids, spheres, and prisms, and construct the potentially complex
+model geometry as a combination of these simple surfaces. Subdivision
+of pin materials and geometry into rings must be done manually,
+though TRITON includes an aliasing feature to avoid having to repeat
+material definitions (Oak Ridge National Laboratory, 2017, p. 3–40).
+Polaris takes a more constrained approach. Rather than making no
+assumptions in what the analyst might want to model, Polaris assumes
+that the analyst is modelling standard light water assembly designs. The
+input format is structured as such, specifying the assembly size and
+pitch, along with pin dimensions and pin mapping. Common features
+such as a channel box, water rods, or a cross (all commonly found in
+BWR assembly designs) may be modelled as well. Control assemblies
+(both the PWR rodlet-type design and the BWR blade design) may be
+modelled (Oak Ridge National Laboratory, 2017). Their insertion may
+be toggled when specifying branches for lattice physics. The meshing of
+pins into rings and sectors is streamlined, with both geometric and
+material subdivisions being automated.
+Adding support for a new type of geometry, such as the CANDU
+lattice, required code upgrades in two areas. First, a new “cluster”
+geometry builder was added, which can take the input parameters de-
+scribing a CANDU lattice (such as lattice pitch, pin arrangement, and
+tube radii), and construct an ATLAS geometry model. Several functions
+are shared with or similar to those from the existing lattice builder, and
+adapted to work with the new cluster builder. Geometry cells are
+tagged appropriately for Polaris functionality to work correctly, in-
+cluding automated material subdivision and pin power edits. Second,
+the input format was extended to allow the analyst to specify that they
+wish to model a CANDU lattice, and supply the input parameters. These
+parameters become inputs for the cluster geometry builder. Some goals
+for these changes included:
+• Making the input format flexible without adding unnecessary com-
+plexity.
+Fig. 1.1. Flowchart for ESSM escape cross-section calculation (Jessee et al., 2014, p. 4).
+S. Younan and D. Novog Nuclear Engineering and Design 361 (2020) 110540
+3
+Oak Ridge National Laboratory,2017Li et al., 2017Yoo et al., 2015Kim et al., 2012OakRidge National Laboratory, 2017Oak Ridge National Laboratory, 2017Oak Ridge National Laboratory, 2017Jessee et al., 2014
+• Reusing and extending existing input cards where it makes sense,
+without affecting LWR input files.
+• Supporting existing features if it is reasonable to do so.
+• A reasonably efficient builder (comparable to the existing LWR
+builder).
+• Supporting symmetry boundary conditions to speed computational
+time.
+These changes were successfully implemented in the Polaris code,
+using SCALE version 6.2.3 as a starting point. The “cluster” geometry
+builder as described above was added alongside the existing “lattice
+builder”, specializing in CANDU-type circular cluster lattices rather
+than square-pitched lattices. Input cards were added to specify the
+properties of this new geometry, including a “geom CLUSTER” card for
+the fuel bundle, and a “shell” card for the concentric circular surfaces
+making up the pressure tube and calandria tube. The system card re-
+ceived a “CANDU” option that specifies CANDU default properties for
+the different materials. Several new predefined materials were added,
+including heavy water for the coolant and moderator, Zr-2.5%Nb alloy
+for the pressure tube, and CO2 for the gas gap between the pressure tube
+and the calandria tube. Existing cards, including the “pinmap” card,
+were extended to be compatible with the cluster geometry.
+Several other changes or additions were performed to facilitate code
+testing or to evaluate their effects on the calculation. Self-shielded
+cross-section edits were added for data analysis. These edits may be
+implemented into the code in a more permanent manner in the future.
+Polaris supports power iteration for k∞ convergence, with optional
+CMFD acceleration (Jessee et al., 2014, p. 5). In Polaris, for LWR geo-
+metries, the CMFD mesh, which must be rectangular, is constructed
+automatically, using the assembly pitch along with the dimensions of
+structural materials surrounding the assembly, such as the channel box,
+narrow gap, and wide gap. Mesh cells need not be the same size. For
+CANDU geometries, there is no natural rectangular grid that fits the
+circular geometry, so the ability to specify the grid dimensions was
+included in the input. The grid is then overlaid on the geometry, with
+any mesh cells overlapping the gridlines being divided.
+When CMFD acceleration was tested on the CANDU geometry, it
+was found to not provide a significant performance benefit, while re-
+ducing the robustness of the calculation, in that the code was more
+likely to fail prior to completing the calculation. This is in contrast to
+NEWT, where CMFD acceleration provides at least an order of magni-
+tude acceleration in convergence, albeit with an even greater decrease
+in robustness. Therefore, CMFD acceleration was disabled in Polaris for
+the analysis, and only standard power iteration was used.
+During the study, it was found that the cross-section for within-
+group scatter could exceed total elastic scatter for certain energy groups
+during Sampler runs, which is physically impossible. Both TRITON and
+Polaris simply discard the within-group scatter data and use values
+from the unshielded scattering probability matrix, but an inconsistency
+in the implementation caused Polaris to discard the data for all sub-
+sequent source groups as well, even for those with valid data. This
+portion of the subroutine in Polaris was corrected to be consistent with
+its implementation in TRITON. However, a fix for the underlying issue,
+stemming from the algorithm which perturbs and interpolates self-
+shielding factors in the ClarolPlus component of Sampler, is beyond the
+scope of this study, but has been reported to the developers.
+The implementation of certain features not necessary for the ver-
+ification and validation efforts of this study was deferred. The addition
+of reflector cell support, with a vacuum boundary condition, is not
+included in this paper, but will be included when the upgrades are
+merged into the official SCALE release.
+There are still some limitations to CANDU analysis using Polaris,
+even with these extensions. Most notably, 3D geometry cannot be
+modelled, so control devices (which are perpendicular to the fuel
+channels in CANDU) cannot be included in the branch calculations.
+NEWT suffers the same limitation.
+The model additions are not strictly limited to CANDU or similar
+heavy water reactor designs. Any circular lattice can be modeled using
+the new cluster geometry and shell card. This includes the Canadian
+Supercritical Water-Cooled Reactor (Yetisir et al., 2016), which uses
+light water coolant and heavy water moderator. The central flow tube
+in this design would be modelled as a large pin, conceptually similar to
+modelling a BWR water rod. The cluster geometry can also support
+single fuel channel modelling for an RBMK, which also uses circular
+assemblies, except with graphite instead of heavy water as the mod-
+erator (Barkauskas et al., 2017, p. 44). Due to the significant differences
+in fuel and moderator materials from a CANDU reactor, however, the
+physics of these reactors greatly differ from those of the CANDU, and
+the validation of Polaris to accurately model these reactor designs
+would require a separate analysis.
+2.2. Verification and validation efforts
+2.2.1. Lattice physics calculations
+In order to validate the results calculated by Polaris, both inter-
+mediate calculations and final results were compared to existing codes.
+Intermediate calculation comparisons include qualitative examination
+of flux spectra, reaction rates and resonance impacts. Final results of a
+calculation include k∞, lattice physics parameters (such as few-group
+cross-sections), coolant void reactivity (CVR), fuel temperature coeffi-
+cient (FTC), and the results of the depletion calculation.
+Several other codes were compared with Polaris in this study. The
+primary reference solution was generated using the Monte Carlo code
+KENO-VI in continuous energy mode. The continuous energy calcula-
+tion does not require a separate self-shielding calculation, and it is
+possible to precisely calculate self-shielded cross-sections by tallying
+the flux and reaction rates in the multi-group structure. Also considered
+as a reference is the transport code NEWT with the CENTRM self-
+shielding methodology.
+Various preliminary calculations were performed to investigate the
+capabilities and limitations of each code, in order to settle on a final set
+of codes with which to perform the comparative analysis. The set of
+codes and self-shielding methods selected are:
+• Polaris, self-shielded using ESSM.
+• KENO-VI, continuous-energy.
+• KENO-VI, multi-group, self-shielded using CENTRM.
+• NEWT, self-shielded using CENTRM.
+• NEWT, self-shielded using BONAMI.
+All cases, except for those utilizing Polaris, utilize the TRITON se-
+quence.
+Effects on the transport results arise both from direct differences in
+the transport calculation, and from differences in material composition
+from the depletion calculation. For some of the calculations, these ef-
+fects were separated by running transport calculations on the compo-
+sitions from the KENO-VI continuous energy transport/depletion cal-
+culation in order to separate the effects of depletion from the transport
+solution.
+2.2.2. Sensitivity analysis of self-shielded cross-sections
+It is also possible to look at the effect of the self-shielding calcula-
+tion on its own, either by comparing two models with the same trans-
+port code but different self-shielding codes, or by directly looking at the
+difference in the self-shielded cross-sections. For the latter, the re-
+ference values were tallied using KENO-VI in continuous-energy mode.
+These were then compared to self-shielded cross-sections from
+CENTRM, BONAMI, and ESSM.
+It is important to know which differences have the most significant
+effect on the transport solution – presenting the error in individual self-
+shielded cross-sections on their own is meaningless. While it is possible
+to consider the “raw” self-shielded cross-section biases for each nuclide
+S. Younan and D. Novog Nuclear Engineering and Design 361 (2020) 110540
+4
+Jessee et al., 2014Yetisir et al., 2016Barkauskas et al., 2017
+and energy group, these values are not particularly useful for the ana-
+lysis. It is much more useful to consider the differences in self-shielded
+cross-sections as a perturbation, and calculate the effect of this per-
+turbation on integral quantities such as k∞ and reaction rates.
+Since the reaction rate is the product of the cross-section and the
+flux, energy groups where both of these are large will be more im-
+portant to self-shield accurately than other groups, and perturbations in
+these cross-sections will have a larger effect on the integral quantities.
+To determine which groups are most important, a sensitivity analysis is
+carried out using TSUNAMI to calculate the sensitivity of the integral
+quantities to the individual cross-sections, by nuclide and energy group.
+The quantities investigated were k∞ along with various reaction rates
+for 235U, 238U, and 239Pu. The bias for these quantities due to the self-
+shielding calculation can be estimated by multiplying these sensitivities
+by the relative error of each cross-section.V
+R
+R S
+g X g X g
+ref
+X g
+ref R
+, ,
+( )
+,
+( ) , X g,
+(2.1)
+Eq. (2.1) is then summed over any desired set of nuclides, reactions,
+material regions, and energy groups to get the total bias for integral
+response> due to all cross-sections of that set.
+TSUNAMI-3D was used to calculate the sensitivity of k∞ using
+KENO-CE. Unlike the calculations described in Section 2.2.1, DBRC is
+enabled for the TSUNAMI-3D calculation, along with the KENO-CE
+calculation used to tally reference self-shielded cross-sections.
+TSUNAMI-2D was used to calculate the sensitivities of both k∞ and
+reaction rates using NEWT. The advantage of using TSUNAMI-2D is that
+the TSUNAMI-3D calculation is very slow (especially for reaction rates)
+and some sensitivities, such as to scattering cross-sections, do not have
+adequate statistical convergence without using an impractical number
+of histories.
+All calculations were performed using one set of mid-burnup fuel
+compositions. The results presented in this paper, in Section 3.6,
+compare the self-shielded cross-sections from CENTRM and ESSM,− g, ,
+with the tallied cross-sections from KENO-CE,− g
+ref
+,
+( ) . The relevant sen-
+sitivities%>, X g, are obtained from the TSUNAMI-3D calculation when
+the integral response> is k∞ and the reaction− is an absorption re-
+action (capture, fission, etc.). Otherwise, the TSUNAMI-2D calculation
+is used for the sensitivity. The effect on> is calculated using Eq. (2.1),
+and summed over all fuel materials, nuclides, and reactions. The results
+can then be plotted per unit lethargy for all energy groups, or summed
+over energy groups to give the total effect on> .
+This method only captures the effect of self-shielding by the dif-
+ference in the 1D cross-sections, and ignores the effect of differences in
+the 2D scattering matrices between the different self-shielding methods.
+TSUNAMI is limited to calculating sensitivities due to cross-section
+perturbations, and does not calculate sensitivities due to scattering
+matrix perturbations. Therefore, the effect of scattering matrix self-
+shielding is not calculated in this study.
+2.3. Generation of self-shielding factors
+The self-shielding factors that are distributed with SCALE are based
+on light water reactor characteristics (i.e. compositions, geometry, and
+flux spectrum). However, SCALE includes the IRFFACTOR code (Kim
+et al., 2019) that can be used to recalculate these self-shielding factors
+with a different model. The IRFFACTOR routines can be run using with
+a homogeneous or heterogeneous assumption. In homogeneous mode,
+the resonant nuclide is mixed with a background nuclide in different
+ratios, with a trace amount of a fissile nuclide added if necessary. The
+flux spectrum is then calculated using CENTRM, and the self-shielded
+cross-sections are calculated using PMC. In heterogeneous mode, the
+user constructs a set of CENTRM models spanning the desired range of
+background cross-sections. The background cross-sections are calcu-
+lated using ESSM. The results are interpolated to overwrite the existing
+self-shielding factors in the library (Wiarda et al., 2016, p. 57).
+Therefore, four libraries were used for the analysis – the distributed
+library and three modified libraries, using IRFFACTOR to replace the
+self-shielding factors in the distributed library. Table 2.1 details the
+difference between how the self-shielding factors are generated in each
+library. The “Major Actinides” category includes not just 235U, 238U,
+239Pu, 240Pu, and 241Pu, but also 91Zr and 96Zr. All libraries are based on
+ENDF/B-VII.1.
+The mass lumping parameter “alump” was set to 0 for the D2O pin
+cell, as the default causes significant issues when solving the pointwise
+spectrum for a D2O pin cell.
+2.4. Analysis case list and parameters
+Table 2.2 summarizes the cases that were tested and compared for
+the analysis.
+To make the modelling between the codes as consistent as possible,
+the following parameters were selected:
+• No critical spectrum correction for NEWT or Polaris (as it is not
+supported in KENO).
+• No Doppler Broadening Rejection Correction (DBRC) in KENO, as
+there is no equivalent in the deterministic codes.
+• TRITON’s default nuclide tracking set (addnux = 2) for depletion
+(Oak Ridge National Laboratory, 2017), to ease the computational
+burden for KENO calculations.
+• IR approximation with no Bondarenko iterations in BONAMI, when
+performing full-range calculations without CENTRM. This is the
+default setting in ESSM.
+As for the library generation, the CENTRM mass lumping parameter
+“alump” is set to zero.
+In TRITON, the 37-element CANDU bundle is modelled using four
+depletion materials, based on the pitch of the centre of the pin from the
+centre of the bundle. One self-shielding calculation is performed for
+each depletion material. The automated material subdivision was dis-
+abled in Polaris to be consistent with this modelling. Geometric sub-
+division for the flux solution is still performed in both NEWT and
+Polaris.
+The depletion comparison focused primarily on the major actinides
+235U and 239Pu, tracking the depletion of 235U and the production of
+239Pu in the fuel. All of the SCALE codes use ORIGEN for the depletion
+Table 2.1
+Source of Self-Shielding Factors for Libraries Being Tested.
+LibraryflZ 40Q 40 Major Actinides
+Default 252 g NR Analytical 1H Homogeneous Pin Cell in H2O
+D2O NR Analytical 2H Homogeneous Pin Cell in D2O
+H2O Homogeneous NR Analytical 1H Homogeneous 1H Homogeneous
+D2O Homogeneous NR Analytical 2H Homogeneous 2H Homogeneous
+Table 2.2
+Case list for analysis.
+Case Transport
+Code
+Self-Shielding
+Method
+Nuclear Data
+Library
+KENO-CE KENO-VI ENDF/B-VII.1 CE
+KENO CENTRM KENO-VI CENTRM Default 252 g
+NEWT CENTRM NEWT CENTRM Default 252 g
+NEWT BONAMI NEWT BONAMI Default 252 g
+Polaris Polaris MoC ESSM Default 252 g
+Polaris D2O Polaris MoC ESSM D2O
+Polaris H2O
+Homogeneous
+Polaris MoC ESSM H2O Homogeneous
+Polaris D2O
+Homogeneous
+Polaris MoC ESSM D2O Homogeneous
+S. Younan and D. Novog Nuclear Engineering and Design 361 (2020) 110540
+5
+Kimet al., 2019Wiarda et al., 2016Oak Ridge National Laboratory, 2017
+Previous PDFNext PDF

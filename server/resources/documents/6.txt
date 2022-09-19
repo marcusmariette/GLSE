@@ -1,0 +1,334 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineFigures (5)
+2/20
+
+
+
+Article start
+Journal Pre-proof
+Kriper: A blockchain network with permissioned storage
+María Isabel Rojo Rivas, Daniel Díaz-Sánchez, Florina Almenarez,
+Andrés Marín-Lopez
+PII: S0167-739X(22)00267-9
+DOI: https://doi.org/10.1016/j.future.2022.08.006
+Reference: FUTURE 6571
+To appear in: Future Generation Computer Systems
+Received date : 9 September 2021
+Revised date : 15 July 2022
+Accepted date : 6 August 2022
+Please cite this article as: M.I.R. Rivas, D. Díaz-Sánchez, F. Almenarez et al., Kriper: A blockchain
+network with permissioned storage, Future Generation Computer Systems (2022), doi:
+https://doi.org/10.1016/j.future.2022.08.006.
+This is a PDF file of an article that has undergone enhancements after acceptance, such as the
+addition of a cover page and metadata, and formatting for readability, but it is not yet the definitive
+version of record. This version will undergo additional copyediting, typesetting and review before it
+is published in its final form, but we are providing this version to give early visibility of the article.
+Please note that, during the production process, errors may be discovered which could affect the
+content, and all legal disclaimers that apply to the journal pertain.
+© 2022 The Author(s). Published by Elsevier B.V. This is an open access article under the CC
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+María Isabel Rojo RivasDaniel Díaz-SánchezFlorina AlmenarezAndrés Marín-Lopez
+Journal Pre-proof
+Journal Pre-proofKriper: a blockchain network with permissioned storage
+María Isabel Rojo Rivasa, Daniel Díaz-Sáncheza, Florina Almenareza, Andrés Marín-Lopeza
+aTelematic Engineering Department, Carlos 3rd University of Madrid, Avda. de la Universidad 30, Leganés, 28911, Madrid, Spain
+Abstract
+Blockchain has been a revolution in the past few years. Beyond the new currencies that were created around different incarnations
+of the blockchain concept, there are many other contributions that provide interesting services as a data linked structure using a
+decentralized network that provide a high level of security. Companies have developed many projects to incorporate blockchain
+into their business logic pursuing to incorporate other related services as persistence of large volumes of data, privacy or anonymity
+of transactions, distributed data processing, security (confidentiality, integrity, and availability), document management or micro
+messages in real time. Nevertheless, as it will be discussed in this article, current blockchains do not meet the needs of companies
+in many aspects, leading to a scarce or superficial adoption. This article introduces Kriper, a blockchain that aims at meeting
+corporate world needs by responding with a community-based, open blockchain that may also be segregated and private for certain
+uses whereas it provides a permissioned distributed storage and micro message lightweight services.
+Keywords:
+blockchain, distributed storage, permissioned storage, access control, privacy, confidentiality
+PACS: 0000, 1111
+2000 MSC: 0000, 1111
+1. Introduction
+Shatoshi Nakamoto designed a new storage concept data
+processing. Bitcoin [1] was conceived as an anonymous cur-
+rency for legal transactions that were a mere anecdote at the
+beginning, but it did succeed to perform legal service transfers
+for a time, to end up lately as an investor safe haven. From
+a technical point of view, its most interesting contribution has
+been the Blockchain concept [2] with its data linked, decentral-
+ized and supported by a community that also provided a high
+level of security through consensus [3].
+Since a few years ago, there are many projects and com-
+panies that create applications around the blockchain concept
+with different approaches [4][5] such as traceability and man-
+agement of IoT or SmartContracts ecosystems to control multi-
+ples aspects of transactions. Others have focused on providing
+an alternative to traditional currencies as a substitute to current
+transactions such as [6][7]. However, the least successful ap-
+proach is the one adapted to the world of business, where it
+is intended to allow companies to have blockchain services as
+if they were public or private distributed databases, something
+that Ethereum tried to do in the private area, with its private
+network [8].
+Among the worth mentioning benefits that a company could
+find in blockchain, could be the treatment or persistence of
+large volumes of data, privacy or anonymity, distribution of data
+treatment, security (confidentiality, integrity and availability),
+document management, micro messages in real time. In addi-
+tion, the concept of a versatile public-private-mixed blockchain
+is a very useful concept for the world of business [9].
+Unfortunately, there is currently no solution that meets all
+storage needs and transaction management that a corporate en-
+vironment may need in their activity.
+However, there are initiatives in which companies partially
+use blockchain technology in their projects. In some cases,
+they include small transactions of their business logic in the
+blockchain, such as an audit or very limited use for traceability
+reasons [10]. Others consist of combining different corporate
+data sources with blockchain within the same application so
+that the blockchain may work as an audit tool, some examples
+are analysed in 2.
+These types of data source integrations do not use the blockchain
+completely for data storage, so the solutions lose their distribu-
+tion and resilient custody characteristics of their own data. In
+general, persistent information becomes just pointers to corpo-
+rate data, leaving aside features such as consensus, decentral-
+ization, and security.
+This article introduces Kriper, a blockchain that aims at
+meeting corporate world needs by responding with a community-
+based, open blockchain that may also be segregated and private
+for certain uses. Furthermore, Kriper devotes a storage space
+for both big files and messages containing only a few charac-
+ters for networks such as IoT or lightweight messaging service.
+Kriper offers security and flexibility for any type of use and
+is different from other blockchains as analysed in 2. Basically,
+the proofs of work (PoW) limiting DoS attacks and maintain-
+ing the security in traditional blockchains are substituted, in the
+case of Kriper, by two different but interlocking proofs that in-
+volve both work or computing power that involve (PoW) as
+proof of space management (PoSt), which allows to increase
+Preprint submitted to Future Generation Computer Systems July 15, 2022
+[1][2][3][8][9][10]
+Journal Pre-proof
+Journal Pre-proofsecurity and speed. In addition, a different management of the
+cost of using the network is carried out (GAS) so that it is more
+sustainable, and so as not to pay awards on every proof (PoW
+or PoS) or pay any use of the network.
+Kriper aims at a universal and free use of the network, but
+maintaining rewards to those who maintain the network. Kriper
+introduces different levels of security that allow to catalogue,
+process and store information in a different way; it allows to
+save files of different sizes, process real-time information, gen-
+erate alerts, process contracts, events, certificates. . .
+This paper explains how Kriper should be defined after re-
+viewing different existing blockchains and their applicability in
+professional settings in 2. The design paragraph contained in
+3provides a detail of Kriper blockchain’s proposal and its de-
+sign in two layers. It also discusses the distribution of blocks
+in Kriper and which data are kept to achieve a secure and reli-
+able operation. 4, provides the operating details of typical use
+cases. To prove Kriper’s viability, a proof of concept has been
+developed and several proofs have been carried out in different
+environments in 5 and, finally, this paper ends with the conclu-
+sions obtained from this study in 6.
+2. Related Work
+Several blockchains are analysed with relevant contributions
+at a technological level such as IOTA [11], Ethereum [12, 13],
+Bitcoin[1], Monero[7], DataCoin[14] and FileCoin [15].
+A blockchain is an organized succession of blocks of data
+with certain attributes. The amount of information stored in a
+blockchain such as Bitcoin or Ethereum is quite limited, making
+it possible to store and/or verify a certain logic in the blockchain
+by means of Smart Contracts in the case of Ethereum. Block-
+hains such as DataCoin [14], allow for storing also small files
+such a torrent files and certificates. The main problem at Data-
+Coin is the need to replicate big quantity of data in every node
+(since all of them should have a copy of the blockchain).
+Filecoin [15] is a blockchain using Interplanetary File Sys-
+tem (IPFS) to store any kind of information. Routing of files
+is done using the blockchain, while storage is done using IPFS,
+thus the blockchain is separated from files, since they are dele-
+gated in the P2P IPFS model network.
+In any case, the abovementioned blockchains, except for
+FileCoin, do not handle large amounts of data. Kriper, as well
+as FileCoin, do not store the contents in the blockchain, but
+permits and access rules; the big difference is that the commu-
+nity maintaining Kriper also maintains the files that are withat
+the Storage Layer in a separate, anonymous and secure manner.
+In this way, the Kriper network has full control of files at any
+time, and may enable concepts such as private networks with
+management, access or payments per use of files, among other
+types of uses that Kriper may offer, since they have the control
+of both layers (blockchain processing and file storage).
+Other networks such as IOTA [11] do not use a sequence of
+interlocking blocks such as Bitcoin or Ethereum, in which there
+is a chronology in the sequence. IOTA uses a structure called
+Tangle, which consists of a Directed Acyclic Graph(DaG). As
+in the case of Ethereum, it also has Smart Contracts, though still
+in an Alpha phase. IOTA may store any information in Tangle,
+its persistence is not yet guaranteed since nodes may eliminate
+data locally.
+Kriper allows for storing any kind of file, regardless their
+size or type. The two-layer approach allows for this total flex-
+ibility when storing files and keeping them replicated within
+the blockchain with no need to be in every node, whether they
+are necessarily public or that the performance of the blockchain
+network is penalized for handling an excessively large data struc-
+ture.
+Blockchain networks use Proof of Work (PoW) to generate
+a set of data which are difficult to generate in terms of compu-
+tational cost, but easy to verify. Blockchain grows to the extent
+that participating miners generate new blocks which contain the
+unverified transactions, as well as a hash as an identifier of the
+previous block. The generation and validation of a block in-
+volves a proof of work so complex that, together with the link
+to the previous block, they ensure the irreversibility and im-
+mutability of transactions.
+Once the transactions have been verified and the PoW has
+been demonstrated for a new block, the miner that creates that
+block evaluates with other miners the inclusion of the created
+block. Since 2012, the replacement of PoW mechanisms by
+other ones more environmentally-friendly (since less energy is
+required to maintain the network) [16] known as Proof of Stake
+(PoS) in which the coin holders can verify transactions and be
+rewarded in turn. The more coins a participant has, the more
+possibilities to verify the transactions and, therefore, to get a
+reward. Thus, it makes sense that holders of cryptocurrencies
+are the most interested ones in the survival of the network. The
+most relevant PoW examples are HashCash [17] used in Bitcoin
+as well as Ethash used in Ethereum [13].
+IOTA has no miners and transactions are free. To do this,
+each participant must verify two previous transactions (and per-
+form a PoW to avoid SPAM). At each node of the Tangle, there
+may be several transactions or sites. Every verification lacks
+the consensus that other blockhains demand.
+Kripper introduces a new concept in addition to PoW and
+PoS called Proof of Storage (PoSt) in which those participants
+who lend their extra storage space to the network are rewarded.
+Most blockchains demand a reward to materialize a transac-
+tion on the blockchain. In Bitcoin it is called Bitcoin Average
+Transaction Fee, which is quoted in dollars when a transaction
+is processed and verified by a miner. This rate varies over time.
+In Ethereum, the concept of GAS is used, which is the nec-
+essary rate to perform a successful transaction. FileCoin use
+the same GAS concept, making a different calculation by de-
+stroying part of the collection and distributing the remaining
+among the miners. Similarly, Monero and others calculate the
+cost in their own currency, in some cases depending on the size
+of the transaction (in those cases where the transactions may
+vary) and others depending on the evolution of the value of the
+currency over time. IOTA does not require a payment to mate-
+rialize a transaction, but it does require a PoW to verify other
+transactions, so the cost exists, but is distributed collaboratively
+as there is no such thing as a miner.
+2
+[11][12, 13][1][7][14][15][14][15][11][16][17][13]
+Journal Pre-proof
+Journal Pre-proofWith regard to blockchain proposals and their adaptability
+to corporate environments, the first deficiency detected when
+applying any of the blockchains to a company, is the ineffi-
+ciency when dealing with large-volume files.
+As mentioned, since Ethereum, Bitcoin and Monero are lin-
+ear coins (one block approved after another) they do not support
+files in their blocks, if so, the size of the blockchain would grow
+enormously, limiting the number of miners to those with suffi-
+cient storage space and amounts of RAM too high to be able
+to mine new data blocks. Therefore, working with these vol-
+umes of data would enormously slow down the mining and the
+approval of new blocks until it could be no longer sustainable.
+DataCoin, on the other hand, does not allow the storage
+of large volumes of data, and has the same problem, since the
+chain would grow indiscriminately. FileCoin uses a similar ap-
+proach to Kriper using alternative storage, but lacks the required
+permissions and compartmentalisation for corporate informa-
+tion storage since FileCoin only saves an identifier of the file to
+be uploaded, while the storage of this file is delegated to the P2P
+IRPF network, and leaves the control of the FileCoin network
+itself and cannot reward the donors of part of their resources to
+the network.
+Another dimension of comparison is speed. In a corporate
+environment, it is necessary to have speed available to persist
+short messages for business use cases that work with micro
+messages, IoT elements and even software traces for Security
+Operation Centers (SOCs) and logs, among others. In this case,
+IOTA could be the only blockchain with enough agility to sat-
+isfy the requirement by using a DaG instead of a blockchain.
+Another necessary characteristic for a company is the com-
+partmentalization of information. There are lots of use cases
+in which the content persisted through a blockchain cannot be
+shared publicly due to business secrecy and privacy of clients
+and the company itself, among others. This would be a require-
+ment that only Kriper could meet since, as already mentioned,
+FileCoin (the only one that could store large volumes of files)
+sends its data to the external IRPF network so it cannot ensure
+privacy and data management.
+Ethereum allows the creation of your own blockchains iso-
+lated from the rest of the community by creating a closed silo.
+Although in many cases this may be desirable, the redundancy
+and strength provided by a public blockchain would be lost.
+IOTA, like Ethereum, also allows to have a parallel network,
+but, as soon as it finds connectivity, it will send that private net-
+work to the public network for them to join, thus exposing all
+its information. Monero and Bitcoin are completely public so
+they were not covering the case.
+Blockchain has other qualities that have been successfully
+introduced in business environments, especially as an alterna-
+tive currency, since it is the currency with the largest commu-
+nity and, the more miners support a currency, the greater se-
+curity it will have as there are many more machines validating
+blocks.
+Another alternative on the market would be Hyperledger
+Fabric [18], IBM’s private and modular blockchain. It is a
+Blockchain designed to be installed and used in private envi-
+ronments and with different modules of use. Again, it would
+not cover all corporate use cases since the information must be
+linked to a file system by means of a reference (same model
+as FileCoin) and there would be no redundancy of data, since
+they are stored on private servers. Therefore, since there are
+no miners from a larger network supporting it, its security and
+resilience is limited to the access control imposed by the pri-
+vate network to the data and the number of nodes in the private
+network, respectively.
+Certainly, there was no model in the market designed for
+a general corporate use, but it was designed either for market
+or use niches, or rather for the community in the form of cryp-
+tocurrency (see table 1).
+Kriper solves this problem by creating a blockchain bearing
+the strength of a public blockchain, while allowing the storage
+of any type of data, compartmentalizing the information and
+protecting it with a permission scheme more suitable for the
+business world.
+3. Kriper Design
+This section presents Kriper’s design by understanding its
+two-layer model, the different agents that operate in it, and how
+data is controlled and linked.
+3.1. Entities in Kriper
+On other blockchains, users can be traceable [19] [20]. For
+example, in Bitcoin, a miner must change both the "reward-
+address" (address where he/she is rewarded after finding a new
+block) and the counter used in HashCash so as not to be easily
+detectable or traceable by using repeatedly the same "wallet".
+Unlike Bitcoin and other cryptocurrencies, users in Kriper
+are identified by a hash calculated using Leighton-Micali Sig-
+natures (LMS) [21] that combine a one-time signature scheme
+with a tree structure, allowing for the creation of new tree nodes
+and therefore allowing for new signatures, using the hash func-
+tion and concatenations. In this way, several identifiers per user
+are allowed, so that their movements or contributions are not
+easily traceable. On the other hand, this signature scheme is re-
+sistant to quantum computing, providing greater security to the
+system as discussed in section 3.2.
+In Kriper there are several types of entities that participate
+by maintaining or using the network:
+• Miners: Those machines that are part of the Kriper net-
+work with computational capabilities that offer that ca-
+pacity to maintain the network. These entities are in charge
+of processing the blocks of the blockchain and validat-
+ing others proposed by other miners. The mining process
+consists of validating the blocks with a proof of work of a
+very low complexity since the purpose is that data trans-
+fers are executed and processed as discussed in section
+3.5.1. In the case of Kriper, a mining node will always
+validate two blocks to approve one of them; therefore,
+each block will always be linked with at least two other
+blocks.
+3
+[18][21]

@@ -1,0 +1,212 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineFigures (28)
+1/20
+
+
+
+Previous PDFNext PDF
+Article start
+Measurement: Sensors 23 (2022) 100409
+Available online 18 August 2022
+2665-9174/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).Split computing: DNN inference partition with load balancing in IoT-edge
+platform for beyond 5G
+Jyotirmoy Karjee *, Praveen Naik S , Kartik Anand , Vanamala N. Bhargav
+Samsung R&D Institute India, Bangalore, India
+A R T I C L E I N F O
+Keywords:
+Connection reliability
+Deep neural network (DNN)
+Inference time
+Edge computing
+Internet of things (IoT)
+Load-balancing
+Split computing
+A B S T R A C T
+In the era of beyond 5G technology, it is expected that more and more applications can use deep neural network
+(DNN) models for different purposes with minimum inference time which is highly important for providing a
+great user experience in the Internet of Things (IoT) use-cases. However, due to hardware limitations and low
+computational capabilities, it is almost impossible to execute complex DNN models on IoT devices. To provide a
+better user experience and mitigate these problems, we introduce split computing technology where the DNN
+model inference task is partially offloaded from an IoT device to a nearby dependable device called edge. While
+splitting the DNN between IoT-edge, it is unclear how much the DNN model needs to be partitioned according to
+varying network conditions to ensure a satisfactory user experience. To address these issues, we propose the
+following mechanisms that provide a trade-off between the computation and communication, namely: (1) dy-
+namic split computation (DSC) mechanism: finds an optimal partitioning of the DNN model to be executed
+between IoT and edge to reduce the computation overhead (i.e., overall inference time); (2) reliable commu-
+nication network switching (RCNS) mechanism: intelligently finds a suitable network to connect to either Wi-Fi/
+Cellular/Bluetooth to provide reliable data transport between IoT and edge. Further, as the edge devices perform
+DNN tasks extensively, it is possible that they run out of battery, or get interrupted by high-priority user ap-
+plications executing on them due to which edge devices cannot complete the assigned DNN task in the desired
+time. To address these issues, we also propose a load-balancing mechanism between IoT and edge called task
+load balancing with prioritization (TLBP) model for single and multiple DNN task scenarios. We conduct
+extensive experiments with Raspberry Pi as an IoT device and Samsung Galaxy S20 smartphones as edge devices
+to test the proposed mechanism. The results show that the proposed algorithms substantially reduce the inference
+time of DNN models as compared to the on-device inference time and balance the tasks across the edge devices to
+minimize excessive battery drainage.
+1. Introduction
+With the exponential technological growth in the modern era, re-
+searchers and engineers are actively working together on the develop-
+ment of next-generation wireless technology, namely 5G and 6G [1]. We
+expect that 6G can provide extremely high-speed communication and
+computational services for wireless technology. It is also likely to pro-
+vide much faster network connectivity that can dramatically change
+today’s computation and communication challenges on smart devices.
+Smart devices can be smartphones, edge nodes, cloud-server, and
+internet of things (IoT) devices (such as Raspberry Pi and wearables such
+as smartwatches, etc.). Nowadays, IoT devices are gaining popularity for
+their compact size with reasonable processing capability which can
+solve different purposes in the domain of health and fitness, entertain-
+ment, security and surveillance, and agricultural field, etc. The
+deployment of IoT devices captures more accurate data and processing
+this data using deep neural networks (DNN) models can produce
+true-to-life results. DNN models can be used to analyze the vast amount
+of real-life data captured by IoT devices. But due to hardware con-
+straints, and limited computation capabilities, IoT devices are not
+capable enough to execute these complex deep learning models in
+desired time. To overcome this, either the deep learning applications in
+IoT have to use a more approximated version of the model or offload the
+computation of the deep-learning based applications completely to the
+cloud [8]. The former option results in less accurate and sometimes,
+undesirable results whereas for the latter option, the cloud resides at a
+* Corresponding author.
+E-mail address: jyotirmoy.research.iisc@gmail.com (J. Karjee).
+Contents lists available at ScienceDirect
+Measurement: Sensors
+journal homepage: www.sciencedirect.com/journal/measurement-sensors
+https://doi.org/10.1016/j.measen.2022.100409
+Received 13 June 2022; Received in revised form 29 July 2022; Accepted 3 August 2022
+Jyotirmoy KarjeePraveen Naik SKartik AnandVanamala N. Bhargav18
+Measurement: Sensors 23 (2022) 100409
+2centralized geographical location and the quality of service is highly
+dependent on the availability of a high-speed and consistent network.
+These factors make the cloud, a less attractive option because of higher
+latencies and dependency on networks which can affect/ruin the user
+experience.
+As we move towards the era of extended reality (XR), [6] augmented
+reality (AR), virtual reality (VR), and holographic communications, etc.,
+minimal latency solutions need to be proposed to provide true-to-life
+experience to users. Considering the limited capabilities of IoT devices
+and drawbacks of the cloud, we consider the concept of “split
+computing” [2,3]. The concept of split computing involves using nearby
+high computing devices called edge to satisfy the computational needs of
+IoT devices such that the DNN models are partitioned among IoT-edge to
+provide minimum inference time. Edge devices are pieces of equipment
+with more powerful hardware (CPU/GPU/NPU, RAM)1 than IoT devices
+that can execute deep learning tasks in lesser time. Edge devices are
+deployed in close proximity [7] of the IoT device, which can solve la-
+tency and privacy issues related to cloud-based computation. As the
+edge devices are computationally more capable, complex deep learning
+models can be executed on them and can produce more accurate results.
+In this paper, we consider MobileNet [37] and PoseNet [38] DNN
+models which consist of multiple linear layers and it is possible to split
+the DNN layers network into multiple sub-models and execute these
+models on heterogeneous devices.
+To split the DNN model amongst the IoT device and the edge, there is
+a need to find an optimal partition with which the inference can be
+performed in the minimum time. Because the output size of each layer of
+a DNN model is different and finding an optimal splitting point where
+we send minimal partial output data from the IoT device to the Edge
+device to reduce overall latency becomes necessary for latency-sensitive
+applications. Along with partial output data size, some of the factors like
+computational capabilities of IoT and edge are also considered. During
+poor network conditions, the network provides unreliable connectivity
+between IoT and edge devices. This can cause a poor user experience for
+DNN split applications. The choice of network amongst the available
+options can make a huge difference in reducing the data communication
+latency between the IoT device and the edge device. Therefore, we need
+a solution to find a balance between computation and communication to
+intelligently switch to a suitable network (i.e, Cellular/WiFi/Bluetooth)
+to reduce the overall DNN split inference time. With the Bluetooth
+connectivity option, devices can establish a connection even without the
+Internet. We propose a network switching mechanism that can intelli-
+gently select the most suitable network [9] under poor network condi-
+tions. Although providing reliable communication using an intelligent
+switching mechanism is possible, there is no guarantee that low latency
+communication can be achieved between the IoT device and the edge.
+During transfer of output of DNN layers from IoT to edge, there is a
+possibility of packet drops that can hinder the performance of the model
+and increase overall latency of the system. To address these issues
+related to performance, we need to use low latency transport protocol.
+Once the split ratio of the DNN model is computed, the IoT device
+transmits the result of partial inference to the edge. Further, the edge
+starts computing the remaining inference and returns the result to the
+IoT device, for which both the devices consume battery. In this paper,
+we consider that the IoT device has a continuous source of power as it is
+charged through an external backup; whereas edge devices do not have a
+continuous power supply and rely only on the on-device battery power.
+As the edge device is continuously used for executing DNN tasks, the
+battery of the edge dissipates as time progresses. The edge may run out
+of battery even before completing the assigned task.
+Further, the assigned edge device can get application requests from
+the user (such as to perform facial recognition in an emergency or
+provide feedback on a mission-control application, etc.). In the case of a
+low-priority user application, the edge device can execute the applica-
+tion in parallel along with assigned DNN task. This requires lesser re-
+sources which edge devices are capable of handling. However, if any
+high-priority user application starts running, the resources of the edge
+would get utilized in running the priority application due to that the
+edge may not be able to devote sufficient resources to execute the DNN
+tasks in the desired time. In such circumstances, the IoT device needs to
+regularly monitor the battery status of the connected edge devices and
+schedule the tasks to be assigned. It also needs to reassign pending or
+incomplete tasks to other edge devices which have sufficient energy and
+free resources to use. Further, in this paper, we consider the scenarios of
+executing Single DNN tasks and multiple DNN tasks between IoT and
+edge devices.
+The objective of the proposed work is to provide low computing
+devices (IoT), the ability to access complex DNN solutions, as they are
+computationally less capable, by utilizing the available high computing
+devices in the proximity of the IoT devices in the home environment
+conditions. Executing these on a low computing device is challenging
+and time-consuming. Availing cloud services for these kinds of latency-
+sensitive use cases is not suitable as transmission latency is very high and
+may not provide on-time results. Also, the network conditions among
+IoT devices and edge devices play a major part in a distributed
+computing environment. In bad network conditions, it becomes neces-
+sary to switch to a better network if available, for the smooth transfer of
+data between entities. To mitigate this, in this work we propose to
+provide a network switching mechanism to keep the connection reliable
+between entities and use high computing edge devices available in the
+home environment to accept AI/ML tasks and provide suitable service
+using split computing. There are works related to split computing be-
+tween two powerful computing devices to achieve distributed
+computing. But there’s scope for research where we can utilize day-to-
+day use smartphones as edge devices to satisfy the computational
+needs of low computing devices and utilize better networks under given
+conditions. In the home environment, it is easy to find networks like Wi-
+Fi, Cellular & Bluetooth. We intend to use the best network for use-cases
+that are latency dependent and keep the activity continuous.
+Also when we consider smartphones as edge devices, various factors
+like processing power, battery level, and availability of edge for split
+computing come into the picture. There’s very less work done in this
+aspect where we need to take care of the edge devices conditions and
+accordingly request service from them. To solve this, we propose a load
+balancing mechanism that discovers edge devices within the network
+and considers factors like battery level, availability of edge, priority of
+the applications running on the edge, whether edge can provide service,
+etc. All these cases are considered under the proposed work including
+the case when low computing devices may request multiple AI/ML task
+services from edge devices. We aim to provide a complete system with
+split computing technology among low computing IoT devices and high
+computing edge devices for various AI/ML tasks, keeping in mind the
+need to balance the load among edge devices to continuously provide
+services and also balance the burden on edge devices.
+To mitigate the issues stated above, we propose the following
+mechanisms and models in the context of split computing for reliable &
+low latency communication with load balancing in the IoT-Edge
+platform.
+● A dynamic split computation (DSC) mechanism is proposed that
+determines an optimal split point [3] of the DNN model to divide the
+inference task between the IoT and the edge. It uses the computa-
+tional capability of the IoT device, edge device and the bandwidth of
+the selected network to find the partition point as shown in Fig. 1. In
+this figure, the DNN inference partition can reduce execution time
+across two or more devices. Further, the privacy and security of user
+data are highly important. For simplicity, we assume that the system
+consists of an IoT device and the edge devices belonging to the same
+1 CPU: central processing unit, GPU: graphics processing unit, NPU: neural
+processing unit, RAM: random-access memory.
+J. Karjee et al.
+6237373893Fig. 1
+Previous PDFNext PDF

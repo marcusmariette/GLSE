@@ -1,0 +1,181 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineFigures (17)
+1/18
+
+
+
+Previous PDFNext PDF
+Article start
+Resource identifier interoperability among heterogeneous IoT platforms
+Jahoon Koo ⇑, Young-Gab Kim ⇑
+Department of Computer and Information Security, and Convergence Engineering for Intelligent Drone, Sejong University, Seoul, Republic of Korea
+a r t i c l e i n f o
+Article history:
+Received 1 November 2021
+Revised 3 April 2022
+Accepted 4 May 2022
+Available online 8 May 2022
+Keywords:
+Internet of Things
+Interoperability
+IoT platform
+Resource identifier
+Smart city
+a b s t r a c t
+Many standards, projects, and platforms are being developed as the Internet of Things (IoT) is adopted in
+a wide range of fields. However, because each IoT platform is based on a different resource identifier (ID),
+it is difficult to identify each device and use the service among heterogeneous IoT platforms. To solve this
+problem, we propose an interoperability framework that includes an IoT resource name system (RNS)
+based on analysis of the resource IDs (i.e., device ID and resource request formats) of five selected IoT
+platforms: oneM2M, Oliot, Watson IoT, IoTivity, and FIWARE. The IoT RNS converts a specific resource
+path into a resource request format for each platform. The converted resource path is shared among
+IoT RNSs for each platform, and users can request services from other platforms using converted resource
+paths. We also present an example of interoperability scenario among heterogeneous IoT platforms using
+the proposed IoT RNS in a smart city. The scenario includes each stage, such as resource registration and
+deletion, sharing mapping tables, converting resource addresses, and service requests. Furthermore, to
+prove the aims of the proposed approach, we implemented the resource interoperability scenario
+between oneM2M and FIWARE. In the experiments, resources can interwork in the two platforms
+through resource path conversion. Based on the results, we performed a qualitative evaluation of the
+IoT RNS with the current studies. In conclusion, our proposal overcomes the issues of building an existing
+integrated platform or specific central ontology and duplicating resources inside the platform. In addi-
+tion, we separate the functions of the root and local IoT RNSs to solve communication traffic and memory
+capability issues.
+Ó 2022 The Author(s). Published by Elsevier B.V. on behalf of King Saud University. This is an open access
+article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+1. Introduction
+Internet of Things (IoT) technology is developing and expanding
+in various fields such as smart homes, healthcare, smart cities,
+logistics, and smart car. The international standard, ‘‘ISO/IEC
+20924:2018 Information technology—Internet of Things (IoT)—
+Vocabulary” (ISO/IEC, 2021), defines the IoT as the ‘‘infrastructure
+of interconnected entities, people systems, and information
+resources together with services that process and react to informa-
+tion from the physical and virtual world.” In other words, the IoT is
+hyper-connectivity among smart things, services, and humans to
+provide useful and seamless services regardless of the types of net-
+works, devices, and platforms and with minimum human involve-
+ment. These technologies, related standards, projects, and
+platforms are continuously being developed (Lee et al., 2021). In
+particular, IoT platforms are an essential factor in providing inter-
+operability because they support the network connection to vari-
+ous devices (e.g., sensors and access points) and provide services
+to users. According to the IoT Platform Companies Landscape &
+Database 2020, the official number of IoT platform companies in
+the open market is more than 620, up from 450 in 2017. For exam-
+ple, many platforms (e.g., AllSeen Alliance AllJoyn, Apple HomeKit,
+oneM2M, FIWARE, Google Cloud IoT, GS1 Oliot, IBM Watson IoT,
+Microsoft Azure, and OCF IoTivity) are being developed to provide
+various services. Therefore, interoperability, such as requesting
+services and sharing resources among diverse IoT platforms, is
+important, and it is an essential factor for building a real IoT envi-
+ronment that provides seamless services regardless of the type of
+IoT platform.
+Platform interoperability is challenging to resolve due to vari-
+ous issues such as support for diverse protocols, device discovery,
+https://doi.org/10.1016/j.jksuci.2022.05.003
+1319-1578/Ó 2022 The Author(s). Published by Elsevier B.V. on behalf of King Saud University.
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+⇑ Corresponding authors at: Department of Computer and Information Security,
+and Convergence Engineering for Intelligent Drone, Sejong University, Seoul 05006,
+Republic of Korea.
+E-mail addresses: sigmao91@sju.ac.kr (J. Koo), alwaysgabi@sejong.ac.kr (Y.-G.
+Kim).
+Peer review under responsibility of King Saud University.
+Production and hosting by Elsevier
+Journal of King Saud University — Computer and Information Sciences 34 (2022) 4191—4208
+Contents lists available at ScienceDirect
+Journal of King Saud University —
+Computer and Information Sciences
+j o u r n a l h o m e p a g e : w w w . s c i e n c e d i r e c t . c o m
+Jahoon KooYoung-Gab KimISO/IEC, 2021Lee et al., 2021
+well-defined semantic management, and processing of data for-
+mats in heterogeneous platforms. However, current diverse plat-
+forms and related standards make it difficult to achieve
+interoperability and collaboration among heterogeneous IoT plat-
+forms. Each IoT platform has been developed using a specific and
+unique device identifier and resource-request format. These
+unique formats cause difficulty in identifying each resource among
+heterogeneous IoT platforms. For example, as depicted in Fig. 1,
+suppose that four IoT platforms (i.e., oneM2M, Watson IoT,
+FIWARE, and IoTivity) are connected to the same middleware. It
+will cause interoperability issues in resource discovery and
+resource requests due to the differences in resource discovery
+and request format of each platform.
+OneM2M users check the available services using the resource
+discovery provided by oneM2M, but because resource discovery
+is based on identifiers unique to each platform, resources of
+heterogeneous IoT platforms are not discovered. In addition, even
+if a oneM2M user sends a request in the oneM2M format, the
+meaning of the request and the included resource identifier cannot
+be understood because each platform uses a different identifier
+and request format. Therefore, even if multiple platform resources
+are connected to the same middleware, the user is provided with
+only limited services. To solve these resource interoperability
+issues, existing research focuses mainly on integrating the ontol-
+ogy of each platform or duplicating the resources of other plat-
+forms on the corresponding platform. Furthermore, the existing
+interoperability schemes need to construct specific ontologies
+(Thiéblin et al., 2020; Ranpara and Kumbharana, 2021) and con-
+sume a significant amount of memory (Li et al., 2019).
+Therefore, to overcome the limitations of the existing
+approaches, we propose an IoT resource name system (RNS), which
+focuses on mapping and converting the format of a resource iden-
+tifier (ID) among diverse IoT platforms. We concentrate on con-
+verting resource paths (e.g., device ID, resource-request format)
+used in a specific IoT platform to the target IoT platform, but data
+transmission issues (e.g., data format, supported network proto-
+cols) are not addressed. Koo et al. (Koo and Kim, 2017; Koo et al.,
+2019; Koo and Kim, 2021) proposed an architecture for semantic
+interoperability and implemented a simple testbed for interoper-
+ability based on resource path conversion by mapping the IDs in
+heterogeneous IoT platforms. We use this approach as the initial
+model for the current study. In particular, we clearly distinguish
+and describe procedures such as creating, deleting, and converting
+resources for interoperability and service requests in a smart city.
+The proposed IoT RNS analyzes and converts resource IDs into the
+desired request formats, including reconfiguring requests among
+heterogeneous IoT platforms as appropriate for the requested
+resources. The contributions of this paper include the following:
+(1) The proposed IoT RNS focuses on the resource IDs of the IoT
+platforms. We analyzed and mapped the format of resource
+IDs and service requests used by five representative IoT plat-
+forms. The IoT RNS uses the mapped information to convert
+the resource IDs.
+(2) We also propose a conceptual framework and architecture to
+convert resource IDs among heterogeneous IoT platforms.
+The resource registration, discovery, path conversion, and
+service request processes are proposed, and examples of
+each step are presented through resource interoperability
+scenarios in a smart city.
+(3) Furthermore, to prove the aims of the proposed approach,
+we created an implementation scenario for two IoT plat-
+forms (i.e., oneM2M and FIWARE). Experimental results
+indicate that resources can interwork in the two platforms
+through resource path conversion. Based on the results, we
+performed a qualitative evaluation of our proposal with
+the current studies.
+The remainder of this paper is organized as follows. Section 2
+analyzes background knowledge and summarizes related works
+regarding interoperability in IoT environments. Section 3 proposes
+an IoT RNS architecture, including a scenario in the smart city envi-
+ronment. Section 4 implements an interoperability scenario of our
+proposal. Section 5 explains the comparative evaluation and dis-
+cusses the limitations. Finally, Section 6 summarizes this study
+as a conclusion and future work.
+2. Background and related work
+Section 2.1 describes a taxonomy for interoperability in the IoT
+environment. Section 2.2 compares resource IDs (i.e., the resource
+request format and the device ID) for the five selected IoT plat-
+forms. Section 2.3 describes and summarizes IoT interoperability
+studies.
+2.1. Taxonomy for interoperability in the IoT environments
+The IoT environment can be divided into diverse layers such as
+device, network, middleware, and application, as shown in Fig. 2.
+Each layer includes various elements. For example, the device layer
+includes heterogeneous sensors and actuators such as drones,
+surveillance cameras, and smart cars in different domains used in
+Fig. 1. Problems in resource discovery and resource request.
+J. Koo and Young-Gab Kim Journal of King Saud University – Computer and Information Sciences 34 (2022) 4191–4208
+4192
+Fig. 1Thiéblin et al., 2020Ranpara and Kumbharana, 2021Li et al., 2019Koo and Kim, 2017Koo et al.,2019Koo and Kim, 2021Fig. 2
+Previous PDFNext PDF

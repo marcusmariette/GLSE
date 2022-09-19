@@ -1,0 +1,463 @@
+This is the Enhanced Reader view. For maximum accessibility screen reader users should use the HTML format which is available on the article page for most content.
+OutlineFigures (8)
+9/12
+
+
+
+Article start
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 1. The histogram of the number of bits transmitted per burst, by the set of IoT devices, obtained from the open source data set [51].
+MAP with a Joint Forecasting–Scheduling system (JFS) that allocates time slots of a single frequency channel to IoT devices
+based by forecasting the instants at which traffic is generated.
+In [38], a multi-scale algorithm to improve the performance of JFS was presented, while in [39] an extension of JFS
+for multi-frequency channels was proposed. This research shows that predictive networks such as JFS, are a promising
+solution to the MAP, and that such lightweight scheduling heuristics are useful when optimal algorithms have large
+computational requirements.
+In recent work [40] for any given number of IoTDs, it was shown that the statistics of the instants at which IoT
+packets are sent can significantly impact the number of packets which are received before their deadlines expire, and it
+was seen that ‘‘smoothing’’ the traffic by distributing individual packet transmission times in some uniform manner can
+substantially improve performance and mitigate the MAP. Also, conventional queueing analysis was used to select these
+randomization instants, and predict which packets will not meet their deadlines so as to drop them before transmission
+to avoid congestion for the remaining traffic.
+Recent work presented at the Mascots’21 conference [41] uses diffusion approximations [42] to analyze the effect of the
+statistics of the traffic leaving the IoTDs on the delay at the IoTG and shows the advantage of shaping traffic so as increase
+its deterministic behaviour. Indeed, such schemes which are part of traffic shaping are widely used in networks [43], to
+reduce latency, and optimize the bandwidth available for certain packets by delaying others. Typically applied at the
+source or edge, it is defined by the ITU [44], as a scheme which ‘‘alters the traffic characteristics of a stream of cells ... to
+achieve a desired modification of those traffic characteristics, in order to achieve better network efficiency whilst meeting the
+QoS objectives or to ensure conformance ... with the consequence of increasing the mean cell transfer delay’’. Though traffic
+shaping is accomplished by delaying packets, it is sometimes confused with ‘‘traffic policing’’ which includes preventive
+packet dropping [45], through traffic shaping results in more delay for some packets and thus can cause packet loss in
+finite buffers. Both techniques have been discussed for ATM by [46,47], IP [48], and Sensor Networks where traffic shaping
+with adaptive routing was also studied [49].
+A novel key idea called ‘‘Quasi-Deterministic Transmission Policy’’ (QDTP) was developed in [50], to delay packets at
+the IoTD at most D (fixed) time units, resulting in more regularly timed arrivals at the IoTG.
+Theoretical sample path analysis [50] proves that QDTP does not increase the overall end-to-end delay of packets
+as compared to an ordinary FIFO policy, including the traffic shaping delay and the delay at the IoTG, and substantially
+eliminating waiting time at the IoTG at the expense of a small delay at the IoTD. Experiments with real IoT data from [51]
+and diffusion approximations [41], confirm the effectiveness of QDTP to alleviate the MAP and improve ovrall QoS.
+Thus the present paper extends the results of [41,50] using queueing theory and validates them with trace driven
+simulations and real data. In particular, it is shown that QDTP substantially reduces the average queueing delay at the
+IoTG with respect to a simple end-to-end First-In–First-Out (FIFO) policy, also yielding low packet backlog at each IoTD.
+2. An example of IoT data
+To illustrate some of the statistics obtained from real IoT data available from the Open Source Repository [51], in Fig. 1
+we show the distribution of the amount of data in bits from data bursts emanating from the IoT devices in the dataset.
+We observe that the average number of bits per burst is 6.8167 and the Squared Coefficient of Variation (SCV) i.e. the
+variance divided by the square of the mean, of the number of bits per burst is 1.9506. There are only 2000 bursts with
+more than 50 bits per burst. For those bursts with less than 50 bits, the average number of bits per burst is 6.778 and
+the SCV of the number of bits per burst is 1.7633.
+In Fig. 2, we have used the same dataset, but assumed that each burst from an IoT device is sent in the form of an IP
+packet with a 21-byte header, and that the bits belonging to the burst are stored in bytes inside each packet, so that we
+exhibit the histogram of the length of the packets in bytes.
+2
+[51][38][39][40][41][42][43][44][45][46,47][48][49][50][50][51][41][41,50][51]Fig. 1Fig. 2
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 2. The histogram of the number of bytes transmitted per packet by the set of IoT devices, obtained from the Open Source DataSet [51], where
+we assume that the bursts are forwarded in the form of IP packets.
+In this dataset, only 2000 packets are longer than 30 bytes. We note that the overall average packet length is 22.4744
+bytes with a SCV of 0.0031. If we only consider just those packets whose length is less than 30 bytes, the statistics are
+hardly different, since the average packet length is 22.4695 bytes with a SCV of 0.0028 and the amount of payload data
+transmitted per burst is on average around 12 bits.
+In the data driven simulations presented in Section 4, we normalize the average service time at the IoTG so that
+the average packet length of 22.4744 bytes is transmitted in 40 ms, and the maximum‘‘unsaturated’’ traffic rate λ = 1
+corresponds to 25 packets/sec.
+In Fig. 3 we also show the data we have extracted regarding the corresponding packet arrival rates from the same
+dataset, for 3000, 5000, 7000, 9000 IoTDs (devices). We notice an initial transient behavior when many devices transmit
+as they get started, and then a more time-independent behavior with random fluctuations for all of the datasets with
+different numbers of IoTDs, with an average arrival rate in packets/second which obviously depend on the number of
+IoTDs.
+3. QDTP versus FIFO queueing
+In this section we define and review QDTP and compare its performance with the FIFO policy which does not use
+traffic shaping.
+Consider a sequence of packets (or customers Cn, n ≥ 0) that are created at IoT devices (IoTDs), described by a sequence
+of variables:
+{(an, Sn) : n ≥ 1}, (1)
+which are the intrinsic characteristics of each successive packet, where:
+• The 0 = a0 ≤ a1 ≤ a2, ... are the packet creation instants at the collection of IoTDs; the time intervals between the
+creation of successive packets An+1 = an+1 − an, n ≥ 0. Note that the packets are created at any of the IoTDs, so
+that each an is the time stamp of the nth packet, and successive packets may or may not originate at the same IoTD.
+• In order to shape the traffic, the IoTD delays the transmission of a packet using QDTP as follows; the packet whose
+time-stamp is an is sent from the IoTD to the IoTG at time tn defined by:
+t0 = a0,
+tn+1 = an+1 if an+1 ≥ tn + Dn
+tn+1 = tn + Dn, otherwise, ∀n ≥ 0, (2)
+where Dn ≥ 0. Note that the concept of QDTP described in [41] is extended to allow successive QDTP delays to vary
+with n as in [50].
+• After the traffic shaping delay at the IoTD that we denote by W QDTP
+n = tn − an, the nth packet is transmitted by the
+IoTD and arrives at the IoTG. Thus we are assuming that transmission times from IoTDs to the IoTG, which typically
+use high-speed wireless connections, are negligible as compared to the other times of interest, such as the Dn or the
+service (or processing and forwarding) times at the IoTG denoted by Sn, where packets arrive at {tn, n ≥ 0} and are
+served in First-In–First-Out (FIFO) order.
+Fig. 4 shows the timing at the IoTG when packets are sent out from the IoTDs as soon as the packets are created, i.e. at
+their time-stamp, so that there is no QDTP traffic shaping or D = 0, and the whole system is simply a FIFO queue. On
+the other hand, Fig. 5 describes the system that operates with QDTP.
+3
+[51]Fig. 3[41][50]Fig. 4Fig. 5
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 3. Packet arrival rates from different numbers M of IoT devices (IoTDs), ranging from 3000 (upper box) up to 9000 devices (the lowest box),
+extracted from the TÜBITAK dataset [51], averaged on successive 1-second time intervals of, and shown for the period of 700 s.
+The well-known Lindley’s Equation [52,53], provides a recursive formula for computing the pure waiting time (before
+processing) of the successive packets when IoTDs forward each packet to the IoTG as soon as it assembled at the source,
+i.e. at time an without QDTP, and then the IoTG processes packets in FIFO order:
+W FIFO
+n+1 = [W FIFO
+n + Sn − An+1]+, W FIFO
+1 = 0, n ≥ 1. (3)
+where for a real number X , we denote [X ]+ = X if X > 0, and [X ]+ = 0 if X ≤ 0. Thus if the IoTG acts as a FIFO processor
+and forwarder, the packet that arrives to it at time an will have been processed and forwarded out of the IoTG, towards
+(for instance) a local edge server or a Cloud server, at time dn = an + W FIFO
+n + Sn.
+Also, for the FIFO system without the QDTP policy the ordinary end-to-end response time, which includes the waiting
+time and the service time, is :
+RFIFO
+n = W FIFO
+n + Sn. (4)
+4
+[51][52,53]
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 4. Schematic representation of an IoT Gateway operating as a FIFO forwarding node without traffic shaping at the IoT devices. The packet that
+arrives at instant an waits in the buffer until it arrives at the head of the queue. It then receives service of duration Sn and leaves the server at
+time dn . Its waiting time is W FIFO
+n , so that the departure instant is dn = an + W FIFO
+n + Sn .
+Fig. 5. Schematic representation of IoTDs operating with the Quasi-Deterministic-Transmission-Policy. Successive packets at the IoTDs are delayed
+by at most a fixed D amount of time before they are forwarded to the IoTG. The packet that arrives at instant an at its IoTD, waits until instant
+tn = an + W QDTP
+n and then is forwarded to the IoTG. The gateway receives the nth packet and services it in FIFO order with a service time of duration
+Sn and leaves the server at time δn = an + W QDTP
+n + W QDTP−IoTG
+n + Sn , where W QDTP−IoTG
+n+1 = [W QDTP−IoTG
+n + Sn − (tn+1 − tn )]+ is Lindley’s equation for
+the IoTG when QDTP is being used.
+On the other hand, QDTP (2) is defined via the sequence of forwarding or release times tn so that the packet arriving
+at an at the IoTD, is only released at some time tn into the FIFO queue at the IoTG for servicing, with t0 = a0 = 0, and:
+tn+1 = max{tn + Dn, an+1}, n ≥ 0, (5)
+where Dn ≥ 0. Obviously, when Dn = 0, ∀n ≥ 0, we have the ordinary undelayed FIFO service. The following properties
+of QDTP follow from well known queueing theoretic techniques and are stated without proof.
+Theorem 1. The waiting times of packets at the IoTDs using QDTP satisfy a relation that is identical to Lindley’s equation with
+service times Dn, n ≥ 0:
+W QDTP−IoTD
+n+1 = [W QDTP−IoTD
+n + Dn − An+1]+, n ≥ 0. (6)
+and when the inter-arrival times {An, n ≥ 1} are independent and identically distributed random variables with E[An+1] > Dn,
+the well known ‘‘stability result’’ follows:
+lim
+n→∞ W QDTP−IoTD
+n = W QDTP−IoTD in distribution, (7)
+where Prob[W < ∞] = 1,
+5
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+where (7) follows from Lindley’s equation specialized to the GI/GI/1 queue with general independent interarrival times and
+deterministic service [53] given in (6).
+Theorem 2 ([50]). If Dn ≤ Sn for all n ≥ 1, it follows that W QDTP−IoTGD
+n + W IoTG−QDTP
+n ≤ W FIFO
+n , so that QDTP does not increase
+the total response time for each customer or packet. The proof is provided in the Appendix.
+3.1. Evaluating the QDTP improvement for a Poisson arrival process
+We know from Theorem 1, and specifically from (8) that for each successive packet, the end-to-end response time
+(from entering the IoTD to exiting from the IoTG) RQDTP
+n , cannot exceed the corresponding end-to-end-delay when we use
+the simple FIFO algorithm RFIFO
+n : using :
+RQDTP
+n = W QDTP−IoTD
+n + W QDTP−IoTG
+n + Sn
+≤ RFIFO = W FIFO
+n + Sn, n ≥ 1, (8)
+which is a sample path property that does not make any restrictive assumptions about the arrival process and service
+times, nor about D (which does not need to be deterministic) and the interarrival or service times. As a consequence we
+have:
+W QDTP−IoTG
+n
+≤ RFIFO
+n − W QDTP−IoTD
+n − Sn = W FIFO
+n − W QDTP−IoTD
+n , n ≥ 1. (9)
+Restricting oneself to the case where the interarrival times of successive packets to the IoTD are independent and
+identically distributed, and so are the successive service times at the IoTG, we know that [53], if D < E[An] and
+E[Sn] < E[An], then following [50]:
+W QDTP−IoTD
+n → W QDTP−IoTD, W QDTP−IoTG
+n → W QDTP−IoTG,
+RFIFO
+n → RFIFO, in distribution, (10)
+and
+Prob[W QDTP−IoTG < ∞] = 1, Prob[RFIFO < ∞] = 1, (11)
+In particular, if the arrival process is Poisson of rate λ and the service times {Sn, n ≥ 1} are independent and identically
+distributed random variables with average value E[S] < λ−1 and SCV C 2
+S , and the QDTP delays {Dn, n ≥ 1} are also random
+variables with Dn ≤ Sn, expected values E[Dn] < λ−1 and SQV C 2
+D , then by (9) and (10) we have:
+Prob[W QDTP−IoTG ≤ W FIFO] = 1 , (12)
+and the Pollaczek–Khintchine formula [54], for the M/G/1 queue yields:
+E[W QDTP−IoTG] ≤ ρ(1 + C 2
+S )
+2( 1
+E[S] − λ) − ρD(1 + C 2
+D )
+2( 1
+E[D] − λ) , (13)
+where ρ = λE[S] and ρD = λE[D], leading to the following interesting result.
+Result 2 If the arrivals are Poisson, the Sn, n ≥ 1 and Dn, n ≥ 1 are independent and identically distributed and both
+sequences have identical distributions, then:
+E[W QDTP−IoTG] = 0. (14)
+On the other hand, if D = E[S] is constant and hence C 2
+D = 0, we have:
+E[W QDTP−IoTG] ≤ ρC 2
+S
+2( 1
+E[S] − λ) . (15)
+In addition, assuming that M IoTDs are the sources of the packets, and that traffic is equally provided by each source, we
+see that the packet backlog at each IoTD source can be computed via Little’s Formula [53], to obtain:
+NQDTP−IoTD = λ
+M .E[W QDTP−IoTD] = ρD(1 + C 2
+D )
+2M(1 − ρD) , (16)
+which tends to zero as M → ∞.
+These results tell us that:
+2.1 if we use QDTP and each of the values D for successive packets are not constant, but instead are independent
+and identically distributed (iid) random variables, represented by the common random variable D ≤ Sn which tracks
+the first two moments of the statistics of the packet processing times Sn (which are also iid) at the IoTG so that
+E[D] = E[S] and E[D2] = E[S2], assuming that arrivals are Poisson to the IoTDs, then the waiting time at the IoTG is
+in effect zero and no queue forms at the IoTG.
+6
+[53][50][53][50][53]
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 6. Queue lengths at the gateway (IoTG) with FIFO versus QDTP transmission policies, plotted versus time up to 700 s. The service time per
+packet at the IoTG is set to 40 milliseconds. For QDTP we also set D = 40 ms. Packet arrival times obtained for M = 3000 up to M = 9000 IoTDs,
+are extracted from the TÜBITAK dataset [51]. The measurements that are reported show the substantial improvement obtained with QDTP (blue) as
+compared to the ordinary FIFO policy at the gateway (red). (For interpretation of the references to color in this figure legend, the reader is referred
+to the web version of this article.)
+2.2 If on the other hand, D is a constant with D = E[S], then the average waiting time at the IoTG is given by (15).
+2.3 In all cases, for any given incoming packet traffic rate λ, the backlog becomes smaller when the number M of
+IoTD sources increases.
+In the next section one can see that these claims with Poisson arrivals are actually supported with similar results using
+trace driven simulations with the [51] dataset.
+4. Evaluations with the TÜBITAK dataset
+In this section we provide trace-driven simulation results of queues at the gateway and at the IoTDs, both for the
+FIFO policy without traffic shaping, and with the QDTP traffic shaping policy. The results are summarized in Figs. 6 and
+7 for a service time per packet at the IoTG which is set to 40 milliseconds. The QDTP fixed delay is set to the same value
+D = 40 ms.
+Fig. 6 focuses on the average queue lengths over each successive one second interval at the IoTG, and compares FIFO
+versus QDTP, covering 700 successive seconds of operation based on the TÜBITAK dataset [51]. The number of IoTDs on
+the distinct curves are M = 3000 for the one at the top, then downwards with M = 5000, M = 7000 and M = 9000 IoTDs.
+These measurements that are summarized on each of the curves, show the substantial improvement obtained with QDTP
+(blue) as compared to the ordinary FIFO policy at the IoTG (red). The improvements are most striking when congestion
+is highest at M = 9000.
+7
+[51][51]Figs. 6 and7Fig. 6[51]
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 7. Average queue lengths, measured within each successive one second time slot, at the IoTDs with FIFO (red) versus QDTP (blue) transmission
+policies, plotted versus time running up to 700 seconds. These simulations are conducted with packet arrival times extracted for M = 3000 up to
+M = 9000 IoTDs from the TÜBITAK dataset [51], assuming that each IoTD provides an equal share of the flow. We see that in all cases the IoTD
+queue lengths with QDTP remain negligibly small, on average well under one packet. Note that if we do not use QDTP, and just forward packets
+directly to the IoTG in FIFO order, no queue will form at the devices. (For interpretation of the references to color in this figure legend, the reader
+is referred to the web version of this article.)
+On the other hand, Fig. 7 examines the possible buildup of packet queues at each of the IoT devices, under the
+assumption that they all provide an equal fraction of the packets. Indeed, FIFO will not result in any queue build-up
+at the IoTDs, while QDTP which delays the packet transmission will necessarily result in some form of queue build-up at
+the devices. In the four curves shown for M = 3000, 5000, 7000, 9000 that use the same service time E[S] = 40 ms
+at the IoTG, we see that on average the IoTDs have queues with average length well under one packet, which indicates
+that QDTP does not build up significant backlog at the IoT devices.
+Another evaluation using the dataset in [51] uses trace driven simulations with real arrival data as shown in Fig. 8,
+where for each value of M the average service time at the IoTG is set to a value ‘‘just under’’ saturation, namely
+E[S] = 40 ms. for M = 3000 (as in Fig. 7), but E[S] = 20 ms for M = 5000, E[S] = 15 ms for M = 7000 and M = 12 ms
+for M = 9000. The results of Fig. 8 show once again the significant improvement in IoTG queue length achieved by using
+QDTP in comparison to FIFO.
+5. Conclusion
+A major challenge for IoT networks using a large number of IoT devices, is the congestion that occurs at IoT gateways.
+This can result in packet loss, and hence also lost information or data, or missed deadlines that can cause inconsistencies
+for real-time applications such as Industrie 4.0.
+8
+[51]Fig. 7[51]Fig. 8Fig. 7Fig. 8
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+Fig. 8. Average queue lengths, measured within each successive one second time slot, at the IoTDs with FIFO (red) versus QDTP (blue) transmission
+policies, plotted versus time running up to 700 seconds conducted with real arrival instants from the [51] dataset, where for each value of M the
+average service time at the IoTG is set to a value that insures that saturation does not occur, namely E[S] = 40 ms for M = 3000 (as in Fig. 7), as
+well as E[S] = 20 ms for M = 5000, E[S] = 15 ms for M = 7000 and M = 12 ms for M = 9000. The results the significant reduction in IoTG queue
+length obtained via by QDTP in comparison to FIFO. (For interpretation of the references to color in this figure legend, the reader is referred to the
+web version of this article.)
+To mitigate this effect, several authors have suggested predictive network scheduling based on sophisticated algorithms
+that analyze the data streams using computationally costly Machine Learning methods. Techniques that use such
+predictions to selectively drop traffic have also been suggested.
+This paper completes and extends earlier work [41], and investigates a traffic shaping approach called QDTP to reduce
+the undesirable effects of the MAP. QDTP does not drop any traffic but simply delays packets in a specific manner at the
+IoTDs, so that packets arriving at the IoTG result in far shorter packet queues.
+Following [55], we analyze QDTP with conventional queueing methods, without any constraining assumptions on the
+arrival process and service times, and show that QDTP does not increase the overall packet end-to-end delay as compared
+to a simple FIFO policy that forwards packets to the gateway from the IoTDs as soon as the packets are generated. This
+sample path analysis provides inequalities regarding the delay of packets at the gateway (IoTG) itself. We also analyze
+QDTP under the assumption of independent and identically distributed interarrival and service times to derive inequalities
+regarding the end-to-end and IoTG packet delays in steady-state. Then, Poisson packet generation instants have been
+assumed, to obtain simple numerical expressions for the average effective QDTP delay incurred by packets, and an upper
+bound for the IoTG with QDTP.
+Real data [51] from many thousand IoT devices offers ua the opportunity to study the packet queue buildup both with
+FIFO and QDTP, and shows the very significant queue length reduction obtained by QDTP at the gateway. In addition,
+9
+[51]Fig. 7[41][55][51]
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+data trace driven simulations show that QDTP results in short queue lengths at each individual device (IoTD), when all
+the IoTDs generate an equal fraction of the packet traffic.
+Future research can combine QDTP with priority policies to seek further improvements in smart management of IoT
+networks to alleviate the MAP. Further research is also needed to investigate smart adaptive policies that tune the traffic
+shaping delays to ongoing traffic loads and delays in IoT networks, and to the conditions in individual IoT devices and
+gateways.
+Declaration of competing interest
+The authors declare the following financial interests/personal relationships which may be considered as potential
+competing interests: Erol Gelenbe reports financial support was provided by European Commission.
+Acknowledgments
+This research was funded by the EC H2020 Program’s IoTAC Research and Innovation Action, under Grant Agreement
+No. 952684.
+Appendix. Proof of Theorem 2
+The proof follows closely the approach presented in [50], and is by induction:
+• The basis of the induction is 0 = W QDTP−IoTD
+0 + W QDTP−IoTG
+0 = 0 ≤ W FIFO = 0.
+• The step of the induction is to assume that the statement is true for some n > 0:
+W QDTP−IoTD
+n + W QDTP−IoTG
+n ≤ W FIFO
+n , for some n ≥ 1, (17)
+and prove that it is true for n + 1, i.e. we must prove that:
+W QDTP−IoTD
+n+1 + W QDTP−IoTG
+n+1 ≤ W FIFO
+n+1 . (18)
+To prove (18) we use W QDTP−IoTG
+n ≤ W FIFO
+n − Wn and have:
+W FIFO
+n+1 = [W FIFO
+n + Sn − An+1]+, and
+W QDTP−IoTD
+n+1 + W QDTP−IoTG
+n+1 ≤ [W QDTP−IoTDDn − An+1]+
++ [W FIFO
+n − W QDTP−IoTDSn − An+1 − W QDTP−IoTD
+n+1 + Wn]+,
+≤ [W QDTP−IoTDDn − An+1]+
++ [W FIFO
+n + Sn − An+1 − Wn+1]+ .
+There are two cases to consider, (A) and (B):
+• (A) If W QDTP−IoTDDn − An+1 ≤ 0, which implies that Wn+1 = 0, we have:
+W QDTP−IoTD
+n+1 + W QDTP−IoTG
+n+1 = [W QDTP−IoTG
+n + Sn − An+1 + Wn]+
+= [W FIFO
+n + Sn − An+1]+ = W FIFO
+n+1 ,
+so that using the induction step W QDTP−IoTDW QDTP−IoTG
+n ≤ W FIFO
+n , we have proved for case (A) that W QDTP−IoTD
+n+1 +
+W QDTP−IoTG
+n+1 ≤ W FIFO
+n+1 .
+• (B) On the other hand if W QDTP−IoTDDn − An+1 > 0 then
+W QDTP−IoTD
+n+1 + W QDTP−IoTG
+n+1 = W QDTP−IoTDDn − An+1
++ [W QDTP−IoTG
+n + Sn − An+1 − W QDTP−IoTD
+n+1 + Wn]+,
+= W QDTP−IoTDDn − An+1 + [W QDTP−IoTG
+n + Sn − Dn]+.
+Since W QDTP−IoTG
+n ≥ 0 and Sn ≥ Dn we know that:
+W QDTP−IoTG
+n + Sn − Dn > 0,
+and as a consequence:
+W QDTP−IoTD
+n+1 + W QDTP−IoTG
+n+1 =
+W QDTP−IoTDDn − An+1 + W QDTP−IoTG
+n + Sn − Dn,
+= W FIFO
+n + Sn − An+1
+≤ W FIFO
+n+1 = [W FIFO
+n + Sn − An+1]+.
+10
+E. Gelenbe, M. Nakıp and T. Czachórski Performance Evaluation xxx (xxxx) xxx
+In addition, since the delay W QDTP−IoTD
+n at the IoTD is non-negative, and the total delay at the IoTD plus at the IoTG
+W QDTP−IoTG
+n is not greater than the delay of an ordinary FIFO gateway W FIFO
+n , the delay and buffer queue length at the IoTG
+will be reduced. This completes the proof of Theorem 2.
+References
+[1] Y. Sahraoui, A. Korichi, C.A. Kerrache, M. Bilal, M. Amadeo, Remote sensing to control respiratory viral diseases outbreaks using internet of
+vehicles, 2021, CoRR abs/2103.12512, https://arxiv.org/abs/2103.12512.
+[2] A. Zaman, Z. Hassan, R. Odarchenko, S. Hassan, S. Ahmed, M. Bilal, I. Ahmad, V. Tiurin, A. Faheem, Wireless underground sensor networks:
+Packet size optimization survey, in: S. Fedushko, T.O. Edoh (Eds.), Proceedings of the 2nd International Workshop on Control, Optimisation and
+Analytical Processing of Social Networks (COAPSN 2020), Lviv, Ukraine, May 21, 2020, 2616 of CEUR Workshop Proceedings, CEUR-WS.Org,
+2020, pp. 353–365, http://ceur-ws.org/Vol-2616/paper30.pdf.
+[3] M.E. Haque, M. Asikuzzaman, I.U. Khan, I. Ra, M.S. Hossain, S.B.H. Shah, Comparative study of iot-based topology maintenance protocol in a
+wireless sensor network for structural health monitoring, Remote Sens. 12 (15) (2020) 2358, http://dx.doi.org/10.3390/rs12152358.
+[4] G. Fortino, W. Russo, C. Savaglio, M. Viroli, M. Zhou, Modeling opportunistic IoT services in open IoT ecosystems, in: WOA, 2017, pp. 90–95.
+[5] O. Bello, S. Zeadally, Toward efficient smartification of the internet of things (IoT) services, Future Gener. Comput. Syst. 92 (2019) 663–673.
+[6] A. Zanella, M. Zorzi, A.F. dos Santos, P. Popovski, N. Pratas, C. Stefanovic, A. Dekorsy, C. Bockelmann, B. Busropan, T.A. Norp, M2M massive
+wireless access: Challenges, research issues, and ways forward, in: 2013 IEEE Globecom Workshops, IEEE, 2013, pp. 151–156.
+[7] F. Ghavimi, H.-H. Chen, M2M communications in 3GPP LTE/LTE-A networks: Architectures, service requirements, challenges, and applications,
+IEEE Commun. Surv. Tutor. 17 (2) (2015) 525–549.
+[8] G. Matta, S. Chlup, A.M. Shaaban, C. Schmittner, A. Pinzenöhler, E. Szalai, M. Tauber, Risk management and standard compliance for
+cyber–physical systems of systems, Infocommunications J. 13 (2) (2021) 32–39, http://dx.doi.org/10.36244/ICJ.2021.2.5.
+[9] S. Maksuti, M. Zsilak, M. Tauber, J. Delsing, Security and autonomic management in system of systems, Infocommunications J. 13 (3) (2021)
+66–75, http://dx.doi.org/10.36244/ICJ.2021.3.7.
+[10] E. Gelenbe, K. Sevcik, Analysis of update synchronization for multiple copy data bases, IEEE Trans. Comput. (10) (1979) 737–747.
+[11] A. Chesnais, E. Gelenbe, I. Mitrani, On the modeling of parallel access to shared data, Commun. ACM 26 (3) (1983) 196–202.
+[12] E. Gelenbe, G. Hébrail, A probability model of uncertainty in data bases, in: ICDE, IEEE Computer Society, 1986, pp. 328–333.
+[13] E. Gelenbe, E.C.-H. Ngai, Adaptive qos routing for significant events in wireless sensor networks, in: 2008 5th IEEE International Conference
+on Mobile Ad Hoc and Sensor Systems, IEEE, 2008, pp. 410–415.
+[14] E.C.-H. Ngai, E. Gelenbe, G. Humber, Information-aware traffic reduction for wireless sensor networks, in: 2009 IEEE 34th Conference on Local
+Computer Networks, IEEE, 2009, pp. 451–458.
+[15] E. Gelenbe, E.C.H. Ngai, P. Yadav, Routing of high-priority packets in wireless sensor networks, in: IEEE Second International Conference on
+Computer and Network Technology, IEEE, 2010.
+[16] Y. Edalat, J.-S. Ahn, K. Obraczka, Smart experts for network state estimation, IEEE Trans. Netw. Serv. Manag. 13 (3) (2016) 622–635.
+[17] V. Petkov, K. Obraczka, Collision-free medium access based on traffic forecasting, in: 2012 IEEE International Symposium on a World of Wireless,
+Mobile and Multimedia Networks, WoWMoM, IEEE, 2012, pp. 1–9.
+[18] D. Raca, A.H. Zahran, C.J. Sreenan, R.K. Sinha, E. Halepovic, R. Jana, V. Gopalakrishnan, On leveraging machine and deep learning for throughput
+prediction in cellular networks: Design, performance, and challenges, IEEE Commun. Mag. 58 (3) (2020) 11–17.
+[19] L. Ruan, M.P.I. Dias, E. Wong, Machine learning-based bandwidth prediction for low-latency H2M applications, IEEE Internet Things J. 6 (2)
+(2019) 3743–3752.
+[20] J. Du, E. Gelenbe, C. Jiang, H. Zhang, Y. Ren, Contract design for traffic offloading and resource allocation in heterogeneous ultra-dense networks,
+IEEE J. Sel. Areas Commun. 35 (11) (2017) 2457–2467.
+[21] S.-Y. Lien, T.-H. Liau, C.-Y. Kao, K.-C. Chen, Cooperative access class barring for machine-to-machine communications, IEEE Trans. Wireless
+Commun. 11 (1) (2012) 27–32.
+[22] T.-M. Lin, C.-H. Lee, J.-P. Cheng, W.-T. Chen, PRADA: Prioritized random access with dynamic access barring for MTC in 3GPP LTE-A networks,
+IEEE Trans. Veh. Technol. 63 (5) (2014) 2467–2472.
+[23] A. Aijaz, S. Ping, M.R. Akhavan, A.-H. Aghvami, CRB-MAC: A receiver-based MAC protocol for cognitive radio equipped smart grid sensor
+networks, IEEE Sens. J. 14 (12) (2014) 4325–4333.
+[24] M. Shirvanimoghaddam, M. Dohler, S.J. Johnson, Massive non-orthogonal multiple access for cellular IoT: Potentials and limitations, IEEE
+Commun. Mag. 55 (9) (2017) 55–61.
+[25] H. Jin, W.T. Toor, B.C. Jung, J.-B. Seo, Recursive pseudo-Bayesian access class barring for M2M communications in LTE systems, IEEE Trans. Veh.
+Technol. 66 (9) (2017) 8595–8599.
+[26] L. Liang, L. Xu, B. Cao, Y. Jia, A cluster-based congestion-mitigating access scheme for massive M2M communications in internet of things, IEEE
+Internet Things J. 5 (3) (2018) 2200–2211.
+[27] N. Shahin, R. Ali, Y.-T. Kim, Hybrid slotted-CSMA/CA-TDMA for efficient massive registration of IoT devices, IEEE Access 6 (2018) 18366–18382.
+[28] Z. Alavikia, A. Ghasemi, Collision-aware resource access scheme for LTE-based machine-to-machine communications, IEEE Trans. Veh. Technol.
+67 (5) (2018) 4683–4688.
+[29] J. Liu, L. Song, et al., A novel congestion reduction scheme for massive machine-to-machine communication, IEEE Access 5 (2017) 18765–18777.
+[30] L. Tello-Oquendo, I. Leyva-Mayorga, V. Pla, J. Martinez-Bauset, J.-R. Vidal, V. Casares-Giner, L. Guijarro, Performance analysis and optimal access
+class barring parameter configuration in LTE-A networks with massive M2M traffic, IEEE Trans. Veh. Technol. 67 (4) (2018) 3505–3520.
+[31] L. Tello-Oquendo, D. Pacheco-Paramo, V. Pla, J. Martinez-Bauset, Reinforcement learning-based ACB in LTE-A networks for handling massive
+M2M and H2H communications, in: 2018 IEEE International Conference on Communications, ICC, IEEE, 2018, pp. 1–7.
+[32] A. Aijaz, A.H. Aghvami, Cognitive machine-to-machine communications for internet-of-things: A protocol stack perspective, IEEE Internet Things
+J. 2 (2) (2015) 103–112.
+[33] Y.-C. Pang, S.-L. Chao, G.-Y. Lin, H.-Y. Wei, Network access for M2M/H2H hybrid systems: A game theoretic approach, IEEE Commun. Lett. 18
+(5) (2014) 845–848.
+[34] I. Park, D. Kim, D. Har, MAC achieving low latency and energy efficiency in hierarchical M2M networks with clustered nodes, IEEE Sens. J. 15
+(3) (2015) 1657–1661.
+[35] P. Si, J. Yang, S. Chen, H. Xi, Adaptive massive access management for QoS guarantees in M2M communications, IEEE Trans. Veh. Technol. 64
+(7) (2015) 3152–3166.
+[36] M. Nakip, B.C. Gül, V. Rodoplu, C. Güzeliş, Comparative study of forecasting schemes for IoT device traffic in machine-to-machine communication,
+in: Proceedings of the 2019 4th International Conference on Cloud Computing and Internet of Things, 2019, pp. 102–109.
+[37] M. Nakip, V. Rodoplu, C. Güzeliş, D.T. Eliiyi, Joint forecasting-scheduling for the internet of things, in: 2019 IEEE Global Conference on Internet
+of Things, GCIoT, IEEE, 2019, pp. 1–7.
+11
