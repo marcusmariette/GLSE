@@ -3,6 +3,7 @@ const express = require("express")
 const app = express()
 const natural = require('natural')
 const tokenizer = new natural.WordTokenizer()
+const sentenceTokenizer = new natural.SentenceTokenizer()
 const wordnet = new natural.WordNet();
 const firebase = require("firebase-admin")
 const fs = require('fs')
@@ -77,6 +78,42 @@ app.get('/query', (req, res) => {
         });
     } else {
         responseData.message = "search string not provided."
+        res.json(responseData);
+    }
+});
+
+app.get('/getSentences', (req, res) => {
+    const sentences = [];
+    const responseData = {
+        status: 0,
+        message: '',
+        sentenceCount: 0,
+        sentences: sentences
+    };
+
+    if(req.query.search !== undefined) {
+        fs.readdir(directoryPath, function (err, files) {
+            if (err) {
+                return console.log('Unable to scan directory: ' + err);
+            }
+
+            files.forEach(function (file) {
+                const allFileContents = fs.readFileSync('resources/documents/' + file, 'utf-8');
+                sentenceTokenizer.tokenize(allFileContents).forEach(function (sentence) {
+                    if (sentence.includes(req.query.search)) {
+                        sentences.push(sentence)
+                    }
+                })
+            });
+
+            responseData.status = 1;
+            responseData.message = "success";
+            responseData.sentenceCount = sentences.length
+
+            res.json(responseData);
+        });
+    } else {
+        responseData.message = "No phrase was provided."
         res.json(responseData);
     }
 });
