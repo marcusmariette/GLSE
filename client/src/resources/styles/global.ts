@@ -65,4 +65,21 @@ export const GlobalStyles = createGlobalStyle`
         width: 100%;
         margin-top: 5rem;
     }
+
+    .loader-logo {
+        background: url(./loader.svg);
+        width: 115px;
+        height: 115px;
+        background-size: contain;;
+    }
+
+    .section-loader {
+        opacity: 1;
+        transition: opacity 1s ease
+    }
+
+    .section-loader.active {
+        pointer-events: none;
+        opacity: 0;
+    }
 `;

@@ -1,3 +1,5 @@
+import { SetStateAction } from "react";
+
 export type HelpData = {
     parameter: string;
     name: string;
