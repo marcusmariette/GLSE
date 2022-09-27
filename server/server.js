@@ -9,6 +9,7 @@ const firebase = require("firebase-admin")
 const fs = require('fs')
 const path = require('path')
 require("firebase/firestore");
+const symbolSearcher = require("./utils/symbol-searcher");
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
@@ -76,6 +77,32 @@ app.get('/query', (req, res) => {
             
             res.json(responseData);
         });
+    } else {
+        responseData.message = "search string not provided."
+        res.json(responseData);
+    }
+});
+
+app.get('/keywords', (req, res) => {
+    const responseData = {
+        status: 0,
+        message: '',
+        match: []
+    };
+
+    let query = req.query.search
+    if (query !== undefined) {
+        let matchOR = query.match(/\w+\/\w+/g)
+        if (matchOR != null) {
+            let results = []
+            responseData.match = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results);
+        } else {
+            responseData.match = "n/a";
+        }
+        responseData.status = 1;
+        responseData.message = "success";
+
+        res.json(responseData);
     } else {
         responseData.message = "search string not provided."
         res.json(responseData);
