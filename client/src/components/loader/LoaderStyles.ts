@@ -14,3 +14,15 @@ export const StyledLoaderBox = styled(Box)`
     justify-content: center;
     z-index: 10;
 `;
+
+export const StyledLoaderSection = styled(Box)`
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit contain;
+    }
+`;

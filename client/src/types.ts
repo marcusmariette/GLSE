@@ -1,4 +1,4 @@
-import { SetStateAction } from "react";
+import { SetStateAction, Dispatch} from "react";
 
 export type HelpData = {
     parameter: string;
@@ -6,3 +6,13 @@ export type HelpData = {
     description: string;
     examples: Array<string>;
 };
+
+export type SearchResultItem = {
+    sentence: string;
+    occurrencePercentage: number;
+};
+
+export interface SearchPropsType {
+    setSearchString: Dispatch<SetStateAction<string>>
+    searchString: string
+}

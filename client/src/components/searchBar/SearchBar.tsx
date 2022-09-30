@@ -4,23 +4,21 @@ import { Search as SearchIcon, QuestionMark as QuestionMarkIcon } from 'tabler-i
 import { StyledSearchBarBox, StyledSearchBarTextField } from './SearchBarStyles';
 import { useNavigate, useParams } from 'react-router-dom';
 import { background, orange } from '../../resources/styles/variables';
+import { SearchPropsType } from '../../types';
 
-const SearchBar: React.FC = () => {
-
-    const params = useParams();
+const SearchBar: React.FC<SearchPropsType> = ({setSearchString, searchString}) => {
 
     const navigate = useNavigate();
-    const [searchInput, setSearchInput] = useState<any>(params.query);
 
     // Handles search input value setter
     const handleSearchInputChange = (event: any) => {
-        setSearchInput(event.target.value);
+        setSearchString(event.target.value);
     }
 
     // Handle Keyword Search Execution
     const handleSearchInputKeyDown = (event: any) => {
-        if(event.key == "Enter" && searchInput.length > 0) {
-            navigate(`/search/${searchInput}`);
+        if(event.key == "Enter" && searchString.length > 0) {
+            navigate(`/search/${searchString}`);
         }
     }
 
@@ -29,7 +27,7 @@ const SearchBar: React.FC = () => {
             <IconButton>
                 <SearchIcon size={30} color={background} />
             </IconButton>
-            <StyledSearchBarTextField onChange={handleSearchInputChange} value={searchInput} onKeyDown={handleSearchInputKeyDown} placeholder='determine ? number of x' />
+            <StyledSearchBarTextField onChange={handleSearchInputChange} value={searchString} onKeyDown={handleSearchInputKeyDown} placeholder='determine ? number of x' />
             <IconButton onClick={() => navigate('/help')}>
                 <QuestionMarkIcon size={30} color={orange} />
             </IconButton>
