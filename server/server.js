@@ -99,7 +99,7 @@ app.get('/keywords', (req, res) => {
             results = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results)
         }
 
-       symbolSearcher.searchWithSynonyms(query, results);
+       results = symbolSearcher.searchWithSynonyms(query, results);
 
         responseData.status = 1;
         responseData.message = "success";

@@ -56,6 +56,9 @@ function searchWithSynonyms(query, results) {
             })
         })
     }
+    // this doesn't work due to wordnet.lookup being a callback
+    // TODO: wait for completion somehwow?
+    return results
 }
 
 module.exports = { searchWithOr, searchWithSynonyms };
