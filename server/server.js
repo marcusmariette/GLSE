@@ -92,15 +92,19 @@ app.get('/keywords', (req, res) => {
 
     let query = req.query.search
     if (query !== undefined) {
+        let results = []
         let matchOR = query.match(/\w+\/\w+/g)
         if (matchOR != null) {
-            let results = []
-            responseData.match = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results);
-        } else {
-            responseData.match = "n/a";
+            // search here
+            results = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results)
         }
+
+       symbolSearcher.searchWithSynonyms(query, results);
+
         responseData.status = 1;
         responseData.message = "success";
+        responseData.match = results;
+        // Search all files with results array
 
         res.json(responseData);
     } else {
