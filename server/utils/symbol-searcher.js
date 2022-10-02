@@ -28,7 +28,8 @@ function searchWithOr(query, array, callback, results) {
     return results
 }
 
-function searchWithSynonyms(query, results) {
+async function searchWithSynonyms(query, results) {
+    let newResults = [];
     let wordSynonyms = []
     let matchSynonym;
     if (results.length === 0) {
@@ -37,28 +38,33 @@ function searchWithSynonyms(query, results) {
         matchSynonym = results.map(match => match.match(/~\w+/g))
     }
     if (matchSynonym != null) {
-        matchSynonym.forEach(matchingString => {
-            let filteredString = matchingString[0].replace("~", "")
-            wordnet.lookup(filteredString, (_results) => {
-                _results.forEach((result) => {
-                    result.synonyms.forEach((_syn) => {
-                        if (
-                            _syn.toLowerCase() !== filteredString.toLowerCase() &&
-                            !wordSynonyms.includes(_syn)
-                        ) {
-                            wordSynonyms.push(_syn)
-                            results.forEach(data =>
-                                results.push(data.replace(matchingString[0], _syn))
-                            )
-                        }
+        newResults = await new Promise((resolve) =>
+            matchSynonym.forEach((matchingString, index, array) => {
+                let filteredString = matchingString[0].replace("~", "")
+                wordnet.lookup(filteredString, (_results) => {
+                    _results.forEach((result) => {
+                        result.synonyms.forEach((_syn) => {
+                            if (
+                                _syn.toLowerCase() !== filteredString.toLowerCase() &&
+                                !wordSynonyms.includes(_syn)
+                            ) {
+                                wordSynonyms.push(_syn)
+                                results.forEach(data =>
+                                    newResults.push(data.replace(matchingString[0], _syn))
+                                )
+                            }
+                        })
                     })
+                    if (index === array.length - 1) {
+                        // console.log("finale")
+                        // console.log(newResults)
+                        resolve(newResults)
+                    }
                 })
             })
-        })
+        )
     }
-    // this doesn't work due to wordnet.lookup being a callback
-    // TODO: wait for completion somehwow?
-    return results
+    return newResults
 }
 
-module.exports = { searchWithOr, searchWithSynonyms };
+module.exports = {searchWithOr, searchWithSynonyms};

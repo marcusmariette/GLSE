@@ -83,7 +83,7 @@ app.get('/query', (req, res) => {
     }
 });
 
-app.get('/keywords', (req, res) => {
+app.get('/keywords', async (req, res) => {
     const responseData = {
         status: 0,
         message: '',
@@ -98,8 +98,9 @@ app.get('/keywords', (req, res) => {
             // search here
             results = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results)
         }
-
-       results = symbolSearcher.searchWithSynonyms(query, results);
+        await symbolSearcher.searchWithSynonyms(query, results).then(value =>
+            results = value
+        );
 
         responseData.status = 1;
         responseData.message = "success";
