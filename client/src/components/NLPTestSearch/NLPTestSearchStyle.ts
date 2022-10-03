@@ -1,0 +1,42 @@
+import styled from 'styled-components';
+import { Box, Button, TextField } from '@mui/material';
+import { background, white } from '../../resources/styles/variables';
+
+export const StyledSearchBarBox = styled(Box)`
+    border-radius: 100vw;
+    background-color: ${white};
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1.5rem;
+
+    box-shadow: 0px 0px 10px rbga(#000, 0.7);
+
+    fieldset {
+        border: none;
+    }
+`;
+
+export const StyledSearchBarTextField = styled(TextField)`
+    width: 100%;
+    input {
+        font-size: 18px;
+        color: ${background};
+        font-weight: 600;
+        padding: 16.5px 14px 16px;
+    }
+`;
+
+
+export const StyleButton = styled(Button)`
+    button{
+        border:none;
+        border-radius:10px;
+        padding:7px 10px;
+        font-size:12px;
+        background:'orange';
+        color:white;
+    }
+`;
