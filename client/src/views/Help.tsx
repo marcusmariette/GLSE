@@ -1,3 +1,4 @@
+import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HelpBox from '../components/helpBox/HelpBox';
 import { orange } from '../resources/styles/variables';
@@ -26,6 +27,7 @@ const symbolData: Array<HelpData> = [
 
 const Help: React.FC = () => {
     return (
+        
         <Box className='section section-help'>
             <Grid container sx={{ maxWidth: '1200px', margin: '0 auto' }}>
                 <Grid item xs={12}>
@@ -34,13 +36,11 @@ const Help: React.FC = () => {
                 <Grid item xs={12} sx={{ marginBottom: '1%' }}>
                     <h4>{'GLSE supports the following query symbols while performing a search:'}</h4>
                 </Grid>
-                {symbolData.map((symbol: HelpData) => {
-                    return (
-                        <Grid item xs={12}>
+                {symbolData.map((symbol: HelpData, index) => 
+                    <Grid key={`${index}-${symbol.name}`} item xs={12}>
                             <HelpBox parameter={symbol.parameter} name={symbol.name} description={symbol.description} examples={symbol.examples} />
-                        </Grid>
-                    );
-                })}
+                    </Grid>
+                )}
             </Grid>
         </Box>
     );

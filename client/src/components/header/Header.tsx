@@ -1,4 +1,5 @@
-import { StyledHeaderBox, StyledTextButton } from './HeaderStyles';
+import React from 'react';
+import { StyledHeaderBox, StyledTextButton, StyledLogoImage } from './HeaderStyles';
 import { useNavigate } from 'react-router-dom';
 
 const Header: React.FC = () => {
@@ -6,7 +7,8 @@ const Header: React.FC = () => {
 
     return (
         <StyledHeaderBox>
-            <StyledTextButton onClick={() => navigate('/')}>{'GLSE'}</StyledTextButton>
+            <StyledLogoImage src="/android-chrome-192x192.png" onClick={() => navigate('/')} alt="GLSE Logo" />
+            <StyledTextButton onClick={() => navigate('/')}>GLSE</StyledTextButton>
         </StyledHeaderBox>
     );
 };

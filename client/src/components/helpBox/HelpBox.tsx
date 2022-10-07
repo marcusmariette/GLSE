@@ -1,3 +1,4 @@
+import React from 'react';
 import { Grid } from '@mui/material';
 import { StyledHelpBox, StyledParameter, StyledExampleText } from './HelpBoxStyles';
 import { orange } from '../../resources/styles/variables';
