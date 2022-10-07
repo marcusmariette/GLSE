@@ -1,15 +1,16 @@
-require('dotenv').config()
-const express = require("express")
-const app = express()
-const natural = require('natural')
-const tokenizer = new natural.WordTokenizer()
-const sentenceTokenizer = new natural.SentenceTokenizer()
+require('dotenv').config();
+const express = require('express');
+const app = express();
+const natural = require('natural');
+const tokenizer = new natural.WordTokenizer();
+const sentenceTokenizer = new natural.SentenceTokenizer();
 const wordnet = new natural.WordNet();
-const firebase = require("firebase-admin")
-const fs = require('fs')
-const path = require('path')
-require("firebase/firestore");
-const symbolSearcher = require("./utils/symbol-searcher");
+const firebase = require('firebase-admin');
+const fs = require('fs');
+const path = require('path');
+require('firebase/firestore');
+const searchWithOr = require('./utils/search-or');
+const searchWithSynonyms = require('./utils/search-synonyms');
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
@@ -20,18 +21,18 @@ const firebaseConfig = {
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId,
-    measurementId: process.env.measurementId
+    measurementId: process.env.measurementId,
 };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 app.listen(3001, () => {
-    console.log("GLSE Backend Server Started on Port 3001...");
+    console.log('GLSE Backend Server Started on Port 3001...');
 });
 
 app.get('/', (req, res) => {
-    res.send("Hello, world!");
+    res.send('Hello, world!');
 });
 
 app.get('/wordnet', (req, res) => {
@@ -49,36 +50,34 @@ app.get('/query', (req, res) => {
     const responseData = {
         status: 0,
         message: '',
-        data : ''
+        data: '',
     };
 
-    if(req.query.search !== undefined) {
+    if (req.query.search !== undefined) {
         fs.readdir(directoryPath, function (err, files) {
             // handling error
             if (err) {
                 return console.log('Unable to scan directory: ' + err);
-            } 
+            }
             // listing all files using forEach
             var output = '';
             files.forEach(function (file) {
                 const allFileContents = fs.readFileSync('resources/documents/' + file, 'utf-8');
-                allFileContents.split(/\r?\n/).forEach(line =>  {
-                   output += line;
+                allFileContents.split(/\r?\n/).forEach((line) => {
+                    output += line;
                 });
             });
-    
-            instanceCount = output.toLowerCase()
-                .split(req.query.search.toLowerCase()).length - 1
 
-            
+            instanceCount = output.toLowerCase().split(req.query.search.toLowerCase()).length - 1;
+
             responseData.status = 1;
-            responseData.message = "success";
+            responseData.message = 'success';
             responseData.data = instanceCount;
-            
+
             res.json(responseData);
         });
     } else {
-        responseData.message = "search string not provided."
+        responseData.message = 'search string not provided.';
         res.json(responseData);
     }
 });
@@ -87,29 +86,28 @@ app.get('/keywords', async (req, res) => {
     const responseData = {
         status: 0,
         message: '',
-        match: []
+        match: [],
     };
 
-    let query = req.query.search
+    let query = req.query.search;
     if (query !== undefined) {
-        let results = []
-        let matchOR = query.match(/\w+\/\w+/g)
+        let results = [];
+        let matchOR = query.match(/\w+\/\w+/g);
         if (matchOR != null) {
             // search here
-            results = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results)
+            results = searchWithOr(query, matchOR, searchWithOr, results);
         }
-        await symbolSearcher.searchWithSynonyms(query, results).then(value =>
-            results = value
-        );
+
+        await searchWithSynonyms(query, results).then((value) => (results = value));
 
         responseData.status = 1;
-        responseData.message = "success";
+        responseData.message = 'success';
         responseData.match = results;
         // Search all files with results array
 
         res.json(responseData);
     } else {
-        responseData.message = "search string not provided."
+        responseData.message = 'search string not provided.';
         res.json(responseData);
     }
 });
@@ -120,10 +118,10 @@ app.get('/getSentences', (req, res) => {
         status: 0,
         message: '',
         sentenceCount: 0,
-        sentences: sentences
+        sentences: sentences,
     };
 
-    if(req.query.search !== undefined) {
+    if (req.query.search !== undefined) {
         fs.readdir(directoryPath, function (err, files) {
             if (err) {
                 return console.log('Unable to scan directory: ' + err);
@@ -133,19 +131,19 @@ app.get('/getSentences', (req, res) => {
                 const allFileContents = fs.readFileSync('resources/documents/' + file, 'utf-8');
                 sentenceTokenizer.tokenize(allFileContents).forEach(function (sentence) {
                     if (sentence.includes(req.query.search)) {
-                        sentences.push(sentence)
+                        sentences.push(sentence);
                     }
-                })
+                });
             });
 
             responseData.status = 1;
-            responseData.message = "success";
-            responseData.sentenceCount = sentences.length
+            responseData.message = 'success';
+            responseData.sentenceCount = sentences.length;
 
             res.json(responseData);
         });
     } else {
-        responseData.message = "No phrase was provided."
+        responseData.message = 'No phrase was provided.';
         res.json(responseData);
     }
 });
