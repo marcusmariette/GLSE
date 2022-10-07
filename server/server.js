@@ -3,11 +3,13 @@ const express = require("express")
 const app = express()
 const natural = require('natural')
 const tokenizer = new natural.WordTokenizer()
+const sentenceTokenizer = new natural.SentenceTokenizer()
 const wordnet = new natural.WordNet();
 const firebase = require("firebase-admin")
 const fs = require('fs')
 const path = require('path')
 require("firebase/firestore");
+const symbolSearcher = require("./utils/symbol-searcher");
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
@@ -77,6 +79,73 @@ app.get('/query', (req, res) => {
         });
     } else {
         responseData.message = "search string not provided."
+        res.json(responseData);
+    }
+});
+
+app.get('/keywords', async (req, res) => {
+    const responseData = {
+        status: 0,
+        message: '',
+        match: []
+    };
+
+    let query = req.query.search
+    if (query !== undefined) {
+        let results = []
+        let matchOR = query.match(/\w+\/\w+/g)
+        if (matchOR != null) {
+            // search here
+            results = symbolSearcher.searchWithOr(query, matchOR, symbolSearcher.searchWithOr, results)
+        }
+        await symbolSearcher.searchWithSynonyms(query, results).then(value =>
+            results = value
+        );
+
+        responseData.status = 1;
+        responseData.message = "success";
+        responseData.match = results;
+        // Search all files with results array
+
+        res.json(responseData);
+    } else {
+        responseData.message = "search string not provided."
+        res.json(responseData);
+    }
+});
+
+app.get('/getSentences', (req, res) => {
+    const sentences = [];
+    const responseData = {
+        status: 0,
+        message: '',
+        sentenceCount: 0,
+        sentences: sentences
+    };
+
+    if(req.query.search !== undefined) {
+        fs.readdir(directoryPath, function (err, files) {
+            if (err) {
+                return console.log('Unable to scan directory: ' + err);
+            }
+
+            files.forEach(function (file) {
+                const allFileContents = fs.readFileSync('resources/documents/' + file, 'utf-8');
+                sentenceTokenizer.tokenize(allFileContents).forEach(function (sentence) {
+                    if (sentence.includes(req.query.search)) {
+                        sentences.push(sentence)
+                    }
+                })
+            });
+
+            responseData.status = 1;
+            responseData.message = "success";
+            responseData.sentenceCount = sentences.length
+
+            res.json(responseData);
+        });
+    } else {
+        responseData.message = "No phrase was provided."
         res.json(responseData);
     }
 });
