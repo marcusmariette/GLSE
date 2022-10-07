@@ -9,8 +9,8 @@ const firebase = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 require('firebase/firestore');
-const searchWithOr = require('./utils/search-or');
-const searchWithSynonyms = require('./utils/search-synonyms');
+const { searchWithOr } = require('./utils/search-or');
+const { searchWithSynonyms } = require('./utils/search-synonyms');
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
