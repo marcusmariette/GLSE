@@ -13,22 +13,24 @@ async function searchWithSynonyms(query, results) {
     if (matchSynonym != null) {
         newResults = await new Promise((resolve) =>
             matchSynonym.forEach((matchingString, index, array) => {
-                let filteredString = matchingString[0].replace('~', '');
-                wordnet.lookup(filteredString, (_results) => {
-                    _results.forEach((result) => {
-                        result.synonyms.forEach((_syn) => {
-                            if (_syn.toLowerCase() !== filteredString.toLowerCase() && !wordSynonyms.includes(_syn)) {
-                                wordSynonyms.push(_syn);
-                                results.forEach((data) => newResults.push(data.replace(matchingString[0], _syn)));
-                            }
+                if (matchingString != null) {
+                    let filteredString = matchingString[0].replace('~', '');
+                    wordnet.lookup(filteredString, (_results) => {
+                        _results.forEach((result) => {
+                            result.synonyms.forEach((_syn) => {
+                                if (_syn.toLowerCase() !== filteredString.toLowerCase() && !wordSynonyms.includes(_syn)) {
+                                    wordSynonyms.push(_syn);
+                                    results.forEach((data) => newResults.push(data.replace(matchingString[0], _syn)));
+                                }
+                            });
                         });
+                        if (index === array.length - 1) {
+                            resolve(newResults);
+                        }
                     });
-                    if (index === array.length - 1) {
-                        // console.log("finale")
-                        // console.log(newResults)
-                        resolve(newResults);
-                    }
-                });
+                } else {
+                    resolve(results);
+                }
             })
         );
     }
