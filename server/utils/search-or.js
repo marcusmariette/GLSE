@@ -1,6 +1,6 @@
-function searchWithOr(query, array, callback, results) {
-    let matchOR = query.match(/\w+\/\w+/g);
-    if (matchOR != null) {
+function searchWithOr(query, callback, results) {
+    let array = query.match(/\w+\/\w+/g);
+    if (array != null) {
         if (array.length > 1) {
             array.forEach((string, index) => {
                 string.split('/').forEach((orWord) => {
