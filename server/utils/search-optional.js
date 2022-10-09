@@ -16,7 +16,10 @@ function searchWithOptional(query, results) {
                     let wordWithOptionals = query.replaceAll("?", "").trim()
                     newResults.push(wordWithOptionals)
                     let wordWithoutOptionals = query.replaceAll(/\?\w+/g, "")
-                    newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
+                    if (newResults.find(element => element === wordWithoutOptionals) != null) {
+                        // If already in list don't add
+                        newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
+                    }
                 }
             });
         } else {
