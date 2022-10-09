@@ -12,14 +12,13 @@ function searchWithOptional(query, results) {
             matchOptional.forEach((string, index) => {
                 let wordWithSelectedOptional = query.replace(matchOptional[index], "").replace("?", "");
                 newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional))
+
                 if (matchOptional.length - 1 === index) {
                     let wordWithOptionals = query.replaceAll("?", "").trim()
                     newResults.push(wordWithOptionals)
+
                     let wordWithoutOptionals = query.replaceAll(/\?\w+/g, "")
-                    if (newResults.find(element => element === wordWithoutOptionals) != null) {
-                        // If already in list don't add
-                        newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
-                    }
+                    newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
                 }
             });
         } else {
@@ -27,16 +26,19 @@ function searchWithOptional(query, results) {
                 matchOptional.forEach((string, index) => {
                     let wordWithSelectedOptional = result.replace(matchOptional[index], "").replace("?", "");
                     newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional))
+
                     if (matchOptional.length - 1 === index) {
                         let wordWithOptionals = result.replaceAll("?", "").trim()
                         newResults.push(wordWithOptionals)
+
                         let wordWithoutOptionals = result.replaceAll(/\?\w+/g, "")
                         newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
                     }
                 });
             })
         }
-        return newResults;
+        // remove duplicates
+        return [...new Set(newResults)];
     } else {
         return results;
     }
