@@ -6,15 +6,15 @@ import Help from '../views/Help';
 import Search from '../views/Search';
 import Header from '../components/header/Header';
 
-const Router = ({ firebaseDatabase }) => {
+const Router = ({ firebaseDatabase, searchString, setSearchString }) => {
     console.log(firebaseDatabase);
     return (
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Home searchString={searchString} setSearchString={setSearchString} />} />
                 <Route path='/help' element={<Help />} />
-                <Route path='/search/:query' element={<Search />} />
+                <Route path='/search' element={<Search searchString={searchString} setSearchString={setSearchString} />} />
             </Routes>
         </BrowserRouter>
     );
