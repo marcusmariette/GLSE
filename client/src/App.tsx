@@ -5,11 +5,12 @@ import db from './utils/firebase';
 
 const App: React.FC = () => {
     const [firebaseDatabase, setFirebaseDatabase] = useState(db);
+    const [searchString, setSearchString] = useState<string>('');
 
     return (
         <>
             <LoaderScreen />
-            <Router firebaseDatabase={firebaseDatabase} />
+            <Router firebaseDatabase={firebaseDatabase} searchString={searchString} setSearchString={setSearchString} />
         </>
     );
 };
