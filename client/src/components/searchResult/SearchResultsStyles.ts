@@ -11,13 +11,18 @@ export const StyledSearchResultBox = styled(Box)`
 `;
 
 export const StyledSearchResultRow = styled(Box)`
-
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     transition: transform 0.2s ease;
-    h1,h2,h3,h4,h5,h6,p {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
         color: ${background};
         font-size: 18px;
         font-weight: bold;
@@ -57,13 +62,12 @@ export const StyledSearchResultFooter = styled(Box)`
             height: 12px;
             background: ${white};
             border-radius: 50%;
-            left: -22px
+            left: -22px;
         }
     }
 `;
 
 export const StyledSearchResultProgress = styled(LinearProgress)`
-
     border-radius: 100vw !important;
     height: 15px !important;
     margin-top: 0.5rem;
