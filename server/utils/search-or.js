@@ -7,7 +7,7 @@ function searchWithOr(query, callback, results) {
                     let searched = query.replace(array[index], orWord);
                     let isMatchingOR = searched.match(/\w+\/\w+/g);
                     if (isMatchingOR && array.length - 1 === index) {
-                        callback(searched, isMatchingOR, callback, results);
+                        callback(searched, callback, results);
                     }
                 });
             });
