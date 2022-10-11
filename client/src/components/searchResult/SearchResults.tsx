@@ -67,7 +67,7 @@ const SearchResults: React.FC<SearchPropTypes> = ({ setSearchString, searchStrin
                 <StyledSearchResultFooter>
                     <Stack direction='row' justifyContent='flex-end'>
                         <Typography variant='h6' style={{ fontSize: '18px', fontWeight: 'bold' }}>
-                            {searchResults.length} Results Found
+                            {`${searchResults.length} Results Found`}
                         </Typography>
                     </Stack>
                 </StyledSearchResultFooter>

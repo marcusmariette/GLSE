@@ -1,20 +1,28 @@
 import React from 'react';
 import { Grid } from '@mui/material';
-import { StyledHelpBox, StyledParameter, StyledExampleText } from './HelpBoxStyles';
+import { StyledHelpBox, StyledParameter, StyledParameterSmall, StyledExampleText } from './HelpBoxStyles';
 import { orange } from '../../resources/styles/variables';
-import parse from 'html-react-parser';
 import { HelpData } from '../../types';
+import parse from 'html-react-parser';
 
 const HelpBox: React.FC<HelpData> = ({ parameter, name, description, examples }) => {
     const changeParameterColour = (text) => {
         return text.replace(parameter, `<span style="color:${orange}">${parameter}</span>`);
     };
 
+    const renderParameter = () => {
+        if (parameter.length > 2) {
+            return <StyledParameterSmall>{parameter}</StyledParameterSmall>;
+        }
+
+        return <StyledParameter>{parameter}</StyledParameter>;
+    };
+
     return (
         <StyledHelpBox>
             <Grid container>
                 <Grid item xs={1}>
-                    <StyledParameter>{parameter}</StyledParameter>
+                    {renderParameter()}
                 </Grid>
                 <Grid item xs={11}>
                     <Grid container>
