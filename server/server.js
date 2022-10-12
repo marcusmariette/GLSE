@@ -1,19 +1,22 @@
-require('dotenv').config()
-const express = require('express')
-const app = express()
-const natural = require('natural')
-const tokenizer = new natural.WordTokenizer()
-const sentenceTokenizer = new natural.SentenceTokenizer()
-const wordnet = new natural.WordNet()
-const firebase = require('firebase-admin')
-const fs = require('fs')
-const path = require('path')
-require('firebase/firestore')
-const { searchWithOr } = require('./utils/search-or')
-const { searchWithSynonyms } = require('./utils/search-synonyms')
-const { searchWithAdjectives } = require('./utils/search-adjective')
-const { searchWithOptional } = require('./utils/search-optional')
-const { stripPosTags } = require('./utils/strip-pos-tags')
+require('dotenv').config();
+const express = require('express');
+const app = express();
+const natural = require('natural');
+const tokenizer = new natural.WordTokenizer();
+const sentenceTokenizer = new natural.SentenceTokenizer();
+const wordnet = new natural.WordNet();
+const firebase = require('firebase-admin');
+const fs = require('fs');
+const path = require('path');
+require('firebase/firestore');
+const { searchWithOr } = require('./utils/search-or');
+const { searchWithSynonyms } = require('./utils/search-synonyms');
+const { searchWithOptional } = require('./utils/search-optional');
+const { searchOneWord } = require('./utils/search-one-word');
+const { searchWithAdjectives } = require('./utils/search-adjective');
+const { stripPosTags } = require('./utils/strip-pos-tags');
+
+const directoryPath = path.join(__dirname, 'resources/documents');
 
 const firebaseConfig = {
     apiKey: process.env.apiKey,
@@ -101,6 +104,7 @@ app.get('/keywords', async (req, res) => {
 
         results = searchWithOr(query, searchWithOr, results);
         results = searchWithOptional(query, results);
+        results = searchOneWord(query, results);
         await searchWithSynonyms(query, results).then((value) => (results = value));
 
         responseData.status = 1
