@@ -12,6 +12,7 @@ require('firebase/firestore');
 const { searchWithOr } = require('./utils/search-or');
 const { searchWithSynonyms } = require('./utils/search-synonyms');
 const { searchWithOptional } = require('./utils/search-optional');
+const { searchOneWord } = require('./utils/search-one-word');
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
@@ -96,6 +97,7 @@ app.get('/keywords', async (req, res) => {
 
         results = searchWithOr(query, searchWithOr, results);
         results = searchWithOptional(query, results);
+        results = searchOneWord(query, results);
         await searchWithSynonyms(query, results).then((value) => (results = value));
 
         responseData.status = 1;
