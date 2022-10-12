@@ -12,9 +12,12 @@ const Router = ({ firebaseDatabase, searchString, setSearchString }) => {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path='/' element={<Home searchString={searchString} setSearchString={setSearchString} />} />
-                <Route path='/help' element={<Help />} />
-                <Route path='/search' element={<Search searchString={searchString} setSearchString={setSearchString} />} />
+                <Route path="/" element={<Home searchString={searchString} setSearchString={setSearchString} />} />
+                <Route path="/help" element={<Help />} />
+                <Route
+                    path="/search"
+                    element={<Search searchString={searchString} setSearchString={setSearchString} />}
+                />
             </Routes>
         </BrowserRouter>
     );

@@ -23,12 +23,17 @@ async function searchWithSynonyms(query, results) {
                     wordnet.lookup(filteredString, (_results) => {
                         _results.forEach((result) => {
                             result.synonyms.forEach((_syn) => {
-                                if (_syn.toLowerCase() !== filteredString.toLowerCase() && !wordSynonyms.includes(_syn)) {
+                                if (
+                                    _syn.toLowerCase() !== filteredString.toLowerCase() &&
+                                    !wordSynonyms.includes(_syn)
+                                ) {
                                     wordSynonyms.push(_syn);
                                     if (results.length > 0) {
-                                        results.forEach((data) => newResults.push(data.replace(matchingString[0], _syn)));
+                                        results.forEach((data) =>
+                                            newResults.push(data.replace(matchingString[0], _syn))
+                                        );
                                     } else {
-                                        newResults.push(query.replace(matchingString, _syn))
+                                        newResults.push(query.replace(matchingString, _syn));
                                     }
                                 }
                             });

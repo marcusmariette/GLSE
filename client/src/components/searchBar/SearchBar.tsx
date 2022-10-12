@@ -36,7 +36,12 @@ const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString })
                     <IconButton>
                         <SearchIcon size={30} color={background} />
                     </IconButton>
-                    <StyledSearchBarTextField onChange={handleSearchInputChange} value={searchString} onKeyDown={handleSearchInputKeyDown} placeholder='determine ? number of x' />
+                    <StyledSearchBarTextField
+                        onChange={handleSearchInputChange}
+                        value={searchString}
+                        onKeyDown={handleSearchInputKeyDown}
+                        placeholder="determine ? number of x"
+                    />
                     <IconButton onClick={() => navigate('/help')}>
                         <QuestionMarkIcon size={30} color={orange} />
                     </IconButton>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Box, LinearProgress } from '@mui/material';
-import { white, background, orange } from '../../resources/styles/variables';
+import { white, background } from '../../resources/styles/variables';
 
 export const StyledSearchResultBox = styled(Box)`
     background-color: ${white};

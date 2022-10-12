@@ -1,7 +1,7 @@
 function searchWithOptional(query, results) {
     let newResults = [];
     let matchOptional;
-    let matched = query.match(/\?\w+/g)
+    let matched = query.match(/\?\w+/g);
     if (results.length === 0) {
         matchOptional = matched;
     } else {
@@ -10,32 +10,32 @@ function searchWithOptional(query, results) {
     if (matchOptional != null && matched != null) {
         if (results.length === 0) {
             matchOptional.forEach((string, index) => {
-                let wordWithSelectedOptional = query.replace(matchOptional[index], "").replace("?", "");
-                newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional))
+                let wordWithSelectedOptional = query.replace(matchOptional[index], '').replace('?', '');
+                newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional));
 
                 if (matchOptional.length - 1 === index) {
-                    let wordWithOptionals = query.replaceAll("?", "").trim()
-                    newResults.push(wordWithOptionals)
+                    let wordWithOptionals = query.replaceAll('?', '').trim();
+                    newResults.push(wordWithOptionals);
 
-                    let wordWithoutOptionals = query.replaceAll(/\?\w+/g, "")
-                    newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
+                    let wordWithoutOptionals = query.replaceAll(/\?\w+/g, '');
+                    newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals));
                 }
             });
         } else {
-            results.forEach(result => {
+            results.forEach((result) => {
                 matchOptional.forEach((string, index) => {
-                    let wordWithSelectedOptional = result.replace(matchOptional[index], "").replace("?", "");
-                    newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional))
+                    let wordWithSelectedOptional = result.replace(matchOptional[index], '').replace('?', '');
+                    newResults.push(removeWhiteSpaceFrom(wordWithSelectedOptional));
 
                     if (matchOptional.length - 1 === index) {
-                        let wordWithOptionals = result.replaceAll("?", "").trim()
-                        newResults.push(wordWithOptionals)
+                        let wordWithOptionals = result.replaceAll('?', '').trim();
+                        newResults.push(wordWithOptionals);
 
-                        let wordWithoutOptionals = result.replaceAll(/\?\w+/g, "")
-                        newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals))
+                        let wordWithoutOptionals = result.replaceAll(/\?\w+/g, '');
+                        newResults.push(removeWhiteSpaceFrom(wordWithoutOptionals));
                     }
                 });
-            })
+            });
         }
         // remove duplicates
         return [...new Set(newResults)];
@@ -45,7 +45,7 @@ function searchWithOptional(query, results) {
 }
 
 function removeWhiteSpaceFrom(string) {
-    return string.replace(/\s+/g, " ").trim()
+    return string.replace(/\s+/g, ' ').trim();
 }
 
-module.exports = {searchWithOptional};
+module.exports = { searchWithOptional };
