@@ -19,7 +19,7 @@ const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString })
 
     // Handle Keyword Search Execution
     const handleSearchInputKeyDown = (event: any) => {
-        if (event.key == 'Enter' && searchString.length > 0) {
+        if (event.key === 'Enter' && searchString.length > 0) {
             if (validateSearchString(searchString)) {
                 setShowError && setShowError(false);
                 navigate('/search');
@@ -49,7 +49,7 @@ const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString })
             </Grid>
             {showError && (
                 <Grid item xs={12} sx={{ paddingTop: '2%' }}>
-                    <ErrorMessage errorMessage='Error: You must use a single symbol. Example: "I talk/talked to many professionals".' />
+                    <ErrorMessage errorMessage="Error: You must use a valid symbol. Please refer to the Help Page." />
                 </Grid>
             )}
         </Grid>

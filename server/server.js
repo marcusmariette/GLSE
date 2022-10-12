@@ -4,7 +4,10 @@ const express = require('express');
 
 const { searchWithPOS } = require('./utils/search-pos');
 const { searchOneWord } = require('./utils/search-one-word');
-const { findSearchSymbol, stripPosTag } = require('./utils/server-utils');
+const { searchWithOr } = require('./utils/search-or');
+const { searchWithOptional } = require('./utils/search-optional');
+const { searchWithSynonyms } = require('./utils/search-synonyms');
+const { findSearchSymbol, stripPosTag, canStripSymbol } = require('./utils/server-utils');
 
 const app = express();
 const directoryPath = path.join(__dirname, 'resources/documents');
@@ -31,16 +34,16 @@ app.get('/getResults', async (req, res) => {
         if (searchSymbol !== null) {
             switch (searchSymbol) {
                 case '/':
-                    console.log('OR Unsupported');
+                    queryResults = searchWithOr(searchQuery);
                     break;
                 case '~':
-                    console.log('Synonyms Unsupported');
+                    await searchWithSynonyms(searchQuery).then((data) => (queryResults = data));
                     break;
                 case '_':
                     queryResults = searchOneWord(searchQuery);
                     break;
                 case '?':
-                    console.log('Optional Unsupported');
+                    queryResults = searchWithOptional(searchQuery);
                     break;
                 case 'v.':
                     queryResults = searchWithPOS(searchQuery, 'verbs', searchSymbol);
@@ -57,8 +60,6 @@ app.get('/getResults', async (req, res) => {
             }
 
             if (queryResults !== []) {
-                const kbFilter = stripPosTag(searchQuery);
-
                 let knowledgeBaseContent;
 
                 // If we want to check the database/filesystem for existing queries run
@@ -76,7 +77,7 @@ app.get('/getResults', async (req, res) => {
                 // }
 
                 fs.readdir(directoryPath, (error, files) => {
-                    if (error) return console.log('Unable to scan directory: ' + err);
+                    if (error) return console.log('Unable To Scan Directory: ' + err);
 
                     files.forEach((file) => {
                         knowledgeBaseContent += fs.readFileSync('resources/documents/' + file, 'utf-8');
@@ -85,11 +86,17 @@ app.get('/getResults', async (req, res) => {
                     const allSentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
                     const allValidKBSentences = [];
 
-                    allSentences.forEach((sentence) => {
-                        if (sentence.toLowerCase().match(new RegExp('\\b' + kbFilter + '\\b'))) {
-                            allValidKBSentences.push(sentence);
-                        }
-                    });
+                    // Reduce Sentences for Symbols that can be stripped
+                    if (canStripSymbol(searchSymbol)) {
+                        const kbFilter = stripPosTag(searchQuery);
+                        allSentences.forEach((sentence) => {
+                            if (sentence.toLowerCase().match(new RegExp('\\b' + kbFilter + '\\b'))) {
+                                allValidKBSentences.push(sentence);
+                            }
+                        });
+                    } else {
+                        allSentences.forEach((sentence) => allValidKBSentences.push(sentence));
+                    }
 
                     queryResults.forEach((result) => {
                         const regExSearch = allValidKBSentences
@@ -120,7 +127,15 @@ app.get('/getResults', async (req, res) => {
                     //     );
                     // }
                 });
+            } else {
+                responseData.status = 400;
+                responseData.message = 'Error: Query Invalid';
+                res.json(responseData);
             }
+        } else {
+            responseData.status = 400;
+            responseData.message = 'Error: No Symbol Provided';
+            res.json(responseData);
         }
     }
 });

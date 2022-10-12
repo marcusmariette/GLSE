@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-    StyledSearchResultBox,
-    StyledSearchResultRow,
-    StyledSearchResultProgress,
-    StyledSearchResultFooter,
-} from './SearchResultsStyles';
+import { StyledSearchResultBox, StyledSearchResultRow, StyledSearchResultProgress, StyledSearchResultFooter } from './SearchResultsStyles';
 import SearchBar from '../searchBar/SearchBar';
 import LoaderSection from '../loader/LoaderSection';
 import { SearchPropTypes } from '../../types';
@@ -47,23 +42,17 @@ const SearchResults: React.FC<SearchPropTypes> = ({ setSearchString, searchStrin
             </Grid>
             <Grid item xs={12}>
                 <StyledSearchResultBox>
-                    {searchResults.length != 0 ? (
+                    {searchResults.length !== 0 ? (
                         <>
                             {searchResults.map((item) => (
-                                <StyledSearchResultRow
-                                    key={item.sentence + item.occurrencePercentage}
-                                    className="search-result-row"
-                                >
+                                <StyledSearchResultRow key={item.sentence + item.occurrencePercentage} className="search-result-row">
                                     <Box sx={{ flex: 1 }}>
                                         <Stack direction="row" justifyContent="space-between">
                                             <Typography variant="h5">{item.sentence}</Typography>
                                             <Typography variant="h5">{item.occurrencePercentage}%</Typography>
                                         </Stack>
 
-                                        <StyledSearchResultProgress
-                                            variant="determinate"
-                                            value={item.occurrencePercentage}
-                                        />
+                                        <StyledSearchResultProgress variant="determinate" value={item.occurrencePercentage} />
                                     </Box>
                                     <ChevronRight style={{ marginLeft: 1 }} width="28px" height="32px" />
                                 </StyledSearchResultRow>
