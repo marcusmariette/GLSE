@@ -4,24 +4,30 @@ const fs = require("fs");
 // of "adj." to represent an adjective. Each of these instances
 // will be returned in a collection of variations based on the
 // knowledge base of adjectives (currentlt stored as a txt file).
-function searchWithAdjectives(query) {
-  var results = [];
+function searchWithAdjectives(results) {
+  var tempResults = results;
 
-  if (query.length > 0 && query.includes("adj.")) {
-    const allFileContents = fs.readFileSync(
-      "resources/pos/adjectives.txt",
-      "utf-8"
-    );
+  const newResults = [];
+  const allFileContents = fs.readFileSync(
+    "resources/pos/adjectives.txt",
+    "utf-8"
+  );
+  const adjectives = allFileContents.split(/\r?\n/);
+  
+  var hasAdjective = false;
+  tempResults.forEach((_sentence) => {
+    if(_sentence.includes('adj.') && _sentence.length > 0) {
+      hasAdjective = true;
+			adjectives.forEach((_adjective) => {
+				newResults.push(_sentence.replace('adj.', _adjective));
+			});
+    }
+  });
 
-    const newSentences = [];
-    const adjectives = allFileContents.split(/\r?\n/);
-    var adjectiveCount = query.match(/adj./g).length;
-
-    for (var i = 0; i < adjectiveCount; i++) {}
-  } else {
-    results.push(query);
-  }
-
-  return results;
+	if(hasAdjective) {
+		return searchWithAdjectives(newResults);
+	} else {
+		return tempResults;
+	}
 }
 module.exports = { searchWithAdjectives };

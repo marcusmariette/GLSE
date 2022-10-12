@@ -12,8 +12,12 @@ require('firebase/firestore')
 const { searchWithOr } = require('./utils/search-or')
 const { searchWithSynonyms } = require('./utils/search-synonyms')
 const { searchWithAdjectives } = require('./utils/search-adjective')
+const { stripPosTags } = require('./utils/strip-pos-tags')
+const e = require('express')
 
 const directoryPath = path.join(__dirname, 'resources/documents')
+
+const nonExistSentence = [];
 
 const firebaseConfig = {
     apiKey: process.env.apiKey,
@@ -130,43 +134,87 @@ app.get('/getSentences', (req, res) => {
     }
 
     if (req.query.search !== undefined) {
-        // Check for POS Keywords
-        const allQueries = []
+        // NOTE: You need to feed the array result from each searchWithX
+        // into the next function call.
+
         // Adjective Check
-        var adjectiveSentenceVariations = searchWithAdjectives(req.query.search)
+        var adjectiveSentenceVariations = searchWithAdjectives([req.query.search]);
 
-        /*fs.readdir(directoryPath, function (err, files) {
-      if (err) {
-        return console.log("Unable to scan directory: " + err);
-      }
+        // Verb Check
+        // ...
+        
+        // Noun Check
+        // ...
 
-      files.forEach(function (file) {
-        const allFileContents = fs.readFileSync(
-          "resources/documents/" + file,
-          "utf-8"
-        );
+        // Adverb Check
+        // ...
 
-        const _sentences = allFileContents.match(/[^\.!\?]+[\.!\?]+/g);
+        // Final Sentence Set
+        const allSentences = adjectiveSentenceVariations;
 
-        _sentences.forEach(function (sentence) {
-          // Look for fuller sentences (more than 2 words)
-          if (sentence.split(" ").length > 2) {
-            if (sentence.includes(req.query.search.toLowerCase())) {
-              sentences.push(
-                sentence.trim().replace(/(^\s*(?!.+)\n+)|(\n+\s+(?!.+)$)/g, "")
-              );
-            }
-          }
-        });
-      });
+        var checkExistString = stripPosTags(req.query.search).join("|");
+        var knowledgeBaseContent;
 
-      responseData.status = 1;
-      responseData.message = "success";
-      responseData.sentenceCount = sentences.length;
 
-      res.json(responseData);
-    });*/
-        res.json()
+        // Check if result has already been generated
+        if(fs.existsSync("resources/results/" + (req.query.search.toLowerCase().replaceAll(" ", "+"))) + ".json") {
+            var resultData = fs.readFileSync("resources/results/" + (req.query.search.toLowerCase().replaceAll(" ", "+")) + ".json", "utf-8");
+
+            responseData.status = 1;
+            responseData.message = "success";
+            responseData.sentences = JSON.parse(resultData);
+
+            res.json(responseData);
+        } else {
+            console.log("[ - ] Result Doest Exists!");
+            fs.readdir(directoryPath, function (err, files) {
+                if (err) {
+                    return console.log("Unable to scan directory: " + err);
+                }
+    
+                files.forEach(function (file) {
+                    knowledgeBaseContent += fs.readFileSync(
+                        "resources/documents/" + file,
+                        "utf-8"
+                    );
+                })
+    
+                
+                const allValidKBSentences = [];
+                const _sentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
+    
+                _sentences.forEach((_sentence) => {
+                    if(_sentence.includes(checkExistString.split("|")[0])) {
+                        allValidKBSentences.push(_sentence);
+                    }
+                });
+    
+                allSentences.forEach((_processedSentence) => {
+                    const regExSearch = allValidKBSentences.join(" ").toLowerCase().match(new RegExp(_processedSentence.toLowerCase(), 'g'));
+                    if(regExSearch) {
+                        const sentenceInstanceCount = regExSearch.length;
+                        if(sentenceInstanceCount > 0) {
+                            sentences.push({
+                                sentence: _processedSentence,
+                                count: sentenceInstanceCount
+                            });
+                        }
+                    }     
+                });
+    
+                if(sentences.length > 0) {
+                    fs.writeFileSync(
+                        "resources/results/" + (req.query.search.toLowerCase().replaceAll(" ", "+")) + ".json",
+                        JSON.stringify(sentences)
+                    );
+                }
+        
+                responseData.status = 1;
+                responseData.message = "success";
+                responseData.sentences = sentences;
+                res.json(responseData);
+            });
+        }
     } else {
         responseData.message = 'No phrase was provided.'
         res.json(responseData)
