@@ -19,6 +19,14 @@ export const StyledParameter = styled.h2`
     border-radius: 10px;
 `;
 
+export const StyledParameterSmall = styled.h3`
+    margin: 60% 18%;
+    text-align: center;
+    background-color: ${orange};
+    border: 1px solid ${orange};
+    border-radius: 10px;
+`;
+
 export const StyledExampleText = styled.p`
     padding: 5px 10px;
     max-width: 250px;

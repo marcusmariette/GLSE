@@ -51,6 +51,8 @@
         ]
     },
     "devDependencies": {
+        "@types/babel__core": "^7.1.19",
+        "@types/babel__generator": "^7.6.4",
         "@types/styled-components": "^5.1.25"
     }
 }

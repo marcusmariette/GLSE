@@ -1,4 +1,4 @@
-import { SetStateAction, Dispatch} from "react";
+import { SetStateAction, Dispatch } from 'react';
 
 export type HelpData = {
     parameter: string;
@@ -12,7 +12,11 @@ export type SearchResultItem = {
     occurrencePercentage: number;
 };
 
-export interface SearchPropsType {
-    setSearchString: Dispatch<SetStateAction<string>>
-    searchString: string
+export interface SearchPropTypes {
+    setSearchString: Dispatch<SetStateAction<string>>;
+    searchString: string;
+}
+
+export interface ErrorMessagePropTypes {
+    errorMessage: string;
 }

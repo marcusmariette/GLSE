@@ -4,11 +4,10 @@ import loader from '../../resources/images/loader.svg';
 
 const LoaderSection: React.FC = () => {
     return (
-      <StyledLoaderSection>
-        <img src={loader} alt="loader" />
-      </StyledLoaderSection>
+        <StyledLoaderSection>
+            <img src={loader} alt='loader' />
+        </StyledLoaderSection>
     );
-  };
-  
+};
 
 export default LoaderSection;

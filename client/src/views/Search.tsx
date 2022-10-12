@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React from 'react';
 import { Grid, Box } from '@mui/material';
 import SearchResults from '../components/searchResult/SearchResults';
+import { SearchPropTypes } from '../types';
 
-const Search: React.FC = () => {
-    const params = useParams();
-
-    const navigate = useNavigate();
-    const [searchString, setSearchString] = useState<string>(String(params.query));
-
+const Search: React.FC<SearchPropTypes> = ({ searchString, setSearchString }) => {
     return (
         <Box className='section section-search'>
             <Grid container sx={{ maxWidth: '1200px', margin: '0 auto' }}>

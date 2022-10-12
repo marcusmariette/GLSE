@@ -1,21 +1,24 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.2",
-    "express": "^4.17.3",
-    "firebase": "^9.9.3",
-    "firebase-admin": "^11.0.1",
-    "mysql": "^2.18.1",
-    "natural": "^5.2.3",
-    "nodemon": "^2.0.15",
-    "wordnet-db": "^3.1.14"
-  }
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.2",
+        "express": "^4.17.3",
+        "firebase": "^9.9.3",
+        "firebase-admin": "^11.0.1",
+        "mysql": "^2.18.1",
+        "natural": "^5.2.3",
+        "nodemon": "^2.0.15",
+        "wordnet-db": "^3.1.14"
+    },
+    "devDependencies": {
+        "jest": "^29.1.2"
+    }
 }
