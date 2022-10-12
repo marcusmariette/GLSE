@@ -5,7 +5,7 @@ const path = require('path');
 
 const directoryPath = path.join(__dirname, '../resources/documents');
 
- function searchOneWord(query, results) {
+function searchOneWord(query, results) {
     let matchWord;
     let newResults = [];
     const words = [];
@@ -18,12 +18,10 @@ const directoryPath = path.join(__dirname, '../resources/documents');
                 words.push(word);
             });
         });
+    } catch (error) {
+        console.log(error.message);
     }
-    catch (error)
-    {
-        console.log(error.message)
-    }
-    
+
     //console.log(words)
 
     if (results.length === 0) {
@@ -34,8 +32,8 @@ const directoryPath = path.join(__dirname, '../resources/documents');
     if (matchWord != null) {
         if (results.length === 0) {
             words.forEach((string, index) => {
-                let word = query.replaceAll("_", words[index]).trim()
-                newResults.push(word)
+                let word = query.replaceAll('_', words[index]).trim();
+                newResults.push(word);
                 //console.log(newResults)
             });
         }
