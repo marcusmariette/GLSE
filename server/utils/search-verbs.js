@@ -16,10 +16,10 @@ function searchWithverbs(results) {
   
   var hasverb = false;
   tempResults.forEach((_sentence) => {
-    if(_sentence.includes('adj.') && _sentence.length > 0) {
+    if(_sentence.includes('v.') && _sentence.length > 0) {
       hasverb = true;
 			verbs.forEach((_verb) => {
-				newResults.push(_sentence.replace('adj.', _verb));
+				newResults.push(_sentence.replace('v.', _verb));
 			});
     }
   });
