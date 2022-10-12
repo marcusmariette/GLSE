@@ -15,6 +15,9 @@ const { searchWithOptional } = require('./utils/search-optional');
 const { searchOneWord } = require('./utils/search-one-word');
 const { searchWithAdjectives } = require('./utils/search-adjective');
 const { stripPosTags } = require('./utils/strip-pos-tags');
+const { searchWithAdverbs } = require('./utils/search-adverb');
+const { searchWithVerbs } = require('./utils/search-verb');
+const { searchWithNouns } = require('./utils/search-noun');
 
 const directoryPath = path.join(__dirname, 'resources/documents');
 
@@ -136,16 +139,19 @@ app.get('/getSentences', (req, res) => {
         var adjectiveSentenceVariations = searchWithAdjectives([req.query.search]);
 
         // Verb Check
-        // ...
+        var verbSentenceVariations = searchWithVerbs([req.query.search]);
         
         // Noun Check
-        // ...
+        var nounSentenceVariations = searchWithNouns([req.query.search]);
 
         // Adverb Check
-        // ...
+        var adverbSentenceVariations = searchWithAdverbs([req.query.search]);
 
         // Final Sentence Set
         const allSentences = adjectiveSentenceVariations;
+        allSentences = verbSentenceVariations;
+        allSentences = nounSentenceVariations;
+        allSentences = adverbSentenceVariations;
 
         var checkExistString = stripPosTags(req.query.search).join("|");
         var knowledgeBaseContent;
