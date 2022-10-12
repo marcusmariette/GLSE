@@ -1,4 +1,4 @@
-const { findSearchSymbol, getStringWithMostWords, stripPosTag } = require('../utils/server-utils');
+const { findSearchSymbol, getStringWithMostWords, stripPosTag, canStripSymbol } = require('../utils/server-utils');
 
 describe('Server Utils', () => {
     describe('findSearchSymbol', () => {
@@ -76,9 +76,46 @@ describe('Server Utils', () => {
             expect(result).toBe('shall strip');
         });
 
+        test('Should strip the _ tag correctly', () => {
+            const result = stripPosTag('the dog and the _');
+            expect(result).toBe('the dog and the');
+        });
+
         test('Should push empty string if at the end', () => {
             const result = stripPosTag('do not v.');
             expect(result).toBe('do not');
+        });
+    });
+
+    describe('canStripSymbol', () => {
+        test('should return true for v.', () => {
+            const result = canStripSymbol('v.');
+            expect(result).toBe(true);
+        });
+
+        test('should return true for v.', () => {
+            const result = canStripSymbol('n.');
+            expect(result).toBe(true);
+        });
+
+        test('should return true for v.', () => {
+            const result = canStripSymbol('adj.');
+            expect(result).toBe(true);
+        });
+
+        test('should return true for v.', () => {
+            const result = canStripSymbol('adv.');
+            expect(result).toBe(true);
+        });
+
+        test('should return true for _', () => {
+            const result = canStripSymbol('_');
+            expect(result).toBe(true);
+        });
+
+        test('should return false for another word or symbol', () => {
+            const result = canStripSymbol('/');
+            expect(result).toBe(false);
         });
     });
 });

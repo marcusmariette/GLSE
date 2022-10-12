@@ -1,25 +1,14 @@
-function searchWithOr(query, callback, results) {
-    let array = query.match(/\w+\/\w+/g);
-    if (array != null) {
-        if (array.length > 1) {
-            array.forEach((string, index) => {
-                string.split('/').forEach((orWord) => {
-                    let searched = query.replace(array[index], orWord);
-                    let isMatchingOR = searched.match(/\w+\/\w+/g);
-                    if (isMatchingOR && array.length - 1 === index) {
-                        callback(searched, callback, results);
-                    }
-                });
-            });
-        } else {
-            array.forEach((string) => {
-                string.split('/').forEach((word) => {
-                    let searchQuery = query.replace(/\w+\/\w+/g, word);
-                    results.push(searchQuery);
-                });
-            });
-        }
+function searchWithOr(searchString) {
+    const results = [];
+    const options = searchString.match(/\w+\/\w+/g);
+
+    if (options !== null) {
+        const words = options[0].split('/');
+        words.forEach((word) => {
+            results.push(searchString.replace(options, word));
+        });
     }
+
     return results;
 }
 

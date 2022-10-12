@@ -24,12 +24,11 @@ function getStringWithMostWords(stringArray) {
 
 function stripPosTag(searchString) {
     const result = [];
-    const checkTags = ['v.', 'n.', 'adj.', 'adv.'];
     const wordsInString = searchString.toLowerCase().split(' ');
 
     let wordStack = [];
     wordsInString.forEach((word) => {
-        if (!checkTags.includes(word)) {
+        if (!canStripSymbol(word)) {
             wordStack.push(word);
         } else {
             result.push(wordStack.join(' '));
@@ -44,4 +43,9 @@ function stripPosTag(searchString) {
     return getStringWithMostWords(result);
 }
 
-module.exports = { findSearchSymbol, stripPosTag, getStringWithMostWords };
+function canStripSymbol(searchSymbol) {
+    const checkTags = ['v.', 'n.', 'adj.', 'adv.', '_'];
+    return checkTags.includes(searchSymbol);
+}
+
+module.exports = { findSearchSymbol, stripPosTag, getStringWithMostWords, canStripSymbol };

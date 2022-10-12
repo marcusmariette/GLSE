@@ -13,15 +13,17 @@ function searchOneWord(searchString) {
         files.forEach((file) => {
             const allFileContents = fs.readFileSync('resources/documents/' + file, 'utf-8');
             wordTokenizer.tokenize(allFileContents).forEach((word) => {
-                words.push(word);
+                words.push(word.toLowerCase());
             });
         });
     } catch (error) {
         console.log(error.message);
     }
 
+    const uniqueWords = new Set(words);
     const results = [];
-    words.forEach((word) => {
+
+    uniqueWords.forEach((word) => {
         const newString = searchString.replace('_', word).trim();
         results.push(newString);
     });
