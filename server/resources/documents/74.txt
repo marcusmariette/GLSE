@@ -1,0 +1,99 @@
+ ABSTRACT
+
+The optical transition probabilities and hetero-association of caffeine with norfloxacin were obtained using UV-Vis spectroscopy in aqueous solution at room temperature (295K). The heter-association constant of norfloxacin-caffeine complexes (6.67×103 M-1) was obtained using Benesi-Hildebrand approach by linear curve fitting to the experimental data. In order to characterize the binding system of the compounds, the thermodynamic parameters were investigated using Vant’s Hoff equation at the temperature ranges (295 to 304K) with a change in enthalpy value (-1.277±0.103 kJ.mol-1.K-1). The values of change in the thermodynamic parameters indicated that the electrostatic forces play the major role in the binding reaction between the molecules of norfloxacin-caffeine complexes. In addition, the optical transition probabilities of norfloxacin were also calculated in the wavenumber regions from (20000 to 40000 cm-1) by using integrated absorption coefficient techniques. This study is very important for understanding the binding reaction in biological system, nature and strength of the transition, absorption spectral interpretation, and in providing stringent test of atomic and molecular structure calculations for theoretical work of the compounds.
+
+ 
+
+Key words: Norfloxacin, caffeine, hetero-association, optical transition, thermodynamics, UV-Vis spectroscopy.
+
+
+ INTRODUCTION
+
+Quinolones drugs, namely, quinolonecarboxylic  acids,  are one of the largest classes of antibiotics containing a 4-oxo-1,4-dihydroquinoline skeleton that have been found worldwide to be used in therapy (Sárközy, 2001; Oliphant and Green, 2002). They can effectively inhibit DNA replication and are extremely useful for the treatment of various infections (such as urinary tract infections, soft tissue infections, respiratory infections, bone-joint infections, prostatitis, and sinusitis) (Sárközy, 2001; Oliphant and Green, 2002; Neugebauer et al., 2005;
+ 
+Gupta and Kapoor, 2014; Drlica and Zhao, 1997; Emmerson and Jones, 2003). Norfloxacin is a fluoroquinolone carboxylic acid derivative that has a series of synthetic chemotherapeutic antibacterial agents, and active against both Gram-negative and Gram-positive microorganisms (Oliphant and Green, 2002; Neugebauer et al., 2005; Gupta and Kapoor, 2014; Appelbaum and Hunter, 2000). It is a broad-spectrum antibiotic used to treat common as well as complicated urinary tract infections (Nelson et al., 2007; Al-Khamees, 1995; Rafalsky et al., 2006).
+ 
+Bioactive components that are present in popular drinks and foods (such as, in coffee, tea, cola beverages and chocolates) are the most useful compounds for human health (Liu, 2003; Crowe, 2013). Moreover, they are the most widely consumed of all behaviorally active drugs in the world (Clifford, 1979; Bolton and Null, 1981). Caffeine, methylxanthine, is one of the widely consumed compounds in the form of caffeinated beverages over the entire world. Caffeine can effectively form hetero association with many aromatic DNA intercalators that can change the biological activities of these drugs or make a computation with these aromatic drugs for the binding sites on DNA (Larsen et al., 1996; Traganos et al., 1991). Thus, as the norfloxacin molecules contain two fused aromatic rings just like caffeine, it can form interaction with caffeine (Radandt et al., 1992). This interaction may alter the pharmacokinetics or change the toxicity risk of the drugs (Radandt et al., 1992; Healy et al., 1989).
+ 
+Currently, drug/drug or food/drug interactions are great field of study, due to rapid development of new types of drugs and increasing use of food supplements. Complexes of aromatic drugs with bioactive compounds are one of the most common areas of interest, since the interaction may affect the pharmacodynamics and pharmacokinetics of the compounds (Crowe, 2013). Thus, the findings of this research are very important in order to rationalize biological consequences of the action of the compounds and to characterize the optical transition properties of them (Belay, 2013; Bayliss, 1950; MacRae, 1957; Milonni and Eberly, 1988; Ataklti et al., 2016). To the best of our knowledge, the hetero-association and optical transitional probabilities of norfloxacin to elucidate structures, optical transition and thermodynamic properties of the molecules are not yet investigated using UV-Vis spectroscopy. The technique is simple to use, highly sensitive, and rapid to study such kind of interactions (Belay, 2013; Niazi et al., 2006; Ataklti et al., 2016). Therefore, the objective of this work is to investigate the self and hetero-association with caffeine of norfloxacin using UV-Vis spectroscopy. Moreover, transition dipole moment and transition probability for absorption are also required.
+
+ MATERIALS AND METHODS
+
+Norfloxacin (NOR, Figure 1a) and caffeine (CAF, Figure 1b) from Sigma-Aldrich were used with no additional purification. In order to avoid photo degradation of the compounds the solutions were stored in a darkened room. The electronic absorption measurements were obtained using Perkin-Elmer Lambda 19 UV-Vis Spectrophotometry with double monocromator using 1 cm fused quartz cuvette in a spectrum range 200 to 500 nm at room temperature (295K). All the solutions were prepared using doubly distilled water. The analyzed spectra were obtained by subtracting the spectrum of pure solvent (water) from that of the solution containing the compounds. A digital balance with accuracy of 0.0001 g, measuring cylinders, pipettes, and volumetric flasks, magnetic stirrer with hot plate and beakers where also used. 
+ 
+
+ 
+For the hetero association of NOR-CAF, the constant norfloxacin concentration 3.192×10-5 M was titrated by Caffeine in the concentration range (3.509 –12.87)× 10-2 M. The Benesi-Hildebrand approach using a linear curve fitting to the experimental data was used for analyzing the numerical values of the hetero association parameters at the maximum wavelength of 272.8 nm using Origin 8 software (Abraha et al., 2016).
+ 
+Thermodynamic investigations of the hetero-association of NOR were made in the temperature range (295 - 304) K. The numerical values of the thermodynamic properties (enthalpy, entropy and Gibb’s free energy) were analyzed using Vant’s Hoff equation.
+ 
+The optical transition probabilities (Einstein A and B coefficients, transition dipole moment, oscillator strength and integrated absorption cross-section) for norfloxacin were studied by integrating the absorption coefficient and molar decadic absorption coefficients in the wave number regions of 20000-40000 cm-1. Usually, the UV-Vis spectrometer measures the concentration in terms of absorbance versus wavelength; this was recalculated into absorption coefficient or molar decadic absorption coefficient versus wave number using Origin 8 software. 
+
+ RESULTS AND DISCUSSION
+
+
+ 
+
+ 
+In order to analyze hetero-association parameters, the Benesi-Hildebrand equation was used. Let,  and  denote the NOR monomers, caffeine monomers and the complexes of NOR-CAF molecules in the solution, respectively, and K is the equilibrium constants for the complexes. Thus, the equilibrium of the complexes in solution can be modeled as:
+ 
+
+ 
+
+ 
+Equation 9 contains two unknown parameters, which can be determined by fitting this model to the experimental data (Figure 3) using a linear curve fitting at the peak wavelength of NOR+CAF absorption. Thus, the equilibrium constant and molar extinction coefficient calculated by fitting Equation 9 to experimental data of Figure 3 are  and  respectively that may modify the pharmacokinetic properties of the complexes (Antonov et al., 1999; Belay, 2012; Belay, 2010). The obtained results are in a good agreement with the results for the self-association of NOR (Abraha, 2016).
+ 
+
+ 
+Thermodynamic properties of norfloxacin-caffeine complexes
+ 
+Heating the aqueous solution of the complexes shows that the absorption spectra of the molecules are strongly dependent on the temperature in the range (295 to 304K). The equilibrium constants of the drug molecules at the aforementioned temperature were calculated at peak of wavelengths of the self and complexes using Equation 9. Figure 4 shows the graph of  versus . The magnitude of the enthalpy was estimated from the slope of the approximating line according to Vant’s Hoff’s equation:
+ 
+
+ 
+
+ 
+Plots of  versus  gives a straight line, whose slope and intercept can be used to determine âˆ†S and âˆ†H from Figure 4, and Gibb’s free energy can be determined at a specific temperature using Equation 12.  
+ 
+In order to characterize the force between NOR-CAF molecules, thermodynamic parameters at the specified temperatures were analyzed using Vant’s Hoff’s equation. The thermodynamic parameters, Gibb’s free energy change (ΔG), enthalpy change (ΔH) and entropy change (ΔS) are important for confirming the binding mode. The calculated values for the Gibb’s free energy, enthalpy and entropy of the molecules for the hetero association are given in Table 1, and these results are in a good agreement with the results from Abraha (2016) for the self-association of NOR. For the interaction between the molecules of NOR-CAF complexes (ΔH < 0 and ΔS >0), the electrostatic forces play the major role in the interaction. Moreover, the negative value for the Gibb’s free energy and enthalpy indicates that the absorption process of the compounds is continuous and exothermic. Also, the positive value of entropy confirms the increasing randomness of the solution interface during the absorption process of the molecules of the compounds (Guo et al., 2014).
+ 
+
+ 
+Optical transition probabilities of norfloxacin
+ 
+Figure 5 represents the absorbance versus wavenumber obtained from the UV-Vis absorption spectra in water solvent.
+ 
+
+ 
+The relations among the Einstein coefficients, oscillatory strength, transition dipole moment, and integrated absorption coefficient for a transition between two states k (lower) and m (upper) are the most used terms in spectroscopy (Milonni and Eberly, 1988; Michale, 1999). The energy difference between the two states is  where h is Planck's constant,  is the wavenumber and c is speed of light. On the other, the Einstein coefficients (A and B):  is the first-order rate coefficient for spontaneous emission , and the B coefficients are;
+ 
+
+ 
+where c is the speed of light in vacuum.
+ 
+The optical transition probabilities of norfloxacin were obtained from the absorption spectra to characterize the
+ 
+strength of the electron transition and to interpret the absorption spectra of it. The  molar  decadic  absorption  coefficient which represents the ability of a molecule to absorb light in a given solvent  at  a  given  wavelength  were calculated  using  Beer-Lambert’s  law (Belay, 2013; Liptay,1969) and integrated absorption coefficient is the sum of absorption coefficient for all frequencies. It is independent of line function which may be varying due to  pressure, temperature,  interaction  of solute and solvent (Milonni and Eberly, 1988; Michale, 1999). The integrated absorption coefficient () in the frequency range and (+d) can be expressed as,
+ 
+
+ 
+The integrated absorption cross-section () is given by Milonni and Eberly (1988):
+ 
+ 
+
+ 
+
+Using Equations 14 to 21, the optical transition properties of norfloxacin calculated in doubly distilled water are presented in Table 2.
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ CONCLUSIONS
+
+The result of this investigation indicates that the molecule of norfloxacin aggregates with caffeine molecules in the solution. The calculated parameters for the hetero-association and optical transition probabilities are important implication for interpreting the study of binding and kinetic chemical reaction system of the compounds. These parameters are very useful for understanding the nature and strength of molecular interaction in liquid solutions, in order to characterize the electron transition probabilities and interpret the absorption spectra of the compound, for direct experimental application in the emission, absorption and dispersion and in providing stringent test of atomic and molecular structure calculation in theoretical work. In addition, knowledge of the mechanism of the association, thermodynamic properties and the optical transition probabilities of NOR are useful in order to design the advanced and controllable carriers of drugs and food components. Therefore, the investigated results have wider applications in optical characterization, pharmaceutical drug designing and food companies in terms of economic and scientific utility.

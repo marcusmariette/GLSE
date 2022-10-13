@@ -1,0 +1,142 @@
+ABSTRACT
+
+The concept of e-portfolios is to reflect an avenue into the past, present, and future of a person; displaying his or her lifetime education and  devotion to further development, represents a valuable tool in aiding students’ not only in their academic growth, but mainly in their transition into higher education levels or even new careers. In the last few years, especially after the COVID-19 pandemic, the use of e-portfolios has shown an unexpected rise on university level, in its use to meet new developed needs. This work gives a brief definition of e-portfolios, how faculty members and students gain from them, and how to select the correct e-portfolio platform to support traditional school graduation final exams and university enrolment systems.
+ 
+Key words: Education, e-portfolio, schools final exams, university enrolment, transform education, embedding technology in education.
+
+ INTRODUCTION
+
+An e-portfolio is an “electronic portfolio”  that includes a technology pool of confirmation and artifacts expressing the intelligence talents, and achievements of an individual (Lorenzo and Ittelson, 2005). Clemson University (2021) in a text called “The What, Why, and How of e-portfolios” defined an e portfolio as” a collection of work in an electronic design that displays education over time”, which can certainly be applied in the transmission from High school to universities. In addition, it enumerates seven types of information in order to achieve that goal: records of texts, pictures, videos, etc.; records shown development and improvement; examples showing growth and development; records for  class  or  additional works; records for innovation and performance; records indicating leadership; analysis records and substantiated recommendations. In sum, e-portfolios consist of various documents and files from accomplished tasks, evidence of proficiencies and progress in skills in the form of credentials and records, as well as important practices and accomplishments. It is the unambiguous and categorical position of this paper that at the centre of the scientific approach towards the movement  from high school to higher education should be based on the concept of e portfolio. Such an approach not only transforms education, enhance student’s experience, encourage them to  vision with no limits, and inspire them to create a holistic profile, but at the same time, exceed their parents’ hopes, support and appreciate teachers a well as overall surpass the needs and expectations of all stakeholders. In other words, there is a need to start with empathy and the student’s capabilities, which can be coupled with innovative processes and embedding technology,in order for the services created to become more useful, applicable, effective and fair.
+
+ THE ISSUE
+
+In a presentation by Konstatinos Doukas (2016) in a Global Educational Conference, it was made clear that fairness and justice had to be at the core of the philosophy of the high school graduation final exams process. It was stressed that “we cannot, and we should not judge 12-14 years of student work and life, in 12-15 hours of traditional testing…”. In other words, it is not rational for a child to have an opportunity to enroll in a university merely through a few tests on 3-4 days of assessments. This was undoubtedly a radical statement and most educators attending were nodding their heads but with a big question mark drawn on their eyes related to the question” is there any other solution?” The inequivalent answer is “Yes”. This paper strongly believes that we should track a student’s total school career performance from kindergarten up to their senior year at high school through a holistic approach where assessment is done not only in knowledge areas but also through skills and values. Graduating should be based on an equation that takes into consideration all years at school, where final grades make up not more than 35%. It is believed we should use a more balanced and fair approach where 1-6 years get 20%, 7-10 years get 20%, 11-12 years get 25% and final exams get 35%. In sum there is a need for a student e-portfolio…”
+ 
+Another point raised by the conference attendants to Mr Doukas was “is the 35% too little downgrading the final exams of the senior year”. The explanation provided produced satisfactory results and adequately explained the proposed approach. Just four years later in 2020, COVID-19 arrived, and we witnessed globally an acceleration of changes in almost every industry. Education was forced to make dynamic and crucial changes overnight and the pandemic helped to unlock traditional mindsets and give opportunity for a new more holistic and innovative era in the area of teaching and learning.
+ 
+Many countries and educational systems like the International Baccalaureate and the A Levels, around the world, due to schools’ closure, senior final exams “died”, and from the highly weighted 90-100% value they got 0%, and new methodologies and procedures were created in order to certify the students’ graduating diploma. Most of these solutions were created under time pressure and several constraints carrying several deficiencies and creating new “problems”. In 2021 we witnessed the same “problem” where in many countries final exams were cancelled and new ways of assessing schoolwork were designed and implemented leaving students with the feeling of injustice again because they are experiencing something that they were not prepared for and – arguably - might strongly affect their future.
+
+ THE SOLUTION
+
+The position presented in this paper is that the creation of a “Student e-portfolio” is the solution on this problem. The time is right for our world and specifically the education industry to globally agree on a system that holistically records and evaluates the student’s journey through school and gives Universities the ability to choose from the list of applicants the students that best match its criteria. We just need to have the data properly inputted and organized, and with the use of Blockchain technology and Big Data Analytics, not only the Universities’ work will be easier but - most importantly - each student will be fairly evaluated through his/her full profile and not just from a good or a bad day on a written final exam. The idea of holistically evaluating a student has been discussed for many decades along with the unfairness of a students’ career being evaluated purely on final exams; however, the literature is extremely limited, and there are few references in areas such as: holistic grading (Nordquist, 2017); e-portfolio (Andriotis, 2017); cloud technology (University of Washington, 2012), access to universities (Clemson University, 2021). In total, how an e-portfolio and technology could support a holistic assessment through cloud technology, access points for universities and the use of blockchain technology to verify a student’s history and build trust.
+
+ STUDENT E-PORTFOLIO
+
+An electronic portfolio, as defined by Rebbeck (2008), is a portrayal of the student as one going through constant personal growth, not just a store of evidence. (Bass, 2009). It uses electronic technologies, enabling the portfolio builder to obtain and structure  portfolio artifacts in different kinds of media (text, video, audio and graphics). A standard portfolio utilizes a database or hypertext links to reflect the association between the standards or objectives, artifacts and reflections.  An electronic portfolio is a reflective tool that shows development with time (Abrami PC, Barrett H 2000). A student e-portfolio is the product, created and supported at the beginning in kindergarten by the school and handed over to the learner at age 12. From that point on its his responsibility to collect, organize and input his/her curriculum and extra-curriculum achievements, experiences, and learning outcomes.
+ 
+Furthermore, an e-portfolio is  a deliberate collection of digital stuffs – reflections,  concepts, proof, feedback etc., that “presents” a chosen audience with proof of an individual’s learning and/or ability (Sutherland and Powell, 2007). An e-Portfolio is an important tool, since it can be used by: students during their studies for the presentation of their knowledge, competencies and attitudes; graduates for their qualifications statement in the procedure of interviews in the market field; by educational organizations for evaluation purposes and the statement of students’ total progress (Lorenzo and Ittleson, 2005).
+
+ PEDAGOGICAL FRAMEWORK
+
+In order to be academically and pedagogically implemented properly and fully understood, a pedagogical framework should be provided. Educational organizations should provide it (learning styles, competences etc.) for the e-Portfolio environment, in order to be used by users for all ages, according to the “Key Competences for Lifelong Learning, European Reference Framework” (2007). Furthermore, various different content platforms for e-portfolios (such as, IMS ePortfolio Best Practice and Implementation Guide 2005: Presentation, Learning, Assessment, Personal Development, etc.) and representative examples of user portfolios, can be selected so as to form representative use scenarios, varied across the different age groups of users. The User Requirements report will have a direct impact on the different learning styles, the personal desire to deepen to the user profile, the type of information provided by the e-Portfolio environment, according to the content, and on the specification of the user interface and the interaction styles, according to the software system. The analysis can be based on web-based tools (such as, questionnaires, ad hoc field research activities etc.).
+
+ E-PORTFOLIO FEATURES
+
+Some important aspects of e-portfolio that need to be taken into consideration in order to fulfil its extremely important role are as follows.
+ 
+Hosting and storing of information
+ 
+Different educational institutions host a number of electronic portfolios while paid service providers host others. The cost of those run by schools are normally low and there is room for them to be customized.
+ 
+Artifacts
+ 
+Some systems make instructors to predefine the  kinds of artifacts selected  by students or the students are allowed to do it.
+ 
+Reflections
+ 
+Generally, electronic portfolios have a process through which authors and students can forward reasonable reflections where they give the reasons for choosing each artifact as well as the learning objectives it fulfills and stands for.
+ 
+Mentorship
+ 
+Some electronic portfolio systems have in-built components for mentoring of students. These components allow advisors to help  students choose their courses, trace students’ achievement in meeting the required grades of graduation, facilitate communications between advisor and advisee etc.
+ 
+Communication and collaboration
+ 
+Electronic portfolio systems create room for students to send and receive mails, to chat and discuss, transmit message and cooperate.
+ 
+Sharing of information
+ 
+Electronic portfolios make  students and institutions  to call on many people within and outside the school to place suggestions  on the portfolio.
+ 
+Surveys
+ 
+Many electronic portfolio systems allow one to disperse, collect, and/or analyze online surveys.
+ 
+Learning outcomes
+ 
+Frequently electronic portfolios give students the opportunity to gather items representing their achievements to satisfy either pre-determined or student- authored learning results..
+ 
+Course management
+ 
+Some electronic portfolio systems have a feature for managing courses and other works coupled  with a course management system already available; and some exist alone.
+ 
+Assessment
+ 
+Electronic portfolio systems may have or not assessment delivery, accepting, and/or evaluations components.
+ 
+Evaluations/observations
+ 
+Several portfolio systems provide the means of  creating, accepting, and calculating forms internship supervisors/ employers and educational supervisors to evaluate the performances of students in pre-professional internships online.
+ 
+Rubrics
+ 
+Rubrics are important to assess difficult and subjective skills. Rubrics help assessment to have uniformity, better relate anticipations and activities to students.
+ 
+Reporting
+ 
+Electronic portfolio has the capabilities to present accredited and valid reports, including  data obtained and accumulated from rubrics, portfolios, students’  placement tests, diagnostic tests, grades etc.
+ 
+Input templates
+ 
+The commonest learning goals are templates or the capability to develop templates to input CVS, analysis of
+field work, lesson plans, etc.
+
+ E-PORTFOLIO PROCESS
+
+The following process need to be followed for an effective and efficient e-portfolio:
+ 
+1. During kindergarten and primary sections, the school handles the e-portfolio for each student.
+2. On the first year of Highschool, the student takes over.
+3. In order to load an “artifact” to the e-portfolio, the appropriate certified procedure must be followed, using blockchain technology and high standard authentication procedures, thus securing the validity of the information.
+4. When a student applies to a university, they give electronic permission on their e-portfolio to the related university to access his/her e-portfolio.
+5. The university, using Big Data analytics, scans the students e-portfolio with the appropriate (for them) filters and creates fast and accurately the short list of students for further communication.
+ 
+Imagine the student e-portfolio like a Rubik cube (Figure 1) where each side represents a different part of the student (knowledge, skills, value, etc.) and each university by filtering the sides creates the “combined view” they want(Figure 2) in order to evaluate the applicant according to their standards, goals and strategy.
+ 
+Materials, tools, and methodology
+ 
+The student e-Portfolio will contain all necessary appropriately certified documents, as users will be obliged to import electronically certified documents from the relevant authorities. Then, users can digitally access these resources and present them to universities with just one click. Universities will not need to ask for further certification as all necessary electronic certifications will be already included in the e-Portfolio. The e-Portfolio platform must be implemented as cloud-based service. Additionally, available technology can be used for ensuring fast content delivery and the platform could be also directly linked to other environments such as LMS, CMS, etc.
+ 
+
+ 
+Access rights of students’ e-folders will be detailed to secure data privacy. In particular, students will not have access to the e-Portfolios of other students; they will be able to share only a limited amount of information, subject to their teachers’ supervision and the system’s approval. Publication of photographs and other audio-visual material of children will not be permitted unless consent of their parents is provided in advance, and all GDPR compliance rules will be taken in consideration.
+ 
+Students' acknowledgement and certification will be implemented respecting privacy because current technology enables system and software providers to sign a special contract assuring that they will only use users' profiles anonymously, leaving actual users' identification, in terms of personal data, to the educational authorities.
+ 
+Access rights will also be carefully examined in order to secure validity of imported data. For every data entry, the person or authority (such as, school secretary office, Certification authorities, Sports Associations, etc.) entering this data, will be identified at all instances. Furthermore, for the maximum number of entries possible, links will be providing further information/certification.
+ 
+Further important gains
+ 
+Through the e-portfolio, bridging between education and the world of work is enhanced, since the developed electronic folder (student e-Portfolio) will function also as a CV. Students will be able to access their electronic folder from anywhere, they choose to work in, and present it to their potential future employer. On the other hand, the employers will be able to select the most appropriate staff, as they will have an exact and certified record of students’ knowledge and basic competences, without the need to ask for data certification as all necessary certifications will be already included in the e-Portfolio. Also, through the e-portfolio system students’ competences will be further developed and enhanced. Students will be able to develop their digital competence through two basic supplementing processes: by developing and administering their electronic file and by participating in a “educational” social network.
+ 
+Moreover, students will be able to develop other basic competences, such as communication in  the mother tongue and in the English language. Students will utilize  e-portfolios to gather their work, evaluate their strong and weak points, and struggle to work harder. Also,  teachers and and schools use data they obtain to  assess their work in portfolios, evaluate it based on their  curricular, and plan to improve through them. E-portfolios help dents and teachers to know how to achieve relevant results with time, understand the  different areas of the curriculum, acquire knowledge for development, and build personalities as organizers of learning or learners.
+
+ DISCUSSION
+
+Through the e-portfolio, bridging between education and the world of work is enhanced, since the developed electronic folder (student e-Portfolio) will function also as a CV. Students will be able to access their electronic folder from anywhere, they choose to work in, and present it to their potential future employer. On the other hand, the employers will be able to select the most appropriate staff, as they will have an exact and certified record of students’ knowledge and basic competences, without the need to ask for data certification as all necessary certifications will be already included in the e-Portfolio. Also, through the e-portfolio system students’ competences will be further developed and enhanced. Students will be able to develop their digital competence through two basic supplementing processes by: developing and administering their electronic file and participating in a “educational” social network. Moreover, students will be able to develop other basic competences, such as communication in the mother tongue and in the English language.
+ 
+The results of the e-portfolio utilization can be clearly shown and justified by a discussion conducted with students that used it and resulted in two important issues. First, the e-portfolio made students to discover what they ought to learn and how to evaluate their progress. When the students were thinking of the ideas, skills and knowledge they acquired from their practices,  they went  to their e-portfolio and saw how to apply  the experiences they were writing. Also, they agreed  that those structured reflections helped them to analyze their learning experiences, show and comprehend the achievements that they could have  missed. While course syllabi makes students to know what they should learn , the structured reflection need in an e-portfolio can make  students to “own” learning outcomes when describing their accomplishment  and citing exact proof of learning within their pools of activities.
+ 
+Generally, a higher education environment requires a proper and well organized e-portfolios, which are very useful tools. Digital portfolios are beneficial to both students and teachers in a great way. It is surprising that more schools, colleges, and universities are not making the full use of  e-portfolio platforms. Also, e-portfolios can be a great source of information for teachers and students; they need to be recommended in all dynamic colleges  and  schools  (Miller  and  Morgaine,  2020).  A broad survey done by a key market research company showed there was almost a collective approval and positive feedback among people presenting making use of e-portfolios. Students accessing digital portfolio technology can evaluate their strong and weak points, fight for further  improvement, and maintain their work. e-portfolios offer schools the data needed  and ideas required to  plan, improve their curriculur, teaching standards and method to teaching generally.
+ 
+In order for this solution to be properly implemented, there must be new Policy and Regulations established by Governments and also create a very safe infrastructure for Data Security reasons. In essence the use of e-portfolios from an early age will involve various institutions, not only educational institutions (basic education, secondary education, and universities), but also the government which must regulate the process and the use and storage of databases. In addition, it is necessary to guarantee the security of individual data, which is stored for a long time.
+
+ CONCLUSION
+
+The position presented here is simple in its explanation, but radical when considered in terms of the current practices in graduation final exams. That is, educational processes such as proof of competencies and skill advancement as well as relevant experiences and achievements cannot be addressed in the traditional way. In other words, these processes cannot be dealt with unless we accept the concept of e- portfolio. More specifically, with the traditional Final Exams procedure, we measure quantity and much less quality. The difference between a good and inadequate student in the traditional exams system is that the inadequate student does not remember the answer to the question on the day of the exam and the good student does not remember the answer to the question a few days later. Let’s stress and measure the qualitative dimension of learning. It’s time to make this big change and give our students a fair and complete system that will give them the opportunity to achieve their goals and dreams.
+ 
+Therefore, the proposed feasible solution can become the main trend in education if universities must take the leading role and disrupt the traditional system by creating the new era through changing their admissions procedures. On the other hand, if nobody uses Education e-portfolio, technology will disrupt further with simple solution like Smart Glasses, 5G connected eye contact lenses, etc., because it is certain that it is unfair for a student to risk a 12-year school career in 12 hours of traditionally writing final exam tests.
+
+ CONFLICT OF INTERESTS
+
+The author has not declared any conflict of interests.

@@ -1,0 +1,325 @@
+ ABSTRACT
+
+The retention of software developers is of major concern to insurance firms where software for business units is developed in-house. Business success hinges to some extent, on the stability of information systems. The organisation in question has struggled with the loss of expertise in software development, which has affected the fluency of projects. The objectives of the study were to determine the current retention strategies for developers, perceived benefits of retention strategies and factors influencing the retention of developers. The methodology for the research was qualitative. Face-to-face interviews were conducted. The sample consisted of 10 developers at different levels of seniority. The findings highlighted concerns on recognition, technology, communication, knowledge sharing, transparency on promotions and team dynamics. The participants highlighted areas where management was contributing to retention and areas needing attention. The research work provided recommendations for improving retention strategies to institutions that have a large compliment of developers. The five (5) key recommendations were employee engagement, technological innovation, career development, recognition initiatives and improved communication.
+
+Key words: Strategy, retention, knowledge sharing, innovative culture.
+
+
+ INTRODUCTION
+
+The organisation studied came into existence in 2000. It was the first South African insurer to separate risk from investment. It offers unique life products linked to a healthy lifestyle to meet the changing needs of clients and stay ahead of competition. These kinds of products require stable and reliable software applications to service and meet clients’ needs. It is paramount to have a talented team of software developers (hereafter referred to as developers) creating applications that augment the organisational strategies considering the rapidly changing business environment.  Enterprise Java development is a scarce skill and not easily replaceable. Developers compete with the larger development community in terms of design decisions, approach, innovation, technological advancement, systems’ reliability and performance. Rasch and Tosi (1992: 407) indicated that a software developer's ability and individual need for achievement were the two strongest factors determining individual performance. It can thus be assumed that developers need opportunities for knowledge exploration and sharing to stay motivated and encouraged to think outside the box  while  improving   their  ability. Developers  leave  for various reasons of which some can possibly be addressed or avoided through targeted retention strategies. Knowing the key reasons for leaving will therefore be important to inform the retention strategies developed and implemented. The Managers for the targeted research firm were growing increasingly worried about the knowledge loss.
+
+The research problem
+
+The organisation faced the challenge of retaining talented developers. It had a good reputation in the market and their developers were sought after. There is merit in retaining existing developers considering the demand for their skills as well as the huge training investment. They also understand the business and have the ability to deliver quality software for new requirements in limited time. The nature of developers’ work is knowledge intensive so it can be argued that the quality of projects delivered is compromised as a result of talent loss and the skill is not easily replaceable. It is with this background that the research placed emphasis on relevant strategies to nurture and retain the much-needed skills. The research statement was that the organisation was not doing enough to retain developers.
+
+Aim of study
+
+The aim was to establish retention strategies for developers. The first objective investigated the existing organisational strategies intended to retain developers. The second objective was to determine the developers’ perceived benefits of retention strategies. The third objective was to elicit the factors influencing retention. From the findings related to the stated objectives, recommendations were put forward.
+
+Significance of study
+
+The study has both practical and theoretical significance. Practically, it contributes towards retention strategies for developers and can be a reference for institutions with a large compliment of developers. Theoretically, it contributes to the knowledge base for software developers’ specific retention challenges and impacts of rewards. The study provides a platform for further research on measuring quality of software and output when applicable retention strategies are employed.
+
+
+ LITERATURE REVIEW
+
+Importance of retaining talent
+
+Employee retention remains a critical issue for all companies and managers. The immense costs associated with  recruitment,   selection,   and  training  of  new  staff, often exceeds the annual income of the staff member being replaced. The direct costs, work disruptions, and losses of institutional memory are considerable issues for any company. The retention process needs continuous analysis to remain effective (Allen et al., 2010: 48). Many companies are also increasingly concerned about their ability to retain key employees such as employees with high-demand and difficult-to-replace skills. These concerns have broader implications for company competitiveness in an increasingly global landscape, and for how to address the increasing skills shortages. Despite the importance of retention to business success, there remains a gap between science and practice in the understanding of the management of employee retention (Allen et al., 2010: 48). Within the study context, it is clear that focusing on the retention of developers, who are an integral part of the business, is very important. Let’s consider the retentions strategies available to companies.
+
+Retention strategies
+
+According to Allen et al. (2010: 52) “it is true that compensation matters for retention, and employees often leave organizations to take higher paying jobs elsewhere. However, when we consider what leads employees to seek out these other opportunities to begin with, we find that pay level and pay satisfaction are relatively weak predictors of individual turnover decisions”. Given this, it becomes important to consider the literature around more varied and holistic approaches to employee retention. To follow is a brief overview of retention principles.
+
+Recruitment for best fit
+
+Retaining skilled resources begins at the recruitment stage. Allen et al. (2010:57) assert that the provision of a realistic job preview during recruitment improves retention. Further to that, employees hired through referrals tend to have better retention than those hired through other recruitment processes. This portrays recruitment as a cornerstone element for retention strategies. Nel et al. (2008: 225) highlight greater motivation, promotion opportunities and prospects to assess abilities as some advantages of internal recruitment. They list amongst others: inbreeding, political infighting and homogeneous workforce as disadvantages for recruiting internally. They further posit that external recruitment brings new ideas and diversity with shortcomings of loss of time owing to adjustments and discouraging present employees from striving for promotions.
+
+Employee engagement
+
+Nel et al. (2008: 349) posit that engaged employees express themselves  physically, cognitively, and emotionally in performing their jobs. He suggests, that employees who are engaged are not only physically present, they are also cognitively and emotionally present. They have a cognitive and emotional connection to the company. This according to Allen et al. (2010: 57-58) means that engaged employees are less likely to resign. Wagner (2006: 25) proposes specific approaches such as providing autonomy, job meaningfulness, task variety, fostering a team environment, providing and supporting specific challenging goals, and recognizing employee contributions. Similar to the internal recruitment advantages listed previously, Wagner (2006: 25) encourages hiring internally where feasible, communicating how jobs contribute to the organizational mission, skills development, positive feedback and recognition. Benest (2008: 23-24) proposes engaging employees through re-recruitment, which involves engaging employees in conversations and dialogues about the vision and goals of the organisation. This includes conducting “stay interviews” with employees regarding their individual hopes, dreams, values and possible ways to fulfil their aspirations; and offering people concrete opportunities to stretch and grow. Lanigan (2008: 49) identifies idea stimulation as a way to foster loyalty and involvement. This is attributed to employees being encouraged to contribute ideas, suggestions and solutions. It can thus, be assumed that there is potential for knowledge creation through employee engagement as new ideas are fostered.
+
+Recognition and reward
+
+It is evident in literature and practice, that recognition and reward are some of the most important principles to employee retention. In terms of recognition, Messmer (2004: 13) proposes simple practices such as verbal praise and staff celebrations for project milestones. The recognition options should suit the personality and interests of each good performer to make the reward(s) meaningful. Reward and recognition have a major influence on the employees’ conceptions of their employment relationship. Rewards consists of financial elements like pay and benefits but may also include non-financial elements or perks, such as on-site day care, employee assistance programs, subsidized cafeterias, travel discounts, company picnics and so on. Employees like to be rewarded and recognised for their outstanding work they do. Employees who sense that they are listened to, supported and recognised by management for their contribution are expected to be more engaged (Muthuveloo et al., 2013:1548). In other words the amount of rewards and recognition received may stimulate the employees’ engagement.
+
+Team dynamics
+
+According to the Association of Chartered Certified Accountants (ACCA) (2006: 369) the characteristics of an ideal team include: support of team members, a sense of identity and belonging, skills transfer, information sharing and encouragement to contribute to team goals. It is apparent that goodwill, trust and respect between individuals are important elements for fully functional teams. Mumford and Mattson (2009: 1-6) highlight four levels of team autonomy, which are: managed, autonomous, self-managed and self-led. The managed level is about execution of the team’s work without autonomy or decision power regarding work group goals or processes. The autonomous level is reached when the team has collective identity and authority to make decisions. The team becomes self-managed when it has autonomy over work processes and composition discretion. Lastly, a self-led team is self-designing and exists in a state of complete autonomy with the team maintaining control over all aspects of work, composition, and purpose. The strategies around team dynamics are arguably guided by the stage of team formation and what can be done to achieve the levels were no or little supervision are required.  It can thus, be assumed that the less supervision required the more mature and organised the team members are and that level of independence to self-manage will likely promote retention. When linking this back to the principles necessary for employee engagement, and specifically within a high technology context, which necessitates continual innovation and collaboration, it becomes clear that strengthening team dynamics is an important retention strategy. 
+
+Culture
+
+Silbiger (2007: 327-328) defines culture as the aggregate of behaviours, thoughts, beliefs and symbols conveyed to people throughout an organisation over time. He notes the challenge to changing culture but it is important to bear in mind when developing strategy. Hough (2008: 296) posits that organisational culture cannot be separated from behaviour and style of organisational leaders because leaders influence culture, especially where people strongly relate to their leaders’ behaviour. In relation to this, Allen et al. (2010: 54) highlight the importance of culture in relation to retention. They state that organisations that foster a supportive and cohesive culture may realise improved retention. Brundage and Koziel (2010: 39), indicate that it is in a firm’s best interest to view retention as inherent to a firm’s culture and not as a separate initiative.
+
+According to Zillmer (2015: 52), creating and sustaining a positive corporate culture can boost employee retention as well as ones bottom line. However, without clear direction from top management, a company’s culture can easily fall victim to neglect, leading to unhappy employees potentially making poor decisions. Further to that, a great workplace culture is building teams that work together    toward    common   goals   with flexible work schedules that put families first. This is achieved by a top-down focus on providing employees with a workplace environment that has personal ownership, allowing employees to feel relaxed enough to encourage success, yet challenged enough to provide growth. From this, it can be argued that the strategy is to build a retention rich culture that makes developers committed and loyal to what the organisation subscribes to allow. Tying this to team dynamics, it can be assumed that culture driven retention strategies should allow teams to be self-reliant with trust bestowed on them to make a critic decisions without simply following what everyone else does.
+
+Performance management
+
+Brundage and Koziel (2010: 40) see performance management as a valuable tool for retention because it provides feedback, which helps improve employees’ comfort levels, while involving them in setting goals congruent to organisational objectives. The authors state that good performers want to be held accountable. Brundage and Koziel (2010: 40) suggest a feedback process that fits within a competency model to pick up poor performance. The aim is to address it appropriately to ensure improvement on the part of the non-performing individual(s). Further stated is the importance for employees to be aware of, and understand their goals and objectives and use them as a platform for constructive feedback. It seems evident that retention strategies are not only about retaining top talent but also helping poor performing individuals to expected levels. It may just be an issue of training and development and allowing developers to reach their potential rather than incompetence.
+
+Training and development
+
+Software development requires constant updating of skills. Lanigan (2008: 50) proposes setting out and agreeing on training plans individually with employees and providing them with a personal development programme to  visibly  assist in career  and  development planning.  Nel et al. (2009:476-477) see this as a ‘vehicle’ for better decision-making, effective problem solving, job satisfaction and self-confidence. The benefits are amongst others; improved job knowledge and skills, good relationship between manager and subordinate improved communication and promotion of authenticity, openness and trust. The above points bring value addition to employees and tie in with what was discussed earlier about characteristics of ideal teams and the recognition aspect. It can be argued that this is evidence of retention strategies being linked to each other thus, cannot be looked at in isolation. In providing training and development it can be argued that the organisation sees potential for employee growth. In return this improves quality of work and promotes employees to stay because they feel appreciated. According to Pritchard (2007: 151), training and development initiatives are an investment in the employee. As such, they signal belief in the employee, acceptance that one is an intelligent and capable professional, commitment to their success today and in the future and investment in the acquisition of new skills.
+
+Communication
+
+Communication is one of the nine (9) knowledge areas of project management. Figure 1 represents the project life cycle which according to Heldman (2009: 584) is the grouping of project phases in a sequential order from the beginning of the project to the end, the process itself requires effective communication if projects are to succeed. This indicates that effective communication is the fulcrum of retention. Metcalfe (2004: 59) emphasises the need for great communication as an ingredient to developing a winning team. It’s believed that as much as communication does not solve all problems, it prevents many, minimises some and provides awareness of problems sooner rather than later. Metcalfe (2004: 59) proposes elements of good team management communication, which are keeping the team, informed, giving direction, guidance and feedback and motivating the team to feel keen, encouraged and empowered.
+
+ 
+
+
+
+ 
+
+ 
+
+
+ RESEARCH METHODOLOGY
+
+A qualitative research methodology was used to realise the objectives of the research. A qualitative approach was favoured because this was an exploratory study. The nature of questions were semi-structured, drafted from the research objectives to enable exploratory discussions that not only allowed an understanding of the ‘what’ and ‘how’ but also to grasp and explore the internal dynamics of the research topic. There was no pre-defined theoretical model. As such, face-to-face interviews, typically 45 min long were conducted to allow greater clarity and in-depth understanding of the subject matter. The study population comprised of forty (40) respondents from which ten (10) were selected. The respondents had varying levels of experience and at different levels of seniority, namely Systems Analyst, Senior Developer, Developer and Junior Developer. The experience varied from one (1) year to more than five (5) years. The work experience denotes the number of years one has been with the organisation in question.
+
+Non-probability sampling was chosen for this study because it concentrates on specific cases and in depth analysis of the specific. A combination of purposive and quota sampling were used to get participants based on the number of years that a developer has been at with the chosen organisation, for instance 1 to 2 years, 2 to 4 years, 5 to 10 years. The intention was to get a broad spectrum of ideas based on how long one has been with the organisation. The assumption was that a developer who has spent more than 5 years is most likely to exhibit more loyalty than someone who has only been there for 1 to 2 years. E-mails were sent out to twenty-eight (28) developers meeting the criteria of number of years with the organisation and asked to participate in the research. From the responses, 6 respondents were randomly selected. In addition, two (2) respondents who left and came back were approached and agreed to participate. A further 5 were approached from those who had not responded and agreed to participate. The reason was that some may not have responded but could add valuable input. From the thirteen (13), three (3) were used for the pilot leaving 10 for the actual interviews.
+
+Data collection instruments
+
+The questionnaire design was centred on the study objectives supported by semi-structured questions. Each objective had a set of questions designed to address it. Face-to-face interviews, were used to keep the interview open to new ideas and allow exploration of the research questions and objectives but carefully guiding the respondents from going off topic. The researcher made use of an interview guide to ask the same questions in different ways in cases where responses were not definitive. The intention was to get a broad view of the problem being explored, understand or acknowledge the good things and identifying areas for possible improvements. The interview notes were written down, as the respondents didn’t trust being recorded. To ensure validity and reliability, bias had to be eliminated. The interviews were conducted following the guideline provided by Saunders et al. (2003: 254), where some of the key measures to overcome bias in qualitative interviews are amongst others, preparation and readiness for the interview, level of information supplied to the interviewee, nature and impact of the interviewer’s behaviour and demonstration of attentive listening without interruption.
+
+Data analysis
+
+The research findings for this qualitative research were formulated based on interpretations drawn up from the interviews. The study followed an iterative process on the  premise  that  there  are  cases when there is need to go back to respondents to get clarity on things that could have been missed or overlooked during interviews. The research borrowed some ideas from Saunders et al. (2007: 479) who suggest organising the mass of qualitative data collected into meaningful and related parts or categories. There was integration of related data drawn from captured notes and identification of key themes, relationships or patterns for further exploration. The findings were linked to the research objectives and conclusions were drawn for each objective.
+
+Content analysis
+
+Hsieh and Shannon (2005:1278), define content analysis as “a research method for the subjective interpretation of the content of text data through the systematic classification process of coding and identifying themes or patterns.” This study borrowed elements of thematic analysis, which according to Joffe and Yardley (2004: 57) shares elements of content analysis but pays greater attention to qualitative aspects of the material being analysed. In this study, similar interview responses were grouped together and coded under the related themes associated with specific research questions. The analysis of the frequency of codes was combined with analysis of their meaning in context. The process was repeated to check which categories could be linked and the relevance of the content to the research. The notes were reviewed to ensure all information had been categorised and nothing had been missed. The categorised analysis highlighted major areas of concern leading to a model drafted as a recommendation.
+
+Findings of the Study
+
+The participating developers gave candid and constructive opinions regarding the current environment and areas of possible improvement. The next section talks about the demographics before delving into the findings in relation to the research objectives.
+
+Demographics
+
+Table 1 summarises the respondents’ demographics. Developers at this organisation are predominantly male hence, only males were interviewed. The respondents were promised anonymity so only the age and number of years were disclosed. The intention was to conceal the developers’ identity. There was a balance between developers at senior and lower levels. Developers with less than three years are perceived as less established and those with three or more years are perceived as more established within the organisation.
+
+ 
+
+
+
+ 
+
+Current retention strategies
+
+The next section gives an overview of perceptions about the current retention strategies.
+
+Competence development practices
+
+A  developer  has  the  privilege  of  moving  to a different team or department for new challenges. To quote one respondent, “I like the fact that I can approach my Manager and express my interest to try something different. If there is capacity and my current work is on schedule, the move to a different team is approved.” Instead of leaving to another organisation, developers can be enticed to change teams and get exposure to other business and technical aspects.
+
+Workplace flexibility
+
+Developers liked the option of working remotely at the Manager’s discretion. One respondent was allowed to work from home when he had car problems. Another one worked remotely for two days to concentrate on a project without office disturbances. He believed he delivered a lot more than usual. The work and lunch hours were flexible to allow people to work around the time suiting them best. For those at work, it was not mandatory to dress formally which one respondent stated as the reason for staying for long. “The work flexibility and casual dress code creates a relaxed environment and I feel at home.” In addition, there was a perception of unlimited career growth opportunities stemming from the flexibility of changing teams. On the contrary, one respondent felt as much as flexibility exists, one needed to be in the ‘right team’ to get deserved recognition and growth career wise. The aspect of recognition will be pursued later in this section.
+
+Culture
+
+This aspect received the most positive responses. The literature review emphasised the importance of culture in the context of talent retention. In contrast, as much as the interviewees unanimously agreed that there was a great work culture, there was a prevalent issue of loss of talent. It could thus be assumed that there were gaps within the other strategies though the culture had a part in retaining some of the existing talent.
+
+Training and development
+
+Training was provided off-site but was perceived as having been reduced. There was a gap in that training provided off-site was perceived relevant but developers could not apply much of what they had learnt. There was appreciation for on the job training due to the never-ending projects and business demands. The respondents who have worked in other environments suggested that this was a place with great training potential and advancement of skills. The environment presented a platform for continuous learning based on the level of business innovation and new products introduced regularly.
+
+Communication
+
+There was some appreciation of communication within teams and acknowledgement of insights into future projects. Some felt that communication was not transparent, believing it to come through knowing the right people. It was apparent that business requirements and rules were not filtered down properly and often came as a surprise. Similarly to this perception, one respondent believed there were “isolated silos of information.” One respondent appreciated having the knowledge of what goes on within the team but wasn’t sure how much of the communication was due to transparency and how much was to do with knowing the right people. On further probing he seemed to suggest that he got more things communicated to him by knowing the right people. For some respondents, information was provided on a need to know basis. One respondent felt that developers should not wait for things to be filtered down to them but rather take the initiative to keep up with business activities and trends. The notion was about taking the initiative to open up communication with business people, be it business analysts or managers as there are no barriers to that kind of communication. “Keeping up with business activities and trends is usually self-driven.”
+
+Challenges on daily duties
+
+There were mixed reactions but a consensus about excitement from challenging business processes. One of the senior respondents indicated that he was not challenged technically due to the adherence to old architectural thinking. The less established developers felt that over time, they were not challenged on the technology front because they kept getting repetitive tasks. Evidently, the challenges faced by established and less established developers differed from a technology standpoint. The strict adherence to deadlines was seen as a good challenge since one had to ensure that work was completed on time without compromising quality. One exciting challenge raised was that there were always new products and initiatives introduced throughout the year. This was perceived to create an anticipation of what the next challenge could be. There was some level of discontent from a senior developer who felt the level of work was perceived as challenging due to lack of quality senior developers, no dedication from junior developers to mature to senior level, legacy architecture for which no time was provided to improve it and non-compliance to the Systems Development Life Cycle by some business units. On the upside, some respondents felt there were lots of projects emanating from the level of innovation within the group so developers had enough work throughout the year.
+
+The projects are perceived as challenging and exciting projects due to complex business requirements. In line with challenges on daily duties came the aspect of technology.
+
+Technological advancement
+
+To quote a despondent respondent, “developers are not just driven by salary but are passionate about technology.” There were some positive comments mainly from Senior Developers. Their view was that the organisation had done well in providing a solid technology stack. The technology processes that were well thought and documented were seen as key towards retaining established developers. There was a difference in opinion between those who had been with the organisation for long and those that joined from other organisations but with vast experience. Those more established at the organisations were not worried about technology because they enjoyed the business challenges and were happy with technologies used because they knew it all. Those with experience but new to the organisation felt that advancements and exposure to new technologies was the most prominent strategy to retain talent in the development space. This confirms the notion discussed previously about the differences between established and non-established developers in the organisational context.
+
+As for the negative comments on technology, the following keywords were prevalent: out-dated, old and rigid. To quote one senior developer;
+
+“I have never been one to always be on cutting edge technology but what is important to remember is that any good idea has an expiry date. Things change with time even something that was top notch a decade or less ago is probably highly out-dated and unoptimistic now.”
+
+Another senior developer indicated that he wanted to be given the platform to apply his creativity even on the existing technology stack. This was evidently the most contentious issue raised by all respondents. Developers work in teams so the concept of synergy cannot be underestimated hence, the focus of the next section, team dynamics.
+
+Managing team dynamics
+
+The management of team dynamics was perceived as a retention strategy for some development teams stemming from the culture, bonding, knowledge sharing, collective accountability and responsibility and time provided for social interaction. It was evident that some teams met for activities outside work due to the close associations developed over time. Other teams attempted to bring team members together in a social environment but these were seen as few and far apart. One respondent felt that they only got to meet as a team outside work when someone was leaving. Most teams appear to be sharing knowledge but there was a feeling that more could be done. In some teams, the feeling was that knowledge sharing was more pronounced when someone resigned and had to handover work. For one respondent, the workload was hectic such that people ended up specialising on certain areas due to limited time to learn, share or rotate team members to have broader knowledge of the business aspects at hand. The following are quotes about the strengths of existing teams though not applicable to all teams:
+
+“Developers know the systems well, complemented by good business analysts”
+
+“ Evidence of knowledge sharing”
+
+“Ability to pick up each other’s work”
+
+“Work hard as a team”
+
+“Opportunities for senior resources to learn management skills.”
+
+The weaknesses that were raised and not applicable to all teams were: limited systems’ technical expertise, work overload, no urgency to replace Developers who have left, limited team work, limited training opportunities, limited exposure to systems design and inadequate work documentation. Team activities had slowed down over the  years  according  to a respondent who had been with the company for almost five (5) years. “There was a good team vibe when we first started and attended many team building and social activities which were mostly enjoyable. This faded over time and there is almost nothing of that sort.”
+
+Recognition
+
+Though perceived as a retention strategy, there were mixed feelings, with most respondents appreciating the incentives that come with recognition but some feeling that technical resources are not given enough recognition. Some believed there was little recognition and where it existed, it was not transparent. An example given was that of certain team members claiming overtime or time off from extra hours worked yet others did not. The forms of recognition ranged from a simple verbal thank you, a thank you e-mail, promotions, coffee from Seattle, more responsibilities as appreciation for good work, ‘dazzling moment’ notification and ‘STAR’ awards. For one respondent who frequently worked from home including weekends, eating into family time, it would be good if incentives attached to performance and work input were significant enough for his family to appreciate the rewards emanating from the extra effort put at home.
+
+Perceived benefits of current retention strategies
+
+The aspects of good working culture and fun working environment were unanimous. Other perceived benefits were good team spirit, knowledge sharing, highly motivated employees, improved quality and success of projects, immense respect for deadlines, flexible working hours and peace of mind even in times of turmoil. One respondent commended the opportunities for job rotation and promotion. “One can change departments if they needed a new challenge rather than being restricted to work or stay in one department.” The existing culture was perceived as relaxing, encouraging openness and symbolising utmost respect for others. There was acknowledgement for the effort put by management to ensure career growth. One respondent gave a good summary:
+
+“Developers see some benefits from the current strategies. The work we do is challenging, exciting and keeps you learning and growing as individuals and teams.”
+
+Factors influencing retention
+
+The perception was that junior staff left because they were expected to perform beyond their skills and experience. Some simply left for monetary reasons. For some, it was an issue  of  a  good  opportunity that  came knocking and could not be ignored. Regarding former colleagues who left, respondents thought they left due to unreasonable expectations from business units, managers failing to push back the workload, limited career growth, perceived favouritism with regards to promotions and irreconcilable issues with Management. One developer was believed to have left after being blamed for delaying project delivery at the expense of someone else he relied on. The lack of recognition and authority to enforce positive technical or architectural change drove some away because they were fed up with the technology stack.
+
+For those still at the organisation, they were concerned by the outsourcing trends where leaving developers were replaced by contractors who are paid more yet the salaries for experienced developers are not reviewed to encourage them to stay. Frustration had creeped into developers due to working overtime which was not compensated for, limited training opportunities, poor performing machines, no work-life balance, finger pointing in cases of crisis and red tape. In line with the factors that influence retention, developers were asked what their expectations were when they joined and whether they felt their expectations were met. In cases where they were met, respondents were probed further to determine if the expectations were still being met.
+
+Developers’ expectations
+
+The themes identified with regards to expectations were technological exposure, type of environment, learning and training opportunities. Most developers joined to gain exposure to enterprise systems and the opportunities to learn. There are some who were well experienced at the time of joining the organisation so they were looking for a change in environment and opportunities to grow career wise. The expectations were that of a great company with great people, good working conditions, technological advancements, career growth, continual skills training, good remuneration, rewards and recognition. The type of work was regarded as exciting, working conditions believed to be fairly good, flexi-time seen to be a huge benefit and being allowed to work from home was believed to be a ‘match winner’. However, recognition and rewards were believed to be lacking. It was felt that communication had to improve regarding the promotion criteria. Some quotes from the respondents:
+
+“Change policies to support and improve technical career growth.”
+
+“Incorporate programs to fast track Junior Developers so that seniors are not overburdened in teaching them.”
+
+“Ensure the work load is well balanced so that Developers are not ‘milked’ to the point of meltdown.”
+
+There were strong sentiments on the issue of race where some individuals in the previously disadvantaged category are believed to  have  left because they  felt  they  had  to work twice as hard to get promotions. To this end, it was stated that communication could have been handled better to clarify these issues or provide a guide on what is considered for promotion so that there is a better understanding of the whole process. It was also felt that developing good training programs on different aspects of technology could have made a difference for some.
+
+Perceived view of other developers
+
+One respondent who has only had a year at this organisation said, “New Developers are mostly frustrated yet those in the system for much longer seem comfortable probably due to promotions awarded to them to the extent that they stop worrying.” The frustration according to the respondent is the reluctance to adopt new technologies and the lack of involvement of new developers to get a feel of what they have experienced prior to joining. The impression seems to be that new developers are not considered capable of adding value other than being told what to do by those who have been there longer. Another respondent felt that there were two camps, one being the passionate and geeky and the other being those that are just there for work. The distinction was that the ‘passionate camp’ has the hunger to develop and try out new things and the other camp has none thus, they see nothing wrong with the environment. Accordingly the ‘passionate camp’ eventually gets bored or frustrated to the extent of seeking alternative employment. Respondents who have been with the organisation for less than three years shared the analogy of the two (2) camps.
+
+One respondent named the two camps as the “old guys” and “new guys” with reference to the number of years spent with the company. The “old guys” were believed to see no benefit in doing things differently due to fear of getting out of their comfort zone and “new guys” seen as capable of doing things better and quicker in some cases but were often overlooked. Amongst the so-called “old guys”, a few pointed out that some developers were concerned by unfair treatment when it came to promotions and were of the impression that there was favouritism. The same was said about how opinions were valued depending on who they came from. A concern highlighted was the existence of a gap between business and technical requirements and this having an impact on the quality of work output often blamed on developers. One respondent differed completely with everyone else on this topic. His perception was that developers take initiative to ensure that things run smoothly. He praised his peers and saw no negative elements amongst them. The seating arrangements were believed to irk a number of developers who felt they were squashed and too close to each other. As much as developers appreciated the need to conserve space, they were not happy with the current set up and the fact that their opinions were  never solicited regarding seating arrangements’ changes. Some developers were believed to be unhappy with the introduction of Contractors whenever permanent staff left. This was seen as an indication that Management were not worried about people leaving and that they were more willing to pay for expensive resources in the form of contracting companies but not willing to raise salaries for permanent employees. There was also a belief that some developers were discontent about the fact that developers were leaving but not being replaced thereby creating a huge workload. One senior developer had strong views on how he perceived other developers and gave the following responses: Junior developers do not put enough effort in their work and are just happy that they have less responsibility and accountability by virtue of their positions; Senior developers were dissatisfied regarding skills training, career path, excessive work load and limited career growth; The business roles were given more value and recognition compared to technical roles; and Outsourcing trends were increasing distrust and uncertainty amongst other developers.
+
+Dislikes
+
+One senior resource felt there was little effort put towards retaining good developers. The belief was that problems can be picked up much quicker in some cases and resolved if Managers take the initiative of building strong communication lines. There was a common belief that developers in some departments face too many production issues and are frustrated by continually fixing the same things over and over again without focussing on fixing the root causes. As much as the intention is there to fix the cause, these are normally lower down the priority list but this was said to pile on the pressure and bugs continuously add up as they introduce more system components. Over commitment to business was perceived to irritate some developers as they ended up working long hours and during weekends to get stuff done with no rewards whatsoever. A respondent who has been with the organisation for about a year highlighted the lack of recognition or respect for opinion(s) from anyone who has not been with the organisation for long.
+
+One senior developer disliked some people around him who he felt do not push themselves to do better or improve themselves. His impression was that some of his team members do the bare minimum and have no drive to improve their skills or take time to drill into the system to enhance their understanding. On the issue of contractors that are replacing the departing permanent staff, this was believed to create uncertainty about the future and growth for permanent staff. The perception is that some needs are ignored because Management can easily call up contracting houses and get resources.
+
+What benefits are appealing to developers? What could counter the factors influencing retention?
+
+Appealing benefits for developers
+
+Amongst senior developers, there was greater interest in working remotely. The belief was that more work is done by virtue of limited office disturbances. They did acknowledge the fact that managers have to set performance expectations to avoid abuse of such an arrangement. Flexi-working was raised as a good benefit because one can choose the most appropriate time that they are most productive. One can also choose the best time to drive to work thus, spending less time in traffic. This was seen to work even better if done in conjunction with the work from home option whereby one would get some work done from home in the early hours of the day then drive to work later when there is less traffic. It was felt that developers would appreciate time off work at the discretion of the manager as a reward for good work or exceptional performance. This could be done on a Friday for example where one is allowed to knock off at 12 or 1pm. Some suggested having a few awards for good performance; an example being a trophy that one keeps for a certain period. The award could be given on a quarterly basis and the exceptional work needs to be communicated so that others get motivated to do the same and have a good understanding of the type of work that gets appreciated.
+
+Another benefit mentioned was a voucher for lunch, dinner or breakfast as a reward for exceptional work. Training was perceived as an appealing benefit, from a career growth perspective and getting exposure on industry best practices. Promotions in line with good performance and dedication were seen to also appeal to developers. Internet is seen as the backbone of any technology expert. As one respondent put it, there is research that has to be done at work and outside work. He believed a good incentive would be to ensure that developers get incentives for good performance such as a data package or payment into an Internet Service Provider (ISP) account for Internet used at home. This was believed to encourage research after hours for anyone dedicated to the profession. Some respondents mentioned opportunities to do systems design obviously under guidance of senior resources. Lastly, there was a consensus that there have generally been a good vibe within teams after the installation of more television sets.
+
+Developers wearing the manager’s hat
+
+Having gone through the perceived retention strategies, they are elements of weakness that came out from the interviews about the current environment, which can ideally be utilised in formulating supporting retention strategies to retain the much needed talent. These weak-nesses could also be impacting on the good work that has been done to retain the talent pool of developers. These are weaknesses they would likely want to address if they had the authority.
+
+Perceived weaknesses of current environment
+
+There was a perception of teams being overloaded with work and a lack of full technical understanding of the system.  Four respondents felt there was favouritism regarding the nature of work or promotions and recognition was perceived to depend on race. Other issues were limited training opportunities, exposure to systems design, stagnation on skills and career growth.
+
+The disproportionate compensation for responsibility versus financial gain was a concern for one. A question was then asked regarding what the interviewees thought could be done to improve the developers’ environment and retain talent.
+
+Proposed improvements
+
+The questions on proposed improvements were included in the interviews to get input into the final part of the study that provides recommendations. Throughout the interviews, respondents were encouraged to think deeper about what improvements they wanted to see. Technology was at the top. There is need for technological skills’ growth by setting up incentives that motivate people to want to grow career wise. There is so much knowledge and the belief was that there should be increased knowledge sharing amongst developers and architects while continuously revising architecture to challenge the norm where necessary and open up avenues for improvements. Developers wanted to be kept in the communication loop regarding things directly affecting them. Other points raised were minimising the use of contractors, “encouraging innovation whereby developers are given a chance to be creative but abiding to set standards,” establishment of team events but not restricted to one team, better performing machines and increasing the internet allocation to facilitate research. On the social front, one respondent felt that it would be great to have pause areas similar to in the other building where there are pool tables, dartboards, a CD player and a foosball table. This was seen to provide a refreshing environment to the hectic workload and a good team interaction initiative. The developers were also asked what they felt was the role of their managers in retaining talent.
+
+Managers’ role in retaining talent
+
+A number of respondents insinuated that developers appreciate small gestures and time off to compensate for extra hours worked. There was a suggestion for Managers to be proactive in rewarding employees using non-monetary means. The improvement of communication and informal dialogue with team members was encouraged. The main roles of Managers’ in developers’ words were:
+
+1. Urge developers to do more research and proof of concepts.
+
+2. Allow team building exercises or social breaks as a team like team coffee or a gesture of appreciation of the effort put in by subordinates.
+
+3. Enforce stand-up meetings regularly to ensure clarity of team members’ work. This was believed to facilitate guidance or brainstorming sessions when someone was found struggling.
+
+4. Facilitate promotions for deserving developers in a transparent manner.
+
+5. Arrange team celebrations when teams reach major milestones.
+
+6. Accommodate thoughts of subordinates.
+
+7. Revise incentives process to be inclined to performance.
+
+8. Introduce short-term performance goals rewarded accordingly. The reward doesn’t have to be monetary.
+
+9. Implement performance measurements to ensure that junior developers grow in responsibility.
+
+10. Pay more attention to individual needs.
+
+Analysis of findings
+
+The organisation seemed to have strategies such as recognition, culture, reward process and training consistent with the existing literature in particular Allen et al. (2010: 48), Muthuveloo et al. (2013: 1548) and Benest (2008: 23-24). That was inadequate to stop developers from leaving. This highlights that different strategies affect developers differently thus, making it hard for Managers to retain talent. The evident missing factors were: recognition, employee engagement, team dynamics and technological advancement. The findings suggest these factors as the major drivers for the current talent loss and requiring the most attention. The challenge for managers is to address the existing issues without raising alarm in other areas outside software development.
+
+
+ CONCLUSION
+
+The research was guided by research questions reiterated below:
+
+1. What are the current strategies?
+
+2. What are the perceived benefits of retention strategies?
+
+3. What are the factors influencing the retention of developers?
+
+4. What recommendations can be provided to managers in order to improve retention of developers?
+
+Talented developers have been lost over the years. There is potential to retain talent or bring back the good talent that left as well as attract the cream of the industry.
+
+The outcome of this study can help Management to better understand developers’ concerns and introduce strategies targeting retention concerns on a continuous basis so that issues are addressed earlier rather than later. Managers can take credit from the positive aspects that came out of this research process. There is a good foundation for eliminating weaknesses highlighted in this research and doing away with perceptions emanating from ineffective communication. The research confirmed the research statement that the organisation was not doing enough to retain developers. There were perceptions about biased recognition. Developers felt they should be given the opportunity to explore various technologies as this contributed to personal growth. They wanted a platform that facilitates innovation regarding systems development. It can be argued however, that the most important thing for Managers is to deliver system solutions quickly, regardless of which technology is used and therefore no new technology initiatives are promoted. However, compromises can be made to ensure that technology concerns are addressed without affecting business delivery.
+
+Training was perceived to be lacking and there was belief that there is inadequate engagement of developers regarding training requirements and career prospects. There were mixed feelings regarding knowledge sharing with mostly junior developers echoing disgruntlement. On the contrary, there were good aspects that came from the findings such as the commitment and adherence to project deadlines, relaxed dress code, flexible working hours, working remotely, approachable Managers, support structures, challenging but fun work environment and the television sets around the development area that bring about a social aspect to the work environment. The negative aspects are not signs of failure but a case of things that are over looked or perceptions that creep up due to insufficient communication. It is vital to maintain what works while improving the negative aspects. A study like this does not solve all the problems so communication has to be improved to a level where most issues are picked up and addressed in good time. Elements such as communication, teamwork, work structure, recognition programmes and technological advancements can be addressed in an effort to retain talent.  
+
+
+ RECOMMENDATIONS
+
+This organisation requires massive systems support and fully functional systems while offering high performance and reliability. The systems part of the business can only be a success if talent is retained. As much as developers have needs such as technological advancements the reason for the existence of the business takes precedence. There has to be a compromise on some of the things that were  raised  by developers in this study to ensure that the organisation does not become a training ground for other institutions. The retention strategies have to be looked at iteratively to ensure increased stability and relevance. There is no better way to recommend new retention strategies than to work with what the respondents proposed.
+
+Communication and career development
+
+Developers will benefit from transparent and frequent communication with Managers regarding career prospects. These can be assessed, nurtured, developed in conjunction with the developer to ensure acceptance. Managers can play the role of mentors or delegate senior team members to play that role. Managers should actively listen and encourage developers to make suggestions and propose improvements. Improving communication can help eliminate perceptions of favouritism, unfair treatment and bias. Developers new to the organisation should be allowed to share the experience they are bringing in. The idea is not to change the way of doing things but to be aware of what competitors are doing and benchmark against that. Developers can be encouraged to use the existing intranet facilities to publicise their experience and update qualifications they acquire over time. This information can be used to identify individuals who can benefit from being part of certain projects or are better suited for certain training.
+
+Employee engagement
+
+This could adopt recommendations by Benest (2008: 23-24) concerning recruitment with emphasis on engaging employees in conversations and dialogue about the vision and goals of the organisation; conducting “stay interviews” regarding individual hopes, dreams, and values and possible ways to fulfil aspirations; offering people concrete opportunities to stretch and grow; and generally engaging them as part of an organisation’s evolving “story.”
+
+Team building
+
+Team building has to be more frequent and low cost alternatives can be explored so as not to strain the company's budget. It is possible to make small contributions and meeting up for a social events or games. It will also be good to involve partners once in a while so that they appreciate the kind of teams that their loved ones work in. Communication within teams can be improved by introducing stand up meetings where everyone briefly explains what they are busy with and any problems they are facing with their current work.  The meetings have to be short so as not to digress from being strictly update meetings. These meetings encourage developers to do their work quickly and raise seriousness, as one cannot report the same thing over and over again.
+
+Feed back
+
+Feedback regarding career related discussions, problems raised, nature of work and team activities is important. The mind-set has to be that of continuous improvement on all aspects that affect developers and that way, talent can be retained through increased clarity and transparency. From a Management perspective, quarterly feedback sessions can be arranged where heads of different teams give an update of what has been going on and what lies ahead.
+
+Culture
+
+There is need to instil a culture of innovation, success and confidence. Developers’ work can be stressful but enjoyable. Successes should be celebrated to show Managers’ appreciation. This can be via e-mail, a round of applause in a meeting, a team lunch or a quick informal meeting while having coffee to say thank you. Failures should also be celebrated so as not to discourage commitment.
+
+General improvements
+
+The seating arrangements, raised as a point of concern, can be revisited or improved. It will be good to engage the developers and get their opinions so that they feel appreciated. The issue of the limited Internet bandwidth can also be revisited or relaxed but on condition that the limit can only be increased if the intended purpose is research oriented. It will be worthwhile to consider putting a games area with access restrictions if there are worries about productivity. A good reference will be the other division where they have a similar set up.
+
+Recognition
+
+The recognition methods have to be transparent and applied fairly and consistently to avoid the perceptions of bias highlighted in the findings. Recognition can be in the form of awards, exceptional performance and project delivery. As much as there are awards in place already, it would make a difference to introduce awards specific for developers, which are not necessarily monetary. Managers can introduce quarterly, half yearly or even yearly awards for exceptional performances. Innovation awards are  covered  in  the  next  section  as  reward  for effort.
+
+Technological innovation
+
+The issue of technology was prevalent in the findings. Developers are motivated by technological advancements but the business needs stable system to ensure they remain competitive. The following model could encourage innovation and technological advancement linked to valuable business outcome. Promoting technology driven innovations linked to business or system gaps potentially increases competitiveness and developers are encouraged to continuously find solutions to streamline processes. The model was influenced by the factors that seemed to have the biggest concerns from the findings. The important thing is innovation should be beneficial to the organisation while encouraging developers to stay. Once a gap is identified, a proof of concept is presented to business and technology specialists. Those with similar ideas are encouraged to pursue knowledge creation through collaboration.  The identification of gaps is not limited to developers but can come from business users (non-technical) and a team is formed to tackle the innovative challenge thereby promoting teamwork. The organisation can allocate a few hours per week for these initiatives. A budget is allocated for selected ideas to see them through. The effort regardless of success or failure is rewarded. The failures are celebrated to maintain interest. The rewards should appeal to developers’ interests to make them attractive. Evaluation is critical to assess   progress   without  hesitation  to  change   tact  if necessary. Figure 2 below summarises the recommendations discussed concerning technological innovation
+
+ 
+
+
+
+ 
+
+Further research
+
+The research could be extended to other divisions to determine the same objectives for developers. It can also be extended to all employees to gauge similarities in concerns and address them accordingly. The research could also be revisited to see which areas have been addressed and their effectiveness. This study could be extended to Managers to gauge their perceptions on the developers and thus, highlight gaps between management and subordinates. The model for technological advancement could be tested in research involving a similar environment or research on innovation drive as a retention strategy.
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interest.

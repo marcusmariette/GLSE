@@ -1,0 +1,184 @@
+ABSTRACT
+
+The purpose of this study is to investigate the influence of the web-aided cooperative learning environment on biology preservice teachers’ motivation and on their self-efficacy beliefs in biology teaching. The study was carried out with 30 biology preservice teachers attending a state university in Turkey. In the study, the pretest-posttest research design without any control group was used. As the data collection tools, a motivation scale and a self-efficacy belief scale for biology teaching were used. The data collection tools were applied as pretest and posttest on group. During the analysis of the obtained data, paired simples t-test was used. The findings obtained demonstrated that the motivation levels of the biology preservice teachers trained in the Web-Aided Cooperative Learning Environment (WACLE) increased and that there was no significant difference regarding their self-efficacy beliefs in biology teaching. The results were discussed in the light of the literature, and related suggestions were put forward accordingly.
+
+Key words: Biology teaching, cooperative learning, web-aided learning environment, self-efficacy belief.
+
+
+ INTRODUCTION
+
+Use of tools in education dates back to centuries ago. The process of using tools that started in 2600 B.C. with the abacus has now become indispensable in our lives. Technological developments and scientific advances especially in the last century have led to the birth of the information society. Today, it is a must for societies to follow and adopt these dazzling developments. Every passing day, new developments are added to the previous ones. At present, the computer is considered to be the most effective technological development in education (Akkoyunlu, 1998; Arslan, 2006; Bal, 2010).
+
+Until recent time, traditional use of computers was limited to computer-aided education, yet the infinite flexibility of the Internet has brought about a new dimension to the subject (Alptekin and Ertem, 1999). According to Barnard and Samberg (1993), the Internet has a key role in gathering students and teachers throughout the world. The Internet connects potential sources of information scattered all around the world. Wilson and Marsh (1995) point out that Internet provides students and all other users with two important opportunities: First, students can use the Internet for such purposes as communication, research, obtaining information and sharing. Secondly, Internet access removes all the boundaries for students including the school walls. The development and spread of Internet technologies has led to special acceleration in education. In recent years, with the increasing number of schools and institutions providing education via the Internet, the concepts of distant learning and e-learning have been popular (Çall? et al., 2003). On the other hand, research results demonstrate that there is a decreasing participation in virtual classes and that the e-learning method has certain deficiencies (Young, 2002; Singh, 2003). Students’ motivation decreases due to their weak interaction in the learning process when compared to face-to-face learning environments, and they thus leave without completing the course (Osguthorpe and Graham, 2003). According to Horton (2002), this problem could be overcome with the use of the mixture of traditional and web-based teaching, or Web-Aided Teaching (WAT), which refers to the traditional method of teaching accompanied by the use of Internet-based instruction as the main presentation tool.
+
+WAT can be defined as “an environment that allows simultaneous or non-simultaneous learning not only to support the teaching-learning process when other instructional methods and techniques fail to increase students’ interest in a subject and their learning but also to share information found in different environments by using web pages as well as the equipment and software capabilities of computers” (Khan, 1997; McCormack and David, 1998; Uzunboylu, 2002; ?ensoy, 2005).
+
+In web-aided teaching, the website is designed using a strategy appropriate to the students’ characteristics after determining the content. The webpage designed can be revised and removed by improving the subject with technology support and with the help of links to other websites. Administration of the website and its application can be achieved in cooperation with experts and the teacher. Also, assessment can be done via the Internet as well. By assessing students with the help of appropriate software, they should be provided with the necessary feedback. It is possible to assess the students taking either the product or the process into consideration (Cüez, 2006). The advantages and disadvantages of web-aided teaching are as follows: the advantages include increased sources of information, decreased cost of education, reaching up-to-date information instantly, experiencing no transportation problem, being independent of the physical environment, sharing ideas and learning, having rich materials and sources, being able to follow the course in any place at any time and reviewing the lessons; as for the disadvantages, they include having no appropriate infrastructure or standards, failure to follow the course due to technical problems, no common points among students, too much information available, difficulties in preparing and distributing the course materials and the  high  cost  of  course  materials (Khan, 1997; McCormack and David, 1998; Sünbül, 2004).
+
+WAT puts forward an innovative approach especially to studies on cooperative learning (Jianhua and Akahori, 2001; Hoppe, 2007). Different from traditional methods of teaching, one important feature of WAT is that there is constant communication between students as well as between students and the teacher and that the cooperation resulting from these communications has a key role in learning (Palloff and Pratt, 2007).
+
+Cooperative learning requires students to study in small groups by helping each other’s learning in line with a common goal. Group members help each other either by teaching one another or by sharing each task. Within a group, a student’s learning is influenced by others’ learning and by their efforts (Aç?kgöz, 1992). According to Demirel (2010), in the cooperative learning method, group members are supposed to know that the group is a whole and that each member is responsible for the success or failure of the group. Since a student can study with all other students instead of studying with the same students, s/he can recognize different skills and characteristics of each student. As there is always a dialogue and sharing in class, students take more active role in lessons. Even though there might be some students having difficulty understanding the subjects during group work, they can easily overcome such problems thanks to the cooperation within the group (Fenton, 1992).
+
+According to Slavin (1990), if a teacher is new to the cooperative learning method, it will be better for him or her to start with the STAD technique (Student Team Achievement Division) since it is much easier to apply this technique when compared to the other techniques of the cooperative learning method. In this technique developed by Slavin, heterogeneous learning teams of four or five members are formed. The class starts with a presentation made by the teacher, and students study until making sure that all their team mates have fully understood the lesson. At the end of the class, students’ individual exam scores are calculated. Depending on the criteria previously determined, the team scores are formed. Taking the team scores into consideration, the most successful team is awarded.
+
+In recent years, a number of researchers have adopted the computer, Internet or Internet technologies as one of the key features of cooperative learning (Garrison and Anderson, 2003; Mclnnerney and Roberts, 2004; McConnell, 2000; Hoppe, 2007). WAT, based on individual learning, has gone under change covering cooperative learning (Johnson and Johnson, 2002). This approach, which includes not only simultaneous-nonsimultaneous activities in the Internet environment but also face-to-face activities in class, is called Web-Aided Cooperative Learning (WACL) (El-Deghaidy and Nouby, 2008). Conrad and Donaldson (2004) point out that getting information via cooperative learning has a key role in creating a successful WACL. According to Palloff and Pratt (2007), the important points that should be taken into consideration in WACL are as follows:
+
+1.  Small group tasks,
+
+2. Research assignments that require students to find source materials for the members of their own group,
+
+3. A case study with the group,
+
+4. Simulations,
+
+5. Students’ facilitating each other’s work within the group,
+
+6. Homework forums,
+
+7. Nonsimultaneous discussions and discussion questions,
+
+8. A course website that provides feedback.
+
+However, in e-learning environments and in learning that occurs in these environments, one of the difficulties experienced in practice is the self-efficacy that students are supposed to have (Graham, 2006). In literature, it is reported that individuals’ self-efficacy beliefs have important influence on their interest in instructional technologies and on their expectations regarding these technologies (Smith, 2002; ?ahin, 2008).
+
+Self-efficacy is one of the key variables in the social cognitive theory. According to Bandura, self-efficacy is a factor influential on the development of behavior and is defined as “an individual’s judgment regarding his or her own ability to organize and accomplish the necessary activities to demonstrate a certain performance” (Bandura, 1997). Individuals’ expectations determine not only the start of their behavior but also their insistence on the success of their behavior. During these activities, individuals’ beliefs in their own strengths have influence on their behavior and even on whether they will demonstrate that behavior or not. According to Bandura, only the perceived efficacy is directly influential on determining the behavior, and effort is an important factor to be successful at the end of the activities. The reason is that the stronger the perceived self-efficacy belief is, the more effort the individual makes. Bandura bases self-efficacy belief on four basic sources (Senemo?lu, 1997):
+
+1. Performance Outcomes: The most important source of self-efficacy is the performance results or past experiences. Positive and negative experiences in the past may influence individual abilities necessary to do a job. If individuals have done a job successfully before, it is likely for them to feel that they are efficient in other similar conditions. For instance, if an individual has demonstrated a good performance during an educational workshop, then he or she may have a higher level of self-efficacy and self-confidence in another similar workshop. Because the individual’s self-efficacy belief will be higher in similar subjects, he or she will try harder to achieve better results. Also, the opposite is true as well. If the individual has negative experiences, he or she will have a lower level of self-efficacy belief and demonstrate worse performance accordingly.
+
+2. Vicarious Experiences: Observing others’ performances, individuals can develop their own low or high levels of self-efficacies. They compare their own abilities with others’. When they see what their peers achieve or fail to do, their own self-efficacies could increase or decrease.
+
+3. Verbal Persuasion: Positive or negative approaches to individuals’ performances are influential on self-efficacy. Encouragement and recommendations for an individual to be become successful have different effects on self-efficacy belief. Similarly, if an individual is discouraged from success, his or her self-efficacy belief is likely to decrease.
+
+4. Physiological Feedback (Emotional Arousal): An individual’s expectation to achieve a task or to fail to do that task has influence on self-efficacy perception. For example, such emotional arousal as anxiety, palm-sweating and increasing heart-beat in cases of making a speech in front of an important group of customers influence an individual’s self-efficacy.
+
+Ashton (1984) defines self-efficacy belief as teachers’ beliefs in their abilities to influence their students’ achievements. Teachers’ self-efficacy beliefs in science teaching also influence the applications they carry out in class (Schriver and Czerniak, 1999). When compared to teachers with low levels of self-efficacy beliefs, those with high levels of self-efficacy beliefs allocate more time to science teaching and activity-based science teaching (Enochs and Riggs, 1990).
+
+Biology preservice teachers’ beliefs in increasing their students’ achievements via effective teaching methods (Result Expectation) and their beliefs in themselves to behave in a way to effective teaching (Self-Efficacy Beliefs) are important in terms of the efforts they will make in the teaching process. Thus, it will be possible not only to make predictions regarding preservice teachers’ performances and efforts in their future profession but also to revise the curriculum in a way to include changes to be made for teachers to develop themselves accordingly. Considering the fact that self-efficacy belief is likely to influence such teacher behavior as making efforts, giving feedback and teaching in the field, it could be stated that high level of self-efficacy belief in biology teaching can increase the quality of biology education to be given by preservice teachers (Savran and Çak?ro?lu, 2001; Gerçek et al., 2006).
+
+In literature, there is a great deal of research demon-strating that web-aided cooperative learning applications have positive influence on students’ achievements, views and attitudes towards lessons (Soller, 2001; Ling and Heng, 2006; Dewiyanti et al., 2007; Tseng et al., 2008; Liu and Tsai, 2008; El-Deghaidy and Nouby, 2008; Demirda?, 2011). On the other hand, the number of studies conducted on WACLE applications in biology education   is   fairly   limited  (Vesisenaho  et  al.,  2010).
+
+Therefore, the present study is thought to contribute to the field.
+
+This study examined the influence of WACLE in biology education on preservice teachers’ motivations and on their self-efficacy beliefs in biology education.
+
+
+ METHOD
+
+The pretest-posttest research design without control group has been used in the study.
+
+ 
+
+Study group
+
+The study was carried out with 30 students (24 female students and 6 male students) taking the fourth-grade course of “ Seed Plants Systematics Laboratory” in the department of Biology Education at Z.G. Education Faculty at Dicle University in Turkey in the Spring Term of the academic year of 2012-2013.
+
+Table 1 presents personal information about the study group. 
+
+ 
+
+
+
+ 
+
+As can be seen in Table 1, there was no obstacle to hinder the research process with respect to the study group students’ use of the Internet and computer.
+
+ 
+
+Data collection tools
+
+Motivation scale
+
+The scale developed by Özerba? (2003) was made up of 30 Likert-type items, 17 of which were positive statements and 13 of which were negative statements. The items in the motivation scale used in the study were rated as a five-point scale: “I completely agree”, “I agree”, “I am neutral”, “I disagree” and “I completely disagree”. For the original version of the scale, the Cronbach Alpha reliability coefficient was calculated as .88. For the present study, it was found to be .91.
+
+ 
+
+Self-efficacy belief scale for biology teaching
+
+In order to determine the biology preservice teachers’ self-efficacy beliefs in biology teaching, the Self-Efficacy Belief Scale for Biology Teaching was used. The Self-Efficacy Belief Scale for Science Teaching developed by Enochs and Riggs in 1990 was adapted into Turkish by Tekkaya et al. (2002). At?lboz (2007) transformed the scale into Self-Efficacy Belief Scale for Biology Teaching by replacing the word “Science” found in the original scale with the word “Biology”. The scale included 23 items and two sub-dimensions. Of all the items, 13 of them (2, 3, 4, 6, 7, 12, 16-22) measured the sub-dimension of “Personal Self-Efficacy”, and 10 of them (1, 5, 8, 9, 10, 11, 13, 14, 15 and 23) measured the sub-dimension of “Result Expectation”. The scale was a five-point Likert-type scale rated as 1= “I completely disagree”, 2= “I disagree”, 3= “I am neutral”, 4= “I agree” and 5= “I completely agree”. For the present study, the reliability coefficients were calculated as 0,89 for the sub-dimension of “Personal Self-Efficacy”, as 0,78 for the sub-dimension of “Result Expectation” and as 0,91 for the total scale.
+
+ 
+
+Study
+
+The study was carried out within the scope of the course Seed Plants Systematics Laboratory in the Spring Term of the academic year of 2012-2013. The application was carried out in four course-hours a week, and the process lasted 15 weeks. In order to form the online dimension of the web-aided cooperative learning environment, a website (www.webdestekli.com) was designed using Moodle LMS. Among the cooperative learning techniques, the Student Team Achievement Division (STAD) technique was used. The general features of the website used in the study were as follows:
+
+1. Every student signed up the website by giving the necessary information and obtained a username and a password. The students used their usernames and passwords for out-of-class online access. In addition, each group obtained a separate username and password. For in-class online activities, the group username and password were used. After signing in the website, the home page appears. On the home page, the section of courses included the list of active courses and the headings of lesson units. In addition, the home page also included the calendar and presented the researcher’s contact information.
+
+2. After signing in the website, the students could see the lesson screen made up of several sections (Figure 1). On the left, there were such sections as online users, comments, random vocabulary and updated news regarding nature. On the right was a list of recent activities, recent forum news, messages and forthcoming activities. The lesson page was designed according to the “subject draft.” Thus, in line with the course syllabus, the students were allowed to access the content related to the subject of the week before coming to class. The lesson screen gave information about the methods applied and about student behavior expected during the application. Also, a news forum for course-related announce-ments was included in the lesson screen. These announcements can be seen in the section below the heading of recent news on the right side of the lesson screen as well. For the purpose of creating a more permanent and effective learning environment while transferring the subjects, techniques appropriate to different learning styles were used. Students could follow the subjects via the summary page, presentations, animations and videos gathered from different sources and different websites (tübitak, wikipedia and so on) related to the subject (Figure 2). In addition, dictionaries, quizzes, research subjects, forums and photo galleries related to each subject were included. 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+3. The students’ sign-in and sign-out times for the website and the duration of time they spent on each subject were determined by the system. With the help of such data, the teacher had the chance to warn the students concerned when necessary.
+
+Following this, the phase of forming the cooperative learning groups was put into effect. In this phase, while forming the groups, special attention was paid to heterogeneous distribution of the students into groups. For this purpose, based on the students’ achievement grades in the Fall Term course of “Seedless Plants Systematics”, the order of students’ achievement grades was determined. In addition, taking the students’ gender into consideration, they were divided six groups with five students in each. The students were informed about the group rules, and were asked to name their groups and to share the duties among themselves (technology assistant, note taker, material provider and so on).
+
+Before the application started, the pretests were applied, and the students were given a two-hour training on the WAT environment. First of all, they were informed about the web-aided cooperative learning environment. Following this, with the help of a computer connected to the projector in class, the website was introduced, and the students practically learnt how to sign up the website and what to consider while following the activities. During the lessons, a balance was achieved between face-to-face and online environments as appropriate to the course outcomes. Before coming to class, the students had the opportunity to be prepared for the lesson by examining the summary of the subject, its presentation, the subject-related videos and animations as well as other links via the Internet. First, as appropriate to the STAD technique in face-to-face environment, the lesson was briefly presented. As the students were already prepared for the lesson, the focus was mostly on the web-aided activities. Each group was provided with a laptop computer, and the students carried out the online activities. In this respect, the worksheets previously prepared were distributed to the groups. The worksheets included not only subject-related questions that required researching but also web-related duties (entering the meanings of the terms and the related photos into the dictionary regarding the subject given to each group of students, forming a photo gallery regarding the members of the subject-related families and carrying out activities like drag-and-drop via the web). As for the out-of-class activities, the students took online quizzes. In addition, the activities carried out each week were evaluated in the forum section. Once a subject was completed, another subject was made accessible. At the end of each section, the students’ personal development scores and the group scores were calculated and announced (Figure 2). As a result of the application, the group coming first was awarded. Table 2 presents the study schedule.
+
+ 
+
+
+
+
+ FINDINGS
+
+Findings regarding the difference between the biology preservice teachers’ motivations before and after the application
+
+In order to determine whether there were differences between the study group of biology preservice teachers’ motivations before and after the application, the paired sample t-test was applied on the motivation scale pretest-posttest scores. The findings obtained are presented in Table 3. 
+
+ 
+
+
+
+ 
+
+When Table 3 is examined, it is seen that there was a significant difference between the study group biology preservice teachers’ motivation scale pretest (= 3.21) and posttest (= 3.88) scores (t(29) = -4.600, p <.05). Depending on this result, it could be stated that the activities carried out led to a positive change in the participants’ motivations.
+
+ 
+
+Findings regarding the biology preservice teachers’ pretest-posttest scores related to their self-efficacy beliefs in biology teaching
+
+In order to determine the difference between the biology preservice teachers’ self-efficacy beliefs in biology teaching before and after the application, paired samples t-test was applied  The findings obtained are presented in Table 4.
+
+When Table 4 is examined, it is seen that there was no significant difference ( t(29) = -1.288, p >.05) between the study group preservice teachers’ pretest (= 3.65) and posttest (= 3.82) scores regarding their self-efficacy beliefs in biology teaching. Based on this result, it could be stated that the participants’ self-efficacy beliefs in biology teaching increased, but the increase was not found statistically significant. 
+
+ 
+
+
+
+ 
+
+In order to determine whether the difference between the sub-dimensions of “personal self-efficacy” and “result expectation” of the self-efficacy belief scale for biology teaching, paired samples t-test was applied on the groups’ pretest-posttest scores. The findings obtained are presented in Table 5. 
+
+ 
+
+
+
+ 
+
+When Table 5 is examined, it is seen that there was no significant difference (t(29) = -1.121, p >.05) between the study group preservice teachers’ pretest (= 3.79) and posttest (= 3.85) scores regarding the dimension of self-efficacy. In addition, no significant difference (t(29) = -1.226, p >.05) was found between the pretest score (= 3.46) and posttest score (= 3.64) for the dimension of result expectation. Depending on this result, it could be stated that the study group preservice teachers’ self-efficacy beliefs in biology teaching increased for the sub-dimensions of personal self-efficacy and result expectation, but the increase was not found statistically significant. 
+
+
+ DISCUSSION AND CONCLUSION
+
+The purpose of this study was to examine the influence of the web-aided cooperative learning environment on students’ motivations and on their self-efficacy beliefs in biology teaching. The findings obtained in the study demonstrated that the biology preservice teachers’ motivation levels regarding the teaching-learning process in the WACL environment increased while their self- efficacy beliefs in biology teaching did not differ significantly. The findings obtained were also consistent with the participants’ views found in the forum section of the website. The participants reported that the learning environment made the lessons more entertaining; that they enjoyed working together; that the environment resulted in permanent learning; that they  established stronger communication both with their friends and with the teacher; and that their motivation increased thanks to such opportunities as getting prepared before the lesson and revising after the lesson with the help of the website. In addition, it was found out that the participants’ self-efficacy beliefs in biology teaching did not differ significantly for such possible reasons as lack of use of these methods in other courses and the short duration of the application (only one academic term). Researchers claim that in short-duration studies, it is quite difficult to observe changes in students’ self-efficacy perceptions and in their attitudes towards courses (Maskan and Güler, 2004; Çepni et al., 2006; Gönen and Kocakaya, 2008).
+
+In addition, those who design and develop web-aided courses should take it into consideration that emotions, motivations and attitudes are important components of students’ cognitive and social development. Groups of individuals who fail to emphatize with one another and to understand each other’s feelings cannot work together for a long time (Martin and Reigeluth, 1999). Andres (2002) points out that use of the class and Internet environments together in cooperative learning helps students become individuals who can structure and actively learn the information rather than passively understanding the information and that if well-structured, it could lead to a high level of motivation that cannot be achieved in traditional class environments. Blue and Tirotta (2011), in their study conducted with university students, examined the effectiveness and limitations of the tools that they defined as 21st century tools (blogs, wikis and interactive board). The results of their study revealed that the motivation levels of all the participating students increased and that those who failed to use the 21st century technologies were unable to develop positive attitudes at all. In literature, there is a great deal of research demon-strating that participants’ motivation levels increase in cooperative learning environments (Martin, 2005; Barbato, 2000; Bernero, 2000).
+
+In related literature, there are also other studies reporting that web-aided or computer-aided instruction does not have any influence on students’ self-efficacy perceptions. Tataro?lu (2009) found out that use of a smart board in the course of mathematics did not cause a significant difference in students’ self-efficacies in mathematics. Demir (2010) applied the web-aided learning circle approach in the course of physics and demonstrated that there was no significant difference in the participants’ self-efficacies in the course of physics. In another study, Ak?nc? and Erdem (2010) examined the student-oriented blended learning environment with respect to the students’ performance of participation in online discussions, their responsibility in management of learning and their levels of self-regulation. When the students with average levels of Internet self-efficacy belief were compared with those with high levels of Internet self-efficacy belief in terms of participation performance, no significant difference was found in-between. Lynch and Dembo (2004) examined the final grades of 94 students in blended learning environment and found no significant difference in the students’ Internet self-efficacies. All these results are consistent with those obtained in the present study.
+
+In line with the findings obtained in this study, the following suggestions can be put forward:
+
+The study could be conducted with an application process of a longer period of time  to increase preservice teachers’ self-efficacy beliefs. Considering the increasing motivation levels, this method could also be applied in different courses. In addition, entertaining applications such as competitions and puzzles could be included in the content of the webpage. 
+
+
+ CONFLICT OF INTERESTS
+
+The author(s) have not declared any conflict of interests

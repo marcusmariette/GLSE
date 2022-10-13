@@ -1,0 +1,157 @@
+ ABSTRACT
+
+This work focuses on the performance study of a photovoltaic solar module based on energy and exergy analysis. The experimental data were obtained by precise measurements during a clear sky day March 20, 2018 and a cloudy day March 27, 2018 in the Laboratory of Chemistry and Materials Physics (LCPM) at the Assane Seck University of Ziguinchor, Senegal (12° 34 N, 16° 16 E). Exergy, energy and power conversion efficiency were evaluated for the two days based on measured parameters such as solar intensity, ambient temperature and module temperature. We find that the exergy efficiency varies between 4.5 and 8.93%, the energy efficiency varies between 11.08 and 14.50% and the power conversion efficiency varies between 7.98 and 10.49% throughout the day in the clear sky. While for the cloudy day the exergy efficiency varies between 2.00 and 9.45%, the energy efficiency ranges from 12.41 and 14.5% and the power conversion efficiency varies between 8.93 and 10.46%.
+
+Key words: Exergy, energy, photovoltaic module, performance analysis, efficiency, thermal exergy.
+
+ 
+
+
+ INTRODUCTION
+
+Fossil fuel reserves are declining rapidly due to the increased use of thermal power plants and air pollution associated with the burning of fossil fuels. Therefore, in the current scenario, there is an urgent need to accelerate research and development of renewable energy technology, especially solar energy, to meet global energy demand. Solar energy applications have been progressively increasing worldwide. This is due to the decrease in the cost of photovoltaic panels with the increasing demand, and  the  increase  in  the duration  of use (lifetime). Photovoltaic is very competitive in areas far away from the conventional grid (Hill, 1999). However, its exploitation requires a well-optimized design and dimensioning. The performance of photovoltaic modules is highly dependent on weather conditions such as ambient temperature, radiation and wind speed. Exergy analysis is known by researchers and engineers as an essential tool for evaluating the performance of a PV system with the thermodynamic approach. This analysis not only demonstrates the efficiency of energy use, it also provides various useful results corresponding to the exergy efficiency, which become an important principle for the comparison of PV modules. As a result, there has been enormous interest in exergy calculations, considering the irreversibility and the supply of energy in the system. Thus, many scientists have conducted theoretical and experimental studies in this field (Özalp and Bayat, 2017). Rajput et al. (2016) developed a mathematical model to calculate solar cell temperature, hot spot temperature and module efficiency in opaque and semitransparent mono crystalline silicon (sc-Si) PV module. The energy and exergy performance analysis of photovoltaic modules has been the subject of several studies. Abid and Hepbasli (2015) studied the performance of photovoltaic modules through energy efficiency and exergy, the sustainability index, the potential factors for improvement and in terms of exergy costs in the Riyadh area of Saudi Arabia. They determined that energy efficiency ranged from 34.09 to 52.14%, while exergy efficiency ranged from 0.16 to 15.23%. The exergy efficiency for PV / T analysis ranged from 1.36 to 19.86%, with an average value of 9.65%. The durability index ranged from 1.00 to 1.17 for the system. The improvement potential factor had minimum and maximum values of 3,376 and 24,559.42 W respectively, while the exergy rate of solar radiation was of the order of 3,850.9 and 25,115.95 W at the time of the test. Cheikh et al. (2015) studied the effect of irradiation and temperature on module performance in a real environment. They presented the variation of the exergy efficiency according to the temperature of the module on a day. They showed that the exergy efficiency of the module varies from 14.87 to 17.93% per day for a single crystal PV module of 30 Wc. Shukla (2015) presented experimental analysis of amorphous and polycrystalline PV modules tested at Energy Center, Maulana Azad National Institute of Technology in Bhopal, India for a typical January day (27 January 2014). They evaluated the energy, exergy and power conversion efficiencies of the two modules based on solar intensity, ambient temperature, wind speed and module temperature. They showed that the exergy efficiency of the amorphous PV module ranged from 2.44 to 3.92% while it ranged from 4.83 to 8.32% for the polycrystalline PV module throughout the day. Shukla et al. (2015) studied the energy and exergy analysis for a typical hazy day (May 12, 2014) in Bhopal, India. They found that the energy efficiency ranged from 6 to 9% during the day, while the exergy efficiency ranged from 8 to 10%. Aoun et al. (2014) validated experimentally the energy efficiency, power conversion efficiency and exergy efficiency of a mono-crystalline photovoltaic module in the Adrar region of Algeria for three days from 21 March (cloudy day) to 22 - 23 March (two clear days), 2013. They showed from the cloudy day that the energy efficiency varied between 17.2 and 22.3%, the exergy efficiency varies between 5.3 and 12% and power conversion efficiency varies from 12.3 to 16.1%.
+
+However, from the clear days (March 22), the energy efficiency varied between 10.83 and 21.85%, the exergy efficiency varies between 7.98 and 14.54% and power conversion efficiency varies from 8.1 to 16.38%. While, from the clear days (March 23), the energy efficiency varied between 9.28 and 22.1%, the exergy efficiency varies between 1.8 and 15.5% and power conversion efficiency varies from 7.55 to 16.83%.
+
+An obstacle that limits the development of renewable electrical systems is their low efficiency and the lack of performance data in terms of real environment in the places where they are installed. The production and performance of a photovoltaic module is highly dependent on sunlight and the operating temperature of the cell (Yang et al., 2007). This study focuses on the evaluation of a solar photovoltaic module performance based on energy and exergy analysis at two different weather days under climatic conditions in the Ziguinchor region, Senegal. However, one is a cloudy day (March 27, 2018), and the second is a clear days (March 20, 2018).
+
+ 
+
+
+ MATERIALS AND METHODS
+
+The efficiency of photovoltaic solar modules is measured by the ability of a module to convert sunlight into usable energy for human consumption. The efficiency of the module is a vital element for evaluating the performance of photovoltaic solar modules. The photovoltaic solar module's ability to convert sunlight into usable energy represents the efficiency of the PV module. It is calculated by the ratio between the power generated and total or global solar irradiation. Exergy is the maximum utilizable work that can be removed when the system undergoes a reversible process from an initial state to an end state. The use of exergy analysis techniques will help researchers to better understand, refine and anticipate changes in the behavior of photovoltaic solar modules. Exergy analysis can be used in the design and evaluation of energy systems that reach a state of equilibrium with their environment (Sandnes, 2003).
+
+Energy efficiencies are useful for accounting for energy flows, but do not provide information on the degradation of energy during a process. To do this, efficiencies based on the second law of thermodynamics must be formulated to account for exergy consumption and degradation of energy quality. Exergy analysis has proven to be a powerful tool for identifying energy quality losses in industrial thermodynamic processes. The exergy efficiencies (second law efficiencies) are a measure of the ideal and reversible process proximity compared to a real process (Dincer and Rosen, 2005). Photovoltaic efficiency, evaluated using the exergy efficiency equation, can be represented as the useful exergy ratio (electrical exergy rate and thermal rate) on the exergy of the solar radiation rate (Pandey et al., 2015):
+
+
+
+Where, the input exergy or the solar radiations exergyis given by:
+
+
+
+Where  is the sun temperature which is taken as 5 777 K, G is the solar radiation intensity and A is the solar photovoltaic module area.
+
+The exergy output of the photovoltaic solar module can be calculated as follows:
+
+
+
+Where  is the electrical exergy rate, which is equal to the electric power generated by the module:
+
+
+
+The thermal exergy of the system  which is defined as the heat loss of the photovoltaic area at room temperature. Photovoltaic modules heat up because of their exposure to the sun and emit heat in the environment. This heat source is not in equilibrium with the environment and therefore has an exergy, which represents the thermal losses of the photovoltaic module (Akyuz et al., 2012). can be represented as follows:
+
+
+
+Where, the rate of convective heat transfer is given by the following equation:
+
+
+
+The parameter is the coefficient of heat transfer by convection between the environment and the module and whose expression is given by Ajam et al. (2005):
+
+
+
+In this work, the wind speed was not measured. We considered the average value for a typical day in Ziguinchor during the month of March (v = 2.93 m / s) to quantify the heat loss of the module.
+
+Using the equations above the exergy of a photovoltaic solar module can be written as follows:
+
+
+
+In general, the exergy efficiency  is defined as the ratio of output exergy to that of input exergy and given as follows:
+
+
+
+The energy efficiency of a photovoltaic solar module can be defined as the ratio between the output energy of the system (the electrical energy) and the input energy (the solar irradiation) received on the photovoltaic area. The energy efficiency of a photovoltaic solar module is given by the following equation (Sahin et al., 2007; Joshi et al., 2009).
+
+
+
+The photovoltaic solar module power conversion efficiencycan be defined as the ratio of the actual electrical output and solar irradiation incident on the PV module area, is given as follows:
+
+
+
+Experimental set-up
+
+ 
+
+The experimental study was conducted in the Laboratory of Chemistry and Materials Physics (LCPM) at Assane Seck University in Ziguinchor, Senegal (12° 34 N, 16° 16 E). The solar photovoltaic module has been tested and the parameters such as the open circuit voltage  and the short-circuit current , the solar intensity (W/m2) and the ambient temperature  etc., needed for the evaluation of the systems were measured at an interval of one hour between 9:00 and 18:00. Specification of measuring instruments in the experiment are shown in Table 1. The manufacturer's data sheet for the PV module (SP80-36A) is shown in Table 2. The instruments used for the test are shown in Figure 1.
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ RESULTS AND DISCUSSION
+
+The idea of this work is to study and analyze the performance of solar photovoltaic modules in the Sahelian environment. This test is done during a clear day (March 20, 2018) and a cloudy day (March 27, 2018). The exergy efficiency of the photovoltaic solar module was calculated on the basis of the second law of thermodynamics, taking the solar radiation exergy. An energy and exergy balance of the PV module has been realized. The calculation is made taking into account the climatic conditions of two different days.
+
+The evolution of the solar radiation intensity and the ambient temperature during these two days of test are illustrated on Figure 2. The minimum and maximum temperatures varies between 24.9 and 37.2°C for the clear day and between 25.5 and 35.2°C for the cloudy day respectively. The maximum and minimum solar radiation intensity varies between 129 and 900 W/m2 for the clear sky day and between 50 and 555 W/m2 for the cloudy day. We can see a difference of 38.8% between the maximum radiations of these two days, which is due to the cloud cover in the cloudy day. Figure 3 (a and b) shows the variation of solar exergy (input exergy) and the electrical exergy of the PV module throughout the clear sky day and cloudy day. It is clear that from these two figures, the electrical exergy of the PV module is much lower than what could be extracted, due to a significant loss of exergy resulting from irreversibility.
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+Figure 4 shows the variation of thermal exergy losses during the conversion process, which is quantified using Equation 9 throughout the clear day and cloudy day. We can see a significant loss gap between the two days considered that is worth 45%. This difference can be explained by variations in climatic conditions during the two days considered. The thermal exergy losses as a function of the difference between the module temperature and the ambient temperature are given in Figure 5 for the clear sky day and the cloudy day. From this figure, it can be seen that the maximum values of the thermal exergy losses rate correspond to the maximum values of the temperature difference for the two days considered.
+
+ 
+
+
+
+ 
+
+Figure 6 shows the variation of thermal exergy loss and efficiency as a function of time. The results obtained show that the higher the thermal exegetical losses, the lower the efficiency values. This may lead us  to  say  that increasing of the ambient temperature and PV modules temperature is the main cause of the reduction in their efficiency. Indeed, we can see that the two curves have opposite directions of variation and the maximum of the temperature corresponds to the minimum of the efficiency at 12 o'Clock during the day. These extrema also correspond to the maxima  of  thermal  and  solar  exergy (Figures 3 and 4).
+
+ 
+
+
+
+ 
+
+The variation of the exergy efficiency for a clear day and a cloudy day is shown in Figure 7. From this figure, it can be seen that the exergy efficiency for a clear day varies from 4.5 to 8.93% compared to the cloudy day, whose exergy efficiency varies between 2 and 9.45%. The difference observed between the two efficiencies  in most hours can be explained by the difference between the PV module temperatures and the ambient temperatures for the two days. On the other hand, we also note that these exergy efficiencies have the same behavior and pace.
+
+ 
+
+
+
+ 
+
+Figure 8 (a and b) shows the variations of exergy efficiency , energy efficiency (η) and power  conversion efficiencyfor a clear sky day and a cloudy day respectively. Figure 8a shows that the exergy efficiency varies  between  4.5  and  8.93%,  the  energy   efficiency varies between 11.08 and 14.5% and the power conversion efficiency varies between 7.98 and 10.49% for  the  clear  day.  Figure  8b   shows   that   the  exergy efficiency varies between 2 and 9.45%, the energy efficiency varies from 12.41 and 14.5% and the power conversion efficiency varies between 8.93 and 10.46% for the cloudy day. The energy efficiency and power conversion efficiency of the PV module is maximum corresponding to the PV module temperature of 331 K. The exergy efficiency of the PV module is maximum corresponding to the PV module temperature of 301 K for the clear day, for the cloudy day is maximum corresponding to the PV module temperature of 307 K for the energy efficiency and power conversion efficiency of the PV module and the exergy efficiency of the PV module is maximum corresponding to the PV module temperature of 300 K. This significant difference between exergy efficiency and energy efficiency can be explained by the fact that the exergy  efficiency  takes  into  account heat losses during the conversion process, while energy efficiency does not consider it.
+
+ 
+
+
+
+ 
+
+On the other hand, we notice that the curves are the same whatever the type of day (clear or cloudy). Which is important is to see that these losses have little effect on the energy and conversion efficiencies compared to that of the exergy, which is related to the variation of temperature and having the same pace as these exergy curves in opposed sense.
+
+ 
+
+
+ CONCLUSION
+
+This work focuses on a photovoltaic solar module performance study based on energy and exergy analysis in the Ziguinchor region of Senegal. The experimental data obtained by accurate measurements during two days: a clear sky day (20 March 2018) and a cloudy day (27 March 2018).  The data for these two days were analyzed to evaluate the  maximum  efficiency of  the photovoltaic solar module. The thermal exergy Losses in the photovoltaic conversion process are also quantified. The following conclusions were drawn:
+
+(1) The photovoltaic module has a low exergy efficiency of 6.59% for the clear sky day and 6.65% for the cloudy sky day. Exergy analysis has shown that current silicon modules do not benefit much from the high exergy content of solar radiation.
+
+(2) The exergy, energy and power conversion efficiency values of the solar module are respectively 6.59, 13.36 and 9.96% for the clear day and 6.65, 13.52 and 9.73% for the cloudy day.
+
+(3) The exergy efficiency PV decreases as solar radiation and ambient temperature increase due to the increase of temperature and irreversibility of the cell, while the electricity produced increases.
+
+(4) The studied photovoltaic module which has a maker reported efficiency value of 0.145 at STC compared is degraded by 54.5% of exergy efficiency, 7.86% of energy efficiency and 31.31% of power conversion efficiency for the clear day and degraded by 54.13% of exergy efficiency, 6.75% of energy efficiency and 32.89% of  power conversion efficiency for the cloudy day.
+
+(5) In order to have maximum exergy efficiency, PV module temperature should be kept near the cell operating temperature or in other words, PV module temperature should be controlled by surface cooling of the panel using water/air.
+
+ 

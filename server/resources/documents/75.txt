@@ -1,0 +1,133 @@
+ ABSTRACT
+
+The aim of this study is to investigate effects of the guiding materials developed based on the “fire context” and related to “expansion-contraction” concepts in the conceptual understanding of students. A quasi-experimental method has been used in the study. The sample group of the study consists of 5th grade students selected from elementary school. A total of 56 (experiment group 27, control group 29) students from two classes have participated in the study. A concept test, an interview consisting of semi-structured questions, and a drawing test, have been utilised in the research. While no significant difference (U=345, p>0.05) has been found between the pre test scores of the control group and experiment group students, a significant difference (U= 238, p<0.05) has been found in favour of the experiment group in the post test. A great majority of the students have explained the “expansion-contraction” concept as “mass change”. The findings obtained from student drawings support this as well. For future studies, development of materials which emphasise the distinction of the concepts of flexibility and mass change and the concepts of expansion and contraction can be suggested.
+
+ 
+
+Key words: Expansion, contraction, fire context, conceptual understanding.
+
+
+ INTRODUCTION
+
+Students are not able to use the scientific concepts they have learned to explain the contexts they encounter (Burbules and Linn, 1991; Gilbert, 2006; Stolk et al., 2009; Ültay and ÇalÄ±k, 2012). This situation leads to academic failure in science lessons. If students are able to explain the contexts they encounter by using concepts, this means that they have learned that concept and science (Özmen, 2003). Context-based learning theory emphasises that it is possible to eliminate academic failure by establishing a relationship between life and science (Bennett et al., 2003; King, 2012).
+ 
+According to context-based  learning  theory,  the  best way to establish the relationship between life and science courses is to carry them out within a context. This is due to the relating of extrascholastic experiences by using contexts students encounter through the concepts of science, which facilitates the learning of scientific subjects (Mayoh and Knutton, 1997).
+ 
+The organisation named the center of occupational research and development (CORD) has conducted an investigation which involves teachers applying different models of constructivism; this is intended to address the difficulties experienced in the fields of mathematics and science.   As   a  result   of  this  investigation,  they  have determined that teachers use different strategies by using contexts (Crawford, 2001). The relating, experiencing, applying, cooperating and transferring (REACT) teaching model has been created on the basis of REACT strategies. The most important feature of REACT, which distinguishes it from other teaching models, is the fact that it has been developed to address the question of “why do I have to learn this subject?” which students try to answer themselves. Students find the scientific concepts they have learned in everyday life (Gilbert, 2006; Stolk et al., 2009), but then have difficulties in explaining the events they encounter with scientific concepts (Gilbert, 2006). The academic failure which emerges as a result of this led researchers to gravitate towards the concept of “context” in teaching models (Gilbert, 2006; Gilbert et al., 2011).
+ 
+Relating and transferring, which are the first and last steps of REACT respectively, focus on these problems. Students also use the concepts they have learned in explaining both experiment activities and the given scenarios in the experiencing and applying steps. They further use the concepts they have learned by discussing everyday life problems with their group mates in the cooperating step. To sum up, contextual learning is included in every step of REACT (Navarra, 2006). There is a context in teaching designed according to the REACT teaching model and teaching is shaped in the framework of this context. Having said that, teaching is also enriched with different contexts (CORD, 1999). It is therefore clear that REACT is different from other teaching models with these features.    
+ 
+Why the Concepts of Expansion and Contraction?
+ 
+We use the concepts of expansion and contraction to explain many events we see in our environment. For instance, events such as the formation of thunder, cracks which emerge on buildings, ascents of hot air balloons, submerging a jar into hot water to open it, ascent and descent of the mercury level in a thermometer, transformation of rocks to soil, cracking of a glass when a hot beverage is poured in it and blow-up of a perfume bottle when it is thrown into a bin; all of these can be explained by using the concepts of expansion and contraction. The science curriculum emphasises that 5th grade students should relate expansion and contraction of the concepts with daily life examples. However, students find it difficult to explain contexts by using scientific concepts (Bennett, Hogarth & Lubben, 2003). This situation leads to academic failure in science lessons.
+ 
+Alternative concepts are another cause of academic failure. When the related literature is examined, it is seen that students have alternative concepts on this issue. For instance,   students   think   that   the   particles,   not  the substance, expand and contract (Adbo and Taber, 2009; Ayas and Özmen, 2002; Adadan et al., 2010; Valanides, 2000). They consider that the size of particles changes in the heating and cooling processes, thereby ascribing the substance’s characteristics to the particles (Griffiths and Preston, 1992; Valanides, 2000). The reason for this may be related to the fact that students are not able to learn the concepts of expansion and contraction at a macroscopic level (Nakhleh, 1992).
+ 
+When the attainments related to the subject are examined, it is observed that they are at the macroscopic level. The same concepts are explained at the particle level in the 6th grade. Therefore, it is important to firstly comprehend these concepts at the macroscopic level. Considering that knowledge to be learned is built on previous knowledge, it is necessary for students to learn the concepts of expansion and contraction for their consequent learning.
+ 
+Why the context of “fire”?
+ 
+King et al. (2011) define context as “the scientific application of real world phenomena”. If the use of concepts is preferred to explain real world applications, scientific concepts are learned. Hence, the need for knowledge is felt. Context can be defined as applying a concept, discussing the results in the application, and revealing the importance of the concepts in a given event (Gilbert, 2006).
+ 
+The context of “fire” has been considered as a basis in the scope of this study because the news of fire outbreaks in forests and buildings are on TV news channels almost every day in Turkey. Therefore, “fire” has been used as context for “heat and temperature”, which are the primary concepts of the project, while “fire alarm systems” has been used as context for “expansion and contraction”, which are the secondary concepts. Fire alarm systems contain a heat sensitive substance. With the heat increase that occurs in a fire, the substances within alarm systems quickly expand and lead to the operation of the stimulant mechanism. As the heat energy in the environment decreases after the fire is extinguished, this liquid within the alarm system contracts. By utilising this characteristic of fire alarm systems, the place of expansion and contraction in our everyday lives has been emphasised.
+ 
+In this context, the research attempts to answer the following question: do guiding materials developed based on the “fire context” relating to “expansion-contraction” concepts effect students’ conceptual understanding?
+ 
+Purpose of the study
+ 
+The  aim  of  this  study  is to investigate the effects of the guiding materials developed based on the “fire context” and related to “expansion-contraction” concepts in the conceptual understanding of students.
+
+ METHODOLOGY
+
+Research design
+ 
+As the measurement of the effect of guiding materials developed based on the “fire context” in the sample and comparison of the obtained results are the focus in this study, a quasi-experimental method has been used. The groups have been established through a non-random selection during the formation of the sample (Tharenou et al., 2007).
+ 
+Groups were composed as experiment and control groups through equitable assignment using a quasi-experimental method (Büyüköztürk, 2004). The experiment and control groups’ obtained test scores are measured before and after the intervention and the results are compared with each other below.
+ 
+Sample
+ 
+The sample group for the study consists of 5th grade students selected from elementary school. A total of 56 (experiment group 27, control group 29) students from two classes have participated in the study. One control group (with 29 students—16 girls and 13 boys, mean age: 11.68) and one experimental group (with 27 students—14 girls and 13 boys, mean age: 12.08) have participated in the research. Two voluntary teachers from the same school have participated in the research. The teachers have both graduated as science teachers from university. The experimental group teacher had six years experience and the control group teacher had seven years of experience. Both teachers were provided with information by the researchers, with the aid of the materials, before the intervention.
+ 
+Data collection tools
+ 
+A concept test, an interview consisting of semi-structured questions and a drawing test have been utilised in this research. Students were asked two open-ended questions (shown below) in the concept test.
+ 
+1. What does the concept of expansion mean to you? How would you describe this concept? Please explain.
+2. What does the concept of contraction mean to you? How would you describe this concept? Please explain.
+ 
+Drawings can be very useful in uncovering what a student thinks and his/her level of understanding; drawings are able to slightly limit the answers of the students (Çepni, 2005). Students were asked to draw the aim of investigating the effect of developed materials on conceptual understanding. The questions the students were asked are as follows:
+ 
+ 
+1. What do you understand by the concept of expansion? Please show by drawing.
+2. What do you understand by the concept of contraction? Please show by drawing.
+ 
+The interviews were conducted to  investigate  the  effectiveness  of the materials on the conceptual understanding of students.  Individual interviews were used in this study and interviews were conducted by the researchers. Semi-structured questions were prepared by selecting two random samples from the categories which had emerged for the expansion and contraction concepts in the drawing test. Preliminary and final interviews were conducted with 10 of the experiment group students (E3, E7, E11, E13, E16, E17, E20, E21, E25 and E27). The questions are as follows:
+ 
+1. A glass cup cracks when hot tea is poured in it on a cold winter day. What is the reason for this in your opinion? Please explain.
+2. Ali stored his plastic ball on the balcony when winter came. One winter day, Ali saw that the ball was not as inflated as he had left it. How would you explain this situation?
+ 
+Validity and reliability
+ 
+Semi-structured interview questions were administered one week before the intervention as a pre interview for 10 of the experiment group students. The same questions were employed as a post interview immediately after the intervention. Questions were evaluated by two science educators and one science teacher to enhance validity. To measure the reliability of the semi-structured questions, three 6th grade students were interviewed. A concept and drawing test were administered one week before the intervention as a pre test to the experiment and control groups. The same tests were employed as a post test immediately after the intervention for these groups. To enhance content and face validity, the tests were evaluated by two science educators and two science teachers. To measure reliability of the concept and drawing tests, they were implemented on 15 6th grade students, who learned these concepts at 5th grade. Interviews were recorded. Each interview took approximately 10 to 12 minutes.
+ 
+Data analysis
+ 
+Marek (1986) categorisation outlined in Table 1 has been utilised in the analysis of the concept test and interviews. The following criteria; complete understanding (Code A) (3 points), partial understanding (Code B) (2 points), alternative concept (Code C) (1 point) and no response or irrelevant responses (Code D) (0 points) has been utilised. The data obtained from the experiment and control groups has been compared by utilising the Mann–Whitney U-test. Groups were composed as experiment and control groups through an equitable assignment quasi-experimental method (Büyüköztürk, 2004). The data obtained from the drawing test has been examined by taking the student answers into consideration. The frequency values of the data analysed in the correct drawing (electric wire, train track, the heated ball, cracking glass cup, gravzant ring, expension/contraction of balloon), incorrect drawing (phase change, flexibility, crushing, mass change, fermentation of the dough) and no answer categories have been presented as a table. In addition, samples from student drawings have been included. Students were coded in line with research ethics. For instance, student number 1 from the experiment group has been shown as E1PT in the preliminary test and as E1LT in the final test. student number 1 from the control group has been coded correspondingly, as C1PT and C1LT.    
+ 
+
+ 
+Intervention
+ 
+In this research, materials were prepared according to the REACT teaching   model,   which   was   taken   into   consideration   in   the experiment group. The 5E (Entering/Engagement, Examining, Explaining, Elaborating and Evaluating) teaching model from the constructivist approach was used in the control group and the teacher used the coursebook (Bayram and Kibar, 2014) in the process. The observation notes obtained from the teaching process by one of the researchers – a non participant who observed – are summed below. The intervention process consisted of five classes of 40 min in two groups. The intervention process in the experiment and control group has been presented in Table 1. 
+
+ RESULTS
+
+The findings obtained from the concept test, drawing test and interview questions have been presented below. The Mann Whitney U-Test results from the concept test pre test and post test scores according to the experiment and control groups have been presented in Table 2. 
+ 
+
+ 
+Analysis results indicate that there is no significant difference between the pre test scores of the concept test implemented on the experiment and control group (U=345, p>0.05). There is a significant difference in favour of the  experiment  group  between  the  post  test  scores implemented on experiment and control groups (U= 238, p<0.05). Frequency distribution of the answers given to the concept test has been presented in Figures 1 and 2. Table 3 shows example statements from each categories related to expansion and contraction concepts. 
+ 
+
+ 
+
+ 
+
+ 
+When Table 3 is examined, it is observed that identified alternative concepts emerge in the flexibility, phase change, mass change and crushing codes. Findings obtained from the student drawing test have been presented below. Frequencies of the data obtained from drawing test related to the expansion and contraction concepts have been presented in Table 4. When the pre test results of the experiment group related to the expansion concept are examined, it is observed that most of the students answered in the incorrect drawing codes.  
+ 
+
+ 
+While the concept of expansion is mostly confused with concepts of phase change, mass change and flexibility, it is noted that most of the student drawings in the post test are correct. Control group students confused the concept of expansion with those of flexibility and mass change in the post test, incorrectly drawing their answers. The expansion of  the  electric  wire  example  was  drawn  by most students in both groups in the last test. When the pre test results of the experiment group related to the contraction concept are examined, it is observed that most of the students answered in incorrect drawing codes. While the concept of contraction is mostly confused  with   those   of   mass   change  and  flexibility,  most of the student drawings in the post test are correct. Control group students confused the concept of contraction with those of flexibility and crushing in the post test, incorrectly drawing their answers. The contraction of the electric wire example was drawn the most  in  both  groups  in  the  post  test.  Samples  of the student drawings – correct and incorrect drawing categories relating to expansion and contraction – have been presented in Table 5.
+ 
+
+ 
+When  Table   5   was   examined,   it  is  observed  that students have incorrect drawings. The concepts of expansion and contraction are mostly confused with those of mass change and flexibility. Student E7PT drew concepts  associated  with  the  flexibility  of  suspension. suspension. Similarly, student E5PT explained contraction by drawing fat and thin people. We saw that students associated contraction with mass change. Findings obtained from interviews and related to the concepts of expansion and contraction have been presented in Table 6.
+ 
+
+ 
+When the answers students gave to the interview question related to expansion are examined, it is observed that students have no answers included in the A and B categories. In the post interview, seven of the students gave answers in the complete and partial understanding categories. No alternative concept has been found among students in the post interview. When the answers students gave to the interview question related to contraction are examined, it is observed that students provided no answers included in the A and B categories. In the post interview, all of the students gave answers in the A and B categories. In the post interview, no student answers fitted the C and D categories.
+
+ DISCUSSION
+
+The findings obtained from the concept test, drawing test and interview questions have been discussed in light of the literature presented. While no significant difference (U=345, p>0.05) has been found between the pre test scores of the control group and experiment group students when Table 2 is examined, a significant difference (U= 238, p<0.05) has been found in favour of the experiment group in the post test. The teaching carried out in the experiment group is determined to have been effective in contributing to the conceptual understanding of students. This can be  attributed  to  the materials developed based on the “fire context” in the framework of the context-based teaching theory and the utilised fire context effect.
+ 
+In a similar vein, studies that state that teachings designed on the basis of context-based theory effectively impact the conceptual understanding of students, are available (Ramsden, 1997; Barker and Millar, 1999; Barker and Millar, 2000; Belt et al., 2005; King, 2009; King et al., 2011). When the interviews conducted are examined, the positive effect of the “fire context” on alternative concepts is observed. The reason for this may be the context-based teaching’s facilitation of an effective conceptual change (Gilbert et al., 2011).    
+ 
+In this study, the fire context utilised in the REACT teaching model was presented to students by beginning with an example case. We attempted to emphasise how important fire alarm systems are in our lives by utilising the expansion-contraction concept. Belt et al. (2005) have stated that contexts consisting of example cases have positive effects on the increase of students’ interest and success in the subject. The fact that the experiment group was more successful than the control group may be attributed to the context facilitation of the students’ use of concepts they learn in everyday life (Richey, 2000). In this model, students’ explanation of the phenomena they encounter in everyday life has been emphasised.
+ 
+When the findings related to the first and second questions of the concept test are examined, the fact that students in both groups have alternative concepts in the pre test is observed, as shown in Table 3. The alternative concepts identified in students as related to the expansion and contraction concepts are flexibility, phase change, crushing and mass change. The number of students who linked  the  flexibility concept with expansion and contrac-tion concept is high in the preliminary implementations of the concept and drawing tests for both groups. However, after intervention, the experiment group is observed to be more successful than the control group (Tables 3 and 4). The reason for this may be attributed to the contextual teaching carried out on the basis of the “fire context” because contextual learning facilitates the students’ relating of their daily life experiences with scientific concepts (Bennett et al., 2005).
+ 
+In the concept test, it has been determined that students think substances can expand and contract, without taking the heat exchange into consideration. When student drawings are examined, the fact that they explained the expansion-contraction concept by drawing the lengthening and shortening of a bow indicates that they could not understand the expansion-contraction concept. The reason for the students’ explanation of the expansion-contraction concept with the concept of flexibility may be the activity addressed in the coursebook of the control group. In the coursebook (Bayram and Kibar, 2014), how metal pairs in exothermic tools, such as flat irons etc., are used as thermostat is explained with a schematic drawing. The expansion and contortion of the wire with its heating up when the current passes through the heater wire has been related by students to the flexibility of the wire. Students have focused on the lengthening and shortening of the bow more than the expansion of the wire with the heat effect. The drawings by the students support this (Table 5). Therefore, coursebooks are observed to have a predominant role in the teaching of concepts (Kikas, 1998; AÅŸçÄ± et al., 2001).
+ 
+When Table 4 is examined, a great majority of the students are observed to have explained the expansion-contraction concept using mass change. The findings obtained from student drawings support this as well. The fact that the expansion concept has been stated as the “increase in the volume of substances with heat” (Bayram & Kibar, 2014, p.96) may have led to students forming alternative concepts with regard to increase in mass. The students’ focus on the increase in “volume” by disregarding the heat effect may have created the idea of “increase in mass”. This situation may be attributed to the explanation of this concept to students on a macroscopic level. Er Nas (2013) has stated that students think the number of particles increase and the particles grow in size with heat effect in the expansion concept. This can be observed in the drawing of student E5PT in Table 5. 
+ 
+Students’ use of the crushing concept instead of contraction in the pre test can be considered as an indicator of how important daily life experiences are in the teaching of concepts. Moreover, explanations that are removed from scientific statements but used among the public are known to be effective in the formation of alternative concepts in students (Akgül and Åžentürk, 2001; Moore and Harrison, 2007; Ünal and CoÅŸtu,  2005).
+ 
+When the studies carried out on macroscopic level in the literature are examined, it has been determined that students think the particles of compressed objects shrink (Özmen and Kenan, 2007). The reason for this may be attributed to the inability of students to learn the expansion and contraction concepts on a macroscopic level (Nakhleh, 1992). This alternative concept is another indicator of how important learning on a macroscopic level is for microscopic level learning.  
+Students explained the concept of expansion-contraction by relating it with phase change in the pre test implementations in both the experiment and control groups; no answer in this category has been found when the post test implementations of both concept and drawing test are examined. It is observed that the conducted teaching has been effective in the elimination of this category for both groups.
+
+ CONCLUSIONS AND SUGGESTIONS
+
+The results of this study reveal that the materials developed based on the “fire context” in the framework of the context-based teaching theory are effective in students’ conceptual understanding. In accordance with the results, the following is recommended: when post test implementations are examined, the expansion-contraction concept has been explained with the concepts of flexibility and mass change by the students. For future studies, development of materials which emphasise the distinction between the concepts of flexibility and mass change and the concepts of expansion and contraction are suggested.

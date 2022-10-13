@@ -1,0 +1,104 @@
+ ABSTRACT
+
+Settled dust or suspended particles of dust in air contains transition and post-transition metal oxides like Chromium oxide {Cr2O3}, Manganese oxide {MnO}, Nickel oxide {NiO}, Copper oxide {CuO}, Zinc oxide {ZnO}, Titanium oxide {TiO2}, Iron oxide {Fe2O3}, Zirconium oxide {ZrO2}, Lead oxide {PbO} and Aluminum oxide {Al2O3} and the study was carried out to find out the composition of these metallic oxides and the comparison between them with X-Ray Fluorescence Spectrometer (Chemical Analysis Instrument) by making solid beads of settled dust. Their average percent composition is found as 0.043, 0.0109, 0.013, 0.049, 0.425, 0.485, 5.39, 0.365, 0.031, and 5.55 respectively. Total of four areas were chosen to study within Karachi, a busiest and highly populated city of Pakistan. This study provides helpful data for future research and assignments as the studied metal oxides are the dynamics for environment pollution.
+
+Key words: Settled dust, X-ray fluorescence spectrometer, environment, earth sciences.
+
+
+ INTRODUCTION
+
+Study on environmental sciences, earth sciences as well as ecology is increasing day by day, because of its more importance in the world as it provides adorable information which can be used in various ways to prevent life of living organisms or improve the life of living organisms and minimizing unnecessary anthropogenic activities. Metals oxides especially transition, post transition metal oxides have super applications in many fields like magneto-cooling, purification of biological materials especially enzymes, in catalysis reactions, optical devices, embolic, radionuclide or magnetic therapy and in drugs etc (Huang  et  al.,  2010).  TiO2  has good applications in paint as it is used in manufacturing of pigments, dye, polymer and cosmetic products etc; in addition to its being a good UV absorber as well. TiO2 is also used in electronic devices and may act like a solid electrolyte. CuO is used in manufacturing of pigments, dyes, ceramics to impart color mostly blue and green, semiconductors, cell batteries etc. ZnO is used in electronic devices like laser diodes, LEDs, batteries, solar cells, UV-Visible detectors. Other applications include being used in pigments, dyes, products like skin care and cosmetics etc., alongside other applications in other transition   metal    oxides    (Huang   et   al.,  2010). Previous studies mostly focused on heavy metals or transition metals (Ahmed et al., 2019; Shah et al., 2012) but their oxides in which these metals exist have not been studied in soil and suspended soil or dust particles. This study concentrates on transition, post transition metal oxides in suspended dust particles and will provide valuable information that may be used for research activities. The resulting data will be enough to study the extraction of transition metal oxides from soils or suspended dust particles because transition metals have wide variety of applications that are beneficial for human beings.
+
+There are numbers of anthropogenic activities and metrological factors which may impact changes in the composition of suspended soil particles due to which there will always be valuable data that may be used to find the factors (Rasmussen et al., 2018). This experimental work has been done before the COVID-19 pandemic that starts in February 2020 in Pakistan.
+
+Environmental significance
+
+Research works have been done mostly on heavy and hazardous metals only especially in Pakistan. In this study, we assess transition and post-transition metal oxides. This exhaustive information about metallic oxides is a fundamental fragment for enhanced understanding of the metallic oxides and their influence on the environment or climate, especially for human beings in this susceptible region.
+
+
+ MATERIALS AND METHODS
+
+Suspended soil particles or settled dust samples were taken randomly from four sites of Karachi, Pakistan and sites were named as Saadi Town - a rural area of city, Gulshan-e-Iqbal - an urban area of city, National Highway road side - a high traffic area of city, and Port Qasim - an industrial area of city. Samples were taken by brush directly and stored in polythene bag from solid objects. Press pallets (solid pallets from settled dust samples to produce accurate results through XRF Analyzer) were made from all collected samples with the help of machine used to make pallets and then pallets were analyzed with wave dispersive x-ray fluorescence spectrometer (WD-XRF) to get the transition metal oxides, post transition metal oxides composition in the form of percentage (Ahmed et al., 2019; Naveed et al., 2020). Super Q software was used to operate instrument and parameters was set as per standard test method, that is, ASTM E1621.
+
+
+ RESULTS AND DISCUSSION
+
+Cr2O3, MnO, NiO, CuO, ZnO, TiO2, Fe2O3, ZrO2 are transitional metal oxides found in suspended dust particles collected from four chosen areas of Karachi for this study. Al2O3 and PbO are two post transition metal oxides found in suspended dust particles as well. Table 1 shows the chemical composition of transition metal oxides and post transition metal oxides in all 36 samples, 9 from each four areas of Karachi. Mean, Standard deviation, Minimum, Maximum, Root Mean Square and Root Mean Square Relative Concentration in percentage are also calculated (Table 1)
+
+
+
+Saadi Town (Rural)
+
+In post transition metal oxides for Saadi town, Al2O3 was found in higher percentage with the average value of 4.529%. In 9 samples, its minimum value is 3.12% while maximum value is 7.28%. Also, PbO was found in low percentage with the average value of 0.012%. In a total of 9 samples, its minimum value is 0.005% while its maximum value is 0.022% (Table 1 and Figure 1).
+
+
+
+Compared with other selected areas, all metal oxides are at lower side (Table 2). It shows that overall pollution is low in Saadi town (a rural area) because of absence of industries and heavy traffic movement. Figure 1 shows the increasing trend in percentage of transition metal oxides is NiO = CuO < ZnO < Cr2O3 < MnO < TiO2 < ZrO2 < Fe2O3.
+
+
+
+Gulshan-e-Iqbal (Urban)
+
+In post transition metal oxides for Gulshan-e-Iqbal, Al2O3 was found in higher percentage with the average value of 5.488%. In 9 samples, its minimum value is 5.10% while maximum value is 5.94%. Also, PbO was found in low percentage with the average value of 0.049%. In a total of 9 samples, its minimum value is 0.04% while its maximum value is 0.06% (Table 1 and Figure 2).
+
+
+
+Compared with other selected areas, pollution is medium in Gulshan-e-Iqbal (an urban area) because of large and heavy traffic movement as Cr2O3 and PbO are higher in Gulshan-e-Iqbal than other areas (Table 2). Figure 2 shows the increasing trend in percentage of transition metal oxides is NiO < CuO < Cr2O3 < MnO < ZnO < ZrO2 < TiO2 < Fe2O3.
+
+National highway (heavy traffic)
+
+In post transition metal oxides for national highway, Al2O3 found in higher percentage with the average value of 4.346% and in total 9 samples its minimum value is 3.88% while maximum value is 4.68 %. Also, PbO found in low percentage with the average value of 0.025%. In a total of 9 samples, its minimum value is 0.018% while its maximum value is 0.034% (Table 1 and Figure 3).
+
+
+
+Compared with other selected areas, pollution is low at the 2nd position in National Highway (Table 2), a heavy traffic area because of large heavy traffic movement. Figure 3 shows the same increasing trend in percentage of transition metal oxides as for Gulshan-e-Iqbal, an urban area with NiO < CuO < Cr2O3 < MnO < ZnO < ZrO2 < TiO2 < Fe2O3.
+
+Port Qasim (industrial)
+
+In post transition metal oxides for Port Qasim, Al2O3 was found in higher percentage with the average value of 7.835%. In 9 samples, its minimum value is 5.87% while maximum value is 9.15%. Also, PbO was found in low percentage with the average value of 0.034%. In a total of 9 samples, its minimum value is 0.027% while its maximum value is 0.042% (Table 1 and Figure 4).
+
+
+
+Compared with other selected areas MnO, CuO, ZnO, TiO2, Fe2O3 and Al2O3 are higher (Table 2). Pollution is high in Port Qasim (an industrial area) because of number of industries including but not limited to steel, soap, oil and ghee,  automobile  industries  etc.  Figure  4 shows the increasing trend in percentage of transition metal oxides as NiO < Cr2O3 < MnO < CuO < ZrO2 < TiO2 < ZnO < Fe2O3.
+
+Figures 5 to 14 show the comparison of each metallic oxide in all four areas which are selected for study purpose.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CONCLUSION
+
+This type of study mostly for metals only is carried out in different countries (Leung et al., 2008; Alsubaie et al., 2019; Duong and Lee, 2011; Faridul et al., 2014; Khademi et al., 2019; Khan et al., 2011;  Liu  et  al., 2009;  Machado et al., 2006; Mashiatullah et al., 2013; Men et al., 2018; Muhammad et al., 2011; Siddique et  al.,  2009; Verma, 2015; Wan et al., 2016); however, in Pakistan, related to this research work, research work is conducted only for metals in Lahore (von Schneidemesser et al., 2010), Islamabad (Shah and Shaheen, 2007; Shah et al., 2012) but  no  metallic  oxides  are  studied  especially  in Karachi. The results of quantification of metallic oxides of settled dust in this study tells about the metallic oxide pollution level and assessment of heavy metallic oxides (Khademi  et  al.,  2019)  in  different  functional  areas  of Karachi that are studied in this research work, which will also help in liability of further related studies. Almost all heavy metallic oxides determined in settled dust belong to soil composition but their high concentration than soil composition is due to anthropogenic activities of human beings. There are a number of factors listed here but not limited to industries working with heavy metals that are releasing effluent in smoke or industrial dust which contaminate the dust. On the other hand, millions of traffic vehicles are seen in Karachi, out of which most vehicles used Pb containing fuels and after releasing smoke, also contaminate the dust (Khan et al., 2011). The heavy and hazardous metals have high impact on health of living organisms, mostly human beings.
+
+Further research can be done using this research as a base study. Doctors, for instance can search about different causes of diseases in humans using these findings.
+
+This study needs further work by selecting the remaining functional areas of Karachi like Seaside, West Wharf, S.I.T.E etc., because Karachi is a big city due to which all the areas were difficult to select for this study.
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.
+
+
+ ACKNOWLEDGMENTS
+
+The author is thankful to Naseem Akhter for giving the valuable suggestions, as well as Mohsin Mumtaz and Bilal Khalid Sahota for support in the analysis of samples.
+

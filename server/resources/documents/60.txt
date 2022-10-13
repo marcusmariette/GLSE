@@ -1,0 +1,105 @@
+ABSTRACT
+
+The enzyme invertase is very useful, especially in food industries. Invertase hydrolyzes the disaccharide sucrose into two monosaccharides, glucose and fructose. Invertase was extracted from Aspergillus sp. CSA35, and studied using spectrophotometric methods for enzyme kinetics and determination of other factors affecting enzyme activities such as salt tolerance, pH, temperature and substrate specificity. The invertase secreted by Aspergillus sp. CSA35 has a substrate concentration (km) value of 1.25 mg/ml and maximum velocity (Vmax) of 15.15 U/mg protein. It is tolerant to salt concentrations of 3 M NaCl for 24 h and shows a broad range of substrate specificity. The enzyme activity was optimal at pH 6.0 and at a temperature of 50°C. The Vmax of the enzyme was high compared to other invertases from fungal sources, previously reported in literature. This invertase could be useful in commercial processes where high activity invertase with salt-tolerant and broad specific properties are required.
+ 
+Key words: Aspergillus sp CSA35, invertase, Manihot esculenta.
+ 
+
+ INTRODUCTION
+
+Enzymes are biomolecules synthesized by the cells of an organism to allow biochemical reactions to occur under mild conditions and are known to catalyse many biochemical reactions (Li et al., 2018). They are generally considered to be very important in industrial processes (Roy and Prasad, 2017) due to the various advantages they have over inorganic catalysts. Some of these advantages include; high specificity, activity at mild pH and temperature conditions and reproducibility under laboratory conditions (Chapman et al., 2018).
+ 
+A very useful enzyme used in industrial processes such as food processing is invertase (beta-fructofuranosidase, EC 3.2.1.26) (Ire et al., 2018). It is also known as saccharase, glucosucrase and beta-h-fructosidase (Ire et al., 2018). In food industries, invertase is usually preferred to glucose since they are sweeter and do not easily crystallize (Flores-Gallegos et al., 2012). Another enzyme related to these invertases are sucrases. Invertases and sucrases are known to hydrolyze sucrose, resulting in the same mixture of glucose and fructose which is commonly referred to as invert sugar (Bhalla et al.,   2017).  Invertases   thus  cleave  the  O-C  (fructose) 
+ 
+bond, whereas the sucrases cleave the O-C (glucose) bond (Schiweck et al., 2000). There are many industrial applications of invertase, amongst which includes its use in confectionary, beverage, bakery and pharmaceutical formulations (Kulshrestha et al., 2013; Nadeem et al., 2015).
+ 
+For Industrial uses, enzymes are usually produced from microbial, animal or plant sources (Nascimento et al., 2019).  In the majority of related research in literature, invertase was produced from microbial sources. Of these microbial sources, different species of Aspergillus have been utilized in synthesizing enzymes. For optimized conditions, Uma et al., (2010) observed high levels of invertase from Aspergillus flavus in submerged cultures. Also, high yields of thermostable extracellular invertase were obtained when Aspergillus ochraceus was cultured in Khanna medium (Khanna et al., 1995; Guimarães et al., 2007). Other species includes Aspergillus niger which was used by Dinarvand et al., (2012) to synthesize both Inulinase and Invertase.
+ 
+Production of enzymes is labour-intensive and requires tedious experiments in the laboratory in order to determine optimum conditions. Production generally involves the use of high value added substrates which makes enzyme production not only a tedious but an expensive process (Nascimento et al., 2019). In order to reduce the high cost of production, most researchers have turned to agro industrial residues as substrate for enzyme production. Agro industrial products such as cassava flour and wheat bran was used by Giraldo et al., (2012) to produce high yields of invertase using Paecilomyces variotii. All of these prompted Oyedeji et al., (2017) to suggest that residues from agro industrial by-products are good candidates for use as substrates for production of enzymes and as well as other value added metabolites.
+ 
+This study was aimed at producing invertase enzyme from Aspergillus CSA35 isolate and to evaluate parameters such as salt tolerance, kinetic properties, pH, temperature and substrate specificity in order to determine optimum conditions in which this crude invertase extracted from Aspergillus sp.CSA35 would maximally express its catalytic activity.
+ 
+
+ MATERIALS AND METHODS
+
+Fungal isolate 
+ 
+The fungus, Aspergillus sp. CSA35 used in this study was provided by African Research Laboratories, Otorho-Agbon Delta State, Nigeria. It has previously been identified using microbiology and molecular biology techniques by Avwioroko et al., (2015), and studied for α amylase formation.
+ 
+Preparation of invertase production medium
+ 
+For invertase production, the fungus was grown in a medium made using the procedure of Uma et al. (2010)  with  little  modification  to contain 0.03 g of Ammonium ferrous sulphate, 0.14 g of potassium dihydrogen phosphate, 1 g of sodium nitrite, 0.03 g of magnesium chloride, 0.05 g of potassium chloride and 10 g of sucrose. All these were added into a 250 ml conical flask and dissolved with distilled water up to the 100 ml mark. Sterilization was done by autoclaving at 121°C for 15 min and cooled in a cold water bath.
+ 
+Fungal growth and invertase production
+ 
+The Aspergillus species CSA35 isolate was incubated for between 5 and 7 days. Fungal growth was filtered from the liquid medium using Whatman No. 1 filter paper, conical flask and funnel and used as the crude extract for enzyme assay.
+ 
+Invertase activity assay
+ 
+For invertase activity assay, the procedure of Bacon (1955) was used with slight modifications. 1 ml of crude invertase extract was collected and measured into a test tube and 1 ml sucrose (1% W/V) solution dissolved in acetate buffer pH 5.6 was added. The mixture was incubated for 15 min at 40°C and 2 ml of DNS reagent was added. The mixture was shaken and boiled for 5 min at a temperature of 95 to 100°C. Thereafter, 300 µl of Rochelle salt (40% sodium potassium tartrate) was added to stabilize the colour. Absorbance was read at 540 nm.  
+ 
+Determination of invertase salt tolerance
+ 
+The effect of varying salt concentrations on crude invertase activity was determined. The crude invertase was mixed with different concentrations of NaCl (1, 2 and 3 M) and incubated at 4°C for 24 h; the substrate was added and invertase activity was determined.
+ 
+Determination of kinetic parameters for crude invertase
+ 
+The kinetic parameters [Michaelis-Menten constant (Km) and maximum velocity (Vmax)] of invertase crude activity from Aspergillus sp. CSA 35 was determined individually from line weaver Burk plot at a temperature of 40°C, pH 5.7 for sucrose concentration ranging from 1 to 5 mg/ml. Km and Vmax were investigated experimentally by measuring the rate of catalysis (V) for substrates at various concentrations (S). A straight line graph was obtained by plotting 1/V vs 1/S. The evaluation of this graph yielded the kinetic parameters for the crude invertase.
+ 
+Procedure for substrate specificity
+ 
+The specificity of the invertase enzyme obtained from the fungi was investigated by exposing the enzyme to other disaccharides or carbohydrate-containing substrates like table sugar, starch and sucralose. 1% W/V solution of the above substrates dissolved in acetate buffer was prepared and used as the substrate and the enzyme assay was carried out.
+ 
+Effect of pH on invertase activity
+ 
+To determine the effect of pH on invertase activity as well as the optimum pH for invertase activity, the effect of pH was studied under different pH ranging from 3.0 to 10.0 and the absorbance was read at 540 nm.
+ 
+Effect of temperature invertase activity
+ 
+To determine the effect of temperature on invertase activity, invertase activity was measured at different temperatures ranging from 30 to 70°C using the same procedure described previously.
+ 
+Statistical analysis
+ 
+The results obtained were expressed in mean ± standard deviation and comparison of means for significant differences was done using One-way analysis of variance (ANOVA). Mean differences were said to be statistically significant at P<0.05.
+
+ RESULTS
+
+Effect of salinity on invertase activity
+ 
+The ability of invertase from Aspergillus species CSA 35 to withstand various concentrations of sodium chloride (1, 2 and 3 M) for 24 h was tested. The result (Figure 1) showed that activities of invertase increased with increasing salt concentration for 24 h.
+ 
+Kinetic constants
+ 
+Michaelis-Menten type kinetics was shown by the invertase isolated from Aspergillus species CSA 35. As calculated from the Lineweaver–Burk plots (Figure 2), the Vmax  of  invertase  of  Aspergillus  sp.  was  15.15 U/mg protein, while the affinity for substrate shown by invertase was 1.25 mg/ml.   
+ 
+
+ 
+Invertase substrate specificity
+ 
+The specificity of enzyme activity was investigated by exposing the enzyme to other disaccharide containing substrates such as starch (containing amylose and amylopectin), table sugar (sucrose) and sucralose (chemically modified sucrose). It should be noted that all substrates were selected such that they contain mainly glucose (in the case of starch) or glucose and fructose (for sucrose and sacrulose) as their major components. Results obtained shows that crude invertase extracted from this species of Aspergillus shows a broad range of specificity as no significant difference was found in its ability to degrade other disaccharide containing substrates (Figure 3).
+ 
+Effect of pH on invertase activity
+ 
+The effect of pH on invertase was determined (Figure 4). There was a sharp rise in the activity of invertase from pH 3 to 4. Upon an increase in pH from 4 to 5, a slight increase in activity was again observed. This trend continues up till pH 6 when the maximum invertase activity was achieved and thereafter a rapid decline in enzyme activity with the lowest activity for the pH assayed observed at pH 9 (Figure 4). 
+ 
+Effect of temperature invertase activity
+ 
+The effect of temperature on this enzyme is shown in Figure 5. Temperature ranging from 30 to 70ºC was used and it was observed that invertase activity was at its maximum at 50°C and the lowest activity was observed at 30°C (Figure 5).
+ 
+
+ 
+
+
+ DISCUSSION
+
+In the present study, the ability of invertase from Aspergillus species  CSA35  to  tolerate  different  sodium chloride (NaCl) concentration was observed. Concentration ranging from 1 to 3 M was used and, invertase activity increased by increasing salt concentration from 1 to 2 M. However, on increasing NaCl concentration from 2 to 3 M, there was no significant difference in invertase activity. This could possibly suggest that beyond 2 M concentration, NaCl has no positive impact on invertase activity. Therefore, since invertase from Aspergillus species CSA35 can tolerate high salt concentration of 3 M for up to 24 h, it could be useful in industrial applications where such high salt treatments are required. Also, kinetic parameters (Km and Vmax) were determined at 37°C  and  pH 5.6 for Aspergillus CSA 35 for various concentrations ranging from 1 to 5 mg, using sucrose as substrate. The Km and Vmax values were 1.25 mg/ml and 15.15 U/mg protein, respectively. In a related research carried out by Uma et al., (2010), Km value of 0.23 mg/ml and Vmax of 15.8 U/mg were observed. Though the Vmax obtained from this study was similar to previous findings, the difference in Km value could likely be attributed to other factors such as different experimental conditions or even a difference in the source of invertase. These kinetic constants are at variance with those reported in a similar work by L’Hocine  et  al.,  (2000),  whose  Km  and  Vmax values were 0.6894 mg/ml and 0.3201 U/mg protein using Saccharomyces cerevisae MTCC 170. In another study, Hernalsteens and Maugeri (2008) reported a Km of 13.4 g/l and Vmax of 21 U/mg protein for sucrose by invertase in Candida species. It can thus be inferred that these km and Vmax values for invertase varies from one microorganism to another.
+ 
+The hydrolytic activity of invertase from Aspergillus species CSA35 shows no significant difference in its ability to degrade sucrose or any disaccharide containing substrate. From Figure 3, table sugar (sucrose) shows a higher   invertase  activity  when  compared  to  sacrulose which is a modified form of sucrose. The biochemical rationale behind this could be accounted for. It could probably be due to the fact that the refined sacrulose having undergone refinement processes and other forms  of chemical modifications resulted in a lower rate of hydrolysis when compared to the normal sucrose, hence a lower invertase activity was observed for sacrulose. Hydrolysis of α-glucans such as starch also indicated a good invertase activity. It could therefore be said that Aspergillus sp.CSA35 invertase showed a broad range of substrate specificity. Also, other factors such as substrates molecular size and structure, type of bond in chain may also affect enzyme activity (Jackson et al., 2010).
+ 
+On having a first glance of pH effect on invertase activity, it can be observed that maximum invertase activity was obtained at pH 6. This result agrees with Uma et al., (2010) and Patil et al., (2012), even though the microorganism used in their respective studies were different (Cladosporium cladosporioides for the former and Aspergillus sp M1 for the latter). Different results have also been reported from other related research. Shaker (2015) revealed that invertase extracted from Aspergillus terreus expresses it maximum activity at pH 2. Having optimum activity at such a low pH is not surprising, judging from the fact that this organism is being used extensively in producing useful organic acids. Similarly, Qureshi et al., (2012) recorded optimum activity for invertase extracted from Mucorgeophillus at pH 5 while Talekar et al., (2010) reported optimum activity at pH of 4.2 by Saccharomyces cerevisiae invertase. Generally, it could therefore suggest that differences observed could be attributed to the different sources of invertase.
+ 
+The effect of temperature on invertase activity seems to vary from organism to organism because optimum temperature observed in this study was 50°C and this differs from related studies in literature where different microorganisms were used. Shaker (2015), worked on A. terreus and reported an optimum pH of 60°C while Talekar et al., (2010), observed peak invertase activity at a temperature of 30°C by S. cerevisiae MTCC 170. 
+
+ CONCLUSION
+
+Invertase from Aspergillus sp.CSA35 showed a broad range of substrate specificity and was salt tolerant to 3 M NaCl for 24 h even though there was no increase as was noticed when concentration was increased from 1 to 2 M. The Vmax of the enzyme was similar to many others from fungal sources previously reported in literature. Invertase activity was optimal at pH 6.0 and 50ºC. The findings in this study could be useful in industrial and commercial processes such as the production of confectionary, beverage, bakery products and pharmaceutical formulations in which high invertase activity with these properties are desired.  
