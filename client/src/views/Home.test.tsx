@@ -4,7 +4,7 @@ import { renderWithRouting } from '../utils/testUtils';
 
 describe('Home Tests', () => {
     const renderComponent = () => {
-        return renderWithRouting(<Home setSearchString={jest.fn()} searchString={''} />);
+        return renderWithRouting(<Home setSearchString={jest.fn()} searchString={''} setSearchReload={jest.fn()} searchReload={false} />);
     };
 
     test('should render container', () => {
