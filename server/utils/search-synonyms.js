@@ -11,7 +11,7 @@ function searchWithSynonyms(searchString) {
             const filteredWord = identifiedWord[0].replace('~', '').toLowerCase();
             const wordSynonyms = [];
 
-            wordnet.lookup(filteredWord, (wnResults, index) => {
+            wordnet.lookup(filteredWord, (wnResults) => {
                 wnResults.forEach((result) => {
                     result.synonyms.forEach((syn) => {
                         const lowerSyn = syn.toLowerCase();
@@ -24,6 +24,8 @@ function searchWithSynonyms(searchString) {
 
                 resolve(results);
             });
+        } else {
+            resolve(results);
         }
     });
 }
