@@ -11,7 +11,7 @@ const LoaderScreen: React.FC = () => {
     }, []);
 
     return (
-        <StyledLoaderBox className={!active ? 'section-loader' : 'section-loader active'}>
+        <StyledLoaderBox data-testid={'loader-container'} className={!active ? 'section-loader' : 'section-loader active'}>
             <div className="loader-logo"></div>
         </StyledLoaderBox>
     );

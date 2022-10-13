@@ -6,9 +6,9 @@ import { pink } from '../../resources/styles/variables';
 
 const ErrorMessage: React.FC<ErrorMessagePropTypes> = ({ errorMessage }) => {
     return (
-        <StyledErrorMessageBox>
-            <ErrorIcon size={30} color={pink} />
-            <StyledErrorText>{errorMessage}</StyledErrorText>
+        <StyledErrorMessageBox data-testid={'error-container'}>
+            <ErrorIcon data-testid={'error-icon'} size={30} color={pink} />
+            <StyledErrorText data-testid={'error-text'}>{errorMessage}</StyledErrorText>
         </StyledErrorMessageBox>
     );
 };

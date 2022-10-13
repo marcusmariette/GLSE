@@ -6,9 +6,11 @@ const Header: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <StyledHeaderBox>
-            <StyledLogoImage src="/android-chrome-192x192.png" onClick={() => navigate('/')} alt="GLSE Logo" />
-            <StyledTextButton onClick={() => navigate('/')}>GLSE</StyledTextButton>
+        <StyledHeaderBox data-testid={'header-container'}>
+            <StyledLogoImage data-testid={'header-img'} src="/android-chrome-192x192.png" onClick={() => navigate('/')} alt="GLSE Logo" />
+            <StyledTextButton data-testid={'header-btn'} onClick={() => navigate('/')}>
+                {'GLSE'}
+            </StyledTextButton>
         </StyledHeaderBox>
     );
 };

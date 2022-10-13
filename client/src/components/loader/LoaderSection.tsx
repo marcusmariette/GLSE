@@ -4,7 +4,7 @@ import loader from '../../resources/images/loader.svg';
 
 const LoaderSection: React.FC = () => {
     return (
-        <StyledLoaderSection>
+        <StyledLoaderSection data-testid={'loaderSection-container'}>
             <img src={loader} alt="loader" />
         </StyledLoaderSection>
     );
