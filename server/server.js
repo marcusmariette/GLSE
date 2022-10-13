@@ -67,10 +67,7 @@ app.get('/getResults', async (req, res) => {
 
                 // If we want to check the database/filesystem for existing queries run
                 if (fs.existsSync('resources/results/' + fileNameAsMD5 + '.json')) {
-                    var resultData = fs.readFileSync(
-                        'resources/results/' + fileNameAsMD5 + '.json',
-                        'utf-8'
-                    );
+                    var resultData = fs.readFileSync('resources/results/' + fileNameAsMD5 + '.json', 'utf-8');
 
                     responseData.status = 200;
                     responseData.message = 'success';
@@ -80,14 +77,14 @@ app.get('/getResults', async (req, res) => {
                 } else {
                     fs.readdir(directoryPath, (error, files) => {
                         if (error) return console.log('Unable To Scan Directory: ' + err);
-    
+
                         files.forEach((file) => {
                             knowledgeBaseContent += fs.readFileSync('resources/documents/' + file, 'utf-8');
                         });
-    
+
                         const allSentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
                         const allValidKBSentences = [];
-    
+
                         // Reduce Sentences for Symbols that can be stripped
                         if (canStripSymbol(searchSymbol)) {
                             const kbFilter = stripPosTag(searchQuery);
@@ -115,18 +112,15 @@ app.get('/getResults', async (req, res) => {
                                 }
                             }
                         });
-    
+
                         responseData.status = 200;
                         responseData.message = 'success';
                         responseData.match = returnResults;
                         res.json(responseData);
-    
+
                         // If we want to save the results to the database/filesystem
                         if (returnResults.length > 0) {
-                            fs.writeFileSync(
-                                'resources/results/' + fileNameAsMD5 + '.json',
-                                JSON.stringify(returnResults)
-                            );
+                            fs.writeFileSync('resources/results/' + fileNameAsMD5 + '.json', JSON.stringify(returnResults));
                         }
                     });
                 }

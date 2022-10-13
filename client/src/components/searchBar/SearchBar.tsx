@@ -8,10 +8,10 @@ import { SearchPropTypes } from '../../types';
 import { findSymbols, validateSymbolRegex } from '../../utils/validationUtils';
 import ErrorMessage from '../error/ErrorMessage';
 
-const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString, searchReload, setSearchReload}) => {
+const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString, searchReload, setSearchReload }) => {
     const navigate = useNavigate();
     const [showError, setShowError] = useState<boolean>(false);
-    const [errorSeverity, setErrorSeverity] = useState<string>("error");
+    const [errorSeverity, setErrorSeverity] = useState<string>('error');
     const [errorMessage, setErrorMessage] = useState<string>('');
 
     // Handles search input value setter
