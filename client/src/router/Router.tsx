@@ -6,14 +6,14 @@ import Help from '../views/Help';
 import Search from '../views/Search';
 import Header from '../components/header/Header';
 
-const Router = ({ searchString, setSearchString }) => {
+const Router = ({ searchString, setSearchString, setSearchReload, searchReload }) => {
     return (
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<Home searchString={searchString} setSearchString={setSearchString} />} />
+                <Route path="/" element={<Home searchReload={searchReload} setSearchReload={setSearchReload} searchString={searchString} setSearchString={setSearchString} />} />
                 <Route path="/help" element={<Help />} />
-                <Route path="/search" element={<Search searchString={searchString} setSearchString={setSearchString} />} />
+                <Route path="/search" element={<Search searchReload={searchReload} setSearchReload={setSearchReload} searchString={searchString} setSearchString={setSearchString} />} />
             </Routes>
         </BrowserRouter>
     );

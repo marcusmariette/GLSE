@@ -3,12 +3,12 @@ import { Grid, Box } from '@mui/material';
 import SearchResults from '../components/searchResult/SearchResults';
 import { SearchPropTypes } from '../types';
 
-const Search: React.FC<SearchPropTypes> = ({ searchString, setSearchString }) => {
+const Search: React.FC<SearchPropTypes> = ({ searchString, setSearchString, setSearchReload, searchReload  }) => {
     return (
         <Box className="section section-search">
             <Grid container sx={{ maxWidth: '1200px', margin: '0 auto' }}>
                 <Grid item xs={12}>
-                    <SearchResults setSearchString={setSearchString} searchString={searchString} />
+                    <SearchResults setSearchReload={setSearchReload} searchReload={searchReload} setSearchString={setSearchString} searchString={searchString} />
                 </Grid>
             </Grid>
         </Box>

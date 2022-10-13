@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 
 describe('ErrorMessage Tests', () => {
     const renderComponent = () => {
-        return render(<ErrorMessage errorMessage={'Error'} />);
+        return render(<ErrorMessage errorSeverity={`error`} errorMessage={'Error'} />);
     };
 
     test('should render container', () => {

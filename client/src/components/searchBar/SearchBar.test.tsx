@@ -4,7 +4,7 @@ import { renderWithRouting } from '../../utils/testUtils';
 
 describe('SearchBar Tests', () => {
     const renderComponent = (searchString: string = '') => {
-        return renderWithRouting(<SearchBar setSearchString={jest.fn()} searchString={searchString} />);
+        return renderWithRouting(<SearchBar setSearchReload={jest.fn()} searchReload={false} setSearchString={jest.fn()} searchString={searchString} />);
     };
 
     test('should render container', () => {
