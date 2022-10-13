@@ -1,0 +1,152 @@
+ ABSTRACT
+
+The purpose of this paper was to address the issue of E-government website evaluation regarding the provision of a decision-making framework built around the concepts of website evaluation. The proposed framework deploys a Bayesian Belief Network (BBN) to conquer the subjectivity and inaccuracy that characterizes the conventional models for E-government website quality assessment. Since the developments of E-government system are becoming more and more complex, an entire quantitative evaluation process concerning all pertinent quality characteristics is also a complex issue. This is caused by a lot of intervening features, and by the compound logic relationships among attributes and characteristics. To achieve the preferred quality of E-government website, it is essential to produce an intelligent engine that enables evaluation of Eâ€‘government system’s quality. This intelligent engine would provide a consistent and practical approach for assessing the quality of the E-government website. The assessment can be carried out prior to the completion of the software development, therefore, providing insight into the trend and direction of correction and improvements. It can also be performed on accomplished and operational work, providing analysis of areas for enhancement. The performance of the intelligent engine should be pretty quick and practical in providing an overall comprehensive assessment with root-cause analysis that would lead to corrective measures to improve the quality of Eâ€‘government website. Case studies were selected to demonstrate this and justify its validity.
+
+Key words: E-government, E-government software developments, metrics, quality evaluation, decision support systems.
+
+
+ INTRODUCTION
+
+The internet and mainly the World Wide Web has evolved into both  private  and  public  organizations  all  over  the world from a primary tool for displaying information into a means  of  providing  added  value services to customers. However, while an active presence on the web appears like a competitive advantage for private organizations, for public bodies it constitutes, an obligation toward citizens (Markaki et al., 2015). According to Markaki et al. (2015) as public authorities at all government levels around the world attempt to embrace the digital revolution and place a broad range of materials on the web, from mere information to actual online services, expectations of the performance levels that E-government websites should provide have been considerably raised, bringing up the issue of their quality evaluation.
+ 
+The necessity of ensuring quality through website evaluation originates not only from that Eâ€‘government websites have been one of the most important channels for public services delivery and citizen-government interaction, but also from the need to justify government investment that makes web-based service delivery possible (Fath-Allah et al., 2014).
+ 
+Past approaches concerning the quality of E-government systems emphasize usability standards using techniques like feature inspection and collecting data on end-users’ opinion by questionnaires. These methods provide valuable feedback, and their outcome can be utilized as a useful background for future work. However, they do not contribute directly to a dynamic model that enables forecasting (Chan et al., 2001). Website style guides and design principles such as the IEEE Web Publishing Guide, IEEE Std 1061-1992, “IEEE Standard for a Software Quality Metrics Methodology” and ISO/IEC 9126-1991 have emerged to assist developers in the development process. According to de Chazal (2005), there seems to be an almost irresistible abundance of quality standards that lead to a high level of cynicism and skepticism surrounding them and the eventual lack of use. In fact, some guidelines suggest specific testing techniques able to detect whether or not the direction is satisfied. Automatic tools are also available to carry out some of these tests. At least for usability-related questions, quality models should blend these techniques with other ones, like user testing or heuristic evaluation.
+ 
+The time and effort needed to carry out heuristic evaluation or user testing are in conflict with two fundamental pragmatic aspects of current websites. Web technologies evolve extremely fast, enabling sophisticated tools to be deployed and complex interactions to take place. Secondly, the life cycle of a website is also extremely fast: maintenance of a website is performed at a rate that is higher than that of other software products because of market pressure and lack of distribution barriers (Brajnik, 2001). Such conflict is one more reason to consider automatic tools for supporting quality assessments.
+ 
+According to Sonal et al. (2014), in expert systems, the word uncertainty is related to working with inexact data, inaccurate information, handling an identical situation, the reliability of the results, etc. An expert system  allows  the user to assign probabilities, certainty factors, or confidence levels and many more techniques to any or all input data. This feature closely represents how most problems are handled in the real world. An expert system can take all relevant factors into account and make a recommendation based on the best possible solution rather than the only exact solution to handle such problems.
+ 
+This research paper provides a decision-making framework for evaluating E-government websites that is based on BBN. The proposed framework constitutes a holistic approach and is characterized by scalability. 
+
+ RELATED WORK
+
+Several models have been developed from the 1980s for investigating information system achievement and the broader term website success. However, few studies considered the combination of information system quality and online service quality variables as components of website success, Updated Delone and McLean IS Success Model (2003) are one of the highly cited models, which concerns both IS and Service quality as antecedents of website success. In this model, they identified six criteria to measure the success of a system, which is: system quality, information quality, information use, user satisfaction, individual impact and organizational impact.
+ 
+Furthermore, different website evaluation approaches that deal with website usability and design, content, quality, user acceptance and user satisfaction are the most frequent outcomes measured to evaluate websites (Pearrow, 2000). Chiou et al. (2010) saw that these approaches from a strategic viewpoint were right by assessing user attitude towards the website and could be considered as an external user’s view.
+ 
+Fath-Allah et al. (2014) provided a comparative analysis of E-government quality models based on ISO based quality models and non-ISO based quality models. Table 1 shows a comparison between ISO quality models. Whereas, Table 2 displays a comparison between non-ISO quality models in terms of many criteria including year when the paper was published, ISO standard used related to software quality (such as ISO 9126, ISO 25000, etc.), whether the quality model introduces new quality characteristics or uses the existing ones from ISO standards, quality focus (for instance, supply side or demand side), quality domain (such as, service quality or Website quality, etc.), availability of the quality model’s metrics, and finally whether the quality model is using a best practice model or not.
+ 
+
+ 
+
+ 
+Fath-Allah et al. (2014) concluded that, in the ISO based quality models, only one model focuses on Eâ€‘government portals’ quality and it is using the ISO standard 9126. Whereas, from the non-ISO based quality models, two quality models are focusing on E-government portals quality. However, each model has a different set of quality dimensions. According to Fath-Allah et al. (2014), bringing a convergence and international consensus on quality standards would facilitate both the measurement and the use of the quality models on the one hand and would guarantee the reliability and validity of the quality models on the contrary.
+ 
+The solution proposed by this research is the establishment of a BBN to overcome the subjectivity and inaccuracy that characterizes the conventional models for Eâ€‘government website quality assessment. According to Uusitalo (2015), BBNs are often called decision support systems where the factors affecting a decision are modeled concerning their elements and inter-dependencies. Furthermore, BBNs have become a valuable tool for research and applications. They are useful for both inferential exploration of previously unknown relationships among variables and for descriptions of the relationships discovered. The aim of this paper was to create a decision support system to aid in the assessment and decision-making concerning the quality assessment of an Eâ€‘government websites.
+
+ BUILDING A BAYESIAN BELIEF NETWORK MODEL
+
+A BBN is a graph composed of variables connected by arrows indicating an influencing relationship between the connected nodes. Each node has a fixed number of states, and a table of probabilities showing its relationship with another node. Edges reflect cause-effect relationships within the domain. These effects are usually not completely deterministic. The strength of an effect is modeled as a probability (Skinner et al., 2014). Mathematically, a BBN is a probabilistic network that helps model and measure valuations and assessments (Skinner et al., 2014). According to Sonal et al. (2014), establishing a BBN is a two stage process. Qualitative analysis is the first phase, followed by quantitative analysis.
+ 
+Qualitative analysis
+ 
+Qualitative analysis involves representing the BBN in the form of an acyclic graph consisting of nodes and directed arcs. The resulting BBN is shown in Figure 1. The target model was built using Microsoft Research's Bayesian network Authoring and Evaluation Tool (MSBNX). As Figure 1 illustrates, there are three types of nodes:
+ 
+
+ 
+Target node
+ 
+The aim of the assessment, which is the quality node.
+ 
+Intermediate nodes
+ 
+Nodes with limited information or "beliefs".  Functionality, Reliability, Trustworthiness, Usability, User-Friendless, Efficiency are intermediate nodes.
+ 
+Observable nodes
+ 
+This can be directly observed. All the remaining nodes are observable and can be quantified, based on the findings from their sub-factor. Table 3 shows how the factors acting as BBN nodes influence the model from a business domain perspective.
+ 
+
+ 
+Quantitative analysis
+ 
+The second stage in building BBN model is to quantify it with weights and figures, providing a representation of the joint probabilities. This necessitates assessing the probabilities of  each  factor  on  the  developed  network from the probability distributions for each of the factors, and conditionally, on their direct predecessors.
+ 
+According to Uusitalo et al. (2015), the probabilistic, integrative decision support models can derive their data from three types of sources: from literature, elicited from experts, or learned directly from observations. In this paper, the second option, elicitation from experts, was used for building the model. A panel of three experts was asked to help derive an efficient mechanism for quantifying the relations. Unanimously, the three experts agreed to limit quantifiable assessment of each variable to 3 values: (+1) meaning the variable has positive influence within the website, (-1) indicating an absence of the variables attributes having a negative influence in the website and (0) showing neutrality in the decision about the variable’s influence within the website. A complete quantitative specification of our BBN model is not included  as  it  would  have  too  many  relations  for   the space available.
+
+ EXPERIMENTAL EVALUATION
+
+The utility of the work and framework described in this paper is applied to three cases. The conclusions are measured against comparative assessment to validate the practical benefits of the work accomplished.
+ 
+Case 1: The Social Security Corporation (SSC)
+ 
+SSC is a live website that provides general information about the corporation's insurances in addition to e-services in the field of social security. The technology exploited to build the site is based on Microsoft.NET framework of technologies. We were allowed to examine this company's internal documents in this study.
+The primary goal of this evaluation is to facilitate the process of evaluating the quality of the website and provide insight into the reasons behind the findings. Furthermore, it gave direction and prioritizing for remedial work to upgrade the site to provide a new, higher quality level of service.
+ 
+The Goal-Question-Metric approach (Fenton and Lawrence, 1997) was followed to apply BBN model to SSC website. In the first step of the process, the evaluation sheet of the E-government website was given to two evaluators to answer the proposed questions. Two reviewers were assigned to respond to the questions to avoid errors due to some carelessness or misunderstanding of the questions. The sheet was simply a questionnaire that gives the evaluator the option of a rating score from -100% to 100%, so that the third reviewer can then process them, scaling them down into three states: (+1) means the node has positive influence within the website, (-1) indicates an absence of evidence of the node’s influence in the website and (0) indicates neutrality in the decision about the node’s influence within the website.
+ 
+Using this framework, the “beliefs”, which are the quality factors, were considered as the goals in this setting. The metrics were set to the three essential levels of positive (good, that is, agreeing), negative (poor, that is, opposing) or neutral  (average),  indicating a lack of clear evidence. This approach, according to Rababah (2007), closely resembles a process improvement methodology, especially one that is measurement-based. This aligns with the ultimate goals of the paper in seeking a reusable quantitative methodology for assessing the quality of Eâ€‘governments websites in the spirit of their improvement.
+ 
+Model application
+ 
+The site was examined by applying the BBN model proven in this paper. The target of identifying the “beliefs” on the intermediate nodes was attained by conducting a score-based, Goal-Question-Metric study on the state of the site, and the results were plugged into the model to derive the quality level. The assessment outcome is shown in Table 4. This is illustrated in Figure 1. BBN model describes three types of critical factors for achieving quality. Based on the BBN model and the analysis framework that applied the results were: A low level of interoperability attributes, mainly because it does not work well on multiple browsers, a low level of operability attributes, because it does not provide search history, cannot be customized according to the user's preferences, and it is not accessible for users with disabilities.
+ 
+
+ 
+The application of the BBN model on SSC shows an "average" level of quality with a value equals to 0.706 due to the low level of both interoperability and operability. This is illustrated in Figure 2.
+ 
+
+ 
+What-if analysis
+ 
+Two aspects were recognized that impacted on SSC.gov.jo quality negatively, these are interoperability and operability. Improving both factors to an acceptable status would bring the website to a high level of quality. According to the BBN model, a good rating of operability augmented with an average score on interoperability would be effective to raise the level of the website quality to good, with a value equals to 0.914. This is shown in Figure 3.
+ 
+
+ 
+At the time of conducting the research, the current old SSC website was intended to be replaced by another website, though it has not  been launched yet, for:
+ 
+1. Improving and increasing the number of provided e-services. This is inferring that the current website is not flexible.
+2. It is hard to update the website's design by the Corporation's staff. This reflects flexibility problem.
+3. Not supporting audio and video.
+4. The used content management system (CMS) tool is out of date.
+ 
+The assessment that was conducted on the new SSC's website revealed an improvement in several factors over the old website as shown in Table 5. A forward forecasting was carried out to assess the probability that the underlying website will be of high quality. The results show a "satisfactory" quality of the site with value of 0.973. This is shown in Figure 4.
+ 
+
+ 
+
+ 
+Case 2: E-Government portal
+
+E-government portal is the official site of the Jordanian Eâ€‘government, and is run by Ministry of Information and Communications Technology (MoICT). The portal gives access to users, who can find the information they are looking for in relation to the Eâ€‘government program, national information system, connection to government agencies such as; Ministry of Public Works and Housing, Government Tenders Directorate, Jordan Tourism Board, etc.
+ 
+As in the previous case study at SSC.gov.jo, the Goal-Question-Metric approach  (Fenton  and  Lawrence,  1997)  was  followed  in exercising the developed model. Using this framework, the “beliefs”, which  were  the  quality  factors,  were the goals in this setting. The assessment outcome is given in Table 6.
+ 
+
+ 
+Validation and value benefits
+ 
+Investigating the site’s software quality identified involved interoperability, accuracy, attractiveness, learnability, and operability as major shortcomings. When applying BBN Model,  the results show an "unsatisfactory" quality for the website where the quality value equals 0.462, this is due to the five identified poor factors. This is shown in Figure 5 where the poor status is illustrated in yellow color. Improving these five factors: Interoperability, accuracy, attractiveness, learnability and operability, to an acceptable average status, would bring the site from 0.462 to a high level of quality equals 0.928, as shown in Figure 6.
+ 
+
+ 
+
+ 
+The site was never  set  up  to  survey  customers' satisfaction. Neither was it feasible to perform such an exercise at the time of this research.
+ 
+Case 3: Public Security Directorate
+ 
+The third case is the website of the PSD www.psd.gov.jo. This website provides general information on PSD, its services, e.g. Issuing Certificate of Non-Criminal Record, and links to other similar agencies, e.g. Driver and Vehicle License, the Residence and the Border, and the Traffic department, etc.
+ 
+When conducting the assessment process, it was found that the website does not determine the access rights for each user and is not accessible to users with disabilities. These findings affect the status of both the Security and Operability negatively. This assessment is given in Table 7. After applying the model to the website, a low level of quality was revealed, which is .64. This is explained by the low level of Security and Operability as shown in Figure 7.The upgrading of the status of these two factors, Security to good and Operability to average increased the quality of the website to 895 as illustrated in Figure 8.
+ 
+
+ 
+
+ 
+
+
+ REALIZATION
+
+It was shown in this paper that a BBN, which is a network, based technique for representing and analyzing models involving uncertainty, is an appropriate and applicable tool for the modeling and representation of E-government quality relationships. This method enables the software engineering/web development community to produce solutions with more confidence, overcoming one of their biggest problems, the challenge of making good decisions using data that is usually scarce and incomplete. By modeling uncertainties, certain structural and behavioral aspects of the target system become more visible and understandable, thereby enabling future development steps to be carried out more efficiently and effectively. This paper has shown that it is a reliable utility to apply as an assessment tool for the E-government qualities of a website and the root-causes of any quality problems.
+ 
+This research is not the first to apply belief networks to software engineering. For example, Stefani et al. (2003) used BBNs to assess the quality of E-commerce systems based on the ISO 9126 quality standard. Unlike this research, their work focused on functionality, usability, reliability and efficiency aspects.
+
+ CONCLUSIONS
+
+In this paper, a decision support system for assessing the quality of an Eâ€‘government website was presented based on a BBN model for factors influencing the quality of sites. The overall conclusion is that the research has been successful in satisfying its aims and objectives and that the working framework produced should be useful for evaluating the qualities of an E-government websites. It was shown in this paper that a BBN, which is a network based technique for representing and analyzing models involving uncertainty, is an appropriate and applicable tool for the modeling and representation of E-government quality relationships. This technique enables the software engineering/web development community to produce solutions with more confidence, overcoming one of their biggest    problems,    the    challenge    of    making   good  decisions using data that is usually scarce and incomplete. By modeling uncertainties, certain structural and behavioral aspects of the target system become more visible and understandable, thereby enabling future development steps to be carried out more efficiently and effectively. This paper has shown that it is a reliable utility to apply as an assessment tool for the E-government qualities of a website and the root-causes of any quality problems.
+ 
+After using the model, the output was quite accurate, given the limited provided input. This suggests that extending the model may allow even more precise output. The model can be extended in the future to allow more detailed analysis and guidance for website development.
+ 
+Although, case studies show that this is a promising technique, a larger case study is needed to validate the model. Case studies could be carried out over extended periods of time so that a quality prediction could be made during a website development and an assessment subsequently made after it has been in active service for a while so that predicted success can be compared with actual success. Another extension to the case studies would be to apply the model to case studies of different cultures. This would help identify if there are any cultural effects that would affect the applicability of the model.

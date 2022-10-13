@@ -1,0 +1,225 @@
+Introduction
+This tutorial provides an overview of natural language processing (NLP) and lays a foundation for the JAMIA reader to better appreciate the articles in this issue.
+
+NLP began in the 1950s as the intersection of artificial intelligence and linguistics. NLP was originally distinct from text information retrieval (IR), which employs highly scalable statistics-based techniques to index and search large volumes of text efficiently: Manning et al1 provide an excellent introduction to IR. With time, however, NLP and IR have converged somewhat. Currently, NLP borrows from several, very diverse fields, requiring today's NLP researchers and developers to broaden their mental knowledge-base significantly.
+
+Early simplistic approaches, for example, word-for-word Russian-to-English machine translation,2 were defeated by homographs—identically spelled words with multiple meanings—and metaphor, leading to the apocryphal story of the Biblical, ‘the spirit is willing, but the flesh is weak’ being translated to ‘the vodka is agreeable, but the meat is spoiled.’
+
+Chomsky's 1956 theoretical analysis of language grammars3 provided an estimate of the problem's difficulty, influencing the creation (1963) of Backus-Naur Form (BNF) notation.4 BNF is used to specify a ‘context-free grammar’5 (CFG), and is commonly used to represent programming-language syntax. A language's BNF specification is a set of derivation rules that collectively validate program code syntactically. (‘Rules’ here are absolute constraints, not expert systems' heuristics.) Chomsky also identified still more restrictive ‘regular’ grammars, the basis of the regular expressions6 used to specify text-search patterns. Regular expression syntax, defined by Kleene7 (1956), was first supported by Ken Thompson's grep utility8 on UNIX.
+
+Subsequently (1970s), lexical-analyzer (lexer) generators and parser generators such as the lex/yacc combination9 utilized grammars. A lexer transforms text into tokens; a parser validates a token sequence. Lexer/parser generators simplify programming-language implementation greatly by taking regular-expression and BNF specifications, respectively, as input, and generating code and lookup tables that determine lexing/parsing decisions.
+
+While CFGs are theoretically inadequate for natural language,10 they are often employed for NLP in practice. Programming languages are typically designed deliberately with a restrictive CFG variant, an LALR(1) grammar (LALR, Look-Ahead parser with Left-to-right processing and Rightmost (bottom-up) derivation),4 to simplify implementation. An LALR(1) parser scans text left-to-right, operates bottom-up (ie, it builds compound constructs from simpler ones), and uses a look-ahead of a single token to make parsing decisions.
+
+The Prolog language11 was originally invented (1970) for NLP applications. Its syntax is especially suited for writing grammars, although, in the easiest implementation mode (top-down parsing), rules must be phrased differently (ie, right-recursively12) from those intended for a yacc-style parser. Top-down parsers are easier to implement than bottom-up parsers (they don't need generators), but are much slower.
+
+The limitations of hand-written rules: the rise of statistical NLP
+Natural language's vastly large size, unrestrictive nature, and ambiguity led to two problems when using standard parsing approaches that relied purely on symbolic, hand-crafted rules:
+
+NLP must ultimately extract meaning (‘semantics’) from text: formal grammars that specify relationship between text units—parts of speech such as nouns, verbs, and adjectives—address syntax primarily. One can extend grammars to address natural-language semantics by greatly expanding sub-categorization, with additional rules/constraints (eg, ‘eat’ applies only to ingestible-item nouns). Unfortunately, the rules may now become unmanageably numerous, often interacting unpredictably, with more frequent ambiguous parses (multiple interpretations of a word sequence are possible). (Puns—ambiguous parses used for humorous effect—antedate NLP.)
+
+Handwritten rules handle ‘ungrammatical’ spoken prose and (in medical contexts) the highly telegraphic prose of in-hospital progress notes very poorly, although such prose is human-comprehensible.
+
+The 1980s resulted in a fundamental reorientation, summarized by Klein13:
+
+Simple, robust approximations replaced deep analysis.
+
+Evaluation became more rigorous.
+
+Machine-learning methods that used probabilities became prominent. (Chomsky's book, Syntactic Structures14 (1959), had been skeptical about the usefulness of probabilistic language models).
+
+Large, annotated bodies of text (corpora) were employed to train machine-learning algorithms—the annotation contains the correct answers—and provided gold standards for evaluation.
+
+This reorientation resulted in the birth of statistical NLP. For example, statistical parsing addresses parsing-rule proliferation through probabilistic CFGs15: individual rules have associated probabilities, determined through machine-learning on annotated corpora. Thus, fewer, broader rules replace numerous detailed rules, with statistical-frequency information looked up to disambiguate. Other approaches build probabilistic ‘rules’ from annotated data similar to machine-learning algorithms like C4.5,16 which build decision trees from feature-vector data. In any case, a statistical parser determines the most likely parse of a sentence/phrase. ‘Most likely’ is context-dependent: for example, the Stanford Statistical Parser,17 trained with the Penn TreeBank18—annotated Wall Street Journal articles, plus telephone-operator conversations—may be unreliable for clinical text. Manning and Scheutze's text provides an excellent introduction to statistical NLP.19
+
+Statistical approaches give good results in practice simply because, by learning with copious real data, they utilize the most common cases: the more abundant and representative the data, the better they get. They also degrade more gracefully with unfamiliar/erroneous input. This issue's articles make clear, however, that handwritten-rule-based and statistical approaches are complementary.
+
+NLP sub-problems: application to clinical text
+We enumerate common sub-problems in NLP: Jurafksy and Martin's text20 provides additional details. The solutions to some sub-problems have become workable and affordable, if imperfect—for example, speech synthesis (desktop operating systems' accessibility features) and connected-speech recognition (several commercial systems). Others, such as question answering, remain difficult.
+
+In the account below, we mention clinical-context issues that complicate certain sub-problems, citing recent biomedical NLP work against each where appropriate. (We do not cover the history of medical NLP, which has been applied rather than basic/theoretical; Spyns21 reviews pre-1996 medical NLP efforts.)
+
+Low-level NLP tasks include:
+
+Sentence boundary detection: abbreviations and titles (‘m.g.,’ ‘Dr.’) complicate this task, as do items in a list or templated utterances (eg, ‘MI [x], SOB[]’).
+
+Tokenization: identifying individual tokens (word, punctuation) within a sentence. A lexer plays a core role for this task and the previous one. In biomedical text, tokens often contain characters typically used as token boundaries, for example, hyphens, forward slashes (‘10 mg/day,’ ‘N-acetylcysteine’).
+
+Part-of-speech assignment to individual words (‘POS tagging’): in English, homographs (‘set’) and gerunds (verbs ending in ‘ing’ that are used as nouns) complicate this task.
+
+Morphological decomposition of compound words: many medical terms, for example, ‘nasogastric,’ need decomposition to comprehend them. A useful sub-task is lemmatization—conversion of a word to a root by removing suffixes. Non-English clinical NLP emphasizes decomposition; in highly synthetic languages (eg, German, Hungarian), newly coined compound words may replace entire phrases.22 Spell-checking applications and preparation of text for indexing/searching (in IR) also employ morphological analysis.
+
+Shallow parsing (chunking): identifying phrases from constituent part-of-speech tagged tokens. For example, a noun phrase may comprise an adjective sequence followed by a noun.
+
+Problem-specific segmentation: segmenting text into meaningful groups, such as sections, including Chief Complaint, Past Medical History, HEENT, etc.23
+
+Haas24 lists publicly available NLP modules for such tasks: most modules, with the exception of cTAKES (clinical Text Analysis and Knowledge Extraction System),25 have been developed for non-clinical text and often work less well for clinical narrative.
+
+Higher-level tasks build on low-level tasks and are usually problem-specific. They include:
+
+1. Spelling/grammatical error identificationand recovery: this task is mostly interactive because, as word-processing users know, it is far from perfect. Highly synthetic phrases predispose to false positives (correct words flagged as errors), and incorrectly used homophones (identically sounding, differently spelled words, eg, sole/soul, their/there) to false negatives.
+
+2. Named entity recognition (NER)26,27: identifying specific words or phrases (‘entities’) and categorizing them—for example, as persons, locations, diseases, genes, or medication. An common NER task is mapping named entities to concepts in a vocabulary. This task often leverages shallow parsing for candidate entities (eg, the noun phrase ‘chest tenderness’); however, sometimes the concept is divided across multiple phrases (eg, ‘chest wall shows slight tenderness on pressure …’).
+
+The following issues make NER challenging:
+
+Word/phrase order variation: for example, perforated duodenal ulcer versus duodenal ulcer, perforated.
+
+Derivation: for example, suffixes transform one part of speech to another (eg, ‘mediastinum’ (noun) → ‘mediastinal’ (adjective)).
+
+Inflection: for example, changes in number (eg, ‘opacity/opacities)’, tense (eg, ‘cough(ed)’), comparative/superlative forms (eg, ‘bigger/biggest)’).
+
+Synonymy is abundant in biomedicine, for example, liver/hepatic, Addison's disease/adrenocortical insufficiency.
+
+Homographs: polysemy refers to homographs with related meanings, for example, ‘direct bilirubin’ can refer to a substance, laboratory procedure, or result. Homographic abbreviations are increasingly numerous28: ‘APC’ has 12 expansions, including ‘activated protein C’ and ‘adenomatous polyposis coli.’
+
+3. Word sense disambiguation (WSD)29–31: determining a homograph's correct meaning.
+
+4. Negation and uncertainty identification32–34: inferring whether a named entity is present or absent, and quantifying that inference's uncertainty. Around half of all symptoms, diagnoses, and findings in clinical reports are estimated to be negated.35 Negation can be explicit, for example, ‘Patient denies chest pain’ or implied—for example, ‘Lungs are clear upon auscultation’ implies absence of abnormal lung sounds. Negated/affirmed concepts can be expressed with uncertainty (‘hedging’), as in ‘the ill-defined density suggests pneumonia.’ Uncertainty that represents reasoning processes is hard to capture: ‘The patient probably has a left-sided cerebrovascular accident; post-convulsive state is less likely.’ Negation, uncertainty, and affirmation form a continuum. Uncertainty detection was the focus of a recent NLP competition.36
+
+5. Relationship extraction: determining relationships between entities or events, such as ‘treats,’ ‘causes,’ and ‘occurs with.’ Lookup of problem-specific information—for example, thesauri, databases—facilitates relationship extraction.
+
+Anaphora reference resolution37 is a sub-task that determines relationships between ‘hierarchically related’ entities: such relationships include:
+
+Identity: one entity—for example, a pronoun like ‘s/he,’ ‘hers/his,’ or an abbreviation—refers to a previously mentioned named entity;
+
+Part/whole: for example, city within state;
+
+Superset/subset: for example, antibiotic/penicillin.
+
+6. Temporal inferences/relationship extraction38,39: making inferences from temporal expressions and temporal relations—for example, inferring that something has occurred in the past or may occur in the future, and ordering events within a narrative (eg, medication X was prescribed after symptoms began).
+
+7. Information extraction (IE): the identification of problem-specific information and its transformation into (problem-specific) structured form. Tasks 1–6 are often part of the larger IE task. For example, extracting a patient's current diagnoses involves NER, WSD, negation detection, temporal inference, and anaphoric resolution. Numerous modern clinical IE systems exist,40–44 with some available as open-source.25,44,45 IE and relationship extraction have been themes of several i2b2/VA NLP challenges.46–49 Other problem areas include phenotype characterization,50–52 biosurveillance,53,54 and adverse-drug reaction recognition.55
+
+The National Library of Medicine (NLM) provides several well-known ‘knowledge infrastructure’ resources that apply to multiple NLP and IR tasks. The UMLS Metathesaurus,56 which records synonyms and categories of biomedical concepts from numerous biomedical terminologies, is useful in clinical NER. The NLM's Specialist Lexicon57 is a database of common English and medical terms that includes part-of-speech and inflection data; it is accompanied by a set of NLP tools.58 The NLM also provides a test collection for word disambiguation.59
+
+Some data driven approaches: an overview
+Statistical and machine learning involve development (or use) of algorithms that allow a program to infer patterns about example (‘training’) data, that in turn allows it to ‘generalize’—make predictions about new data. During the learning phase, numerical parameters that characterize a given algorithm's underlying model are computed by optimizing a numerical measure, typically through an iterative process.
+
+In general, learning can be supervised—each item in the training data is labeled with the correct answer—or unsupervised, where it is not, and the learning process tries to recognize patterns automatically (as in cluster and factor analysis). One pitfall in any learning approach is the potential for over-fitting: the model may fit the example data almost perfectly, but makes poor predictions for new, previously unseen cases. This is because it may learn the random noise in the training data rather than only its essential, desired features. Over-fitting risk is minimized by techniques such as cross-validation, which partition the example data randomly into training and test sets to internally validate the model's predictions. This process of data partitioning, training, and validation is repeated over several rounds, and the validation results are then averaged across rounds.
+
+Machine-learning models can be broadly classified as either generative or discriminative. Generative methods seek to create rich models of probability distributions, and are so called because, with such models, one can ‘generate’ synthetic data. Discriminative methods are more utilitarian, directly estimating posterior probabilities based on observations. Srihari60 explains the difference with an analogy: to identify an unknown speaker's language, generative approaches would apply deep knowledge of numerous languages to perform the match; discriminative methods would rely on a less knowledge-intensive approach of using differences between languages to find the closest match. Compared to generative models, which can become intractable when many features are used, discriminative models typically allow use of more features.61 Logistic regression and conditional random fields (CRFs) are examples of discriminative methods, while Naive Bayes classifiers and hidden Markov models (HMMs) are examples of generative methods.
+
+Some common machine-learning methods used in NLP tasks, and utilized by several articles in this issue, are summarized below.
+
+Support vector machines (SVMs)
+SVMs, a discriminative learning approach, classify inputs (eg, words) into categories (eg, parts of speech) based on a feature set. The input may be transformed mathematically using a ‘kernel function’ to allow linear separation of the data points from different categories. That is, in the simplest two-feature case, a straight line would separate them in an X–Y plot: in the general N-feature case, the separator will be an (N−1) hyperplane. The commonest kernel function used is a Gaussian (the basis of the ‘normal distribution’ in statistics). The separation process selects a subset of the training data (the ‘support vectors’—data points closest to the hyperplane) that best differentiates the categories. The separating hyperplane maximizes the distance to support vectors from each category (see figure 1).
+
+Figure 1
+Support vector machines: a simple 2-D case is illustrated. The data points, shown as categories A (circles) and B (diamonds), can be separated by a straight line X–Y. The algorithm that determines X–Y identifies the data points (‘support vectors’) from each category that are closest to the other category (a1, a2, a3 and b1, b2, b3) and computes X–Y such that the margin that separates the categories on either side is maximized. In the general N-dimensional case, the separator will be an (N−1) hyperplane, and the raw data will sometimes need to be mathematically transformed so that linear separation is achievable.
+Open in new tabDownload slide
+Support vector machines: a simple 2-D case is illustrated. The data points, shown as categories A (circles) and B (diamonds), can be separated by a straight line X–Y. The algorithm that determines X–Y identifies the data points (‘support vectors’) from each category that are closest to the other category (a1, a2, a3 and b1, b2, b3) and computes X–Y such that the margin that separates the categories on either side is maximized. In the general N-dimensional case, the separator will be an (N−1) hyperplane, and the raw data will sometimes need to be mathematically transformed so that linear separation is achievable.
+
+A tutorial by Hearst et al62 and the DTREG online documentation63 provide approachable introductions to SVMs. Fradkin and Muchnik64 provide a more technical overview.
+
+Hidden Markov models (HMMs)
+An HMM is a system where a variable can switch (with varying probabilities) between several states, generating one of several possible output symbols with each switch (also with varying probabilities). The sets of possible states and unique symbols may be large, but finite and known (see figure 2). We can observe the outputs, but the system's internals (ie, state-switch probabilities and output probabilities) are ‘hidden.’ The problems to be solved are:
+
+Figure 2
+Hidden Markov models. The small circles S1, S2 and S3 represent states. Boxes O1 and O2 represent output values. (In practical cases, hundreds of states/output values may occur.) The solid lines/arcs connecting states represent state switches; the arrow represents the switch's direction. (A state may switch back to itself.) Each line/arc label (not shown) is the switch probability, a decimal number. A dashed line/arc connecting a state to an output value indicates ‘output probability’: the probability of that output value being generated from the particular state. If a particular switch/output probability is zero, the line/arc is not drawn. The sum of the switch probabilities leaving a given state (and the similar sum of output probabilities) is equal to 1. The sequential or temporal aspect of an HMM is shown in figure 3.
+Open in new tabDownload slide
+Hidden Markov models. The small circles S1, S2 and S3 represent states. Boxes O1 and O2 represent output values. (In practical cases, hundreds of states/output values may occur.) The solid lines/arcs connecting states represent state switches; the arrow represents the switch's direction. (A state may switch back to itself.) Each line/arc label (not shown) is the switch probability, a decimal number. A dashed line/arc connecting a state to an output value indicates ‘output probability’: the probability of that output value being generated from the particular state. If a particular switch/output probability is zero, the line/arc is not drawn. The sum of the switch probabilities leaving a given state (and the similar sum of output probabilities) is equal to 1. The sequential or temporal aspect of an HMM is shown in figure 3.
+
+Inference: given a particular sequence of output symbols, compute the probabilities of one or more candidate state-switch sequences.
+
+Pattern matching: find the state-switch sequence most likely to have generated a particular output-symbol sequence.
+
+Training: given examples of output-symbol sequence (training) data, compute the state-switch/output probabilities (ie, system internals) that fit this data best.
+
+B and C are actually Naive Bayesian reasoning extended to sequences; therefore, HMMs use a generative model. To solve these problems, an HMM uses two simplifying assumptions (which are true of numerous real-life phenomena):
+
+The probability of switching to a new state (or back to the same state) depends on the previous N states. In the simplest ‘first-order’ case (N=1), this probability is determined by the current state alone. (First-order HMMs are thus useful to model events whose likelihood depends on what happened last.)
+
+The probability of generating a particular output in a particular state depends only on that state.
+
+These assumptions allow the probability of a given state-switch sequence (and a corresponding observed-output sequence) to be computed by simple multiplication of the individual probabilities. Several algorithms exist to solve these problems.65,66 The highly efficient Viterbi algorithm, which addresses problem B, finds applications in signal processing, for example, cell-phone technology.
+
+Theoretically, HMMs could be extended to a multivariate scenario,67 but the training problem can now become intractable. In practice, multiple-variable applications of HMMs (eg, NER68) use single, artificial variables that are uniquely determined composites of existing categorical variables: such approaches require much more training data.
+
+HMMs are widely used for speech recognition, where a spoken word's waveform (the output sequence) is matched to the sequence of individual phonemes (the ‘states’) that most likely produced it. (Frederick Jelinek, a statistical-NLP advocate who pioneered HMMs at IBM's Speech Recognition Group, reportedly joked, ‘every time a linguist leaves my group, the speech recognizer's performance improves.’20) HMMs also address several bioinformatics problems, for example, multiple sequence alignment69 and gene prediction.70 Eddy71 provides a lucid bioinformatics-oriented introduction to HMMs, while Rabiner72 (speech recognition) provides a more detailed introduction.
+
+Commercial HMM-based speech-to-text is now robust enough to have essentially killed off academic research efforts, with dictation systems for specialized areas—eg, radiology and pathology—providing structured data entry. Phrase recognition is paradoxically more reliable for polysyllabic medical terms than for ordinary English: few word sequences sound like ‘angina pectoris,’ while common English has numerous homophones (eg, two/too/to).
+
+Conditional random fields (CRFs)
+CRFs are a family of discriminative models first proposed by Lafferty et al.73 An accessible reference is Culotta et al74; Sutton and McCallum75 is more mathematical. The commonest (linear-chain) CRFs resemble HMMs in that the next state depends on the current state (hence the ‘linear chain’ of dependency).
+
+CRFs generalize logistic regression to sequential data in the same way that HMMs generalize Naive Bayes (see figure 3). CRFs are used to predict the state variables (‘Ys’) based on the observed variables (‘Xs’). For example, when applied to NER, the state variables are the categories of the named entities: we want to predict a sequence of named-entity categories within a passage. The observed variables might be the word itself, prefixes/suffixes, capitalization, embedded numbers, hyphenation, and so on. The linear-chain paradigm fits NER well: for example, if the previous entity is ‘Salutation’ (eg, ‘Mr/Ms’), the succeeding entity must be a person.
+
+Figure 3
+The relationship between Naive Bayes, logistic regression, hidden Markov models (HMMs) and conditional random fields (CRFs). Logistic regression is the discriminative-model counterpart of Naive Bayes, which is a generative model. HMMs and CRFs extend Naive Bayes and logistic regression, respectively, to sequential data (adapted from Sutton and McCallum73). In the generative models, the arrows indicate the direction of dependency. Thus, for the HMM, the state Y2 depends on the previous state Y1, while the output X1 depends on Y1.
+Open in new tabDownload slide
+The relationship between Naive Bayes, logistic regression, hidden Markov models (HMMs) and conditional random fields (CRFs). Logistic regression is the discriminative-model counterpart of Naive Bayes, which is a generative model. HMMs and CRFs extend Naive Bayes and logistic regression, respectively, to sequential data (adapted from Sutton and McCallum73). In the generative models, the arrows indicate the direction of dependency. Thus, for the HMM, the state Y2 depends on the previous state Y1, while the output X1 depends on Y1.
+
+CRFs are better suited to sequential multivariate data than HMMs: the training problem, while requiring more example data than a univariate HMM, is still tractable.
+
+N-grams
+An ‘N-gram’19 is a sequence of N items—letters, words, or phonemes. We know that certain item pairs (or triplets, quadruplets, etc) are likely to occur much more frequently than others. For example, in English words, U always follows Q, and an initial T is never followed by K (though it may be in Ukrainian). In Portuguese, a Ç is always followed by a vowel (except E and I). Given sufficient data, we can compute frequency-distribution data for all N-grams occurring in that data. Because the permutations increase dramatically with N—for example, English has 26^2 possible letter pairs, 26^3 triplets, and so on—N is restricted to a modest number. Google has computed word N-gram data (N≤5) from its web data and from the Google Books project, and made it available freely.76
+
+N-grams are a kind of multi-order Markov model: the probability of a particular item at the Nth position depends on the previous N−1 items, and can be computed from data. Once computed, N-gram data can be used for several purposes:
+
+Suggested auto-completion of words and phrases to the user during search, as seen in Google's own interface.
+
+Spelling correction: a misspelled word in a phrase may be flagged and a correct spelling suggested based on the correctly spelled neighboring words, as Google does.
+
+Speech recognition: homophones (‘two’ vs ‘too’) can be disambiguated probabilistically based on correctly recognized neighboring words.
+
+Word disambiguation: if we build ‘word-meaning’ N-grams from an annotated corpus where homographs are tagged with their correct meanings, we can use the non-ambiguous neighboring words to guess the correct meaning of a homograph in a test document.
+
+N-gram data are voluminous—Google's N-gram database requires 28 GB—but this has become less of an issue as storage becomes cheap. Special data structures, called N-gram indexes, speed up search of such data. N-gram-based classifiers leverage raw training text without explicit linguistic/domain knowledge; while yielding good performance, they leave room for improvement, and are therefore complemented with other approaches.
+
+Chaining NLP analytical tasks: pipelines
+Any practical NLP task must perform several sub-tasks. For example, all of NLP sub-problems section′s low-level tasks must execute sequentially, before higher-level tasks can commence. Since different algorithms may be used for a given task, a modular, pipelined system design—the output of one analytical module becomes the input to the next—allows ‘mixing-and-matching.’ Thus, a CRF-based POS tagger could be combined with rule-based medical named-entity recognition. This design improves system robustness: one could replace one module with another (possibly superior) module, with minimal changes to the rest of the system.
+
+This is the intention behind pipelined NLP frameworks, such as GATE77 and IBM (now Apache) Unstructured Information Management Architecture (UIMA).78 UIMA's scope goes beyond NLP: one could integrate structured-format databases, images, and multi-media, and any arbitrary technology. In UIMA, each analytical task transforms (a copy of) its input by adding XML-based markup and/or reading/writing external data. A task operates on Common Analysis Structure (CAS), which contains the data (possibly in multiple formats, eg, audio, HTML), a schema describing the analysis structure (ie, the details of the markup/external formats), the analysis results, and links (indexes) to the portions of the source data that they refer to. UIMA does not dictate the design of the analytical tasks themselves: they interact with the UIMA pipeline only through the CAS, and can be treated as black boxes: thus, different tasks could be written in different programming languages.
+
+The schema for a particular CAS is developer-defined because it is usually problem-specific. (Currently, no standard schemas exist for tasks such as POS tagging, although this may change.) Definition is performed using XMI (XML Metadata Interchange), the XML-interchange equivalent of the Unified Modeling Language (UML). XMI, however, is ‘programmer-hostile’: it is easier to use a commercial UML tool to design a UML model visually and then generate XMI from it.79
+
+In practice, a pure pipeline design may not be optimal for all solutions. In many cases, a higher-level process needs to provide feedback to a lower-level process to improve the latter's accuracy. (All supervised machine- learning algorithms, for example, ultimately rely on feedback.) Implementing feedback across analytical tasks is complicated: it involves modifying the code of communicating tasks—one outputting data that constitutes the feedback, the other checking for the existence of such data, and accepting them if available (see figure 4). New approaches based on active learning may help select cases for manual labeling for construction of training sets.80,81
+
+Figure 4
+A UIMA pipeline. An input task is sequentially put through a series of tasks, with intermediate results at each step and final output at the end. Generally, the output of a task is the input of its successor, but exceptionally, a particular task may provide feedback to a previous one (as in task 4 providing input to task 1). Intermediate results (eg, successive transformations of the original bus) are read from/written to the CAS, which contains metadata defining the formats of the data required at every step, the intermediate results, and annotations that link to these results.
+Open in new tabDownload slide
+A UIMA pipeline. An input task is sequentially put through a series of tasks, with intermediate results at each step and final output at the end. Generally, the output of a task is the input of its successor, but exceptionally, a particular task may provide feedback to a previous one (as in task 4 providing input to task 1). Intermediate results (eg, successive transformations of the original bus) are read from/written to the CAS, which contains metadata defining the formats of the data required at every step, the intermediate results, and annotations that link to these results.
+
+Also, given that no NLP task achieves perfect accuracy, errors in any one process in a pipeline will propagate to the next, and so on, with accuracy degrading at each step. This problem, however, applies to NLP in general: it would occur even if the individual tasks were all combined into a single body of code. One way to address it (adopted in some commercial systems) is to use alternative algorithms (in multiple or branching pipelines) and contrast the final results obtained. This allows tuning the output to trade-offs (high precision versus high recall, etc).
+
+A look into the future
+Recent advances in artificial intelligence (eg, computer chess) have shown that effective approaches utilize the strengths of electronic circuitry—high speed and large memory/disk capacity, problem-specific data-compression techniques and evaluation functions, highly efficient search—rather than trying to mimic human neural function. Similarly, statistical-NLP methods correspond minimally to human thought processes.
+
+By comparison with IR, we now consider what it may take for multi-purpose NLP technology to become mainstream. While always important to library science, IR achieved major prominence with the web, notably after Google's scientific and financial success: the limelight also caused a corresponding IR research and toolset boom. The question is whether NLP has a similar breakthrough application in the wings. One candidate is IBM Watson, which attracted much attention within the biomedical informatics community (eg, the ACMI Discussion newsgroup and the AMIA NLP working group discussion list) after its ‘Jeopardy’ performance. Watson appears to address the admittedly hard problem of question-answering successfully. Although the Watson effort is impressive in many ways, its discernible limitations highlight ongoing NLP challenges.
+
+IBM Watson: a wait-and-see viewpoint
+Watson, which employs UIMA,82 is a system-engineering triumph, using highly parallel hardware with 2880 CPUs+16 TB RAM. All its lookup of reference content (encyclopedias, dictionaries, etc) and analytical operations use structures optimized for in-memory manipulation. (By contrast, most pipelined NLP architectures on ordinary hardware are disk-I/O-bound.) It integrates several software technologies: IR, NLP, parallel database search, ontologies, and knowledge representation.
+
+A Prolog parser extracts key elements such as the relationships between entities and task-specific answers. In a recent public display, the task was to compete for the fastest correct answer in a series of questions against two human contestants in the popular US-based television show, ‘Jeopardy.’ During training with a Jeopardy question-databank, NLP is also used to pre-process online reference text (eg, encyclopedia, dictionaries) into a structure that provides evidence for candidate answers, including whether the relationships between entities in the question match those in the evidence.83 The search, and ranking of candidate answers, use IR approaches.
+
+A challenge in porting Watson's technology to other domains, such as medical question answering, will be the degree to which Watson's design is generalizable.
+
+Watson built its lead in the contest with straightforward direct questions whose answers many of the audience (and the skilled human contestants) clearly knew—and which a non-expert human armed with Google may have been able to retrieve using keywords alone (albeit slower). As pointed out by Libresco84 and Jennings,85 Watson was merely faster with the buzzer—electronics beats human reaction time. For non-game-playing, real-world question answering scenarios, however, split-second reaction time may not constitute a competitive advantage.
+
+For harder questions, Watson's limitations became clearer. Computing the correct response to the question about which US city (Chicago) has two airports, one named after a World War II battle (Midway), the other after a World War II hero (O'Hare), involves three set intersections (eg, the first operation would cross names of airports in US cities against a list of World War II battles). Watson lacked a higher-level strategy to answer such complex questions.
+
+Watson's Prolog parser and search, and especially the entire reference content, were tuned/structured for playing Jeopardy, in which the questions and answers are one sentence long (and the answer is of the form ‘what/who is/are X?’). Such an approach runs the risk of ‘over-fitting’ the system to a particular problem, so that it may require significant effort to modify it for even a slightly different problem.
+
+IBM recently conducted a medical diagnosis demonstration of Watson, which is reported in an Associated Press article.86 Demonstrations eventually need to be followed by evaluations. Earlier medical diagnosis advice software underwent evaluations that were rigorous for their time, for example, Berner et al87 and Friedman et al,88 and today's evaluations would need to be even more stringent. The articles from Miller and Masarie89 and Miller90 are excellent starting points for learning about the numerous pitfalls in the automated medical diagnosis domain, and IBM may rediscover these:
+
+Medico-legal liability: ultimately the provider, not software, is responsible for the patient.
+
+Reference-content reliability: determining the reliability of a given unit of evidence is challenging. Even some recent recommendations by ‘authorities’ have become tainted (eg, in psychiatry) with subsequent revelations of undisclosed conflict of interest.
+
+The limited role of NLP and unstructured text in medical diagnosis: it is unclear that accurate medical diagnosis/advice mandates front-end NLP technology: structured data entry with thesaurus/N-gram assisted pick-lists or word/phrase completion might suffice. Similarly, diagnostic systems have used structured, curated information rather than unstructured text for prioritizing diagnoses. Even this information requires tailoring for local prevalence rates, and continual maintenance. Unstructured text, in the form of citations, is used mainly to support the structured information.
+
+To be fair to IBM, NLP technology may conceivably augment web crawler technologies that search for specific information and alert curators about new information that may require them to update their database. Electronic IE technologies might save curation time, but given the medico-legal consequences, and the lack of 100% accuracy, such information would need to be verified by humans.
+
+From an optimistic perspective, the Watson phenomenon may have the beneficial side effect of focusing attention not only on NLP, but also on the need to integrate it effectively with other technologies.
+
+Will NLP software become a commodity?
+The post-Google interest in IR has led to IR commoditization: a proliferation of IR tools and incorporation of IR technology into relational database engines. Earlier, statistical packages and, subsequently, data mining tools also became commoditized. Commodity analytical software is characterized by:
+
+Availability of several tools within a package: the user can often set up a pipeline without programming using a graphical metaphor.
+
+High user friendliness and ease of learning: online documentation/tutorials are highly approachable for the non-specialist, focusing on when and how to use a particular tool rather than its underlying mathematical principles.
+
+High value in relation to price: some offerings may even be freeware.
+
+By contrast, NLP toolkits and UIMA are still oriented toward the advanced programmer, and commercial offerings are expensive. General purpose NLP is possibly overdue for commoditization: if this happens, best-of-breed solutions are more likely to rise to the top. Again, analytics vendors are likely to lead the way, following the steps of biomedical informatics researchers to devise innovative solutions to the challenge of processing complex biomedical language in the diverse settings where it is employed.

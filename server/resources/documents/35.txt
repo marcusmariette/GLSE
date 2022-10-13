@@ -1,0 +1,176 @@
+ABSTRACT
+
+Concrete is a major component of construction work composed of fine and coarse aggregates bound together with a cement-water solution paste produced with hydration process. Concrete is best characterized by its compressive strength and relatively low in cost as well as the availability of ingredients that makes it the most favorable component of construction compared to other materials like steel. However, this characteristic of concrete is greatly affected by how it is cured after casting. This study is primarily conducted to assess and compare the compressive strength of concrete that has been cured through two curing mechanisms: Soaked – placing concrete cubes in a curing tank to be continuously hydrated and Un-soaked – placing the cubes along the in-situ concrete structure to get equivalent curing condition. In addition to this, an assessment on curing concrete cast with and without the use of admixtures was made. Furthermore, the study also examined the distinction in compressive strength of concrete made out of OPC cement from two different manufacturing companies which produce cement types 42.5 R and 42.5 N grades. The study was conducted at Gerji Federal Housing Corporation (GFHC) site for 500 units of housing construction project which is being undertaken by OVID Construction PLC in which the project has a total consumption of 59,966.46 m3 of concrete. For this study, 24 sets of representative samples each having three concrete cubes were taken from different concrete batches that were prepared for the actual structural work as per the method of sampling stipulated under ASTM C172 that the project technical specification also specifies. The 28th-day test result revealed that the highest compressive strength was obtained from the soaked sample having 46.5 MPa while the un-soaked sample had 41.5 MPa. The test also revealed soaked samples prepared by the cement type with 42.5 R grade exceeds that of the one with 42.5N grade. SP60 admixture used in soaked samples prepared using cement type with grade 42.5R gives a higher value in comparison with concrete produced without admixture.
+
+Key words: Compressive strength, curing, soaked, un-soaked, admixture.
+
+
+ INTRODUCTION
+
+In Ethiopia, the construction industry is booming and the need for specialization, technology, and proper management of projects is becoming crucial. Especially in a country  where  shortage  of  resources  is  prevalent, effective utilization of resources is not a choice. One of these limited resources is formwork, a structure that supports fresh concrete poured in its forms. Fast and frequent use of these forms will help contractors  to  save  significant amount of time and ultimately cost.
+
+Specifically, for contract types that are highly constrained time-wise, like the project this study considered, the argument makes much more sense. The housing project of Higher Officials Compound (Figure 1) is a sixteen blocks project, each B+G+10 buildings with amenities, and the whole project is subjected to a time constraint of 18 months. A fast turnover of formworks should be an indispensable feature of this kind of project otherwise a resource tide-up is imminent.
+
+
+
+Underneath this argument lies a concept of concrete curing. Formworks are dismantled from their place only when the concrete structure they are supporting is fully capable of standing by itself acquiring the necessary strength.
+
+To speed up formwork assembling time, OVID Construction Plc., a GC-1 Contractor of the project, deployed modern formwork technology which is new to the country called Kumkang Aluminum formwork technology. Easy assembling mechanism used in this formwork system enabled the project to speed up the casting of concrete structures. However, even if Kumkang helps in minimizing the assembling and dismantling time, the concrete does not gain the designed strength and the use of Kumkang will be limited. Bearing in mind this, a mix design of C-40 concrete that attains a rapid early age strength was designed. After this, to dismantle the formwork at the earliest possible time, it is necessary to take into consideration the exact amount of strength attained by the actual structure it supports, by comparing it with adequately hydrated samples’ strength that had been kept in a laboratory curing tank.
+
+Accordingly, after examination of the controlled sample against the actual structural strength of in-situ concrete, examination of the structural stability after dismantling of formwork was made. Thus, the dismantling period of forms was set to be after 12th hours for vertical members and 36th hours for horizontal members from casting time, achieving 5 Mpa and 10-14 Mpa of strength consecutively.
+
+This study presents the compressive strength of high-grade concrete cubes on curing dates of 3, 7, and 28 with two methods of concrete curing: soaked (controlled environment) and un-soaked (actual environment). Therefore, this study aims to assess the variation in compressive strength of concrete cubes cured under a controlled environment to the one that is left to cure under normal conditions of the actual concrete casted for permanent structures of the buildings under this study. As well,   it   will   also  assess   the   effect  of  adding  SP60 admixture In terms of the rate of hardening of concrete using the two locally available cement types: with grades 42.5R and 42.5N.
+
+
+ LITERATURE REVIEW
+
+The term “curing” is frequently used to describe the process by which hydraulic-cement concrete matures and develops hardened properties over time as a result of the continued hydration of the cement in the presence of sufficient water and heat (Gebler et al., 2001). Curing is a procedure of promoting the hydration of cement for development of concrete strength and controlling the temperature. As a result of curing, we can achieve higher strength and reduce permeability which is very vital for the long-term strength or durability (Dhiyaneshwaran et al., 2013).
+
+Concrete strength increases rapidly in its early stages and continues more slowly thereafter, for an indefinite time. The typical compressive strength cure with age is illustrated in Figure 2. "On the whole, the strength of concrete, its durability, and other physical properties are affected by curing and application of the various types as it relates to the prevailing weather condition in a particular locality. As curing is only one of many requirements for concrete production, it is important to study the effect of different curing methods which best adapt to each casting process" (James et al., 2011).
+
+
+
+Curing of samples in monitored conditions, such as a laboratory, can be done simply by placing the specimen in a saturated condition for the required time. However, the curing of freshly placed concrete on a construction site is not as simple. Large surface areas of concrete need to be protected from extreme temperature and rapid drying out, to ensure slight moisture loss and maximum water retention. There are a few applicable methods in which this is done: by covering or wrapping structural elements, such as columns, or by fogging or sprinkling slabs. Although, these are the most efficient methods of curing on a construction site, they are not as effective as submerged curing. Owing to the less effective method of curing, reduced hydration may be present in the concrete casted on-site; thus, increasing the degree of porosity and decreasing the strength as well. Therefore, it is commonly found that the strength of in-situ concrete is lower than that of the standard cube strength (Bierwagen and McDonald, 2005; Ragai and Salem, 2001).
+
+The curing of concrete on-site is of great importance to obtain the concrete’s integrity it was initially designed for. Without  effective curing, significant defects related to the long-term durability of the concrete can occur. These defects usually manifest in the form of visible cracks, micro-cracks, and weak surfaces (Murillo et al., 2021).
+
+There are different types of curing mechanisms for in-situ concrete. The general classification involves methods that replenish the lost water and prevent the loss of water (PUNE 411 001, 2007).
+
+Wet covering
+
+This is a widely used method of curing, particularly for structural concrete. The surface of the concrete is prevented from drying out by covering fabrics like, hessian. “The covering over vertical and sloping  surfaces should be secured properly. As these are periodically wetted, the interval of wetting will depend upon the rate of evaporation of water. The fabrics should not be allowed to dry out as they can act as a wick and effectively draw water out of the concrete” (James et al., 2011).
+
+Ponding
+
+This method is suitable for horizontal surface curing. After 24 h from casting, initially placed shading the cover is removed and a barrier by sand or clay is built around the surface that is to be cured. For the sake of workability, especially if the surface is large, the area is divided into several rectangles and then water is filled into them.
+
+Even though the mechanism is effective, it consumes a lot of water and cleaning after curing is difficult. Ponding is an ideal method for preventing the loss of moisture from the concrete; it is also effective for maintaining uniform temperature in the concrete (Goel, 2013).
+
+Sprinkling
+
+In this method, water with a hose or by the small perforated tank is sprinkled on the surface of the concrete surface. Sprinkling with a hose having a strong pressure may affect unsettled concrete and due care is needed.
+
+On vertical and inclined surfaces, water can be sprinkled on top of the structure and by gravity will flow downward and cure the bottom surfaces. “Like ponding, this method also consumes a lot of water as it is an excellent method of curing when the ambient temperature is well above freezing and the humidity is low” (James et al., 2011).
+
+Impermeable membrane covering
+
+This method covers the structure with an impermeable membrane material that prevents evaporation so that the concrete would retain the water content needed for hydration (PUNE 411 001, 2007).
+
+Membrane curing
+
+This method applies either solid or liquid waterproofing membrane on the surface of the concrete to maintain the concrete moisture by preventing evaporation. After the application of the membrane, there is no need for continuous supervision as long as the membrane surface is safe from damages. Moreover, this method is suitable in areas where curing water is not available to the required quantity. Water-based curing compound is the most used curing compound worldwide (Bentz et al., 1997, cited in Nahata et al., 2014).
+
+Steam curing
+
+Steam curing at atmospheric pressure is one of the techniques for obtaining high early strength in concrete especially in precast concrete production (Deogekar et al., 2013).
+
+
+ MATERIALS AND METHODOLOGY
+
+Constituent materials of concrete
+
+a) Fine aggregate: The fine  aggregate  that  was  used  for  mixing concrete used for the project under this study is river sand (Sodere River Sand). The sand was readily selected because it has an acceptable amount of clay, silt, organic material, and chemicals. To ensure a laboratory test for gradation, silt content, absorption capacity, and specific gravity was conducted. Accordingly, sharp-sized sand that passed through a sieve size of 4.75 mm was used as a fine aggregate with a specific gravity of 2.66 and fineness modulus of 3.08.
+
+b) Coarse aggregate (crushed gravel): A coarse aggregate of size 2 and 1 cm with a percentage proportion of 60 and 40% respectively is used. The specific gravity of coarse aggregate is 2.64.
+
+c) Cement: Two types of OPC cement obtained from different local factories having 42.5R and 42.5N grades were used.
+
+d) SP60 SASPLAST: It is a naphthalene sulphonate-based liquid superplasticizer for high-performance concrete. It is specially formulated to impart high workability to concrete mixes. The technical data sheet for SP60 (Table 1) which was obtained from SAS Construction Chemicals Ltd specifies the dosage as 0.5 - 2.5% by cement weight and ensures that the overdosage would not adversely affect the performance of concrete as long as proper curing is made. 2.5% by weight of cement consumption was made for admixture to get maximum workability.
+
+
+
+e) Water: The quantity and quality of water have a great impact on the strength of concrete. Tap water available at the batching plant is used for the mix. A water to cement ratio of 0.35 is used to attain the needed minimum compressive strength of concrete.
+
+Mix design
+
+The mix design and production were done in a quality-controlled batching plant in order to achieve a desired maximum strength at the hardened stage, workability at its plastic stage, and durability in the given environmental condition. The mix design is made for self-compacting C40 concrete. Temprature at the time of concrete casting was recorded at 28°C.
+
+Since the formwork type employed at the project requires a self-compacting concrete type, the slump flow test was made with the procedure of measuring slump diameter and taking the average of small diameter and larger diameter.
+
+Preparation of samples
+
+Samples were taken from a concrete batch that was made for the actual in-situ concrete structure and casted in a standard cube mold of size 150 mm × 150 mm × 150 mm. For each type of curing method, cement types, admixture composition, and for each testing day a total of 72 pieces of samples were taken for evaluating compressive strength values at different stages. Half of the samples are produced using 42.5N cement type and the other half with 42.5R cement type. With aim of controlling the condition for sample taking, soaked with admixture samples are taken two times along samples of soaked without admixture and un-soaked with admixture (Table 2). Photos 1 to 3 illustrate preparataion of samples and curing of samples. 
+
+
+
+
+
+
+
+
+
+Method of curing samples
+
+After  24 h, samples  were de-molded and placed in their respective curing method as:
+
+i) Soaked: These samples were taken and immersed in bask of water. These samples are in a controlled condition and perfectly hydrated.
+
+ii) Un-soaked: These samples were placed along with the actual in-situ concrete structure with the same condition and cure in a perfectly matched condition by sprinkling method. This sample’s compressive strength is believed to be nearly the same as the in-situ actual structure.
+
+Data analysis
+
+Compressive strength tests were made on the 3rd, 7th, and 28th days of curing at Addis Ababa Unversity Testing Laboratory. The results were recorded and tabulated.
+
+
+ RESULTS AND DISCUSSION
+
+This study was conducted to assess the variation of compressive strength of samples kept under perfect hydration conditions with the one that was kept in the same normal condition of the actual in-situ structure.
+
+Concrete strength of soaked and un-soaked cube prepared using a cement type having 42.5N grade
+
+As shown in Table 3, this soaked sample gets superior strength on each testing date. The strength value of soaked samples exceeds the  un-soaked  by  3.3, 5,  and 5.4 MPa at the 3rd, 7th and 28th testing dates respectively. The test indicates, the actual concrete structure only achieves 85 - 88% of the soaked cube strength. Nevertheless, it should be known that concrete mix designs are prepared in a laboratory where test cubes are soaked in a water tank having the perfect hydration condition. Therefore, it is expected that the result of the un-soaked cube is smaller than the controlled specimens in favor of the literature stipulated in the previous sections of this study.
+
+
+
+Concrete strength of soaked and un-soaked cubes prepared using cement 42.5R grade
+
+As shown in Table 4, soaked sample gets the better strength on each testing date. The strength value of soaked samples exceeds the un-soaked by 3.9 and 5 MPa at the 3rd and 28th testing dates respectively. The test indicates, the actual concrete structure only achieves 86.6 - 90.1% of the soaked cube strength.
+
+
+
+Compressive strength with and without admixture application on soaked cube prepared using cement of 42.5R grade
+
+As shown in Table 5, sample that has SP60 admixture gets better strength on each testing date. The strength value of samples with admixture exceeds samples without  chemical  by  4.5,  3.3, and 1.2 MPa at the 3rd, 7th and 28th testing dates respectively. The 3rd, 7th, and 28th days test sample without admixture achieves 84.5, 90.4, and 97.4% of the ones with admixture. This implies that the SP60 admixture helps the concrete to gain early rapid strength, but as the age of samples gets higher, the difference between the two samples diminishes.
+
+
+
+Early – 3rd Day and Fully – 28th Day strength development: Comparison between soaked grade 42.5N and  42.5R cement types
+
+As illustrated in Graph 1 at the early age, 3rd date from casting, the soaked sample prepared using grade 42.5R cement shows an increment of compressive strength value of 4.6 MPa with respect to sample with grade 42.5N grade. However, as the concrete ages, on the 28th day of curing, the gap demonstrated at the early age diminishes and becomes only 1.6 MPa. This implies that cement with grade 42.5R has a better rapid hardening character than cement with grade 42.5N.
+
+
+
+Early compressive strength gain on 3rd and 7th days compared to the 28th days gain
+
+As illustrated in Graphs 2 and 3  The  general  test  result revealed that the 3rd-day compressive strength of all samples attain 53.67% up to 62.58% of the 28th-day strength of its sample. Specifically, 53.67% un-soaked sample with 42.5N grade cement sample is the least one while that soaked with 42.5R grade cement achieved the highest of 62.58%.
+
+
+
+
+
+The result also shows that the 7th-day compressive strength gain ranges between 68.21 to 74.22% against its 28th-day strength. As a finding of this study, the lowest is that of the soaked sample without admixture prepared using grade 42.5R cement while the highest is the un-soaked sample prepared using 2.5R grade cement.
+
+
+ CONCLUSION
+
+Based on the results it can be concluded that curing concrete with a perfect hydration environment will enhance the strength of concrete considerably and makes the concrete attain its design characteristics. However, these test results do not show the actual strength of in-situ casted on actual concrete structure.
+
+Besides, cement type with grade 42.5R has better characteristics in enhancing early rapid development of concrete strength than cement type with 42.5N grade.
+
+Finally, the  result revealed that admixture, SP60, helps the concrete to gain an early strength with a maximum dosage of 2.5%.
+
+
+ RECOMMENDATIONS
+
+Based on the result of the  study,  it  is  recommended  to give due care to the curing mechanism of the actual in-situ concrete, more than traditionally known practices, so as to make it gain the designed strength. Furthermore, the use of chemicals that enhance the early development of concrete strength has to be the basic technical approach and methodology of the project under this study so as to  dismantle  the formwork at the quickest possible time that increases its usage turnover that could reveal significant cost and time advantages.
+
+
+ CONFLICT OF INTERESTS
+
+The author has not declared any conflict of interests.
+
+
+ ACKNOWLEDGMENTS
+
+The author is thankful to OVID GROUP and OVID GROUP CEO Ato. Yonas Tadesse for allowing this research to be conducted at Gerji Federal Housing Corporation Project, which is undertaken by the company, providing the necessary facilities for the research and financing sample preparation along with laboratory test costs.
+

@@ -1,0 +1,118 @@
+ABSTRACT
+
+The internet technology over the past few decades has become an important tool in higher education for learning, teaching and research. The study investigated the internet activities engaged in, frequency of use of the internet and challenges limiting the use of the internet among the undergraduate students of the University of Ibadan, Nigeria. A survey research design was adopted. A close-ended questionnaire was used to collect data from 300 undergraduate students. Findings were analysed using descriptive statistics and the result indicated that the respondents had good computer skills and used the internet for various activities which vary across faculty of study. The respondents were dissatisfied with the high cost of accessing the internet and inadequate internet facilities. The major recommendation of the study is the provision of basic internet training for the students; equipping the university with adequate internet facilities; regular power supply and free internet access to all university students.
+
+ 
+
+Key words: Utilization of internet, undergraduate students, University of Ibadan, Nigeria.
+
+
+ INTRODUCTION
+
+Information and communication technologies (ICTs) especially the internet has been ushering in a new age in the information society and has become the potent force for transforming social, economic and political life globally (Gurumurthy, 2004). The internet is a series of technologies with varying meanings for users around the globe. However, Lebow (1995: 36) defined the internet as “a global network of linked computers that enables people to share and exchange information”. The internet is not only a conduit for many innovations, but it is also dependent on other technologies and infrastructures to be in place such as computers and mobile phones (Putnam and Kolko, 2010).
+ 
+The internet has become a necessity to a large  portion of the world population today and has become the best, largest and most useful encyclopaedia of information. The internet has a far larger and serious impact on our society than the introduction of television, greater than the influence of the industrial revolution or the printing press (Ebersole 1999, 2000). The internet over the past few decades has thus become an important technological tool in the production, marketing and use of information worldwide. It has given a new approach to education where students are no longer dependent on their teachers and school libraries as their only source of information. A major cursory observation shows that the internet is a major means of communication and information   among    students    of    higher   institutions.
+ 
+ 
+Specifically, the internet is an invaluable tool being used in higher education for information access, learning, teaching research and development, as a communication medium, and for teaching and learning (Brändström, 2011). However, there are also many drawbacks in terms of access and use by the students.
+ 
+The higher education sector in developing countries such as Nigeria is imperative in improving economic and social status of such countries. Therefore, in the present knowledge economy, seamless information access by the students is a major key to academic improvement in the universities. Globally, different studies have been carried out on students’ use of the internet which depends on various associated factors such as the available internet facilities, purposes and students’ skills (Fasae and Aladeniyi, 2012). 
+
+ REVIEW OF LITERATURE
+
+The review of literature discussed here were identified following a search on scholarly databases and search engines such as Library and Information Science Abstract (LISA), EBSCO host, Google Scholar, Emerald Insight, Wiley Online Library, Science Direct, google, etc. Scholarly databases were used in this study since it contains peer reviewed and current researches about internet use by students while search engine such as google was also used to capture literature that are peer reviewed and published on open source journals. The review of literature is obtained from both print and electronic resources and material selection was based upon the relevancy to the objectives of the study.
+ 
+Previous studies on internet use by students
+ 
+Parameshwar and Patil (2009) investigated the use of the internet by faculty and research scholars at Gulbarga University’s library in India. The study revealed that the challenges faced included downloading problems, information overload and finding relevant information.  As part of the “PEW Internet Life Project”, Jones et al. (2007) examined a sample of 7421 undergraduate students across the United States. Parameshwar and Patil (2009) revealed that the students reported using the internet for academic purposes and the internet had positively impacted their academic lives.
+ 
+A study conducted by Patel and Darbar (2016) on internet usage among students of CK Shah Vijapurwala Institute of Management Library, India revealed 100% of the respondents use the internet and majorly for their studies and social networking. More than half of the students were satisfied with the WIFI access on their campus and a major problem to internet use is the low speed internet connectivity. Similarly, Kumar (2017) using a survey studied the internet access and use among face to face program students of Indira Gandhi National Open University, India. The study revealed majority of the respondents use the internet for academic purposes and social networking. The respondents also reported that the internet improved their professional competence and improved their research process.
+ 
+A review of literature shows several other studies in Africa that have established a high degree of internet use among university students and inadequate internet access. A study by Badu and Markwei (2005) on awareness and use of the internet at the University of Ghana showed that the students were aware and use the internet. The results showed that e-mail was the commonly used internet service followed by information search.
+ 
+In Nigeria, Anasi (2006) highlighted that the low pattern of internet use among undergraduates’ students from the Faculties of Education and Law at the University of Lagos. Furthermore, the study revealed that though most of the students browsed the internet, many of them lacked search strategies skills even though their Internet use had very high impact on their academic or career related activities. Olufemi (2006) in the investigation of internet use among undergraduate students of Obafemi Awolowo University, Nigeria reported a high level of use of the internet and their major access was through the commercial cybercafés where they paid for access time. The study also showed that problems experienced by the students when using the internet include slowness of the server and high payment of the access to the internet. Similarly, Awoleye et al. (2008) examined the level of penetration of internet usage among undergraduate students of Obafemi Awolowo University in Nigeria reported that the students had high level of internet usage and use the internet mostly for email, information research and online-chat.
+ 
+Mishra (2009) studied the use of internet at the University of Maiduguri, Nigeria. The findings showed that 74.6% of the students using the internet for research and academic purposes; and concluded that necessary facilities should be put in place for faculty and students to make optimal use of information resources available on the internet. Furthermore, Ani (2010) in his study which examined the extent and level of internet access in Nigerian universities submitted that undergraduate students extensively use the internet. However, majority of the respondents indicated that they relied on commercial internet services and cybercafés due to poor internet infrastructure in the university. The results showed that most of the students use the internet for academic purposes.
+ 
+Adekunmisi et al. (2013) in their study on the internet access and usage by undergraduate students of Olabisi Onabanjo University, Nigeria indicated that majority of the respondents had access to the internet. The students accessed internet facilities from the privately-owned cybercafés in  town  despite  the  fact  that  the university grossly lacks internet facilities. Furthermore, the students use the internet mostly for emails, academic purpose and
+getting information while the high cost of browsing, slow internet access speed, power outage and few internet facilities are challenges identified as impediments to internet by the students.
+ 
+A review of related literature shows that there have been many studies on internet use globally and most of them reached a consensus that internet usage is most prevalent among university students’, but no in-depth study has been reported on the use of internet in the university under study. Therefore, this study was carried out to ascertain internet use in the selected university in Southwest Nigeria.
+ 
+Research objectives
+ 
+The aim of the study is to investigate the use of the internet among the undergraduate students of the University of Ibadan.
+The specific objectives of the study were:
+ 
+(1) To identify the computer and internet skills of undergraduate students.
+(2) To find out the type of internet access the undergraduate students use in connecting to the internet.
+(3) To find out the frequency and duration of internet use among the undergraduate students.
+(4) To analyse the on-line activities engaged in by the undergraduate students through the internet.
+(5) To recognize the challenges encountered by undergraduate students in internet usage.
+
+ METHODOLOGY
+
+A survey research design was used to achieve the purpose of the study. The targeted population of the study was the undergraduate students of the University of Ibadan, Nigeria. A close-ended questionnaire was adopted as the research instrument and stratified random sampling was employed for on the spot selection of students. The questionnaire was designed by the researcher and consisted of two sections. The first section contained questions aimed at eliciting information about the demographic characteristics of the respondents while the second section consisted of questions related to the study. The questionnaire was based on a five-point Likert scale from (1 -strongly disagree, 2 -disagree, 3 -neither agree nor disagree, 4 -agree, 5 -strongly agree). Reliability and validity of the questionnaire was ensured by carrying out a pilot study and restructuring the questions based on suggestions and comments  of two experts. The pilot study was conducted on 30 undergraduate students of The Polytechnic, Ibadan. Reliability of the questionnaire was measured using the Cronbach’s coefficient alpha with value of 0.87.
+ 
+Data was collected from 350 undergraduate students in the University of Ibadan during academic session. The researcher personally distributed the questionnaires with the help of a research assistant. Out of the 350 questionnaires that were distributed, 50 questionnaires had incomplete responses and were discarded. Thus, 300 questionnaires were usable. The generated data was analysed by using SPSS Statistics 22.0.
+ 
+DATA ANALYSIS AND INTEPRETATION
+ 
+Gender of respondents
+ 
+The result as presented in Table 1 shows that 50.3% of the male and 49.7% of female respondents participated in the study. This result specified that there were more male internet users than female users in the sample studied.
+ 
+Age of respondents
+ 
+The respondents’ age range was distributed from ≤18years to 36+ years as shown in Table 2.  The result revealed that the majority (47%) of the respondents’ age were 19 to 24 years old followed by the respondents (34%) in the age range of 25 to 30 years old. Only 1% of the respondents’ age were 36+ years old. According to Recchiutti (2003), age is an imperative demographic variable in studies on the internet use.
+ 
+Computer and internet skills
+ 
+Computer literacy is very important for the optimal use of internet services (Okello-Obura and Magara, 2008). The respondents were asked whether they have computer and internet skills. Their responses as depicted in Table 3 reveal the majority 97.33% of the respondents indicated they have computer and internet skills while only 2.67% indicated they do not have the skill. The findings of this study agree with that of Muniandy (2010) who reported that the respondents had a good level of computer and internet skills study in their study entitled “academic use of internet among undergraduate students in a Malaysian University”.
+ 
+Type of internet access
+ 
+The responses of the respondents about their access to the internet facilities are depicted in Table 4. Majority (91.33%) of the respondents stated that they accessed the internet from the cybercafé, followed by access through their mobile phones (83.67%) and from modems (80%). The least of the respondents (13.3%) indicated access to the internet from the School LAN.  This result suggests that the cyber-cafes play a major role in the provision of internet services to the undergraduate students while the university has inadequate internet facilities. The proliferation of data services to mobile phone users by telecommunication companies also caused an explosion of internet use among the undergraduate students. This could be a reason why mobile phone topped second in the list of internet access. According to Ehikhamenor (2003), non-use of internet in Nigeria is often attributed to the problems of accessibility and cost. This finding is consistent with that of Ani (2010) and Waithaka (2013) in which most of the respondents indicated they accessed the internet from the cybercafés. This study also agrees with Adekunmisi et al. (2013) who reported that the universities under study lacked internet facilities and the students accessed internet facilities from the privately-owned cybercafés.
+ 
+Frequency of internet use
+ 
+The students were asked to indicate their frequency of internet use. As shown in Table 5, 76% of the respondents stated that they used the internet every day, 19.33% weekly, and 14.67% monthly. This result agrees with that of Adekunmisi et al. (2013) who reported that most of the respondents in their study use the internet every day. The finding is also consistent with that of Awoleye et al. (2008) and Ani (2010) who reported that the students had high level of internet usage. Furthermore, the results of this study indicate that the internet is no longer anonymous as the present age of information explosion has revolutionised the use of the internet. Majority of the students use the internet daily and the internet is no more a mystery to them.
+ 
+Duration of internet use
+ 
+The researcher sought to determine the duration of internet use by the respondents. As shown by the data in Table 6, the majority of the respondents (39.67%) browsed the internet for 1 to 2 h, 34% for more than 2 h and the least respondents (26.3%) spent 30 min to 1 h. This may be explained by the fact that most of the respondents have different internet access through the cyber café, mobile phone, school LAN and modems. It is obvious from the results that the respondents tried to variegate their internet access points by making use of different available points since one access point could not satisfy internet needs. The majority of the respondents spend 1 to 2 h on-line followed by the respondents who browse for more than 2 h. The result is summarized in Table 7. The finding of this study agrees with that of Khan et al. (2011) and Waithaka (2013) who reported that majority of the respondents specified they required 1 to 2 h.
+ 
+Internet activities
+ 
+The students used the internet to perform a variety of internet activities as depicted in Table 8. Among these, academic work (75.6%) topped the list followed by information search (66%). While the least (21.7%) used the internet for software download. This finding agrees with Mishra (2009), Ani (2010) and Adekunmisi et al. (2013) who found out that majority of the students using the internet mostly for  research  and academic purposes.
+ 
+
+ 
+
+ 
+Patel and Darbar (2016) in India similarly reported the use the internet for academic by students. Khan et al. (2011) also reported in their study that the majority of the respondents used the internet for their study followed by those that used it to prepare for assignments.
+ 
+Challenges encountered in internet use
+ 
+The respondents were asked to indicate the challenges encountered in using the  internet.  Erratic  power  supply was identified by the majority of the respondents (82%) as the greatest challenge followed by inadequate internet access in school (77%), and high cost of browsing (68.7%). The results are shown in Table 8. The findings of Mishra (2009), Ani (2010) and Anasi (2006) on the use of the internet among university students in Nigeria is similar to the findings of this study regarding the challenges encountered in using the internet. From the result in Table 8, it is evident that erratic power, inadequate internet access in school, and high cost of browsing   are   part  of  the  crucial  challenges  faced  in
+ 
+accessing the internet in Nigeria which was reported by previous researchers. Another challenge encountered was slow internet speed which may be due to the bandwidth capacity and/or several users browsing at the same time. This challenge was also reported by Okello-Obura and Magara (2008), Mishra (2009), Ani (2010) and Waithaka (2013) in their studies on internet use. The findings of this study also agree with that of Adekunmisi et al. (2013) who reported high cost of browsing, slow internet speed, inadequate browsing skills, overload of information and power outage as the problems encountered by students of Olabisi Onabanjo University in the use of internet.
+In summary, the key findings of this research are as follows:
+ 
+(1) The students had good basic computer and internet skills.
+(2) Majority of the students accessed the internet from the commercial cybercafés.
+(3) There is inadequate provision of internet facilities by the university.
+(4) The students used the internet mostly for academic purposes and information search. Other activities included email, instant messing, software download and music/movie download.
+(5) The major challenges hindering internet use by the students were erratic electricity, high cost of browsing and inadequate access to school LAN. The university lacked adequate Wi-Fi connection.
+
+ RECOMMENDATION
+
+Globally, the use of the internet is becoming an increasingly important part of the educational system and students are heavy users of the internet. Academic achievements depend on the ability to read and share information effectively. Like other developing countries there is proliferation of the internet in Nigeria and its use has become very common among university students. It is clear that erratic electricity and inadequacy of internet infrastructure in the university are the major challenges faced in utilizing the internet by the students. The study recommends  that   adequate   internet  facilities  such as adequate computers and Wi-Fi connection be provided by the university for maximum use of internet as this will have impact on academic productivity of the student; an alternative means of regular power supply should be installed by the university; and finally, the government needs to address the issue of erratic electricity.
+
+ CONCLUSION
+
+As this study has shown, more students are relying on the internet for their academic needs than any other areas. Unlike the developed countries where students have access to internet facilities on the campus, most students do not have access to internet on the campus in Nigeria. The revelation of this study may be useful for the university regarding the provision of better internet facilities for more efficient use of the internet for their students.
+
+ CONFLICT OF INTERESTS
+
+The author has not declared any conflict of interests.

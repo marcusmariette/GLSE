@@ -1,0 +1,32 @@
+tion observed in all the aforementioned indices indicate the level of geomagnetic disturbances and the drop in the amplitude of the solar and geomagnetic parameters from solar cycle 23 to solar cycle 24 which is characterized by magnetically weak conditions. This decrease in the amplitude of the solar and geomagnetic parameters can be partially explained by several reasons reviewed in Zerbo et al. (2013) where it showed that solar cycle 23 was one of the longest cycles since 1847 with impressive high  solar   wind   conditions   followed   by  a  long  solar minimum. Another characteristic of the solar cycles 23 and 24 is the occurrence of the sunspots number: the maximum of the sunspots number during solar cycle 24 was 113 and occurred in April 2014 when the maximum of the solar cycle 23 is extended over a period of four years (1999-2002) with a peak of 174 sunspots obtained during the year 2000. So we can think that the physical phenomena such as: magnetic buoyancy, magneto convection, reconnection, and magnetic torsion (Mark CM Cheung and Hiroaki Isobe, 2014) were much strong during the solar cycle 23. This finding is in argument with results reported by Ishkov (2022) showing that the solar cycle 24 proceeded as a low-magnitude cycle with historical lower level of sunspot and flare activity than that of all previous solar cycles of the space era.
+
+
+ CONCLUSION
+
+The main objective of the present study is to examine and achieve a better understanding of geomagnetic conditions during two successive solar cycles.
+
+The main findings are:
+
+(1) a decrease in the energy level of solar activity and that of geomagnetic activity during the last decade.
+
+(2)  the solar cycle 23 was magnetically disturbed with 41.52% of disturbed days against 27.58% for cycle 24 which was magnetically calm with 72.35% of queit days against 58.64% for cycle 23.
+
+(3) the strength of the magnetic field reached a historical low level during solar minimum which follow the solar cycle 23 and remained weak during all the solar cycle 24 phases;  extending at the same time the work by Zerbo et al. (2012, 2013) on geomagnetism. Going back in previous works (Zerbo et al., 2015; Owens et al., 2008a, b) and using recent observations, we can showed that the remarkable low in geomagnetic and solar activities level during the deep solar minimum which follow the solar cycle 23 remained over the solar cycle 24 and may help to understand the unusual solar wind conditions.
+
+(4) the solar cycle 24 proceeded as a low-magnitude cycle with historical lower level of sunspot and geomagnetic activity than that of all previous solar cycles of the space era.
+
+(5) Higher intense and severe storm or magnetic substorm conditions (E, PC index, Dst) during the solar cycle 23 compared to cycle 24.
+
+(6) Solar cycle 24 presents similar characteristics as solar cycles 12 and 14 which experienced spotless days at solar maximum and have experienced Gleissberg minimum. 
+
+(7) the solar activity and solar plasma parameters retain a downward trend since the deep minimum that followed the solar 23, so we can witness in future solar cycles, a period similar to the Gleissberg minimum With of all these observations, we can say that solar cycle 24 experienced lower magnetic and sunspot level compared to solar cycle 23. So, the two solar appear as two antagonistic magnitude cycles.
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.
+
+
+ ACKNOWLEDGMENTS
+
+The authors thank the reviewers for their detailed and insightful comments and constructive suggestions. They thank all providers of data used (OMNIweb from NASA Goddard Space Flight Center to provide solar wind data; Royal Observatory of Belgium for providing sunspot number; ISGI for providing polar cap and geomagnetic aa indices)

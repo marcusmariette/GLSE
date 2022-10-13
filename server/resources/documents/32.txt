@@ -1,0 +1,83 @@
+ABSTRACT
+
+The hybrid nanoparticles Ag-MnFe2O4 was successfully fabricated by the seed-growth method and thermal decomposition method. The shape and size of these nanoparticles were evaluated by Transmission electron microscopes (TEM) images showing that these nanoparticles are quite uniform and have a diameter of about 20 nm. The UV-Vis spectrum of hybrid nanoparticles Ag-MnFe2O4 shows that in the wavelength region from 300 to 800 nm, the ferrite manganese nanoparticle does not appear to have an absorption peak, while the spectrum of the silver nanoparticle shows a characteristic surface plasmon resonance (LSPR) peak with peaks between 400 and 420 nm. Research results show that the hybrid nanoparticles Ag-MnFe2O4 coated with PMAO (MFA10-PMAO) has the ability to inhibit both Escherichia coli bacteria-intestinal bacilli and Staphylococcus aureus bacteria. In which, the antibacterial ability with E. coli is stronger than that of S. aureus, the antibacterial zone diameter in both cases are 21.5 and 16 mm, respectively. In addition, MFA10-PMAO nanoparticles also showed easy recovery after treatment, which is favorable for reuse.
+
+Key words: Thermal decomposition method, seed-growth method, hybrid nanoparticles Ag-MnFe2O4, Ag-MnFe2O4 nanoparticles coated with PMAO.
+
+
+ INTRODUCTION
+
+The superparamagnetic properties of magnetic nanoparticles have applications in technologies such as magnetic hyperthermia, magnetic resonance imaging, contrast agents, magnetic separation, and magnetic drug delivery applications. The plasmonic properties of Ag nanoparticles have applications in technologies such as sensing, imaging and photothermal therapy. Therefore, the combination of these two materials will create new properties,   multifunction,     not     only     maximize   the advantages of each material, but also limit their disadvantages when working individually. Combination of precious metal nanomaterials (Ag) and magnetic nano (MnFe2O4) in a single nanostructure that has the potential to open up new applications, such as cell extraction under plasmon-imaging, image dual mode (MRI and plasmon image), and antibacterial materials. This is possible due to hybrid structures Ag-MnFe2O4 has both the  magnetic  properties  of  manganese  ferrite  and  the  optical properties of the surface plasmon effect of Ag. Besides, with specific applications of each nanosystem, the idiosyncratic properties of one material can be promoted or supported by another. For example, when adding nano Ag, conductivity of MnFe2O4 improved, this hybrid structure has potential applications in storage devices, or as electrodes. In photocatalysis or wastewater treatment applications, magnetic material MnFe2O4 with heavy metal absorption and high optical conversion efficiency can help along with the bactericidal ability of Ag so that the efficiency of the process is greatly enhanced (Pankhurst et al., 2009; Hosseini et al., 2014). Besides, magnetism of MnFe2O4 makes recovery and reuse easier. General, the properties of the component materials are flexibly combined, promote and support each other when integrated on a nanoparticle. Therefore, the hybrid nanoparticle Ag-MnFe2O4 have many advantages over single nanoparticles Ag, MnFe2O4 in bioparticle separation and purification applications, enhance antibiotic activity, drug distribution, localized hyperthermia, catalysis, etc (Stafford et al., 2018; Li et al., 2018; Ning et al., 2020). Hybrid nanoparticles Ag-MnFe2O4 have been manufactured by various methods (Li et al., 2018; Bahman Mohammadian et al., 2020; Huy et al., 2017; Dong et al., 2021; Yang et al., 2021), hybrid nanoparticles Ag-MnFe2O4 in this study were successfully fabricated by the seed-growth method on the basis of MnFe2O4 particles obtained from thermal decomposition.
+
+EXPERIMENT
+
+Nanoparticles MnFe2O4 were prepared by thermal decomposition in organic solvents at high temperature. On the basis of fabricated manganese ferrite nanoparticles, hybrid nanoparticles Ag - MnFe2O4 were successfully fabricated by the seed-growth method.
+
+Fabrication of hybrid nanoparticles Ag-MnFe2O4
+
+Using 1 g silver nitrate, 6 ml Oleylamine (OLA) and 30 ml Octadecen (ODE) put them in a 3-necked flask. Continue to add 0.1 g MnFe2O4 washed and dispersed in 5 ml n-hexan. Place the three-neck flask containing the reaction mixture on the magnetic stirrer, supply nitrogen gas (Figure 1).
+
+
+
+The reaction mixture was kept at 80°C in 30 min. Then spray quickly into a 3-necked bottle of solution containing 0.3 g OCD-ol in 10 ml ODE. Continue to increase the temperature to 200°C in 60 min. AgNO3 will be reduced right on the surface of the MnFe2O4 nanoparticles form silver nanocrystals; these seeds will grow right on the surface of MnFe2O4 nanoparticles, hybrid nanoparticles Ag-MnFe2O4  were created.
+
+Sample cleaning and preparation procedures
+
+Samples need to be washed thoroughly before analysis to remove impurities (unreacted chemicals and byproducts of synthesis). The sample washing procedure was carried out as follows: pick 0.5 ml sample solution mixed with 0.5 ml ethanol to induce agglomeration between particles then centrifugation at speed  8000  to  12000 rpm in 5 min (depending on particle size) until the particles settle to the bottom of the centrifuge tube. After removing the upper solvent, the precipitate obtained was redispersed in 0.5 ml solvent n-hexan. Sample washing is repeated 3 to 4 time, let dry naturally at room temperature.
+
+Transferring hybrid nanoparticles Ag-MnFe2O4 in organic solvents to water
+
+The phase transition is carried out as follows: hybrid nanoparticles Ag-MnFe2O4 cleaned according to the aforementioned washing procedure, the sample was dispersed in 1 ml chloroform, ultrasonic vibration in 3 to 5 min so that the particles are dissolved evenly. Add a quantity of poly maleic anhydride-alt-1-octadecen (PMAO) into the sample solution pre-determined has been dispersed in clorofom. Mix the aforementioned 2 solutions together and ultrasonic vibration 5 to 10 min so that the solution is mixed evenly, without sediment. The obtained product was left at room temperature for clorofom evaporate all, then add 10 ml solution NaOH diluted in water, we get samples that are capable of dispersing in water.
+
+
+ RESULTS AND DISCUSSION
+
+Particle shape and size
+
+To evaluate the formation and development of the Ag shell on the MnFe2O4 ferromagnetic core, we synthesized Ag-MnFe2O4 nanoparticles using the amount of AgNO3 precursors participating in the reaction at different concentrations. Figure 2 is the TEM image of the Ag-MnFe2O4 samples showing that the obtained hybrid particles are spherical, with a core-shell structure with a MnFe3O4 core and an Ag shell. The results can be explained by the model LaMer (Chang et al., 1999; Whitehead et al., 2019; Wang et al., 2018). In the silver shell reaction,  the  generated Ag atoms will be deposited on the surface of the nanoparticles MnFe2O4. When on the core MnFe2O4 atoms showed Ag then those positions became active and a large amount of Ag was next deposited. Ag shells were formed continuously through the generation of Ag nanocrystals. However, when the precursor amount of Ag is low, there will be active sites with many Ag and vacancies on the core, then the Ostwald effect begins to compete and dominate over the lead deposition reaction. The process of forming the Ag shell takes place unevenly.
+
+
+
+Optical properties
+
+To confirm the formation of nanoparticles Ag-MnFe2O4, we measure the spectrum UV-Vis of hybrid nanoparticles Ag-MnFe2O4 fabricated and the absorption spectra of manganese ferrite nanoparticles are also shown for comparison (Figure 3). The analysis results show that in the wavelength region 300 to 800 nm nanoparticles MnFe2O4, there is no absorption peak, while the spectrum of silver nanoparticles show a characteristic surface plasmon resonance peak (LSPR), with a maximum in the interval of 400 to 420 nm. When the crust size Ag ascending from 0.9 to 5.6 nm then the surface plasmon resonance site (SPR) of hybrid nanoparticles decreased slightly from 420 to 400 nm. When the Ag shell is thin and uneven, the surface plasmon resonance peak has an expansion; when the Ag shell is thick and uniform, the surface plasmon resonance peak is narrower and more pointed as observed in Figure 3. In addition, the shape, surroundings and type of adsorption surface of the nanoparticle also affect the plasmon adsorption capacity (Anker et al., 2009; Kreuter, 2004; Walkey et al., 2012). According to Mie theory, there is only one SPR site  for  spherical  nanoparticles  (Lamer and Dinegar, 1950). Whereas anisotropic nanoparticles can appear on two or more other SPR sites, this depends on the particle shape and size.
+
+
+
+Magnetic properties
+
+Figure 4 shows the magnetization curves measured at room temperature of the MnFe2O4 nanoparticles and hybrid samples MFA7, MFA10 and MFA13. It can be seen that the hybrid nanopatterns Ag-MnFe2O4 all exhibit superparamagnetic properties at room temperature with MS values of  28.7, 15.9 and 9.6 emu/g, respectively for samples MFA7, MFA10 and MFA13. Saturation magnetization of the hybrid samples Ag-MnFe2O4 is much smaller than the sample MnFe2O4. This can be explained by the increase of Ag shell thickness in the core-shell structure resulting in a sharp decrease in the saturation of Ag-MnFe2O4 nanoparticles.
+
+
+
+Although the saturation magnetic values of hybrid nanoparticles Ag-MnFe2O4 obtained are low, they can still be easily separated from solutions by applying a magnet for a few seconds.
+
+Phase structure and composition of hybrid nanoparticle Ag-MnFe2O4
+
+The crystal structure of Ag-MnFe2O4 hybrid nanoparticle is characterized by X-ray diffraction. As shown in Figure 5, the XRD pattern of the Ag-MnFe2O4 hybrid nanoparticle (MFA10) appears on diffraction peaks at the angular position 2q = 38.1, 44.3 and 64.4° corresponds to the plane (111),  (200)  and  (220)  in  the face-centered cubic structure of Ag. Besides, some peaks at position (311), (511), (440) in the spinel structure of MnFe2O4 is also observed but with very low intensity, this can be explained by the coating of the silver shell on the surface of the ferrite nanoparticle. This result is completely consistent with the results obtained from the TEM image (Figure 2). Besides, the elemental composition of Ag-MnFe2O4 hybrid nanoparticles was quantitatively analyzed by EDX scattering spectroscopy with sample MFA10, the results are presented in Figure 5.
+
+
+
+The EDX spectrum shows that the hybrid nanoparticles consist of the main composition of Fe, Mn, O and Ag elements indicating the high purity of the sample.
+
+To better understand the binding ability of OA, OLA and PMAO molecules on the nanoparticle surface, the FT-IR spectrum of the sample MFA10@PMAO was analyzed. Figure 6 shows that at wave number 3415 cm-1 assigned to OH functional group oscillations of water molecules adsorbed onto the PMAO shell of the sample, we see that the absorption peak of the sample of MFA10@PMAO is more than double that of the top of the MFA10 sample. Besides, at wave number 2853 and 2923 cm−1, both samples appear absorption peak corresponding to the symmetric and asymmetric valence oscillations of CH2 in OA, OLA and PMAO. Furthermore, the intensity of the 1570 cm-1 peak  is  significantly enhanced compared  with the 1450 cm-1 peak. This result confirms that during the encapsulation of nanoparticles with PMAO, carboxylate anions are formed due to the opening of the anhydride ring.
+
+
+
+Antibacterial ability of hybrid nanoparticle Ag-MnFe2O4
+
+To evaluate the antibacterial ability of Ag-MnFe2O4 hybrid seeds, we performed the test in water containing pathogenic bacteria belonging to Gram-negative and Gram-positive groups with representative Gram-negative Escherichia coli (E. coli) and Gram-positive bacteria Staphylococus aureus with the concentration of MFA10 nanoparticles used at 0.3 mg/ml.
+
+The evaluation results presented in Table 1 show that MFA10-PMAO hybrid seeds have the ability to inhibit both Escherichia coli-intestinal bacilli and S. aureus. In which, the antibacterial ability with E. coli is stronger than that of S. aureus, the antibacterial zone diameter in both cases are  21.5   and   16 mm,   respectively.   The   antibacterial mechanism of Ag-MnFe2O4 hybrid nanoparticles can be explained as follows: Ag-MnFe3O4 hybrid nanoparticles, after being added to the medium containing bacteria including both Gram-negative and Gram-positive bacteria, they release linkages. Metal ions were rapidly attached to the surface of the bacterial cell wall through electrostatic interactions between the bacterial cell surface (negative charge) and Ag+ ions (positively charged). Hybrid nanoparticles dissolve the outer layer of the cell wall and lead to leakage of cellular components, enabling Ag+ to penetrate deeper into the bacterial cell to carry out reactions that generate oxygen-containing free radicals (ROS) that alter membrane permeability, interact with proteins and disrupt their function, interfere with DNA replication and damage DNA, ultimately causing cell death (Tung et al., 2016).
+
+
+
+
+ CONCLUSION
+
+MnFe2O4 manganese ferrite nanoparticles with different morphology and  sizes  have  been successfully synthesized by thermal decomposition method in organic solvents at high temperature. Based on the prepared manganese ferrite nanoparticles, the hybrid nanoparticles Ag-MnFe2O4 were successfully synthesized by seed-growth method. Analyzes such as TEM, XRD, EDX, and UV-vis confirmed the formation of Ag shell on the surface of nanoparticles from manganese ferrite. The saturation of the sample after Ag coating is about 10 to 29 emu/g and still has a good magnetic response. Furthermore, this research has successfully phased Ag-MnFe2O4 hybrid nanoparticles from organic solvent to aqueous solvent by PMAO phase transition agent. These Ag-Mn2O4 nanoparticles have good dispersion and stability in the medium with wide pH range (pH = 2-14) and high concentration of NaCl salt (250 mM). This result shows that the PMAO coated Ag-MnFe2O4 hybrid nanoparticles respond well in terms of durability under physiological conditions.
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.

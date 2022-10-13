@@ -1,0 +1,131 @@
+ABSTRACT
+
+Carica papaya is a fruit known for its great economic values in tropical Africa due to its diverse industrial, medicinal and nutritional benefits. In this study, oil was extracted from dried powdered C. papaya seeds using n-hexane as extraction solvent. The physiochemical characterization of C. papaya seed oil extract was investigated using AOAC standard procedures. Acute toxicity test was carried out to determine the toxicity of the oil. Rats were randomly divided into four groups with five rats per group. Groups B, C and D were given 200, 400 and 800 mg/kg body weight of the seed oil thrice in a week for 28 days while group A rats were not administered with the oil. The results obtained from the physical properties of the Carica papaya seed oil include: oil yield (30.31±2.38%), colour (golden yellow), specific gravity (0.9162±0.012), refractive index (1.468±0.22), viscosity (22.45±2.00 mms-1), melting point (42.30±3.0°C), smoke point (212.13±9.0°C) and flash point (274.74±12°C). The chemical properties indicate the presence of acid value (2.848±0.28%), free fatty acids (1.29±0.16%), saponification value (mg KOH/g) (192.06±1.62), iodine value (70.78±1.69 gI2/100 g) and peroxide value (5.079±0.079 meq/kg). The fatty acid profile of the seed oil shows that it contains: oleic acid (73.36±1.07%), palmitic acid (14.36±0.96%), stearic acid (5.09±0.5%) and linoleic acid (4.56±0.20%). The total composition of unsaturated and saturated fatty acids in the seed oil was 79.52 and 20.48%, respectively. The oil exhibited viable potentials for biodiesel feedstock based on the results of the physicochemical parameters. The biochemical parameters show that the oil is hematotoxic and it causes significant (P<0.05) increase in total cholesterol, triglyceride and low density lipoprotein-cholesterol values. The high density lipoprotein-cholesterol and catalase did not show any significant (P>0.05) difference among all groups. The oil has slight effect on the kidney and the heart architecture.
+
+Key words: Biodiesel, biochemical parameters, Carica papaya seed oil, histopathology.
+
+
+ INTRODUCTION
+
+Biodiesel is a renewable, green alternative fuel that can be produced from vegetable oils, animal fats or recycled greases. With the  increase  of  petroleum  price  and  the environmental concerns about pollution, it has become the most potential biofuel because of many advantages such   as   its   environmental  friendliness  and  its  better efficiency than fossil fuel (Demirbas, 2007; Balat and Oz, 2008).
+
+Biodiesel is produced from vegetable oil or animal fat reacts in the presence of a catalyst (usually a base) with an alcohol (usually methanol) to give the corresponding alkyl esters (fatty acid methyl esters) (Knothe, 2010). Potential feedstocks for biodiesel production are edible (first generation feedstocks) and non-edible vegetable oils (second generation feedstocks), wasted oils and animal fats (Naik et al., 2010). First-generation biofuels are directly related to a biomass that is generally edible, and are usually produced from edible oils, such as soybeans, palm oil, sunflower, safflower, rapeseed, coconut and peanut (Bhuiya et al., 2016; Lee and Lavoie, 2013). Second-generation biofuels are fuels that are produced from a wide array of different feedstock, ranging from lignocellulosic feedstocks to municipal solid wastes. Third-generation biofuels are related to algae which have been considered as emerging non-edible oil sources of growing interest because of their high oil content and rapid biomass production (Lee and Lavoie, 2013; Moser, 2009) but could also to a certain extent be linked to utilization of CO2 as feedstock (Lee and Lavoie, 2013). However, the first generation biofuels seems to create some skepticism to scientists.
+
+There are concerns about environmental impacts and carbon balances, which sets limits in the increasing production of biofuels of first generation. The main disadvantage of first generation biofuels is the food-versus-fuel debate, one of the reasons for rising food prices is due to the increase in the production of these fuels (Naik et al., 2010; Atabani et al., 2012; Balat, 2011). Therefore, concerted research efforts are geared towards identifying and evaluating indigenous non-edible seeds oil such as papaya as suitable feedstock.
+
+Pawpaw (Carica papaya Linn) belongs to family Carcaceae and it is one of the tropical plants largely cultivated in Nigeria and other countries such as Brazil, India and Mexico. The seeds of papaya have been reported to have medicinal values for intestinal parasitosis (Clan et al., 1978; Onuegbu et al., 2016; Okeniyi et al., 2007), urinogenital disorder like trichomoniasis (Calzada et al., 2007), contraceptive effects in animals and adult male humans (Lohiya et al., 2008). Benzylisothiocynate is a bioactive substance present in the seeds as the sole antihelminthic (Kermanshai et al., 2001). Benzyl isothiocyanate (BITC) applications ranged from vascular relaxation to inhibition of cancer proliferation. In addition, the seed has been shown to be a good source of oil (25.6%) and that it may be useful for medicinal, biofuel and industrial purposes (Afolabi et al.,  2011).  The  fatty  acid  composition  of  oil extracted from C. papaya investigated by Saha and Jackson (2018) showed that it contains: oleic (78.88%), palmitic (15.96%), stearic (4.7%) and arachidic (0.44%) acids with oil yield of 24.01%. From the results of the fatty acids analysis, it was reported that the unsaturated fatty acids of the seed oil were more than the saturated ones. However, the physicochemical properties of oil determine the quality and whether they are suitable for consumption (Abayeh et al., 1998; Fokoue et al., 2009; Hasanah et al., 2014). Agunbiade and Adewole (2014) reported the use of C. papaya seed oil for the production of biodiesel with oil yield of 31.2% and the characterized oil had suitable properties which are comparable with other oils that have been applied for biodiesel production.
+
+However, seeds from C. papaya are underutilized in Nigeria despite its abundance. The perishable fruits sometime constitute a waste most especially at the fruits market dumpsite resulting to a landfill.  More so, growing concern on food-fuel conflict as potential biodiesel feedstock and medicinal potentials initiated the thought of this study. In this study, we investigated the cytotoxic effect of C. papaya seed oil on lipid profiles, hematological parameters, kidney, liver and heart architecture and its potential biodiesel feedstock production.
+
+
+ MATERIALS AND METHODS
+
+Sample collection and preparation
+
+The fruits of C. papaya were purchased from Mile 12 fruit market section in Lagos, Nigeria. The fruits were carefully washed with distilled water and the seeds removed with knife, washed and dried in an oven at 40°C for 24 h. The dried seeds were grounded into fine powder using a mortar and pestle. The powdered seeds were packed in air tight container, labeled and stored in a desiccator, ready for further analysis.
+
+Oil extraction from pawpaw seeds
+
+For solvent extraction (Soxhlet method), 50 g of papaya seed with moisture level of 6.18% was treated separately with n-Hexane in a Soxhlet extractors at 60°C for 8 h. The oil was recovered from the extract by evaporating the solvent using rotator evaporator (Model: Re501) at 60°C and the remaining solvent was removed by drying the oil in an oven at 60°C for 1 h. After filtration, the extracted oil was labeled C. papaya seed oil and then stored at 4°C to guide against peroxidation prior to further analysis. The percentage oil yield extracts for C. papaya seed oil was determined as expressed by the equation:
+
+
+
+Physico-chemical characterization of oil seed extract
+
+Characterization of the oil was carried out by analyzing the oil quality properties. For the physical analysis, standard tests as described by AOAC (1990) were adopted to determine the physical parameters as follows: the appearance is observed based on colour and state of the oil through visual observation. The kinematic viscosity was measured using Brookfield’s viscometer (CAP2000+USA). Specific gravity was evaluated using Hydrometer (Fisher Scientific, Pittsburgh, PA), refractive index was done using refractometer (Rudolph J47), melting point was determined using melting point apparatus (Mettler Toledo) ASTM D5440-17, flash point was evaluated using Pensky-Martens Closed Flash Tester and smoke point was determined using SP 10 instrument for the oil. Standard chemical testing as described by AOAC (1990) were used to determine titrimetrically the free fatty acids (FFA), acid value, iodine value, peroxide value and saponification value of C. papaya seed oil. The thermophysical properties such as smoke point and flash point of C. papaya seed oil were determined using standard official methods.
+
+Fatty acids profile of oil extract
+
+The fatty acids profile was determined after conversion of the oil into the methyl ester and analyzed using a Gas chromatography. The fatty acid methyl ester (FAME) was prepared by esterifying 50 mg of oil sample for 5 min at 95°C with 3.4 ml of the KOH in dry methanol. The mixture was neutralized by using 0.7 M HCl and 3 ml of the 4% boron trifluoride in methanol was added. The mixture was heated for 5 min at temperature of 90°C to achieve complete methylation process. FAMEs were thrice extracted from the mixture with redistilled n-Hexane, the content was concentrated to 1 ml for gas chromatography analysis and 1 µL was injected into the injection port of the GC. FAMEs were identified by comparing their retention time with those pure FAME standards under the same operating conditions and quantified by area normalization (%).
+
+Experimental animals
+
+A total of 20 Wistar albino rats with body weight ranging from 173 to 200 g were obtained from University of Lagos, Nigeria. They were acclimatized for one week to laboratory condition of 28±3°C. They were kept in plastic cages and fed with commercial rat chow and supply with water ad libitum. The rats were used in accordance with NIH Guide for the care and use of laboratory animals (NIH Publication Revised, 2011). The rats were randomly divided into four groups with five animals per group. Groups B, C and D were given 200, 400 and 800 mg/kg body weight of pawpaw seed oil extract thrice in a week for 28 days orally. Group A animals were the normal control and only received distilled water throughout the study period. After 4 weeks, the rats in all the groups were deprived of food overnight.
+
+Collection of blood samples
+
+All the albino rats were sacrificed by cervical decapitation after 24 h fasting. Blood were collected from the rats by ocular puncture into EDTA tubes for hematological analysis and the remaining blood was collected in heparinised tubes and centrifuge at 3000 rpm for 20 min and the plasma stored at -20°C to estimate biochemical parameters. The animals were dissected while their livers, heart and kidneys were excised for biochemical and histological examinations.
+
+Determination of hematological parameters
+
+The hematological parameters were determined in the whole blood using BC-3200 Auto Hematology Analyzer in University of Lagos Teaching Hospitals (LUTH) in Idi-araba, Lagos, Nigeria. The hematological parameters investigated were as follows: white blood cell count (WBC), monocyte number (Mid#), monocyte percent (Mid%), granulocyte number (Gran#), granulocyte percent (Gran%), lymphocyte number (Lym#), lymphocyte percent (Lym%), hemoglobin (HGB), red blood count (RBC), hematocrit (HCT), mean cell volume (MCV), mean corpuscular hemoglobin (MCH), mean corpuscular hemoglobin concentration (MCHC), red blood cell distribution width coefficient of variation (RDW-CV), red blood cell distribution width standard deviation (RDW-SD), platelet count (PLT), mean platelet volume (MPV), platelet distribution width (PDW), and plateletcrit (PCT).
+
+Measurement of plasma lipid profile
+
+Total cholesterol (TC), triglyceride (TG), and high density lipoprotein-cholesterol (HDL-Chol) were determined using commercially available test kits from Randox Laboratories Ltd. (UK). LDL- Cholestrol was calculated according to Momoh et al. (2018a).
+
+LDL-C=TC- HDL-C –TG/5
+
+Hepatic antioxidant activities
+
+Preparation of liver homogenate
+
+The liver tissues of some of the sacrificed albino rats were excised and the liver samples were cut into small pieces and homogenized in phosphate buffer saline (PBS) to give a 10% (w/v) liver homogenate. The homogenates were then centrifuged at 12,000 rpm for 50 min. The supernatant obtained was later used for assay of catalase (CAT).
+
+Determination of catalase (CAT)
+
+The liver homogenate was assayed for catalase colorimetrically at 620 mm and expressed as μmoles of H2O2 consumed/min/mg protein by the method of Rukkumani et al. (2004).
+
+Histopathological studies
+
+The histopathological analyses were assayed in the Department of Anatomy, College of Medicine, University of Lagos, Idi-Araba, Lagos, Nigeria. The albino rats were sacrificed and their abdomens were cut open to remove the liver, heart and kidney. Some of the organs were fixed in Boucin’s solution for 12 h, and then embedded in paraffin using conventional methods (Galighor and Kozloff, 1976). They were cut into 5 μm thick sections and stained using haematoxylin-eosin dye and finally mounted in di-phenyl xylene. The sections were then observed under microscope for histopathological changes in the liver, heart and kidney architecture and their photomicrographs were taken.
+
+Data analysis
+
+Three determinations were carried out for each analysis. The results were calculated and expressed as Mean ± Standard deviation.  Data  analyses  were  done  using  the  GraphPad  prism computer software version 5.01. One-way ANOVA PosthocTuhey?s test was used for comparing significant difference between the different groups across the rows. A P-value < 0.05 was considered significant.
+
+
+ RESULTS AND DISCUSSION
+
+C. papaya seed oil extract is a liquid at room temperature with a golden yellow color classified as C. papaya seed oil. The percentage oil yield for C. papaya seed oil is 30.31±2.38% (Table 1). The result of the oil yields indicates that the seeds exhibited relatively high oil content suitable for consideration in the biodiesel production. The oil yield of C. papaya seeds oil (30.31%) can be compared to those obtained by Marfo et al. (1986) (28.3%) and Puangsri et al. (2005) (30.7%), respectively. Specific gravity and viscosity of oil are significant properties that are always considered in oil which serve as feed stock for biodiesel.  The higher the value of the specific gravity of the oil, the denser the fuel will be. This will affect the flow and volatility of the oil. The refractive index for C. papaya seeds oil was 1.468±0.22. The refractive index of C. papaya seed oil in this work is similar to that reported for C. papaya seeds oil (1.409 ± 0.003) according to Afolabi et al. (2011). The refractive index is used to check the purity of substance and also reflects the degree of unsaturation and chain length of oil. The viscosity measures the flow property of a fluid and determines ease of flow of vegetable oil in engine, if used directly. The result of the kinematic viscosity of C. papaya seed oil was found to be 22.45±2.00 mm/s. This value is considered high for direct applications in engines when compared with ASTM specification (1.90-7.50) for biodiesel. However, the high viscosity value is bound to reduce upon trans-esterification process of biodiesel. Melting point is dependent on the degree of unsaturation of the fatty acids present in the oil and on the chains of fatty acids. The low melting point of the oil (42.30±3.0°C) can be attributed to their unsaturation (Gavin, 1981). The Thermo-physical properties such as smoke point and flash point were also investigated. The smoke and flash points  of   C.  papaya   seed   oil   were  212.13±9.0  and 274.74±12°C, respectively (Table 1). These values recorded were found to be in close range when compared with other vegetable oils, such as soya bean oil, palm oil and cotton seeds oil (Codex, 1999). Smoke point is the temperature at which heated oil begins to smoke and produces toxic fumes and harmful radicals while flash point is the temperature at which vapor coming from oil will catch fire from an ignition source.
+
+
+
+Acid value is a direct measure of a percentage of free fatty acid in a given amount of oil. It is a measure of extent to which triglycerides in the oil have been decomposed by lipase action into free fatty acid. An acid value depends on the degree of rancidity which is used as an index of freshness (Ochigbo and Palkis, 2011). The acid value obtained from C. papaya seeds oil was 2.848±0.28 mg/KOH/g (Table 2). The acid value of C. papaya seeds oil is close to the value reported by Malacrida et al. (2011) (2.53±0.08) but higher than 0.98 mg/KOH/g reported by Anwar et al. (2017). Free fatty acid is an important pointer in determining the suitability of oil. The lower the free acid content the more appealing the oil is (Coenen, 1976). The free fatty acid for the C. papaya seed oil was 1.29 0.16% indicating low hydrolytic activities due to the present of moisture. The low free fatty acid of the oil (<5%) makes it suitable as edible oil and biodiesel feedstock for trans-esterification process rather than saponification and increase biodiesel yield. Iodine value and saponification values are also determinant chemical key factors to be considered in biodiesel production from biodiesel feedstock. The iodine value measures the degree of unsaturation and shelf-life of the oil. The peroxidation of the oil occurs at the unsaturation point causing rancidity of the oil and affects the fuel properties of the fuel produced from the oil (Mittelbach and Gangi, 2001). The iodine value of C. papaya seeds oil was 70.78±1.69 while the saponification value obtained was 192.06±1.62 mg/KOH/g. The C. papaya seeds oil saponification value is in close agreement with 193.5±0.1 (Hasanah et al., 2014), 197.0 mg/KOH/g (Marfo et al., 1986) and 193.4 mg/KOH/g (Harvey et al., 1978) but higher than 154.7 mg/KOH/g (Puangsri et  al., 2005) and 107.99 mgKOH/g (Agunbiade and  Adewole, 2014). According to Ezeagu et al. (1998), a saponification value of 200 mg/KOH/g indicates high proportion of fatty acid of low molecular weight. This value shows that the oil may have the potential for use in soap making, cosmetics and for the thermal stabilization of polyvinylchloride (PVC). However, the saponification value of C. papaya seeds oil falls within the range of edible oils according to Codex (1999).
+
+
+
+The iodine value of C. papaya seeds oil (70.80±1.69 gI2/100 g) obtained in this study is similar compared with 74.81 gI2/100 g (Marfo et al., 1986), 79.95±1.251 gI2/100 g (Malacrida et al., 2011) and 76.9±0.2 (Hassanah et al., 2014) for C. papaya seed oil but slightly higher than 64.1 gI2/100 g (lee et al., 2011) and 66.0 gI2/100 g (Puangsri et al., 2005). The low iodine values of C. papaya seeds oil of less than 100 g I2/100 g confirmed it to be non-drying oil of commercial values such as lubricant, moisturizers, hydraulic fluids, biofuels and so on. The peroxide value obtained for C. papaya seeds oil was 5.079±0.079 shown in Table 2. The peroxide value is defined as the amount of peroxide oxygen per 1 kg of fat or oil. It gives a measure of the extent to which an oil sample has undergone primary oxidation. The double bonds found in fats and oils play a role in autoxidation. Oils with a high degree of unsaturation are most susceptible to autoxidation. It is a key factor for the freshness of oils. The peroxide values of fresh oils are less than 10 Meq/kg; when the peroxide value is between 30 and 40 Meq/kg, a rancid taste is noticeable. Therefore, C. papaya seeds oil is still considered fresh.
+
+Physical and chemical parameters of the characterized C. papaya seeds oil
+
+Table 1 reveals the physical properties of C. papaya seeds oil extract.
+
+Fatty acid composition of C. papaya seeds oil extracts
+
+Lignoceric acid was detected at low concentration (0.14±0.03%) in C. papaya seeds oil while margaric acid shows no detection. The total composition of unsaturated fatty acid and saturated fatty acids in C. papaya seeds oil was 79.52 and 20.48%, respectively. This implies that unsaturated fatty acid in the oil is more than saturated fatty acid which corroborate with 70.80±1.69 gI2/100 g iodine value for the C. papaya seeds oil. The value of total unsaturated and saturated fatty acids obtained from this study agrees with the patterns of the fatty acid distribution as reported previously for papaya’s seeds oil (Marfo et al., 1986; Singh, 1990). The function and biological activities of the different fatty acids have been explained in Table 3.
+
+
+
+Hematological parameters for animals assayed during sub-acute toxicity test
+
+Hematological and biochemical indices are major parameters used for the assessment of the health status of human and animals (Momoh et al., 2018b). The reason for assessing the HGB level is to assess the amount of intracellular iron present in the blood. RBC measures the level of anemia while HCT shows the volume of RBC in 100 mL of blood and it helps to determine the degree of polycythemia or anemia (Momoh et al., 2018b). The hematological parameters for the sub-acute toxicity study shows that there were significant decrease (p<0.05) in the levels of blood HCT, RBC and HGB counts in rats administered with pawpaw seed oil compared to the healthy rats (group A). The significant reductions (P<0.05) in these hematological parameters in Groups B to D rats suggest the cytotoxic effects and the suppression of the erythropoiesis indices caused by the C. papaya seed oil. The result obtained from this study showed clearly that the pawpaw seed oil may be hematotoxic and may cause anemia if consumed in large quantity. We observed significant (P<0.05) increase in Mid#, Mid%, MCH (except group D) and PCT (except group C and D) values in group A rats compared to the other rats in other groups. Group A rats also showed significant (P<0.05) reduction in WBC (except groups B and C), gran # (except groups B and C), gran % (except B and D), lymph # (except groups B and C) and lymph % values when compared with all animals in other groups. Other hematological indices like: PDW, MPV, MCV and MCHC are not significantly (p>0.05) different in all the animals of all the groups (Table 4).
+
+
+
+Effect of C. papaya seed oil on lipid profiles and catalase in animals administered with the oil
+
+Lipid profile is a group of test consisting of total cholesterol (TC), triglycerides (TG), HDL and LDL-cholesterol. The lipid profile is used, together with other risk factors, to assess person's risk of cardiovascular disease (CVD). The results of the levels of lipid profile for the treatment period in Wistar rats are shown in Table 5. C. papaya seed oil administration in animals significantly (P<0.05) increase TC (except group B animals), TG and LDL-cholesterol concentration compared to group A rats. This is an indication that the pawpaw seed oil may cause dyslipidemia and lead to cardiovascular diseases since these diseases are caused by significant (P<0.05) increased in TC, TG and  LDL-cholesterol  (Momoh  et  al., 2018a). The levels of activity of CAT and HDL-cholesterol concentration did not show any significant (P>0.05) difference in all the experimental animals.
+
+
+
+Histopathological study
+
+The liver, kidney and heart  architecture of healthy animals and animals administered with C. papaya seed oil are as shown in Figure 1. Groups A, B, C and D rats show normal histologic section of liver showing general structure, central vein (CV), portal vein (PV) and the basophilic portion with nucleus and the acidophilic cytoplasm of the acinar cells. No abnormalities are seen (Plates 1 to 4). Plate 5 shows group A rat histological sections of kidney tissue showing normocellular glomerular   tufts   disposed   on    a    background containing renal tubules. No abnormalities were seen. Group B animal (Plate 6) shows histologic sections of kidney tissue showing normocellular glomerular tufts disposedon a background containing viable tubules and aggregates of inflammatory cells were seen. Plate 7 shows group C rat histological sections of kidney tissue showing normocellular glomerular tufts disposed on a background containing renal tubules. The interstitium is infiltrated by dense aggregates of inflammatory cells. Group D rat (Plate 8) shows histologic sections of kidney tissue with normocellular glomerular tufts disposed on a background containing viable tubules with congested blood vessels (vascular congestion) seen. Groups A, B and C rats (Plates 9 to 11) show histologic sections of heart muscles showing interlacing fascicles of cardiac myocytes or myocardial  cells.  No abnormalities are seen in all these animals. Plate 12 shows group D rat histological sections of heart muscle showing interlacing fascicles of cardiac myocardial cells with some congested blood vessels (vascular congestion).
+
+
+
+
+ CONCLUSION
+
+This study characterizes oil from Carica papaya seeds. From the results, it was found that the oil exhibited viable potentials as biodiesel feedstocks based on high oil content, oil quality properties and fatty acid composition. The biochemical parameters show that the oil is hematotoxic, possess dyslipidemic  properties  and  have effect on the heart and kidney architecture.
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.
+
+
+ ACKNOWLEDGMENTS
+
+Special thanks to Tertiary Education Trust Fund (TETFund) for funding the research through the Institution Research Based Grant Scheme and also not forgetting Lagos   State    Polytechnic,    Ikorodu   for   providing  an enabling environment for assessing the fund on behalf of the research team.

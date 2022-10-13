@@ -1,0 +1,173 @@
+ABSTRACT
+
+In recent years, artificial intelligence applications for understanding the human thinking process and transferring it to virtual environments come into prominence. The fuzzy logic which paves the way for modeling human behaviors and expressing even vague concepts mathematically, and is also regarded as an artificial intelligence technique has become one of the most preferred methods in the solution of decision problems. Numerous decision-making situations are faced in education as well. Particularly, it is rather challenging and requires experience to decide in a fair way and assessing students' performances without making any error in the process of assessment and evaluation. The purpose of the current study is to assess students' performance with the fuzzy analytic hierarchy process (FAHP), one of the multi-criteria decision making methods based on the fuzzy logic approach. The formation of the proposed system on the basis of fuzzy set theory determines that it can provide benefits in modeling these ambiguities in human mental processes and also it can reach fairer, more sensitive and objective results. Being used especially in making important decisions in companies and in developing smart vehicles in engineering, FAHP methods have brought into question whether this method can be used in education or not. This study reveals that FAHP method can be used in the evaluation of students' projects in education.
+
+Key words: Performance evaluation, fuzzy multi criteria decision making methods.
+
+
+ INTRODUCTION
+
+Decision-making is a phenomenon encountered constantly in every areas of human activities. Decision-making process is about selecting the most suitable alternatives according to certain criteria in occasions that one faces with existing alternatives. This process is considered to be a tough one for decision makers because of its uncertainty and subjectivity (Bai and Chen, 2008; Lin, 2010). Today, studies on this phenomenon appearing in many fields like management, industry,  and education have gained a different dimension with the advancing technologies. Especially in recent years, artificial intelligence applications on human thinking process and adapting this system into computer environment had gained importance. Allowing human behaviors to be modeled and vague concepts to be expressed mathematically, fuzzy logic, also is considered to be an artificial intelligence technique, have become a frequently  preferred   method   in   solving   problems   in decision-making process. Education is one of the application areas of fuzzy logic which has a wide range of application areas (Ibrahim, 2001; Kavcic et al., 2003; Kinshuk et al., 2001). There are many occasions requiring numerous decision-making process in education. Particularly, making right decisions in assessment and evaluation process and evaluating students correctly are hard processes requiring experience (Bai and Chen, 2008).
+ 
+Project evaluation process includes the evaluation activities regarding the students’ levels of carrying out knowledge or skill (Nitko, 2001). Generally, numerical values of verbal expressions are used in the evaluation of students’ projects. However, it is observed that certain numbers are used by the decision-makers because of the difficulties that they face in the process of digitizing the verbal (qualitative/linguistic) grades (Kahraman et al., 2007). The literature indicates that instead of the use of certain numbers in expressing human feelings and decisions in the decision-making process, the use of linguistic variables which is a more realistic option, allows one to carry out a better, right and comfortable evaluation (Chan et al., 1999; Gu and Zhu, 2006; Kahraman et al., 2007; Lin, 2010).
+ 
+The process of students’ project evaluation includes some uncertainty and subjectivity like in other decision-making processes (Bai and Chen, 2008; Law, 1996; Wu, 2003). Also, another occasion affecting the decision-making in this process is the outnumbering evaluation criteria. Various scientific methods have been developed with the aim of finding a solution to the cases having high number of criteria in decision-making problems. One of the solution methods is multi-criteria decision-making model (Durán and Aguilo, 2008). Multi-criteria decision-making model is concerned with structuring and choosing an option from a set of alternatives which are characterized by different criteria. The decision maker ranks for these criteria by proposing the importance. There are various multi-criteria decision-making approaches in the literature. Most popular among them ELECTRE, Analytic Hierarchy Process (AHP), Technique for Order Preference by Simulation of Ideal Solution (TOPSIS), Preference Ranking Organization Method for Enrichment Evaluations (PROMETHEE), and Analytic Network Process (ANP). These techniques and approaches have been suggested to choosing the best alternative. The benefits of AHP compared with other multi-criteria decision making methods is its ability to its simplicity, flexibility, accuracy, ease of understanding (Forman and Gass, 2001) and include intangibles (Harker, 1987). Since multi-criteria decision-making model depends more on qualitative data and human thoughts, nowadays, fuzzy logic, which is more suitable to evaluate such data, is frequently used (Bozbura et al., 2007; Mardani et al., 2015). Fuzzy logic is an effective way of explaining the uncertainty in the decision-making process (Lin et al., 2007) and its qualities (Pedrycz and Gomide, 1998) by enabling an evaluation with the verbal variables. In these methods called fuzzy multi-criteria decision-making models, fuzzy numbers including uncertainty and reflecting human thoughts which cannot be distinguished from each other are used. The literature on fuzzy multi-criteria decision-making method suggests that there have been many studies in different fields (Mardani et al., 2015). Each multi-criteria decision-making method has its own privilege, strength, and weakness for certain applications (Zare et al., 2016). It is an emphasized topic by different researchers that with the integration of fuzzy set theory and Analytic Hierarchy Process (AHP) which is one of the multi-criteria decision making methods, highly sensitive and right decisions can be achieved (Fu et al., 2006; Ong et al., 2003; Yang and Chen, 2004). Fuzzy AHP is more representative for decisions of humans (Cheng et al., 2008). The fuzzy AHP method has been widely used by various researchers to solve different decision-making problems. Nagpal et al. (2015) used fuzzy AHP to compare and rank different websites of an educational institute on their usability criteria. Chen et al. (2015) present a framework for teaching performance evaluation based on fuzzy AHP and fuzzy comprehensive evaluation method. Jie (2010) applied fuzzy AHP to evaluate online course quality. Chao and Chen (2009) used fuzzy AHP to examine E-learning system effectiveness accordingly to send the results back to managers in schools. Lin (2010) adopted an evolution model for evaluate course website quality. However, it has rarely been applied in the field of evaluation process in education. Therefore, the aim of this study is to evaluate the student projects and interpret the results of the evaluation with Fuzzy AHP, one of the multi-criteria decision making process.
+ 
+Fuzzy set theory
+ 
+In daily life, it is impossible to make a certain definition of many occasions. The reason for this is the high degree of uncertainty in real life. In order to define effectively subjective judgment or ambiguous problems via linguistic variables, fuzzy set theory was proposed by Zadeh (1965) on the uncertainty of human thought, for the first time. An object is either an element of the set or not in classical set theory. In no circumstances, partial membership can be discussed. If the membership value is 1, it is the full element of the set; if it is 0, it is not the element of the set. In contrast to classical sets, the membership degrees of the elements can vary in infinite numbers between the range of [0, 1] in fuzzy sets.
+ 
+Membership function
+ 
+Fuzzy sets are defined by membership  functions  (Zadeh and Kacprzyk, 1992). The membership function of Ã fuzzy set is shown by μÃ(x). Fuzzy sets described each object with the membership function having the degree of membership ranging between 0 and 1 (Zadeh, 1965). If x element definitely belongs to Ã fuzzy set, it is μÃ(x)=1; if it does not definitely belong to, it is μÃ(x)=0. In fuzzy sets, there are no precise limits; instead, there is a gradual transition depending on the case of belonging to the set or not, and this transition is described with the membership functions (Klir and Yuan, 1995). Although there are a large number of membership functions, generally triangular, trapezoidal, gaussian, and bell-shaped membership functions are used. In the current study, triangular membership function is used. Although there are a large number of widely membership function which include triangular, trapezoidal, gaussian, and the bell curve, triangular membership function was used in this study.
+ 
+Verbal /linguistic variables
+ 
+In fuzzy logic, verbal/linguistic variable is as an important concept of fuzzy sets. Linguistic variables are used to express human’s feelings and decisions (Chan et al., 1999). Since human judgments are generally vague and cannot be estimated via precise numeric value, precise values remain insufficient in modeling the real life in many occasions. According to Zadeh (1965), linguistic variables are used to avoid excessive complexity. The value of linguistic variables in natural languages is not numbers but words or sentences; and decision-making with words or sentences is easier than decision-making with numbers. The studies in the literature indicate that the evaluations via linguistic variables are more comfortable for the decision-makers and more realistic results are revealed (Chu and Lin, 2003; Gu and Zhu, 2006; Zhang and Lu, 2003). Since linguistic variables can be analyzed qualitatively and can be used by grading in a certain range instead of single value, it allows obtaining more sensitive results (Lin et al., 2007).
+ 
+Fuzzy numbers
+ 
+Fuzzy numbers are a fuzzy subset of real numbers. Fuzzy numbers are used to handle the indefinite numerical values such as around 7 or close to 10 (Chen and Hwang, 1992). There are fuzzy number types such as triangular, trapezoidal, and bell shaped curve. Generally triangular fuzzy numbers are used in studies. The triangular fuzzy numbers are described via tree real numbers (l, m, u). The membership factor is defined by depending on these numbers. The membership function of the triangular fuzzy number is shown in Figure 1.
+ 
+
+ 
+The real number values (l, m, u) constituting the triangular number  are  “l”,  the  smallest  probable  value, “m”, the most probable number, and “u”, the largest probable value. The membership function of a triangular fuzzy number is defined as follows.
+ 
+
+ 
+Fuzzy analytic hierarchy process
+ 
+AHP is one of the multi-criteria decision making methods which are widely used in modeling unstructured problems arisen in fields like politics, economics, social and management sciences (Saaty, 1980). AHP is also employed to solve complex decision problems involving subjectivity (Saaty, 1990). It is argued that AHP remain incapable in reflecting human thought system completely and dealing with ambiguity and uncertainty occurring in the process of pair wise comparison although calculation is based on information given by decision makers (Büyüközkan et al., 2004; Deng, 1999; Kahraman et al., 2003; Lin, 2010). Therefore, recently, by combining AHP and fuzzy theories, some studies have been carried out in order to determine the rate of criteria inferring from subjective perceptions (Fu et al., 2006; Mardani et al., 2015; Yang and Chen, 2004). This method called Fuzzy Analytic Hierarchy Process (FAHP) employs value ranges, instead of precise numbers, in determining the rates of pair wise comparisons (Bender and Simonovic, 2000). The power of representing the vague situations in the process increases as a result (Bozbura et al., 2007; Lin, 2010).
+ 
+Essences of fuzzy analytic hierarchy process
+ 
+Fuzzy AHP reduces complex problems  to  simpler  piece of problems by constructing a hierarchical structure and hence, it allows solving of the problem in a shorter time. Since it takes both qualitative and quantitative factors into consideration and has an easy and simple way of use, this method which analyzes pair wise comparisons, options and criteria in terms of their significance and dominance is employed frequently in solving complex decision problems. Stepwise procedure of “Extended Analysis Method” developed by Chang (1996) is as follows: According to Chang’s method, each target is taken and each dimension analysis is respectively applied. In this way, for each dimension m dimension analysis is obtained. Here, all described Mjgi variables as l, m and u are triangular fuzzy numbers.
+ 
+
+ 
+
+ 
+Step 3: Equation 6 is used in order to calculate the degree possibility for a fuzzy number to be greater than k fuzzy numbers. Pairs of fuzzy numbers are compared and the results are obtained. Among these results, minimum  value  denoted  as  d'(Ai)   belonging   to   each decision is chosen:
+ 
+
+
+ A CASE STUDY
+
+This study is conducted with the aim of evaluating the projects developed by university students within a course and choosing the best project. First of all, the hierarchical structure of the project evaluation model is constructed in line with expert opinions, and then the main criteria and sub criteria under each main criterion in this structure are identified. The degree of importance of each criterion is determined by the expert carrying out the evaluation. Lastly, the projects are evaluated via linguistic expressions in the lights of the set criteria. After the evaluation via linguistic variables, the linguistic variables are converted into fuzzy numbers and the data are analyzed via FAHP method. In the evaluation process with FAHP, Extended Analysis Method (Chang, 1996) is used and the paired comparison of the criteria and projects are made by the system. After the required processes completed on the weight of each criterion and the project’s score of students, the conclusion is reached. The project evaluation process is summarized in Figure 2.
+ 
+
+ 
+Forming the hierarchical structure
+ 
+Forming the hierarchical structures in the analysis of complex systems allows easier access to the desired destination (Chang, 1996). In FAHP method, the aim is at the top of the hierarchy and under this aim, there are respectively main criteria, sub criteria, and options. The hierarchical structure in the evaluation of students’ projects is indicated in Figure 3.
+ 
+
+ 
+The weights of the criteria used for the project
+ 
+Determining the project evaluation criteria
+ 
+Studies show that experts play an important role in determining the evaluation criteria (Ma and Zhou, 2000). Professors generally have expectations about the course achievements and experiences so they identify the evaluation criteria in line with this framework. The project  evaluation  criteria  were  pilot  tested  with  five  experts   to validate the instrument. These experts have more than 10 years’ experience in instructional technology education and they have varying degrees of experience in project evaluation. They were asked to opinions on the meaningfulness, relevance, and clarity of the criteria. Therefore, the evaluating criteria have confirmed content validity. Based on five experts’ feedback the four main criteria content, design, technical and presentation are identified as most crucial for evaluating the projects.
+ 
+The criteria are weighted via linguistic expressions. The weights of the criteria in project evaluation are determined by the decision maker by using linguistic variables as follows “Very Important (V.I.)”, “Quite Important (Q.I.)”, “Important (I.)”, “Slightly Important (S.I.)”, and “Rarely Important (R.I.)”. The criteria used in the evaluation of students’ projects and the linguistic expression of the weights of each criteria are presented in Table 1. 
+ 
+
+ 
+Evaluation of the students’ projects
+ 
+Rather than grading with  precise  numbers,  the  students’  projects are evaluated via linguistic variables used in ambiguous occasions. The professor of the course uses a linguistic scale such as “Very Good (V.G.)”, “Good (G.)”, “Average (A.)”, “Poor (P.)”, and “Very Poor (V.P.)”. In the project evaluation, the linguistic evaluations by the professor suggesting to what extent each criterion meets in the project are presented in Table 2.
+ 
+
+ 
+Fuzzy number equivalents of linguistic variables
+ 
+The problem of project evaluation was attempted to be solved via “Extended Analysis Method” by Chang (1996). According to Chang’s method, the final conclusions are reached with the paired comparisons of both criteria and options with each other. Five linguistic variables are used, for comparing the students’ project evaluation criteria as “Absolutely Important,” “Very Strongly Important,” “Strongly/Essentially Important,” “Weakly Important,” and “Equally Important” according to a fuzzy five level scale (Chiou and Tzeng, 2002). The triangular fuzzy number for linguistic variables is defined by Erümit (2007). The triangular fuzzy number equivalents of linguistic variables used in evaluating main criteria, sub criteria and alternatives via paired comparison are presented in Table 3.
+ 
+
+ 
+Rule base of paired comparison
+ 
+Rule base is formed in order to determine the fuzzy exits which will be formed as a result of the comparison of criteria’s access input values. This rule base is prepared according to similar studies in the literature and the final version is formed by expert opinions. The rule base used in the paired comparison of the criteria is presented in Table 4.
+ 
+
+ 
+Since FAHP method bases on paired comparisons because of its structure, it requires to form a rule base in the comparison of the criteria. When the rule base in Table 5 is examined, it can be stated that the linguistic variables having similar degree of importance (If C1=Very Important and C2=Very Important, the result of Paired Comparison is = Equally Important) are equally important and the degree of importance of linguistic variables having different degree of importance as a result of the paired comparison can be summarized as in Table 4. 
+ 
+
+ 
+The rule base of paired comparison of linguistic variables such as very good, good, etc. used in the project evaluation is presented in Table 5.
+ 
+Similar to paired comparison of criteria, it is necessary to generate rule base for paired comparison of the students' projects. The rule base regarding linguistic variables employed for the evaluation of students' projects is presented in Table 5. 
+ 
+ 
+
+
+ RESULTS AND DISCUSSION
+
+Primarily, the weight of  criteria  which  is  gathered  as  a result of the paired comparison of main criteria and sub criteria was calculated, and then the paired comparison matrix which is formed as a result of the evaluation of each project according to these criteria, will be presented. Evaluators completed their assessments of relative importance for the criteria, paired comparison matrix for main criteria. The weight of criteria and the final grades obtained via the comparison of the projects are identified. The paired comparison matrix of priority values of main criteria according to the evaluator’s opinions is presented in Table 6. 
+ 
+
+ 
+Taking into consideration the fuzzy number equivalents of the values expressed in Table 6 via linguistic variable regarding the result of the paired comparison of each main criterion, the data in Table 7 is obtained. 
+ 
+
+ 
+Similarly, the paired comparison matrix of each sub criterion is given with the fuzzy number equivalents respectively. The paired comparison matrix of each sub criterion under the main content criteria is presented in Table 8.
+ 
+
+ 
+The degree of importance of the main design criteria of each sub criterion by the professor is determined as a result of paired comparison concerning primarily rule base, and then taking into consideration the fuzzy number equivalents of the identified the degree of importance, the paired comparison matrix of main design criteria of each sub criterion is found and presented in Table 9.
+ 
+
+ 
+The weight of criteria is determined as a result of the paired comparison of each criterion. Since a similar way is followed in the comparison of each criterion, only the comparison of the main criteria will be explained in detail here and when it comes to the comparisons of other criteria, only their results will be presented. The steps in the comparison of main criteria are as follows:
+ 
+Synthetic dimension values of paired comparisons of fuzzy evaluation matrix are calculated via equality (3) as follows:
+ 
+
+ 
+The following vector is obtained as a result of the calculation of the priority vector:
+ 
+W'(1, 0.729, 0.487, 0.487)
+ 
+Lastly, the obtained weight values are normalized and the final weights are determined:
+ 
+W=(0.370, 0.270, 0.180, 0.180)
+ 
+The weights obtained as a result of the paired comparison of main criteria prepared in order to evaluate the students’ projects, are as follows. The weight of content main criteria is 0.370; the weight of design main criteria, 0.270; the weight of presentation criteria, 0.180; and the weight of technical main criteria, 0.180. Similarly, the weight vectors of paired comparison of all criteria are displayed in Table 12.
+ 
+After determining the weights related to the criteria, the evaluations of five projects under each criterion by decision maker are handled. The steps in determining the weights of the criteria are applied here as well. The weight vectors of the projects’ evaluation are presented in Table 13.
+ 
+The paired comparison matrix of main technical criteria of each sub criterion is displayed in Table 10.
+ 
+
+ 
+Similarly formed, the paired comparison matrix of main presentation criteria of each sub criterion is presented in Table 11. 
+ 
+
+ 
+
+ 
+The results generated by multiplying the degree of importance of the main and sub criteria and the weight vectors of the students’ projects form the total weights of each criterion and these weights provide an indication of what extent a project meets the criteria compared to the other projects. It is possible to identify the total weight vectors of each project and accordingly the best project in Table 14. When the data in Table 14 are examined, it is determined that the best project is Project 4 and it is followed by Project 3, 1, 2 and Project 5.
+ 
+
+ 
+We interviewed the professor about the evaluation result. He agreed that the evaluation result obtained by the developed fuzzy based evaluation system is more transparent and objective.  The professor’s views on the results of the evaluation are as follows:
+ 
+1. Generally, I carry out the evaluation with numerical grades. Because converting linguistic variables into numerical grades is very difficult and takes a lot of time. However, with the help of this system, I was able to carry out linguistic evaluation and I got successful results.
+2. The developed system does not provide sharp lines but calculates intermediate values and provides a final result. It uses linguistic variables. I think, it is an applicable system and it will be a fair system. Also, while I am evaluating the students, I spend quite a lot of time to determine to what extend the students meet the criteria and also to calculate it. One of the benefits of this system is that it directly reveals the final results by carrying out the necessary calculations after your calculations… I think, this will contribute to the process of assessment and evaluation in education if it is used properly.
+3. Carrying out paired comparison and determining which group did a better job concerning each criterion are the advantages of this system compared to traditional evaluation. As human beings, we  can  compare  the  two groups with each other but the rate of making mistakes will increase when the number of groups increases. However, it is an advantage that this system makes this paired comparison automatically. In addition, I think that this system makes it possible to have more objective evaluations and to reach more accurate results.
+
+ CONCLUSIONS
+
+One of the decision-making processes in education is the evaluation of the students’ projects. The evaluations in this process are generally carried out depending on the logic but intermediate evaluations are not taken into account. According to Çepni (2006), evaluating the students’ behaviors as black or white, or right or wrong in the evaluation process does not coincide with the modern education approach.
+ 
+In this study, since taking into consideration numerous criteria in the evaluation of students’ projects and the question of to what extend these criteria are met involve ambiguity, it is stated that it requires an intense mental effort. The formation of the proposed system on the basis of fuzzy set theory determines that it can provide benefits in modeling these ambiguities in human mental processes and also it can be reached fairer, more sensitive and more objective results. In this respect, this study shares similarities with the studies of Lin (2010), Montero et al. (2005), and Saleh and Kim (2009).
+ 
+The studies in literature indicate that it is difficult to evaluate the projects with numerical data and using linguistic variables is  more  beneficial  (Chang  and  Sun, 1993; Law, 1996). FAHP based system allows decision makers to evaluate via linguistic variables. That this system processes the linguistic variables via converting them into fuzzy numbers and provides a final weight score is interpreted as a positive feature by the professor. Also, it is found that the results of the system are satisfactory. The followings are stressed as the disadvantages of traditional evaluation methods: It is difficult to carry out paired comparison among projects when the number of projects increases; it takes a lot of time to carry out numerical procedures for each project; and there can occur probable errors in the evaluation process. Thanks to the developed FAHP based system, it is possible to follow the same steps for all projects, to provide errorless calculations, and to make complicated calculation quickly. In addition, with the FAHP method, the paired comparisons of both criteria and projects can be achieved automatically. As a result of this feature, more accurate results in the evaluation of projects can be obtained. Also this approach can reduce subjectivity in the evaluation process. In this study, another point to be emphasized is that the application of fuzzy logic principles in the process of the project evaluation provides the desired flexibility for the existing system. The sensitivity of the evaluation of the target population can be increased by defining the criteria and the degree of importance in detail, thanks to the flexible structure. This study supports researchers and practitioners an insight into how FAHP can be used in evaluating student projects.
+ 
+This study has some limitations that can be considered as recommendations for future studies. First, this study focus on that FAHP method can be used in the evaluation of students’ projects in education. In future studies, other multi-criteria decision making methods such as fuzzy TOPSIS, fuzzy ANP, fuzzy PROMETHEE, fuzzy ELECTRE and their modification can be used for similar applications and the results obtained are comparable. Second, the evaluation criteria were determined as the result of interviews with experts. Future research can use different methodologies, such as longitudinal studies or a review of the literature to identify evaluation criteria. Finally, this study was conducted with relatively small samples. Similar studies can be conducted on larger sample and generalizability can be increased.
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.
