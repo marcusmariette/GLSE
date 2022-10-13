@@ -2,6 +2,13 @@ import Header from './Header';
 import { screen, fireEvent } from '@testing-library/react';
 import { renderWithRouting } from '../../utils/testUtils';
 
+const mockedUsedNavigate = jest.fn();
+
+jest.mock('react-router-dom', () => ({
+    ...(jest.requireActual('react-router-dom') as any),
+    useNavigate: () => mockedUsedNavigate,
+}));
+
 describe('Header Tests', () => {
     const renderComponent = () => {
         return renderWithRouting(<Header />);
@@ -22,27 +29,23 @@ describe('Header Tests', () => {
         expect(button).toBeInTheDocument();
     });
 
-    // TODO: Refactor to test for react routing with navigate
-    test('should call homepage navigation onClick of image', () => {
+    test('should call navigation to homepage onClick of image', () => {
         renderComponent();
 
         const image = screen.getByTestId('header-img');
         expect(image).toBeInTheDocument();
         fireEvent.click(image);
 
-        const text = screen.getByText('GLSE');
-        expect(text).toBeInTheDocument();
+        expect(mockedUsedNavigate).toHaveBeenCalledWith('/');
     });
 
-    // TODO: Refactor to test for react routing with navigate
-    test('should call homepage navigation onClick of button', () => {
+    test('should call navigation to homepage onClick of button', () => {
         renderComponent();
 
         const button = screen.getByTestId('header-btn');
         expect(button).toBeInTheDocument();
         fireEvent.click(button);
 
-        const text = screen.getByText('GLSE');
-        expect(text).toBeInTheDocument();
+        expect(mockedUsedNavigate).toHaveBeenCalledWith('/');
     });
 });
