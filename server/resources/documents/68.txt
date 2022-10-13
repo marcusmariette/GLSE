@@ -1,0 +1,154 @@
+ABSTRACT
+
+Soil sustainability in climate changing trends is critical to address future food security and safety. This study investigated the effect of air and soil temperature on some selected soil properties. The impact of soil conditioning with composted organic wastes on the temperature effect was also assessed. Four different chambers were set up using electrical bulbs of 60, 100, 200, and 300 W given air temperature ranges of 30-32, 33-35, 36-38 and 39-41°C (10 h daily photoperiod) respectively with two other natural growth units (27-29°C) with or without organic compost were established and replicated four times under screen house for 95 days. Soil properties; particle size distribution, electrical conductivity (EC), pH, cation exchange capacity (CEC), organic carbon (OC), N, P, and K were determined using standard methods. Positive correlation was obtained for air and soil temperature, and soil parameters varied significantly (P ≤ 0.05) for the different temperature ranges. Combined effect of elevated temperature and compost amendment increased soil properties by 0.45-54, 9-28, 0.4-0.6, 89–91 and 10-29% for C, K, pH, EC and CEC under different temperature regimes respectively. Nitrogen and phosphorus availability decreased by 16-21 and 8-37% with increased in temperature. The addition of compost cushioned the effects of increasing temperatures on soil factors. It is evident from the study that global warming could potentially alter fate of soil factors and which may be detrimental to sustainable food production and food security.
+
+Key words: Climate Change, Soil Properties, Organic Compost, Mitigation, Food Security.
+
+ 
+
+
+ INTRODUCTION
+
+In addressing future food security and safety, the study of climate and soil factors become more critical with the changing climate. Soil properties are affected by variety of environmental factors, in which temperature is one of the most influential. Often temperatures within the soil are continually changing (Karmakar et al., 2016). The system attempts to come to an equilibrium state but is continually uptight by heat inputs (predominantly solar radiation) and heat sinks including cooler soil at depth, cool air at the surface and water phase change (Brevik, 2013a).  
+
+Temperature has been reported to affect the physical and chemical properties of the soil with off-putting impact on soil sustainability (Karmakar et al., 2016). Activities such as weathering, respiration, transpiration, chemical reaction in the soil, microbial activities, diffusion of solute and gases, water flow in the soil and availability of water to plant are temperature based (Akamigbo and Nnaji, 2011). The forecast on global temperature increase is put at 1.8 to 4.0°C in the next few decades given that the Earth’s temperature is likely to rise by about 0.1 to 0.2°C per decade (International Panel for Climate Change, 2007). Upward variation in atmospheric temperature has been reported worldwide by Inter-governmental Panel on Climate Change (IPCC, 2007, 2014). The IPCC (2007) reported, that most of the observed increased in globally averaged temperatures since the mid-20th century were due to the observed increase in anthropogenic greenhouse gas concentrations and traceable to human influence.
+
+With global concerns about increased temperature and based on the IPCC projection, the humid tropical area of Nigeria is expected to be characterized by increase in both precipitation and temperature, precipitation increase of about 2 to 3% for each degree of global warming may be expected (IPCC, 2014). The climate of Nigeria is mainly tropical in nature. Temperatures are high throughout the year, averaging from 25 to 28°C (Iloeje, 2001), however, temperature increases of about 0.2 - 0.3°C per decade in the various ecological zones of the country (Akamigbo and Nnaji, 2011) have been observed. Nigeria is likely to experience an increase in global warming from 1.4 to 5.8°C over the period 1990 to 2100 (IPCC, 2007).
+
+If the view on global warming causing imbalance in the ecosystem is upheld, then, the impact of global warming on agriculture could be direct on plants or indirect by impacting factors that have bearing on crop productivity and soil sustainability (Adekunle, 2009). Having such impacts as stated above imply that the increased, sustainable and safe food production agenda of the country is at stake.
+
+Soil vulnerability to climatic influence depends on both the physical and chemical characteristics of soils and at the same time, climate change has been reported to affect the physical and chemical properties of the soil with pronounced impact on soil sustainability (Buchas, 2001). Soil is important to food security (Pimentel 2006), and climate change has the potential to threaten food security through its effects on soil properties and processes (Brevik, 2013a). Studies have shown that with increase of incubation time of soil used in a screen house experiment, pH decreased (Brownmang and Brown, 2018; Ying et al., 2009). A decrease in soil pH, together with a temperature rise, produced a synergistic effect, ultimately reducing the respiratory activity of soil microorganisms thereby reducing organic matter decomposition rate and other essential metabolic processes in the soils  (Rousk  et  al., 2009). Increased biological activity follows increase in temperature, everything being equal (rainfall, the amount of water percolating downward through the soil, aeration), increased acidity follows increase temperatures.
+
+Wan et al. (2011) reported that increased temperatures will lead to increased CO2 release from soils to the atmosphere, which leads to more increases in temperature.  Link et al. (2003) in a study of soils in a semi-arid steppe reported that soil warming and drying led to reduction in soil carbon. The negative effect of increased temperatures on plant growth is also reported to cancel out any CO2−fertilization effect that does take place (Jarvis et al., 2010). While, Sakaguchi et al. (2007) reported that electrical conductivities of sand decreased with temperature increase, which suggested that the conduction of heat decreased through the decrease in the water bridges as temperature increased. Seasonal fluctuations in soil temperature may affect electrical conductivity (EC).
+
+Through climate change and anthropogenic activities, many of our world’s soils have become or are expected to become more susceptible to erosion by wind and/or water (Zhang et al., 2004) leading to reduction in soil nutrients and crop produce. Apart from nutrients wash, increased temperature may also impact the available of soil nutrients such as phosphorus and nitrogen, and this may deleteriously affect plant growth (Hungate et al., 2003). Furthermore, soil temperature greatly influences the rates of biological, physical, and chemical processes in the soil (Davidson and Janssens, 2006) which governs the rates and directions of soil physical processes and chemical reactions, and influences biological processed upon which soil formation depends. Heat transfer capability tends to increase as soil texture becomes increasingly fine, with loam mixtures having an intermediate value between sand and clay. This aggregation affects erosion, movement of water, and plant root growth (Terefe et al., 2008). Under this scenario, adaptation will require the need to know how climate and soil factors interact and the way changes in climate will lead to corresponding alterations in soil factors which the study is set to attain through the following objectives: i) establishing the profiles of soil and atmospheric temperatures variation in the experimental environment; ii) assessing the effects of temperature change on selected soil characteristics; pH, organic matter, soil organic carbon, soil electrical conductivity and nutrient content (Nitrogen and phosphorus) and iii) evaluating the conditional roles of compost on temperature effects
+
+ 
+
+
+ MATERIALS AND METHODS
+
+The research was carried out in the College of Environmental Resources Management, University of Agriculture Abeokuta along Alabata  road  in  Odeda  local  government   area  of  Ogun   state, Southwestern Nigeria. It is situated between Latitude 7.9°N and 7.8°10’N and Longitude 3° 23’E and 3° 24’E, with average daily minimum and maximum temperature of about 21°C and 35°C, respectively (Akani et al., 1992). There are two distinct seasons in the area, namely, the rainy season which lasts from March/April to October/ November and the dry season which lasts for the rest of the year, October/November till March/April. The temperature is relatively high during the dry season with the mean around 30°C.
+
+Description of the temperature chambers
+
+Temperature chambers were constructed with wooden material wrapped with aluminum foils, and glass materials. Temperature variations during the experiment were achieved via installation of incandescent (240CV2 JUNSGAM0) electric bulbs of varying wattage (60, 100, 200 and 300 W). Where possible, two bulbs were connected together to obtain the desired temperature regime. Each of the temperature chambers was 7 cm in length, 5.5 cm in breath and with height of 7.5 cm, giving a volume of 288.7 cm3.
+
+The different temperature ranges and the systems comprised of (i) Soil alone, kept outside of the chamber, whose temperature range was between 27-29°C; (ii) Soil and compost amendment, also kept outside the  chamber whose temperature range was obtained between 27-29°C; (iii) Soil and compost amendment, placed inside the temperature chamber with a temperature range of 30-32°C; (iv) Soil and compost amendment, placed inside the temperature chamber with a temperature range of 33-35°C; (v) soil and compost amendment, placed inside the temperature chamber with a temperature range of 36-38°C; (vi) soil and compost amendment, placed inside the temperature chamber with a temperature range of 39-41°C,  making a total of six chamber treatments.
+
+Screen house experiment
+
+Twenty four pots were set up for the experiment, consisting of 6 treatments with 4 replicates. After filling each pot with 3 kg soil, the pots were transferred to the screen house, and placed accordingly. Each temperature chamber contained four replicates of a given system.  To prevent loss of matter from the pots, no real drainage was made, but to avoid flooding, soils were watered at the required field.
+
+Laboratory analysis
+
+Soil samples were analyzed before and after the experiment for its physical and chemical properties. Particle size distribution was determined by the hydrometer method (Okalebo et al., 2002), organic carbon was done by wet dichromate acid oxidation method (Nelson and Sommers, 1982), soil pH was measured in a 1:1 (soil-water mixture) by glass electrode pH meter (MaClean, 1982), total nitrogen was determined by the micro Kjeldahl method (Bremner, 1982). Al3+ and H+ were extracted with 1 N KCl (Thomas, 1982), Ca, Mg, Na and K were extracted with 1 N NH4OAC pH 7.0 (Ammonium acetate). Potassium and sodium were determined with flame emission photometer while calcium and magnesium were determined with automatic adsorption spectrophotometer (Anderson and Ingram, 1993). Available phosphorus was extracted with Bray II solution and determined by the molybdenum blue method on the technicon auto-analyzer as modified by Oslem and Sommers (1982). ECEC was calculated by the summation of exchangeable   base   and   exchangeable   acidity  (Anderson  and Ingram, 1993).
+
+Statistical analysis was carried out on the data obtained using SPSS version 16.0. Descriptive statistics were used to determine the mean mode, median and standard deviation and ANOVA was used to test means of levels of treatments. The Pearson correlation coefficient was used to determine the relationship between temperatures variation, soil properties (pH value, organic compost, exchangeable bases and soil texture.
+
+ 
+
+
+ RESULTS AND DISCUSSION
+
+Daily temperature variation
+
+Distinct soil temperature ranges were achieved by simulating the global warming scenario. The temperature dynamics obtained increased from 27 to 41°C, a difference of 14°C ranging from 23-27°C for mornings, 29-41°C for the afternoon and 29-35°C for evenings. The mean values were found in the range of 27-32°C. The highest temperature value 410C was attained in the chamber that was equipped with electric bulb of 300 W.
+
+Correlation analysis revealed positive association between the air temperature and soil temperatures in all the treatments with the following values: +0.439 and +0.369 for non- composted treatment (27-29°) and composted treatment (27-29°); +0.434 (30-32°), + 0.628 (33-35°), +0.438 (36-38°) and +0.463 (39-41°) respectively. Correlation was significant at P < 0.001** and 0.05*. From the linear regression model, the change in soil temperature for unit change in prevailing atmospheric temperature ranged from 0.30 to 0.67°C. 
+
+The maximum (28-30.2°C) and the minimum (26.3 - 28.8°C) mean soil temperature values were observed at the temperature range of 39-41°C and soil alone 27-29°C) respectively, meaning that soil temperature is a function of the air temperature. The positive correlation values obtained indicated that with increase in air temperature, soil temperature increased with effect on soil factors since they are susceptible to temperature. Morning temperature was significantly (P < 0.05) different from afternoon and evening regimes. No significant difference was observed between soil temperatures in the afternoon and evening at P ≤ 0.05. Ambient temperatures [morning, afternoon and evening became significantly different in (36-38°C) and 39-41°C)] systems. Results from the soil analysis showed that the soil texture (sand, silt and clay compositions) ranged from 78.27 to 78. 30% for sand, 6.58 to 7.38% for silt and 14.60 to 15.55% for clay showing that the soils used were predominantly sandy-loam. Variation in temperatures practically has no effects on the soil texture at the end of experiment.
+
+The soil pH ranged from 7.79 to 8.10 as depicted in Figure 1, which revealed that the soil was slightly alkaline. Soil pH increased with increased in temperature. Increased   pH   has   been    linked   with    organic   acid denaturalization which is associated with increase temperature as reported by Mensies and Gillman (2003). This further confirmed Nederlof et al. (1993) assertion that high pH could be major factors controlling heavy metals bioavailability. The mean values for the pH of the soils before and after the experiment were significant (P ≤ 0.05). Increasing temperature from 30-35°C decrease the pH by 0.34 to 0.15 %.  Anion exchange capacity of a soil has been reported to increase as soil pH decreases, thus with increasing temperature, soil anions exchange capacity may be expected to increase under this experimented condition, which can lead to improving the capacity of the soil to adsorb and exchange anions. The observed decrease in pH with increase temperature was consistent with the report of Ying et al. (2009) that with increasing temperature, soil pH decreased. However, 1.26-3.2% increase  was  observed  at  the  range  of  36-41°C which could be adduced to increased exchangeable cations such as potassium and calcium from composting enhanced at higher temperature. The result suggests that with increase in global temperature as simulated in this experiment, soil pH may increase resulting to soil alkalinity. This may be detrimental to crop growth, micro-organisms activities and other ecological processes.
+
+ 
+
+
+
+ 
+
+Cation Exchange Capacity (CEC) which is a measure of the soil’s ability to hold positively charged ions increased with increase temperatures as depicted in Figure 2. Result showed that the maximum and the minimum mean values were observed at the temperature range of 27-29°C and 36-38°C respectively. Significant variations (P ≤ 0.05) were observed in the soils CEC before and after the experiment. Result of the effect of applied compost was 19.08% (29.08 to 10) increase in cation   exchange   capacity    making    such    soil    less susceptible to leaching,since soil with high CEC soil has been reported to be less susceptible to leaching of cations, (CUCE, 2007). Increasing temperature from 30 to 41°C resulted to decrease in CEC ranged from 7.71 to 26.75%, suggesting that soil under this experimental condition may be deficient in potassium (K+), magnesium (Mg2+) and other cations as reported in CUCE (2007). Cation exchange capacity is a very important soil property influencing soil structure stability, nutrient availability, soil pH and the soil’s reaction to fertilizers and other ameliorants (Hazelton and Murphy, 2007), increase temperature would not favour this soil important factor under global warming condition as revealed in this experiment. Organic matter addition cushioned the effects of increased temperature on this soil factor (CEC).
+
+In addition, the result indicated that amending the soil with   compost   increase   soil   electrical  conductivity  as illustrated in Figure 3. However, temperature effects from 32-41°C reduced this effect by 2%. There was a significant variation in the soil electrical conductivities (P ≤ 0.05), showing nutrient release with increasing temperatures. This was consistent with Sakaguchi et al. (2007) report that electrical conductivities of sand decreased with increased temperature. Increased temperature adversely affects soil electrical conductivity and it could be inferred from the experiment that the use of organic fertilizer could ameliorate such impacts.
+
+ 
+
+
+
+ 
+
+The organic carbon (OC) contents of the soil with organic compost treatments were higher than the unfertilized pots as shown in Figure 4. Organic Carbon availability in the soil decreased with increasing temperatures. This agrees with Ying et al. (2008) that increasing temperature has somewhat decreasing effects on  soil  organic  carbon  and  that  climate warming could promote soil organic carbon degradation, thus, resulting in loss of soil organic matter which may eventually result to crop failure, loss of vegetation and increasing desertification menace. According to Brevik (2013b), organic matter is important for many soil properties, including structure formation and maintenance, water holding capacity, cation exchange capacity, and for the supply of nutrients to the soil ecosystem. Besides, soils with an adequate amount of organic matter tend to be more productive than soils that are depleted in organic matter, a decline in organic matter due to warming demand higher application of compost to cushion this effect as revealed under this experimental condition.
+
+ 
+
+
+
+ 
+
+Result on soil total phosphorus content ranged from 0.0016 to 0.013% before planting, and 0.00051 to 0.00067%   after   harvest.   Increasing  temperature from 330C to 380C enhanced phosphorus loss by 16% to 20% but above 380C, soil phosphorus loss was suppressed by 1%. This result probably showed that phosphorus may become more available in soil at elevated temperature as demonstrated under this experiment condition as shown in Figure 5.
+
+ 
+
+
+
+ 
+
+Nitrogen generally declined as a result of nutrients loss as seen in Figure 6. The nitrogen content of the experimented soil increased with organic composting in all the treatments than the unfertilized pot. Increase temperature stimulates nitrogen availability as the concentration remained high even at elevated temperature of 38 - 41°C, at the end of the experiment. This is in line with Hungate et al. (2003) who reported that increased temperatures stimulate N availability in the soil. Result  showed that C/N ratio generally increased by (3.8 to 5%) and (0.7 to 2.1%) relative to unfertilized pot (27 to 29°C) indicating that compost amendment raised carbon nitrogen status.
+
+ 
+
+
+
+ 
+
+The carbon nitrogen ratio commonly referred to as C:N ratio declined with increasing temperature. The least values (9.29 and 10.45) were noted at temperature range of 36 - 41°C while higher values (12.15 - 15.95) were observed between 27- 35°C showing that increasing temperature adversely affected C:N ratio in the soil and thus crop performances could be adversely impacted.
+
+Exchangeable bases of the soils (Ca, Mg, Na and K) decreased   with  respect  to  initial  value  probably  as  a result of nutrient release as shown in Figure 7 to 10 respectively. There was a significant variation in the Na and K in the soil before and after harvest (P ≤ 0.05). Potassium concentration increased from 9 to 28.48% with increasing temperatures indicating that it desorption and solubility increased with increased temperatures. Initial observation of crops grown on soils containing high potassium has been reported to continually show poor crop yield, general chlorosis and failure to respond to fertilizer additions (Sparks and Jardine 1981), thus increase temperature with consequential increase in potassium  concentration may adversely affect crop yield. 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+In addition, high levels of one nutrient may influence uptake of another (antagonistic relationship). For example, K uptake by plants is limited by high levels of Ca in some soils.  High levels of K can in turn, limit uptake of other essential mineral nutrients with increase temperature. This result agrees with the report of Sparks and Jardine (1981) that as soil temperature increased from 0 to 40°C, the amount of K adsorbed by soil decrease.
+
+It was also noted that without the addition of compost, a decrease of 6.88% was recorded for calcium concentration in the experimented soil while on the addition of composts, soil calcium decreased by 8.65%. The effect of applied compost was therefore 1.77% decrease in soil calcium.
+
+Calcium concentrations increased with increase temperature  at  the  range  of   1.12    to   8.4%.   Applied compost cushioned temperature effect on soil calcium loss by 0.23 to 7.53%.  In the absence of compost, soil magnesium decreased by 4.52%. The addition of compost resulted to 10.97% increase in Mg availability.
+
+Increasing temperatures from 30 to 38°C led to decline in magnesium content of soil by 0.69 to 4.86%. A further increase in temperature from 39 - 41°C increased soil magnesium by 3.89% as depicted in Figure 10 showing that magnesium ion content becomes more available in soil at higher temperature. It could be inferred too that applied compost cushioned temperature effect on soil magnesium loss. Sodium concentration in the un-composted soil decreased by 13.23% at the end of the experiment but increased by 14.99% in soil treated with compost. It is then concluded that the effect of applied compost was 14.99% increase in soil sodium concentration.    Applied compost      increased      the  concentration and bioavailability of this ion. With increase in temperatures 30 to 350C, a further increase in soil sodium was obtained from 26.44 to 41.28%. However, raising the temperature from 36 to 41°C resulted into 0.83 and 4.49% decline in soil sodium. This result showed that sodium ion bio-availability could be induced under control temperature above which temperature may negatively affect it concentrations. Figure 9 gave the illustration of sodium ion variation of the experimental soils. Applied compost cushioned temperature effect on soil sodium loss.
+
+According to Brevik, (2013b) healthy soils are important because they supply nutrients to the crops grown in those soils. Unhealthy soils, on the other hand, tend to have a lower overall nutrient status (Sanchez et al., 2005). Degraded agricultural soils will not only reduce the amount of food available for growing population but will also make the resulting crops less nutrient-rich which makes those who rely on the low nutrient soils for crop production more susceptible to disease (Brevik, 2013b).  The need to incorporate greater agronomic practices to solving climate change related soil challenges cannot be over emphasized. The cushioning effect of compost on soil sustainability factors such as evaluated in this study calls for proactive use of compost materials to ameliorate the negative effects of climate change on soil factors to enhance food security.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ CONCLUSION
+
+The result of the experiment revealed that soil sustainability factors could be heavily impacted with increase in average global temperature. The research also indicated that addition of compost could serve as a mitigating measure against the negative impact of increasing temperatures on soil properties.
+
+It must be noted that climate change has already caused and will continue to cause changes in global temperature and precipitation patterns as well as changes in soil sustainability factors and properties, the need for proactive measure against this cannot be over emphasized, for the purpose of enhancing food production and safe guarding food security.
+
+ 
+
+
+ RECOMMENDATIONS
+
+The need for good management practices is essential in farming to ameliorating the negative effect of climate change on soil sustainability factors or properties.

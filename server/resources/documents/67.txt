@@ -1,0 +1,169 @@
+ABSTRACT
+
+The probable depletion of fossil energy resources has led the international scientific community to direct research towards biofuels, including vegetable oils. Benin has a rich biodiversity with multiple oilseed species, potential sources of biofuels. Among these, Ceiba pentandra was identified and selected for a detailed study of its unconventional vegetable oil. In this order of idea, the harvested seeds were dried in the sun and crushed. It was preserved at 25°C according to the NF T 60 – 201, 1993 standard. The physicochemical parameters and fatty acids content of C. pentandra vegetable oil have been determined by standard methods. The biofuel potential of this vegetable oil has also been evaluated. The results revealed that C. pentandra vegetable oil is predominant in saturated (40.8%) and polyunsaturated (41.37%) fatty acids. The saturated fatty acids quantified are stearic (20.17%) and palmitic (19.77%), while the most important polyunsaturated fatty acids are linoleic acid (C18:2) (20.95%) and linolelaidic acid (18.28%). Quality indices such as acid (4.52 ± 0.24 mg KOH/g-Oil), peroxide (2.16 ± 0.54 meq O2/kg-Oil), saponification (152.79 ± 6.07 mg KOH/g-Oil), iodine (129.79 ± 2.81 mg I2/100 g-Oil) and ester (148.27 ± 5.83 mg KOH/g-Oil) shall comply with the recommended standards for biofuels. These values of quality indices coupled with those of lower calorific value (LCV) (ï‚» 40002.26 kJ/kg), refractive index (ï‚» 1.4728 at 30°C) and cetane index (ï‚» 49.70) make it possible to consider the use of this vegetable oil as a fuel oil.
+
+Key words: Ceiba pentandra, vegetable oil, quality indexes, fatty acids, fuel properties, Benin.
+
+ 
+
+
+ INTRODUCTION
+
+The  use  of  biofuels  as  an  alternative  to  conventional fossil  fuels  is  increasingly  discussed  in   the  literature.
+
+Among other benefits, this use has the advantage of reducing fuel costs and harmful greenhouse gas emissions (Goldemberg et al., 2008). Among biofuels, vegetable oils used as such or trans-esterified also have a renewed interest. There are generally four sources of vegetable oils with biodiesel potential: edible vegetable oils, recyclable vegetable oils, unconventional vegetable oils and vegetable oils of algal origin. Nowadays, the use of edible vegetable oils as fuels leads to a reduction in food production and indirectly, soaring prices and food insecurity (Djenontin, 2006; Oderinde et al., 2009). If the recycling of used vegetable oils into biofuels is seen as ecologically credible and more ethical than the use of edible oils, their collection and pre-treatment are not less expensive. Similarly, the different algae processing techniques for 3rd generation biofuel production are quite tedious. Besides, these technologies use catalysts that make the cost of vegetable oil barrels of algal origin prohibitive. On the other hand, unconventional vegetable oils as potential sources of biofuels have several advantages, including:
+
+i) their low (or no) use in food and livestock (Nonviho et al., 2014),
+
+ii) their high availability due to their production on degraded and marginal soils for food crops,
+
+iii) their biofuel use that can be done without major treatments when their physicochemical and fuel properties are acknowledged (Sidohounde et al., 2018),
+
+iv) and an easily reproducible and inexpensive technology (Atabani et al., 2013) through their transformation into biodiesel by transesterification.
+
+Kaimal and Lakshminarayan reported the presence of cyclopropenic fatty acid (malvalic acid) in vegetable oils extracted from the seeds and barks of Ceiba pentandra (the kapok tree) (Kaimal et al., 1970). For that purpose, it would be unwise to use the seeds of this plant species for food.
+
+In Benin, this species is widely distributed and also exploited for its wood. Kapok wood (trade name 'fuma') is lightweight, porous, durable wood and useful for making plywood, packaging, carvings and dugout canoes (Orwa et al., 2009; Tessi et al., 2012). C. pentandra may disappear if other uses such as seeds are not highlighted. It must be emphasized that the kapok tree under optimal conditions can produce 330 to 400 fruits a year and about 30 kg of seeds (Iko et al., 2015). Moreover, these seeds are high in fiber and the fibers are valued as livestock feed (Chaiarrekij et al., 2011; Bationo et al., 2012). It is for this purpose that the present study aims to evaluate the physicochemical characteristics, fuel and fatty acid profile of the unconventional vegetable oil extracted from these seeds.
+
+ 
+
+
+ MATERIALS AND METHODS
+
+Vegetal material
+
+Mature fruits of C. pentandra were collected in Kpataba, a village of  Savalou in central Benin.
+
+Seed conditioning and extraction of vegetable oil
+
+The fruits were dried in the laboratory (27 ± 2°C) for at least seven (7) days. Thereafter, their kernels were collected and all the impurities were removed by manual sorting. These kernels have been milled with a machine and the obtained powders sieved and then stored in an oven (40°C) to constant mass (water and volatile matters elimination).
+
+These powders are then extracted with hexane using the Soxhlet device for 6 h at 69°C respecting the protocol of NF V03-924. The extracted vegetable oil was then stored in opaque dry, flasks, and the extraction yields were evaluated gravimetrically.
+
+
+
+where W: extraction yields, m2: mass of the balloon containing the oil extracted, m1: mass of empty balloon, and m0: mass of the test sample.
+
+Determination of the quality indexes from vegetable oil extracted
+
+Water content and acid, iodine and saponification indexes
+
+Water content, volatile matters and the density of the vegetable oil were determined according to DIN EN ISO 12937 and NF T 60-214 methods. The acid (Ia), peroxide (Ip) and saponification (Is) indexes have been determined respecting the French standards: T 60-204; T 60-220 and T 60-206. The iodine (Ii) index has been evaluated using the Winkler method.
+
+Determination of the fuel characteristics of vegetable oils
+
+The ester value (IE) has been calculated on the basis of the analytical data according to the formula (Dahouenon-Ahoussi et al., 2012).
+
+
+
+The lower calorific value (LCV) has been calculated using the formula of Batel et al. (1980).
+
+
+
+The refractive index (Ri) has been determined using the formula of Perkins et al. (1995) and Asemave et al. (2012).
+
+
+
+The cetane number (CN) was calculated using the formula of Klopfenstein (1982) and Haidara (1996).
+
+
+
+Determination of fatty acid composition by GC/MS
+
+Oil samples were transesterified as fatty acid methyl esters (FAMES)  following  a  validated   method    slightly   adapted   from methods previously described by Lepage and Roy (1984) and by Masood and Stark (2005).
+
+The fatty acid composition of the transesterified unconventional vegetable oil of C. pentandra was determined by coupling Gas Chromatography (Thermo Fischer Scientific Ultra Brand) with mass spectrometry (GC/MS).
+
+Chromatographic analyses were performed on Trace GC Ultra equipped with an ASI 3000 autosampler and with Polaris Q spectral mass detector, all from Thermo Fischer Scientific Ultra Brand. The coupling and automatic control of the devices have been done by the software EXCALIBUR 2.0 Thermo Fisher.
+
+The splitless injector was set at 250°C and the ion source temperature set at 250°C. Ultrapure Helium Alpha-gas 2 was the carrier gas set at 1 mL/min constant flow with automatically adjusted pressure. Injections were on split mode. Gas Chromatography was fitted with a fused silica capillary column (DB-FFAP) 30 m (length) × 0.25 mm inner diameter (id) × 0.25 µm film thickness (J & W Scientific, Agilent Technologies).
+
+Initial oven temperature was 130°C. The program temperature was as follows: equilibration time: 0.5 min; linear increase to 178°C at 4°C/min, followed by linear increase to 210°C at 1°C/min, followed by an increase to 245°C at 40°C/min and final 13 min hold. The duration of the analysis was 60 min. The injected volume was 1 μL and the injected amount 10 μg/mL.
+
+Positive ionisation of the FAMES was performed by electronic impact (EI), with 70 eV energy and full scan detection mode. Mass spectra range was 50 to 650 m/z; scan 0.58 s.
+
+Precise identification of the analytes was achieved by their relative retention times and mass spectra on the spectral mass database NIST libraries for fatty acid composition. External fatty acid standards were the 28 FAME compounds NU-CHEK-PREP Inc Elysian USA, (GLC reference standard 462) and the Supelco 37 component FAME mix (CRM 47885).
+
+ 
+
+
+ RESULTS AND DISCUSSION
+
+Moisture content and vegetable oil
+
+The quality indexes of the vegetable oil investigated are shown in Table 1. The water and volatile matter content of C. pentandra seeds has been reduced, by heating in the open air to 6.05±0.36% for a vegetable oil extraction yield of 31.62%±1.60%.
+
+ 
+
+
+
+ 
+
+Kaimal and Lakshminarayana found a vegetable oil content of C. pentandra seeds of 23.6%. This value is much lower than that of the seeds investigated in present study. Researches have shown that the lipid potential of seeds   could   depend  on  several  parameters  such  as those related to seed maturity and edaphic conditions (Atabani et al., 2013).
+
+However, according to the vegetable oil content values obtained (> 30%) in the present study on C. pentandra seeds harvested in Benin, we could consider its use as fuel oil (Alabi et al., 2013). For this purpose, we have evaluated the quality indices of this vegetable oil.
+
+Acid index (Ia)
+
+The acid value of a vegetable oil depends on its free fatty acid composition. It characterizes the state of alteration of the oil by hydrolysis (Bettahar et al., 2016). The acid value of the vegetable oil of C. pentandra is 4.52 ± 0.24 mg KOH / g-oil. It has been shown that a high acid value of a fuel oil causes the injectors clogging and the metal workpieces corrosion (Stauffer et al., 2005). Khan et al. (2015) found an acid value of C. pentandra oil collected in Java (Indonesia) 4.5 times (20.23 mg KOH / g-Oil) higher than our values.
+
+Peroxide index (Ip)
+
+The oxidation stability of this vegetable oil has been evaluated by quantification of its peroxide index. In fact, the high peroxide indexes are at the base of the polymerization of the esters and the formation of the gums and sediments, which clog the filters of the engines (Clark et al., 1984). This index is 2.16 ± 0.54 meq O2/kg-oil for the vegetable oil of C. pentandra of Benin. It is relatively low and indicates that this vegetable oil could have a cetane number that meets the standard. There is indeed a positive correlation between the cetane number of vegetable fuel oils and their peroxide index (Abdul, 1998).
+
+Saponification and ester indexes (Is and Ie)
+
+The saponification and ester index provides a first idea of the lengths of the fatty acids of the vegetable oil studied (Zovi et al., 2011). The  vegetable oil of C. pentandra has respectively, saponification and ester indexes of 152.79 ± 6.07 mg KOH / g-oil and 148.27 ± 5.83 mg KOH / g-oil. Berry (1979) found a higher saponification index (183 mg KOH / g-oil) for vegetable oil extracted from C. pentandra seeds harvested in Malaysia (Berry et al., 1979). This index variation depends on the fatty acid profiles of the vegetable oils and shows that C. pentandra vegetable oil from Benin could have a different fatty acid profile from that of Malaysia.
+
+Iodine index (Ii)
+
+A classification of the vegetable oils fuels, according to their index of iodine, has been made by Vaitilingom et al. (1983). The vegetable oil of C. pentandra had an iodine value higher than the value of 110 mg I2/100 g oil. According to Vaitiligom’s classification, the oil of C. pentandra can be  classified  among  linoleic  semi-drying oils (Vaitilingom et al., 1983).
+
+Fatty acid profiles of vegetable oils
+
+There is evidence that the fatty acid composition of a vegetable oil can have a great influence on its fuel characteristics (Ferhat et al., 2014). The quantified fatty acids of the oil of C. pentandra are listed in Table 2.
+
+ 
+
+
+
+ 
+
+In accordance with its relatively high iodine value, the vegetable oil of C. pentandra is rich in polyunsaturated fatty acid (41.37%) including linoleic acids (cis and trans C18: 39.23%). Our chromatographic analyses were able to quantify the cis (all-cis-Δ9,12: 20.95%) and trans (all-trans-Δ9,12 : 18.28%) isomers of the linoleic acid of this vegetable oil. Previous work has revealed relatively higher proportions of linoleic acids combined in C. pentandra(Atabani et al., 2013; Abdul, 1998).
+
+A  good    cetane   index   has   been   associated   with vegetable fuels having a good saturated fatty acid composition such as palmitic acid and stearic acid (Gerhard et al., 2003). The proportion of saturated fatty acid (40.8%) of C. pentandra vegetable oil harvested in Benin is different from the values reported in the literature (Atabani et al., 2013; Sivakumar et al., 2013).
+
+Palmitic acid and stearic acid (palmitic: 19.77 and stearic: 20.17%) are the most important saturated fatty acids of C. pentandra vegetable oil from Benin. As indicated above, this is in conformity with its saponification index, in negative correlation. This oil is composed of oleic acid, palmitic acid, followed by linoleic acid. These components are able to improve not only certain important fuel properties like cetane number, heat of combustion, oxidative stability, and kinematic viscosity (C18:1, C16:0), but also the cold flow properties of biodiesel (C18:2) as shown in the works of Knothe et al. (2008).
+
+Based on this profile of fatty acid composition, it is clearly assumed that C. pentandra oil is suitable for biodiesel production.
+
+Against all expectations, C. pentandra vegetable oil from Benin is found to be free of malvalic acid; usually quantified in this oil by Halphen tests or other similar methods (Pawlowski et al., 1972). However, the presence of oleic acid (18.82%), fatty acid at the origin of the biosynthesis of malvalic acid, is observed. This could be explained by the genotypic differences related to soil, climate and other parameters not studied here.
+
+Fuel characteristics
+
+An estimation of the potential fuels of this vegetable oil has been made (Table 3). The refractive index of the oil varies according to their degree of unsaturation. The refractive index and the density have been evaluated at a temperature of 30°C. Thus, the density and refractive index values of C. pentandra oil are 0.92 and 1.47, respectively. This obtained value of refractive index reveals the need to purify these oils before any use.
+
+ 
+
+
+
+ 
+
+The lower calorific value (LCV) is the amount of energy released when one kilogram of fuel is burned. The LCV of C. pentandra oil from Benin is 41248.17 ± 244.19 kJ/kg. This value is of the same order of magnitude as that of C. pentandra (40493 kJ/kg), Jatropha curcas (40224 kJ/kg) and that of palm oil (40151 kJ/kg) found by Sivakumar  et al. (2013), and then Yunus et al. (2014). It is higher than the value of 35000 kJ/kg recommended for pure vegetable fuels (Ong et al., 2013; Sidohounde et al., 2018).
+
+The cetane index measures a fuel ability to ignite itself (Aligrot, 1994). This characteristic is particularly important for diesel fuel where the fuel must "ignite" under the effect of the compression of the air enclosed in the cylinder. The higher the cetane number, the shorter the ignition delay and the better the combustion quality (Haidara et al., 1996). The cetane index of C. pentandra vegetable oil is 52.85 ± 1.45 (Table 3). This value was close to that of petrol diesel recommended by ASTM D975 (40-55) (Sidohounde et al., 2018).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ CONCLUSION
+
+This study evaluated the physicochemical properties, fuel potentials and fatty acid composition of unconventional vegetable oil extracted from C. pentandra seeds harvested from Benin. The vegetable oil possessed quality indexes and a fatty acid composition that indicated its possible adaptation to use as energy oils.

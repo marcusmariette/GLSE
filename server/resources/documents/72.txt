@@ -1,0 +1,112 @@
+ABSTRACT
+
+Most of the tobacco in Zimbabwe are grown by small scale tobacco growers who rely on wood-fuelled inefficient conventional barns with fuel wood requirements as high as 14 kg wood to one kilogram of cured tobacco leaf. This level of fuel wood use is not sustainable as it results in massive tobacco-curing related deforestation. The main objective of this study was therefore to design an energy efficient barn (Kutsaga Counter-Current 1). Thereafter, the curing efficiency of the barn was evaluated against the energy efficient rocket barn and the standard conventional barn. Wood from Eucalyptus camaldulensis at 12% moisture content was used as the curing fuel and all the barns were loaded with tobacco of the same variety and fired at the same time. The results indicate that the barn utilizes 3.5 kg of wood to produce a kg of cured tobacco as compared to an average of 4.25 and 5.32 kg in the rocket and conventional barns, respectively. This high efficiency of the barn is derived from an effective heat exchange system. Given the high fuel use efficiency, the Kutsaga Counter-Current 1 barn is recommended for use by small scale tobacco growers.
+
+ 
+
+Key words: Deforestation, efficiency, counter-current, sustainable, tobacco.
+
+
+ INTRODUCTION
+
+Zimbabwe is currently the largest producer of flue-cured tobacco in Africa and fifth in the world after China, Brazil, India and United States of America (Tobacco Industries and Marketing Board, 2016). For the 2015 fiscal year, the tobacco crop contributed between 10 and 12% to the gross domestic product (GDP), highlighting the importance  of   tobacco   production    to    the   country’s economy (Tobacco Industries and Marketing Board, 2016). Most of the tobacco that was produced before the year 2000 came from large scale commercial farmers but this drastically changed, after the land redistribution programme (Manyanhaire, 2014). For instance, small and medium scale famers contributed about 62% of the tobacco  that   was   produced   in   the   2013/14  season (Tobacco Industries and Marketing Board, 2015). These small scale tobacco growers have land capacities of six hectares or less (Zimbabwe Tobacco Association, 2016) and mostly rely on wood–fueled conventional barns for tobacco curing. Most of these existing conventional barns were originally designed to use coal. However, the use of coal requires electricity to drive combustion fans but regrettably the majority of small scale tobacco farmers in Zimbabwe are not connected to the electricity grid while those that are, frequently experience power outages during the curing season. Furthermore, there are challenges in transporting coal to most small scale tobacco growing districts due to the collapse of the railway system (Miller, 2010). This results in massive use of wood as a fuel source for tobacco curing by most small scale growers giving rise to deforestation (Chivuraise et al., 2016). In addition, considerable quantities of wood are also used by growers on the farm for a variety of purposes, including poles for barn construction (Geist, 1998). Evidently, tobacco related deforestation in Zimbabwe which was estimated at 15.9% of the total annual deforestation in 2003 has since increased (Munanga et al., 2014). In order to curb this tobacco related deforestation, afforestation programmes and the use of alternative fuel sources such as coal has been considered (FAO, 2013).
+ 
+Some work has been ongoing on the use of solar energy and while it has been shown to be efficient and environmentally friendly, its use is limited by the high initial cost and the need for efficient back up facilities. As a result, the use of wood-fuelled conventional barns remains attractive to the small scale tobacco grower. However, these traditional barns are known to be inefficient with wood to dried tobacco ratio of 14 kg: 1 having been recorded (Musoni et al., 2013). Thus, work on developing strategies to curb deforestation and enable sustainable tobacco production practices including alternative wood sources and the development of energy efficient curing systems has been ongoing in Zimbabwe.
+ 
+In 2011, extensive work was done to modify an energy efficient barn (the rocket barn) originally developed in Malawi which uses 50% of wood required in a conventional barn. This barn was subsequently adopted by most small scale growers and is widely used in Zimbabwe. However, the limiting factor in the use of the rocket barn has been that it was designed for small hectarage and has a curing capacity of only 0.5 ha. Many small scale growers have since expanded their tobacco production to 1 to 2 ha, resulting in the need for larger capacity barns. The progressive increase in tobacco production from 2010 to 2014 is attributed to an increase in average tobacco selling price, availability of funding from tobacco merchants and the timeous realisation of sale proceeds from tobacco as compared to other cash crops (Tobacco Industries Marketing Board, 2015). This brought about the need to develop a low-cost fuel efficient barn with  a  bigger  capacity. The  design of  low cost energy efficient barns is a strategy that can aid in the sustainable growing of tobacco. The main objective of this study was therefore to design and evaluate a higher capacity, low cost and energy efficient barn.
+
+ MATERIALS AND METHODS
+
+Study site
+ 
+The research was conducted at the Tobacco Research Board/ Kutsaga Research Station, near Harare in Zimbabwe. Kutsaga Research Station is located 16 km to the South East of the capital, Harare, between Longitude 31° 13’ E, Latitude 17° 91’ S, and at an altitude of 1 480 m. The long-term annual average rainfall for the site is 850 mm. The annual average temperature is 18.6°C and the range average monthly temperature is 8°C. The site is largely dominated by well drained, light sandy soils.
+ 
+Kutsaga counter current 1 barn specifications
+ 
+The barn has a floor area of 6 x 6.4 m and a height of 5.15 m at one end, sloping up to 5.75 m on the other end (Figures 1a and 2). The walls are made of 75 mm-thick oven baked clay bricks, no insulation on the walls is implemented to reduce cost. The roof is made of galvanized iron sheets, is flat  and slanting and has an 80 mm-thick grass thatch insulator fixed as the ceiling. The heat source is a rectangular-type meandering fire box (30 x 30 cm) made out of oven baked clay bricks. A grate is also provided to collect ash from the furnace and to allow air circulation within the furnace.
+ 
+
+ 
+Fresh air intake vents, 30 x 30 cm are located just above the hot flues duct and supply ambient air into the top duct of the firebox that is separated by the two galvanized iron sheets (1 mm thick) to allow the incoming ambient air to be preheated before delivery into the barn. A layer of sand about 8 mm thick is spread on top of the upper galvanized iron sheet to limit the risk of fire when dried tobacco leaves fall. There are two (40 x 40 cm) openings at the top of the barn to allow exhaust air out. The chimney (40 x 40 cm) is constructed within the barn to allow maximum heat retention thereby increasing efficiency. The barn accommodates five tiers and has a capacity of some 2800 kg fresh tobacco leaves.
+ 
+Evaluation of the barn
+ 
+After the development of the barn, curing tests were conducted to compare the curing efficiency of the new design against two rocket barns and a standard conventional barn. The details of the design features and curing capacity of the barns are summarised in Table 1. Six curing cycles were conducted in each barn with each cycle taking an average of 7 days to complete.
+ 
+
+ 
+Curing procedure
+ 
+Tobacco leaves of K RK 66, a root-knot nematode resistance variety planted on the same date, in the same plot were used in the evaluation. The loading capacity for each barn was calculated using the formula:
+ 
+
+ 
+Where y is the number of barns/hectare, p the number of plants/hectare, n  the  number  of  leaves/plant/reaping,  t  the  barn turnaround time in days, s the number of clips/barn, l the number of leaves/clip and r the reaping interval in days (Bernard, 2000). Quality and maturity of tobacco was kept as even as possible during harvesting. The harvested tobacco leaves were packed on 21 inch talita clips, weighed and loaded into the barns at the same time. The talita clips used had a carrying capacity of 42 leaves. All the barns were loaded on the same day and simultaneously fired the following day at 06:00 h. The wood used as the fuel was from the gum (Eucalyptus camaldulensis), at 12% moisture content was measured using the oven drying method.
+ 
+The wood was weighed using an Avery platform weighing scale of 200 kg capacity, with a standard error of 200 g. All wood used for all the curing stages (colouring, lamina and midrib) was weighed beforehand, and at the end of the curing process, the total fuel consumed was determined from the summation of the fuel used for each stage. The time taken to complete each curing stage was recorded. At the end of each curing cycle, the cured leaf was conditioned by steaming for 4 h to minimize handling losses. After conditioning, all clips were unloaded from barns and the leaves un-tied from clips and weighed to obtain mass at untying. Thereafter, the tobacco from each treatment was graded and the cured leaf quality determined using the Tobacco Research Board’s Grade Index Protocol. The grade index is a measurement of leaf quality and uses a formula that gives a lower score for less desirable grades, including off color leaf. The fuel conversion efficiency (FCE) was calculated as the ratio between the heat used to remove water content from the leaves to heat input from fuels: 
+ 
+
+ 
+Where Qout is the total mean heat output (MJ/kg) and is equal to the product of mass of water removed and latent heat of vaporization of water and Qin is the total mean heat input (MJ/kg), where the mass of water removed is given by the mass of freshly harvested leaves minus the mass of dried tobacco after curing.
+ 
+
+ 
+Where HHV is the calorific value of E.ptus camaldulensis wood (MJ/kg) assuming that its calorific value is 18 MJ/kg and FC is the mean fuel consumption per barn in kilograms.
+ 
+Statistical analysis
+ 
+The data was tested for normality of residuals and homogeneity of error  variance   before   being  subjected   to  analysis  of  variance (ANOVA) using GENSTAT statistical analysis package, 17th edition.
+ 
+
+
+ RESULTS AND DISCUSSION
+
+Time taken to complete a curing cycle
+ 
+There were no significant differences among all the barn types in the time taken to complete a curing cycle (Table 2). It was expected that the KCC 1 barn would take longer time to complete the curing process given that the barn had the highest water load (Table 2). However, all the barns completed the curing cycle in seven days, indicating that the KCC 1 barn was more efficient in terms of the amount of moisture extracted in the curing period as shown by the high fuel conversion efficiency (23.99%) (Table 2). Efficient moisture extraction is considered essential in hastening the curing process (Moore and Sumner, 2011). In an efficient curing system, as much as 20% of the moisture should have been removed by the end of the colouring phase. Although, the rocket and conventional barns attained the required temperature increase, an improved convective air circulation was attained in the KCC 1 barn due to its ability to introduce preheated air resulting in rapid moisture removal (Figure 1b). It is the air that is responsible for the curing as it moves through the barn carrying heat to the leaves, while temperature is a tool to modify the state of the air (Ellington and Boyette, 2009).
+ 
+
+ 
+Amount of fuel consumed to complete a curing cycle
+ 
+Significant differences were observed in the fuel consumption in the barns under evaluation. As expected, the rocket barn (R1) used significantly less (p<0.05) fuel to complete a curing cycle, as to the standard conventional barn which had statistically higher (p<0.05) fuel consumption. This is because the design of the rocket barn is such that an increase in barn temperatures also   increases   the   air   sucking   effect  of  the  double exhaust chimney and the induced draft in the air extracts barn moisture, giving room to outside unsaturated air to enter into the barn (Michael, 2006). On entering the barn, the temperature of the ambient air is quickly heated up by the furnace wall, making it less dense and enabling it to move at a faster rate, extracting moisture from the leaves before exhausting it to the atmosphere through the large diameter chimney. On the other hand, the conventional barn uses natural convectional draft as a means of circulating air in the barn. Ambient air entering the barn is at a lower temperature than the barn temperature. To allow for the movement of that air, more time and energy is required to heat up the incoming air before it can extract moisture from the leaves and release it to the atmosphere and this result in large amounts of wood being consumed. In the end, 4.25 kilograms of wood was required to cure one kilogram of tobacco in the rocket barn as compared to   in the conventional barn. In the test KCC1 barn, 1336 kg of wood (3.5 kg/kg tobacco) was required to complete a curing cycle. Therefore, the fuel use efficiency (kg fuel/kg cured leaf) was highest in the KCC 1 (Table 3). 
+ 
+
+ 
+This high fuel use efficiency is attributed to the ability of the KCC 1 barn to effectively engage the three factors that are important in tobacco curing (temperature, humidity and airflow). In order to enhance heat exchange, the barn uses counter-current airflow principle (Figure 3) and increased hot flue gases residence time inside the barn (Figure 4b). The fresh air intake vents located just above the hot flues duct, ensure a supply of ambient air into the top duct of the firebox (separated by the two galvanized iron sheets) such that the incoming air is preheated before delivery inside the barn (Figure 1b). The V-slot furnace measuring 2.9 x 0.75 m and made of clay bricks is designed to have a large volume to ensure an oxygen-rich, sufficient mixture of fuel and air for complete combustion. The furnace is fully insulated to ensure higher temperatures to be attained, thus reducing heat loss to the outside surrounding air. The counter-current air flow design allows a uniform temperature difference throughout the heat exchanger (Incropera et al., 2007). The temperature of the cold fluid can approach the highest temperature of the hot fluid which is its inlet temperature and this type of flow gives room for extraction of more heat from the hot fluid (Theodore, 2011).
+ 
+
+ 
+
+ 
+Additionally, the uniform temperature difference produces a uniform rate of heat transfer throughout the heat exchanger and the barn. The increased airflow over the tobacco leaves also increases convection heat transfer (Scott, 2009) and the drying capacity of the barn yielding higher efficiencies.
+ 
+On the other hand, the rocket and conventional barns uses parallel air flow (Figure 5) where both fluids involved in the heat exchange flow in the same direction. On entering the barn, the temperature of the ambient air is quickly heated up by the furnace wall making it less dense and enabling it to move upwards or across in the barn. This means that moisture extraction is faster from the furnace side than any other side and as the leaves get dehydrated, the air follows the path of least resistance. At laminar and midrib drying stages, as the temperature is increased, most of the tobacco leaves from the furnace side would be dry and the bulk of the air escapes through the exhaust vents albeit at very high temperatures, therefore wasting fuel. 
+ 
+
+ 
+In the new barn design, the hot flue gases travel a longer distance within the meandering brick firebox before being exhausted through the chimney, thus improving heat transfer through conduction. Heat conduction is the direct microscopic one dimensional heat flow that involves the exchange of kinetic energy of particles through the boundary between two systems due to a temperature gradient (Balku, 2007). Most importantly, not only the change in temperature is taken into consideration but also the distance over the temperature changes (Bakker and Challa, 1995). According to research done by Musoni et al. (2013), most traditional barns have a common U configuration heat exchange system (Figure 4). This layout implies that most of the hot flues escape out of the barn with considerable quantities of useful heat. In the KCC 1  barn  design,  the  new  heat exchange layout effectively increases the heat radiating surface. In addition, the new layout also results in an increased chimney draft which is directly proportional to chimney length (Bernard, 2000). Unlike in the rocket and conventional barn, the chimney of the KCC1 is made out of bricks and built inside the barn to trap heat from the exhaust stack. This also contributes to heat retention in the barn.
+ 
+The cured leaf quality
+ 
+No significant differences (p>0.05) were observed in the leaf quality from all the four barn types as shown by the grade index of the tobacco. The mean grade index ranged from 47 to 52% (Table 4). The quality of the tobacco cured in the new barn was better than that of the rocket and conventional barns although the grade index values are not statistically significant. This implies that despite the increased tobacco packed in the barn, the improved air circulation resulted in a more uniform curing that even made the grading easier. Tobacco samples from the KCC1 barn were of desirable quality indicating that the new barn design had no adverse effects on the quality of the cured leaf.
+ 
+
+ 
+Performance comparison
+ 
+The differences between the evaluated barn design types are summarized in Table 5. The comparisons above indicate that the KCC1 barn recorded the lowest fuel consumption despite having the highest tobacco carrying capacity, which was three times that of the rocket barn. The new barn did not compromise the curing turnaround time. The new barn offers less maintenance costs due to the elimination of flue pipes that require seasonal replacement.
+ 
+
+
+ CONCLUSIONS
+
+Given the progressive increase in land area under tobacco by most small scale tobacco growers, the improved capacity barn becomes economically appropriate barn as it resulted in reduced fuel use without compromising the curing time and quality of cured leaf. In addition to the fuel efficiency of the KCC 1 barn, the curing turnaround time is critically important to the grower. With a reduced curing time, the grower can cure tobacco more quickly which can increase the seasonal capacity of their barns. Growers are also able to cope with fast ripening tobacco varieties in abnormal seasons. Reduced firewood requirement also reduces the rate of deforestation. The  data  from  the  grade  index  analysis showed that the KCC1 barn produced tobacco leaf of a similar quality to the conventional barns. This implies that the reduced curing time and wood consumption did not compromise the quality of the cured tobacco.
+ 
+Most of the materials required for the barn are found on the farm and this makes the barn cheaper to construct and maintain. The low energy requirement will go a long way in curbing deforestation and contribute towards the sustainable growing of the tobacco crop. Research should also seek to retrofit the counter-current principle into current conventional barns in order to improve their curing efficiency. Additionally, further research and development of bigger, low cost and energy efficient barns based on the counter current principle is recommended.
+ 
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interest.

@@ -1,0 +1,146 @@
+ABSTRACT
+
+Cross vane expander compressor (CVEC) is a newly invented expander-compressor combined unit, where it is introduced to replace the compressor and the expansion valve in traditional refrigeration system. The mathematical model of CVEC has been developed to examine its performance and it was found that the energy consumption of a conventional refrigeration system was reduced by as much as 18%. It is believed that this result can be further improved by optimizing the device. In this paper, the coefficient of performance (COP) of CVEC has been optimized under predetermined operational conditions. Several main design parameters of CVEC were selected to be the variables and the optimization was done with theoretical model in a simulation program. The theoretical model consists of geometrical model, dynamic model, heat transfer model and valve dynamics model. Complex optimization method, which is a constrained, direct search and multi-variables method, was used in the study. As a result, the optimization study suggested that with an appropriate combination of design parameters, a large COP improvement in CVEC R134a refrigeration system is possible. With a reduction of 20% in the shaft radius and 17% in inner cylinder radius, and the increase of around 16% in ports diameter, an improvement of 58% in COP can be achieved.
+
+ 
+
+Key words: Coefficient of performance (COP), cross vane expander-compressor, simulation, optimization.
+
+
+ INTRODUCTION
+
+Cross Vane Expander Compressor (CVEC) (patent number: WO2013162477) was invented by Yap et al. (2013) from Nanyang Technological University. Unlike most of the expander compressor units which are made up by two separated machine, in CVEC, both the compression and expansion process is done within a cylinder (Yap et al., 2014), thus its size is more compact compared to other compressors of the same capacity, such as reciprocating compressor (Baek et al., 2002), the scroll compressor (Kakuda et al., 2009), the rotary screw compressor (Smith et al., 1994), the revolving vane compressor (Subiantoro and Ooi, 2009), and the rolling-piston compressor (Li et al., 2009).
+ 
+As there is energy recovered from the expansion process, CVEC is believed to have more energy saving, more efficient and environmentally friendly. Figure 1 shows the isometric view of CVEC, from which, some parts are shared between the compressor and expander, and most of the parts are cylindrical. Thus its manufacturing cost is expected to be similar to a single compressor.
+ 
+
+ 
+Figure 2 shows the assembly of major components of CVEC. The compressor is between the outer cylinder and inner cylinder, whereas the expander is within the inner cylinder. The rotation of vane is driven by a drive shaft which is coupled with a prime mover. During operation, the vane revolves, which in turn rotates the cylinders, causes the volumes of all the chambers of the cylinders vary and from which, the compression and expansion happens. CVEC has attracted much attention from the industries and research centres due to the following advantages:
+ 
+
+ 
+1. Fewer number of parts to be fabricated and manufactured, thus less material used lead to more environmentally friendly.
+2. Lower power consumption and more energy saving due to the work recovered from expansion process.
+3. Smaller physical size, more compact and space saving.
+4. Simplicity in implementation as it is an integrated machine.
+ 
+However, with the current computer technology, a design optimization can be carried out for a higher efficiency and higher performance CVEC. A suitable optimization technique as well as the design constraints and the objective function is required for the optimization of CVEC. 
+
+ MATHEMATICAL MODEL AND OPTIMIZATION ALGORITHM
+
+A few sets of coupled mathematical equations have been developed to express the operating cycle of CVEC. This mathematical model describes number of complicated phenomenon in the compressor and the expander of CVEC.
+ 
+Geometrical model
+ 
+Figures 3 and 4 show the schematic of the CVEC. The volume of the working chambers of both compressor and expander  vary when the vane is rotating. Suction chamber volume  and discharge chamber volume   of the expander are further derived as shown in (1) and (2):
+ 
+
+ 
+
+ 
+where  is the length of the vane between point A to point B,  is the length of CVEC,  is the width of the vane,  is the rotational angle of the vane, shaft and outer cylinder,  is the rotational angle of the inner cylinder as shown in Figure 4,  is the inner cylinder radius and  is the shaft radius.
+ 
+Based on Figure 5, suction chamber volume  and discharge chamber volume  are derived as shown (3) and (4) (Yap, 2012):
+ 
+
+ 
+
+ 
+where  is the length from point A to point D in Figure 5,  is the rotational angle as shown in Figure 5,  is the overall length of the vane,  is the inner cylinder thickness and  is the outer cylinder radius.
+ 
+Thermodynamics model
+ 
+Due to the varying volume of working chambers, the fluid properties such as pressure, temperature, and density vary. These variations of thermodynamics properties can be simulated based on the Law of Conservation of Energy presented by Moran and Shapiro (Moran and Shapiro, 2008), which is given by Equation 5.
+ 
+
+ 
+where  is the total energy of the control volume,  is the net heat transfer into the control volume,  is the net work done by the control volume,  is the mass of  fluid  flowing  into  the  control
+ 
+volume,  is the mass of fluid flowing out of the control volume,  is the specific enthalpy of the fluid flowing into the control volume,  is the specific enthalpy of the fluid flowing out of the control volume, is the velocity of the fluid flowing into the control volume,  is the velocity of the fluid flowing out of the control volume,  is the height of the fluid flowing into the control volume,  is the height of the fluid flowing out of the control volume,  is the acceleration of free fall,  is the time.
+ 
+The second term on the right hand side of the equation represents work done due to volumetric change, which can be expressed as:
+ 
+
+ 
+Where  is the pressure of the control volume and  is the volume of the control volume.
+ 
+Frictional losses
+ 
+Split bush friction
+ 
+Due to the swiveling motion of the split bush about the hinge joint, the Split Bush Frictional Loss  (8)is defined by Equation 7:
+ 
+
+ 
+where  is the radius of the split bush,  is the coefficient of friction between split bush and the hinge joint,  is the relative angular velocity with respect to the hinge joint,  is the contact force between the split bush and the hinge joint in the direction opposite to vane side friction,  is the contact force between the split bush and the hinge joint in the direction normal to the vane.
+Both  and  can be referred from Figure 10 and are defined as Equations 8 and 9 (Yap, 2012):
+ 
+
+ 
+Where  is the coefficient of friction between the vane sides and the slot of the split bush and  is the sliding velocity of the vane (m/s).
+ 
+Endface friction
+ 
+Endface friction occurs when there is relative motion between two contact surfaces during operation. In CVEC, endface frictional loss between upper  endface  of  the  inner  cylinder  and  outer  cylinder
+ 
+, endface frictional loss between lower endface of the inner cylinder and the surface of the lower bearing , and endface frictional loss between lower endface of the outer cylinder and the surface of the lower bearing  are defined in (11), (12) and (13) respectively, which are formulated similar to RV mechanism (Equation 11):
+ 
+
+ 
+Where  is the lower endface clearance,  is the upper endface clearance and   is the dynamics viscosity of the lubricant.
+ 
+Instantaneous power
+ 
+In CVEC, the actual instantaneous power consists of compression power ( ), expander power ( ) and power due to inertia ( ) (Equations 8, 9). Each of these powers is defined as Equations 14, 15 and 16:
+ 
+
+ 
+Where  is the pressure of compression chamber of the compressor and  is the pressure of suction chamber of the compressor,  is the pressure of suction chamber of expander and  is the pressure of discharge chamber of expander,  is the angular acceleration of the inner cylinder. Based on the above frictional losses, the total frictional power loss is defined as Equation 17:
+ 
+
+               
+
+ 
+The objective function in (27) is defined the same as COP. Since the variations of geometrical design parameters affect the power consumption and the power losses, the objective function is dependent on several design parameters. By direct searching each of the design parameters within their constraints, a set of design parameters can be found that produces the optimum objective function.
+ 
+In (28),  are design independent variables , , , ,  and . Here, , ,  and  are expander suction port diameter, expander discharge port diameter, compressor suction port diameter and compressor discharge port diameter respectively.  and indicate the lower limit and upper limit of the ith design parameter. There are implicit geometrical variables such as , , and , which are dependent on the design parameters . The constraints of these implicit geometrical variables are also fixed to ensure a certain capacity of CVEC.
+ 
+The values of constraints of each variables mentioned above are given in Tables 1 and 2 so that the dimensions of the final design are within the given range. As , and  are preferred to be as small as possible, only upper limit is given.
+ 
+ 
+
+
+ RESULTS AND DISCUSSION
+
+The operational conditions in this optimization study are specified in Table 3. The optimization search was implemented on a HP Prodesk with an INTEL CORE i7 processor and it took 25 hours to complete the search. The simulation program was done using MATLAB (Chapra and Canale, 2010)and the thermodynamics properties of refrigerant were extracted from NIST database using REFPROP (Lemmon et al., 2010). The following assumptions are made during the optimization study.
+ 
+
+ 
+1. Adiabatic process,
+2. Internal leakage is not considered.
+ 
+The changes of the main design parameters are shown in Table 4. It is obviously that the shaft radius has the most significant change, followed by inner cylinder radius, expander suction port diameter and expander discharge port diameter.
+ 
+
+ 
+With all these changes in main design parameters, which in turn affect the power losses of CVEC, a maximized objective function value has been found within the given design parameters constraints. Figure 6 shows the variation of objective function when the optimization search progresses. The objective function, which is the COP, has been increased by 58% after the optimization study, which implies a lower power consumption as the cooling load is fixed in this study. Based on the improvement in objective function, it also indicates a significant reduction in the total power loss of around half of its initial value, which is shown in Figure 7. Figure 8 to 14 show various frictional power losses that were considered in the mathematical model of CVEC. From the results, it is found that all the frictional losses were decreased after the optimization search, with reduction ranging from 20% to 60% in individual frictional loss. In addition, the maximum contributor in the reduction of the total power loss was the frictional power loss between shaft and bearing, which is 58% as shown in Figure 8. The reduction was caused mainly by the reduction in shaft radius, where the reasons can be traced back to the definition of the definition of power losses as shown in Equations 7 to 16.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+From the definition of all the  frictional  power  losses  in session 2 and the above results, the reduction of shaft radius and inner cylinder radius has effectively reduced the frictional power losses whereas the increase in port diameter is believed to have improve the valve loss. The valve loss is actually the additional work done required to keep up the working fluid flow with the operating speed. Figures 15 and 16 show the variation of compressor power and expander  power  during  optimization  search.
+ 
+
+ 
+The power required by the compressor was decreased by 1% and the power recovered from the expander was increased by 22%, which indicates a lower power consumption and more power recovery in CVEC.
+ 
+From the optimization study, a narrower and taller CVEC is suggested that gives better performance, where the length of CVEC ( ) increased by 22%.
+
+ CONCLUSION
+
+The optimization study verified that a compressor design with mathematical model can be implemented a design optimization algorithm. A set of main design parameters was    suggested     that    produces     maximum    CVEC performance based on the given constraints and operation conditions. From the optimization study, it is suggested that with a proper combination main design parameters, a 50% total frictional power loss can be achieved which gives a 58% COP improvement in CVEC.

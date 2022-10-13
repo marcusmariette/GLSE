@@ -1,0 +1,211 @@
+ABSTRACT
+
+In order to study the critical growth stages and the most tolerant rice varieties in both lowland and upland rainfed ecosystems, an experiment arranged in split plots based on randomized complete block design was conducted under field conditions with 3 replications. Three stress timing irrigation treatments (no stress, vegetative moisture stress, and reproductive moisture stress) were assigned as th main plots, while 6 varieties (NERICA1, NERICA2, NERICA4, TXD 306, Tai and Komboka) were assigned as sub plots. Moisture stress during reproductive phase caused the highest reduction in grain yields (between 58 - 79%) followed by stress induction during vegetative phase, with 26 - 46% yield reduction; while no stress control moisture regime caused 0% reduction, that is did not cause any reduction. All NERICA tested varieties were the most tolerant to moisture stress during vegetative; they had only 26 - 36% grain yield reduction, compared to the lowland rice varieties which had 38 - 46% reduction during the same stress period. NERICA2 was the most tolerant variety to moisture stress during reproductive phase under the upland condition (66% reduction) followed by NERICA1 (67% reduction), while NERICA4 was the last (76% reduction). Tai was the most tolerant variety under lowland condition (58% reduction) followed by TXD306 (67% reduction), while Komboka was the last in lowland varieties with 79% reduction. Moistures stress during vegetative and reproductive growth phases significantly reduced plant height, shoot dry weight, number of tillers, number of panicles, spikelets, fertile grain, 1000 grain weight and harvest index in all the varieties.  It was concluded that the most critical growth stage among the tested varieties is the reproductive growth phase. Stress induction at reproductive caused more reduction of 32% - 33% in grain yield compared to stress induction during vegetative growth phases. NERICA2 and Tai are the most tolerant varieties to moisture stress during the reproductive phase and therefore are recommended in areas with rainfall scarcity.
+
+Key words: Yield reduction, moisture stress, NERICA rice, tolerant varieties.
+
+ 
+
+Abbreviation: MAFC, Ministry of Agriculture Food security and Cooperatives; GRiSP, Global Rice Science Partnership; URT, United Republic of Tanzania; IRRI, International Rice Research Institute.  
+
+ INTRODUCTION
+
+Moisture stress is one of the major causes of low yields of rice grown under rainfed lowland and uplands ecologies (Sharma and De Datta, 1994; Kamoshita et al., 2000; GRiSP, 2013). These ecologies account for about 92% of Tanzanian rice growing area, with averaged grain yield between 1.5 to 2.0 tons  per  hectare  in the lowland rainfed ecologies and between 0.8 to 1.0 tons in the upland ecologies (MAFSC, 2009; GRiSP, 2013). The relatively low yields in rainfed rice ecology are partly due to moisture stress and or use of low yielding local varieties (GRiSP, 2013). Drought prone lowland and upland rice growing areas are mostly subjected to different cycles of flooding, saturated and moist aerobic and dry aerobic soil conditions (O’Toole et al., 2004; Maclean et al., 2002; Wade et al., 2000).  According to Pirdashti et al. (2008) and Sikuku et al. (2012) when the dry spell occurred during the vegetative growth stages it was reported to reduce grain yield by 21% and 26%, while moisture stress during the reproductive phase reduced the grain yield by 50% and 67% depending on the intensity of stress. A reduction in number of effective tillers per plant, number of panicles per plant, number of spikelets per panicle, number of fertile grains, and increase in the number of aborted or sterile grains per plant were also reported due to moisture stress at vegetative and reproductive growth phases in upland and lowland rainfed ecosystems (Liu et al., 2014; Sikuku et al., 2012).
+
+In Tanzania rainfall scarcity during the vegetative or reproductive growth phases of rainfed rice has been reported to cause yield losses under farmers’ field condition, where they depend totally on rain-fed cultivation (URT, 2014). In that way varieties which are tolerant to vegetative and/ or reproductive moisture stresses are required. However, little is known on the critical growth stages of the selected rice varieties that need more moisture for attaining their yield potentials, and the information on their drought tolerance is not well known in Tanzanian conditions. Therefore, the present study analyzed the effects of moisture stresses during the vegetative and reproductive growth stages on growth and yields of selected rice varieties for establishing the most drought tolerant varieties among the selected rice varieties in each ecosystem. Critical growth stages of each variety that demands more moisture for achieving maximum productivity were also analyzed.
+
+ 
+
+
+ MATERIALS AND METHODS
+
+Experimental design and treatment
+
+The experiment was carried out under field conditions in a split  plot design layout, in which the main plots were the stages at which irrigation withdrawals were induced and the sub-plots were the selected rice varieties. Three upland rice varieties (NERICA 1, NERICA 2, and NERICA 4) were grown in an upland rainfed condition, while three lowland rice varieties (TXD 306, Tai and Komboka) were grown under lowland rainfed condition. For both the upland and lowland rice varieties, five lines each with six hills at the spacing of 20cm x 20cm were used; the treatment was 3 varieties x 3 irrigation withdrawals in 3 replications. Five seeds were sown directly per hill.  After germination the seedlings were reduced to one plant per hill. The soil fertility before the experiment was analysed and summarized in Table 1.  Table 1 shows slight differences among upland and lowland fields in terms of soil texture, PH, EC, OC, Total N, available P, and K cation. All the varieties and the two sites were fertilized with the same fertilizer rate of 80kgN ha-1 , applied during sowing and all other field managements were maintained similarly.
+
+ 
+
+
+
+ 
+
+Moisture stress management
+
+All plots were irrigated uniformly to field capacity up to 30 days after seedling emergence. Then, the irrigation water was withdrawn to create moisture stresses at the vegetative growth stage; that is, from 31 to 52 days after seedling emergence, and at the reproductive growth phase the irrigation water withdrawals started from the flowering initiation stage; that is, 52 to 71 days after seedling emergence. The soil moisture content of plots was recorded at the beginning and at the end of stress period using gravimetrical method; soil samples at 3 soil level depths in each treatment (0-5 cm, 6-10 cm and 11-15 cm) were taken. The fresh soil samples were weighed and sun dried to constant weight. Then the samples were re-weighed, and the weights of dry soil samples were subtracted from the weights of fresh soil samples to obtain the weights of moisture in the soil.
+
+Data recording and procedures
+
+For both upland and lowland field trials, the recorded parameters included:  Number of tillers per plant and plant heights, which were recorded at harvest stage by physical counting.  The plant height (cm) was measured using a metre ruler; shoot dry weight (SDW) at maturity stage was recorded using a weighing balance after oven drying at 80 ºC to a constant dry weight.
+
+Relative water contents RWC (%) of leaves
+
+Relative leaf water content (RWC %) was recorded at the end of each respective water withdrawals.  The leaf water content was calibrated using a gravimetrical method where by fresh leaves of one gram were harvested for each treatment and weighed to get the fresh weight (Wf). The leaf disks were then placed in a test tube containing  distilled  water  for  24 h at  room  temperature to get the turgid weight (Wt); subsequently the disks were dried in an oven at 80 °C until a constant weight was obtained to get the oven dry weight (Wd). The relative water content (RWC) in leaves was calculated using the formula by Karrou and Maranville (1995) and Coombs et al. (1985) as follows:   
+
+        
+
+During moisture induced stress, leaf drying rate and leaf rolling were evaluated using an IRRI Standard Evaluation System (SES) for rice (2014). The values are as follows; 0 = healthy leaves or having no symptoms; 1= leaves starting to fold (shallow v-shape) or tip slightly drying; 3= leaves folding (deep v-shape) or tip drying extended up to ¼ length in most leaves; 5 = leaves fully cupped (u-shape) or ¼ to ½ of all leaves fully dried.
+
+The yield and yield components
+
+The grain yield and yield components were measured at maturity (harvest). An area of about 1 m2 was sampled for upland field trial; while in the lowland trial 3 hills from each water regime treatment were harvested for yield and yield components analyses. Plants were cut 4 cm above the ground and sun dried for 3 days to get the total biomass weights above the ground then threshed to get the grain only. The straws were separately dried at 80°C until a constant dry weight was attained. The number of panicles per plant m-2, number of fertile and sterile spikelets per panicle and 1000 grains were recorded by physical counting from the threshed grains. Then 1000 grains weight were measured to get the weight of 1000 grains at 14% moisture content by the procedures described by Gomez (1972). Panicle length (cm) was measured using metre ruler. The grain yields of the selected rice varieties were obtained from the relationship by Yoshida (1981) as follows:
+
+GY= (P x SP x FS x 1000GW x 10-5)                                             (2)   
+
+Where, GY=grain yield (tha-1), P= number of panicles (m-2), SP= number of spikelets per panicle, FS=    percentage filled spikelet or grain and GW= 1000-grain weight (g)
+
+And the harvest index was calculated using the relationship by Fageria et al. (2011) as follows,
+
+
+
+Statistical data analysis
+
+The obtained data in both trials were subjected to analysis of variance (ANOVA) using Genstat (2011) and Excel (Microsoft). The irrigation and variety treatments means were separated using Tukey’s significance difference test at 5% level.
+
+ 
+
+ 
+
+
+ RESULTS
+
+Relative leaf water content (RWC %) 
+
+There was a significant decrease in leaf water contents at the end of irrigation withdrawals (Figure 1).   A  significant difference (P £ 0.05) among the varieties, moisture stress treatment and stages of water induced stress was observed. Moisture stress caused a significant reduction in leaf water content; the highest reduction among the varieties occurred during reproductive growth stage compared to vegetative growth stages (Figure 1). The upland rice varieties NERICA1, NERICA2 and NERICA4 recorded the highest leaf water content as compared to the lowland rice varieties Komboka, Tai and TXD306 when subjected to moisture stress treatment during vegetative and reproductive stages (Figure 1).
+
+ 
+
+
+
+ 
+
+Observation on leaf rolling and leaf drying
+
+Table 2 shows that NERICA1, NERICA2, NERICA4 and Tai had the highest degree of rolling ability compared to the lowland rice varieties Komboka and TXD306 (Table 2). However, there were no differences in the drying rate among the tested varieties at vegetative and reproductive moisture stress inductions (Table 2).
+
+ 
+
+
+
+ 
+
+Soil moisture condition during stress
+
+The soil moisture contents during the vegetative and reproductive moisture stress in the fields decreased significantly (Figure 2). At vegetative stress the soil moisture contents at the depth of 0-5 cm decreased significantly from 100 to 19.4%, while at reproductive stress soil moisture decreased to 1.2%.  At the depth of 6-10 cm, the soil water content decreased significantly from 100 to 21.4% at vegetative stress, and at reproductive stress the soil moisture decreased from 100 to 7.9%. However, at the depth of 11-15 cm, the soil moisture content decreased significantly from 100 to 22.3% at vegetative stress, while at reproductive moisture stress the soil moisture contents decreased from 100 to 12.2% (Figure 2). As a result, there was a reduction in growth and yields of all varieties with varying intensity.
+
+ 
+
+
+
+ 
+
+Number of tillers
+
+There was a general declining pattern in total number of tillers produced at different periods of moisture stress induction (Figure 3). There was a significant difference (P£ 0.05) in number of tillers among the moisture stress regimes. The control (No stress) moisture regime had the highest number of tillers. The reduction in number of tillers at moisture stress during vegetative period was significantly higher than at moisture stress during reproductive period among the tested upland and lowland rice varieties (Figure 3). The upland rice varieties NERICA1 and NERICA4 had higher reduction in the number   of   tillers   than  NERICA2   at   vegetative  and reproductive moisture stress when compared to the control  moisture  regimes  (Figure  3).  Generally,  at  the vegetative stage of development, all upland and lowland rice varieties were  significantly affected (Figure 3) than at reproductive moisture stress as evidenced by the low number of tillers in all upland and lowland rice.
+
+ 
+
+
+
+ 
+
+There was  a  general  declining  pattern  in  number  of effective tillers produced at different periods of moisture stress induction (Figure 4). There was a significant difference  (P£0.05)   in   number   of   tillers  among   the moisture stress regimes. The control (No stress) moisture regime had the highest number of effective tillers. The reduction in number of effective tillers at vegetative moisture stress period was significantly higher than at reproductive moisture stress period among the lowland rice varieties tested except for TXD 306, which had relatively higher reduction at reproductive moisture stress than at vegetative moisture stress (Figure 4). In the upland rice varieties NERICA1 and NERICA4 had higher reduction in the number of tillers than NERICA2 at vegetative and reproductive moisture stress when compared to the control moisture regimes (Figure 4). At reproductive moisture stress, all the upland rice varieties were more affected than the lowland rice varieties as evidenced by the low number of tillers in all upland rice varieties and TXD306 lowland variety. However, at vegetative stress all lowland varieties were significantly affected (Figure 4.)
+
+ 
+
+
+
+ 
+
+Plant heights
+
+There was a general decline in plant height from control treatment (No stress) towards vegetative and reproductive moisture induced stresses in that order (Figure 5). There was a significant difference (P< 0.05) in plant height among the moisture stress regimes for NERICA 2 and TXD306 varieties. The control regime had the tallest plants followed by moisture stress at vegetative stage, and reproductive moisture stress had the shortest plants. The reduction in plant height  was  pronounced  in the reproductive growth stage for all the varieties tested (Figure 5) except for NERICA2, which seemed stable.
+
+ 
+
+
+
+ 
+
+Shoot dry weight (SDWt) at harvest
+
+There were differences in SDWt from the control or stress free moisture regime toward vegetative and reproductive induced moisture regimes (Figure 6). Plants of the control moisture regime (No stress) had significantly higher SDWt than plants of the vegetative and reproductive moisture stress regimes. There was a significant difference (P £ 0.05) in SDWt among the varieties in SDWt as shown in Figure 6. TXD 306 had the highest SDWt followed by Komboka, Tai, NERICA4, NERICA1 and lastly NERICA2 in the control and at vegetative moisture regime. At reproductive moisture stress TXD 306 had the highest SDWt followed by Tai, Komboka, NERICA1, NERICA2 and lastly NERICA4.
+
+ 
+
+
+
+ 
+
+Grain yield and yield components of selected rice varieties
+
+Significant differences in grain yields due to the timing of moisture stress initiation were observed. Complete moisture saturation (No stress) had the highest mean grain yield of 6.1 tons ha-1 followed by moisture stress during the vegetative periods, with mean grain yield of 3.7 tons ha-1, while moisture stress during the reproductive  resulted  in  the  lowest  mean grain yield of only 1.9 tons ha-1 (Table 3).
+
+ 
+
+
+
+
+
+ 
+
+There were significant differences in yield components depending on the timing of stress conditions; that is, the number of panicles m-2, number of spikelets panicle-1, proportion of fertile grain panicle-1, number of sterile grains panicle-1, and 1000 grain weight (Table 3). The maximum saturated conditions (control) gave the highest number of panicles per unit area, fertile grain per panicle, % fertility ratio and 1000 grain weights. Plants stressed during the reproductive phase of growth resulted in significantly lowest yield components compared to those during the vegetative and saturated regimes in that order. However, the proportion of sterile grains per panicle was significantly higher in plants stressed during the reproductive phase (Table 3).
+
+The lowland rice varieties indicated the highest number of panicles per unit area, spikelets per panicle, fertile grains per panicle and number of sterile grains per panicle compared to the upland rice varieties tested, except for % fertility ratio and 1000 grain weight, which was relatively high in the upland rice varieties in most cases (Table 3). There were significant interaction effects observed between moisture stress regimes and the rice varieties on the grain yield and the yield components at harvest as summarized in Table 3. The lowland rice varieties registered the highest number of panicles per unit area, spikelet per panicle, fertile grains per panicle and number of sterile grains per panicle compared to the upland rice varieties tested, except for % fertility ratio and 1000 grain weight, which were relatively higher in the upland rice varieties in most cases (Table 3).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ DISCUSSION
+
+There was a significant decrease in leaf water content as moisture stress treatments took effect (Figure 1). These findings are in line with the findings of Cruz et al., (1986) in rice. Decline in leaf water content in our study may be attributed to loss through evapotranspiration and decreased water uptake by roots when the soil water was limiting (Figure 2). As a result, the rice growth and productivity reduced in all varieties. These findings are in line with the observation of Fukai et al. (1995, 1999b), who reported that in moisture stress conditions as water is rapidly lost from the soil surface layers, plant growth and productivity are restricted through reduced availability of water and nutrients. Based on Sah and Zamora (2005), relative water content is an important measure of plant water status.
+
+The water content in leaf relative to maximum amount that the leaf can take under full turgidity was considered as suitable gauge of normal tissue physiological functioning and growth processes (Sikuku et al., 2012). In this study, moisture stress at reproductive growth caused higher reduction in leaf water content compared to moisture stress at vegetative growth stage (Figure 1). This situation constrained the growth and plant function, which was reflected in decreasing number of effective tillers (Figure 4), plant height (Figure 5), shoot dry weights (Figure 6) and grain yields and yield components of all selected rice varieties, with different declining intensity (Table 3). Therefore, higher relative moisture contents in leaves are crucial for suitable growth and function of plants. 
+
+In the present study, varietal differences in relative leaf water content were significant between the upland and lowland rice varieties at vegetative and reproductive moisture stress treatments (Figure 1). NERICA2 and NERICA4 had the highest moisture contents in leaves among the upland rice varieties, while NERICA1 showed the lowest leaf water contents. These results may imply that  NERICA2   and   NERICA4  had  the  highest  stress tolerance characteristics toward moisture stress at vegetative growth stages (Figure 1).  Tai variety had significantly high leaf moisture content among the tested lowland rice varieties and hence was the most tolerant than others in lowland ecosystem. The observations from the present study are in line with the findings of Sinclair and Ludlow (1985) under moisture deficit conditions, who found that the varieties that are tolerant to drought have more relative water content at any stage of stressing. They suggested that high leaf relative water content can be employed in selecting high yielding varieties that uphold cell turgidity under moisture stress and confer relative high grain yield.  Moreover, during stress the upland rice varieties NERICA1, NERICA 2, NERICA4 and lowland rice Tai varieties had the highest rolling ability compared to the lowland rice varieties Komboka, and TXD306 (Table 2). Leaf rolling characteristics in rice minimize evaporative water loss through leaf surfaces (O’Toole et al., 1979), and consequently cause a high degree of tolerance to water deficit stress. High leaf rolling in upland rice used in this study implies that they have relatively high tolerance characteristics to water stress at vegetative and reproductive growth stages compared to the lowland rice varieties investigated. However, among the lowland rice Tai variety had significant higher leaf rolling ability than Komboka and TXD306. For this reason, Tai was the most tolerant variety among the used lowland rice varieties.  These results are also in line with the findings of O’Toole and Garrity (1984) who reported that a rice variety with high leaf rolling ability is regarded as drought resistant.
+
+Reducing or draining rice fields at either vegetative or reproductive phases caused significant yield loss (Castillo et al., 1992), and some researchers reported that effects of different periods of moisture stress at various growth stages would reduce yield (Salam et al., 2001; Sikuku, 2012). In the present study, moisture stress at vegetative growth stages significantly reduced grain yields by 26, 32 and 36% in NERICA1, NERICA2 and NERICA4, respectively in the upland rice varieties compared to the control moisture regime; while in the lowland rice varieties a reduction of 38, 44, and 46% in grain yield was observed for Komboka, Tai and TXD 306, respectively (Table 3). These findings are in agreement with those reported by Pirdashti et al. (2008) and Sikuku et al. (2012). In their study they found reduction in grain yield by 21 and 26% respectively, due to water deficit at vegetative growth stage.  However, Boonjung and Fukai (1996) reported that grain yields could be considerably reduced to about 60% if drought occurs during flowering time. These findings are in line with the observation revealed by the present study whereby moisture stress at reproductive growth stages highly reduced the grain yields of all varieties to more than 50% of the control moisture regime. NERICA2 and NERICA1 had the lowest reduction in grain yields (66%) compared to control; NERICA4,  which  was  highly susceptible to reproductive moisture stress, had 76% reduction in grain yields.  Among the lowland rice Tai variety had the lowest reduction among all the varieties tested in reproductive moisture stress with reduction of 58%, while Komboka variety had the highest reduction in grain yield of about 79%. All were used to compare the control moisture regimes (no stress).  The higher reduction in grain yield of all the varieties tested in this study are in line with the grain reduction reported at reproductive growth stages by Pirdashti et al. (2008) and Sikuku et al. (2012) who found reduction of 50 and 67%, respectively depending on the severity of stress. The lower grain yield in moisture stressed plots in the present study might be due to decreased panicle m-2, spikelet panicle-1, fertile spikelet's panicle-1 and percentage fertility ratio caused by reduced number of effective tillers; it caused remobilization of carbohydrates reserves in shoot straw to the grains as the plants compete for moisture (Table 3). The lowest yields were recorded in the reproductive moisture stress regimes compared to the vegetative moisture stress regimes (Table 3). Low relative leaf water contents at reproductive growth stage significantly reduced the fertile grain number, and thus the grain yield was significantly reduced.
+
+ 
+
+
+ CONCLUSION AND RECOMMENDATION
+
+It was concluded that, the most critical growth stage that needs more moisture for the selected rice varieties to retain their higher yield in this study was the reproductive growth stage. Moisture stress at this stage had significantly high impact on growth, grain yield and yield components of both upland rice and lowland rice varieties investigated. Low relative water contents in leaves due to moisture stress inhibited growth and normal plant function and resulted in significant reduction in plant height, shoot dry weight, number of effective tillers, panicles, spikelets per panicle, fertile spikelets, 1000 grain weights and harvest index in all varieties tested, though with different decline intensity.  The most tolerant varieties among the upland rice investigated were NERICA2 and NERICA1. While NERICA4 was relatively a susceptible rice variety to reproductive moisture stress among the upland rice varieties tested because of higher reduction in grain yield. In the lowland rice varieties Tai was found to be the most tolerant variety than all other lowland rice varieties investigated; while Komboka and TXD 306 were relatively highly susceptible to both vegetative and reproductive moisture stress regimes. 
+
+The author recommends that where possible adequate moisture should be available in soils at all developmental stages in order to achieve optimum yields of selected rice varieties. In case the area has been experiencing short period moisture stress of between 7 to 21 day at vegetative growth, all upland rice NERICA1, NERICA2, NERICA4 and Tai variety from the lowland rice varieties are   recommended   for   production.   In  case  the  area experiences short time moisture stress at reproductive growth stages, then NERICA2 for upland and Tai variety for lowland are recommended.
+
+ 
+
+
+ CONFLICT OF INTERESTS
+
+The authors have not declared any conflict of interests.
+
+ 
+
+
+ ACKNOWLEDGEMENTS
+
+This work was supported by the Joshua’s Family fund that provided research and 50% of tuition fee, and the University of Dar es salaam (UDSM) for providing 50% of tuition fee funds for the first author to study at the university of Dar es Salaam.

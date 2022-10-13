@@ -1,0 +1,159 @@
+ABSTRACT
+
+Corncob adsorbent was prepared through environmental friendly process without any additional chemical treatment. The prepared material was characterized by X-ray diffract meter (XRD), Fourier transform infrared spectroscopy (FTIR) and pH points zero charge techniques. The XRD diffracted pattern of corncob adsorbent did not shows well-defined sharp peaks instead it shows pumps peaks; this indicates that the diffraction patterns of the corncob adsorbent has low crystallinity (amorphous). FTIR characterizations of corncob indicate the presence of functional groups. The point zero charge of corncob adsorbent was found to be 7.05; it can be basic modification of the adsorbate which gave a negative (basic) surface charge for the adsorbent. The effect of corncob dosage, contact time and solution pH were studied at optimum values for removal of Pb, Cd, Cr and Cu metals using Batch method. Adsorption equilibrium data fitted well with the Freundlich isotherm for Pb, Cd and Cu metal ions but Langmuir isotherm for Cr(VI) metal ion.
+
+Key words: Adsorption equilibrium, batch method, corncob, metal ions, optimum values.
+
+
+ INTRODUCTION
+
+Environmental pollution is this days one of the most challenging problem facing human. The discharge of industrial, agricultural, and domestic wastewaters without treatment or with inadequate treatment level causes degradation of ecosystems. The pollutants which include lead, mercury, cadmium, arsenic, copper, zinc, and chromium are hazardous to humans (Qadir et al., 2010). Such metals are found naturally in the soil in trace amounts, which pose few problems and they can damage nerves, liver and bones, they also block functional groups of vital enzymes (Aliyah, 2012).
+
+Many methods of treatment for wastewater which  have been reported in the literature includes chemical precipitation and ion exchange (Congeevaram et al., 2007), electrolysis and membrane filtration (Kobya et al., 2005) and electrochemical processes (An et al., 2001). Application of these methods is not appeal due to high costs, continuous input of chemicals; incomplete removal of certain metals, producing toxic sludge, and these processes needs the high degree of operation skill (Mukherjee and Kumar, 2005). Several biomasses have been tested as precursors in the production of activated carbon, including waste tea (Gokce and Aktas, 2014), hazelnut husk (Karacetin et al., 2014)  and  coconut  shell (Isah et al., 2015). However, studies in this field have not produced materials which meet all the demands of adsorption activity.
+
+One of such agricultural waste materials interested in this work is raw corncob. The raw corncob mainly contains cellulose, hemi cellulose and lignin (Rajalakshmi et al., 2015). Corncob is an agro wastes discarded all over the world especially in most part of Ethiopia. It is an abandoned, readily available, low cost and environment friendly bio-material (Gupta et al., 2009a) Figure 1.
+
+
+
+The corncobs have been evaluated in some findings as good removal efficiency for certain heavy metals by modification of adsorbent (Sud et al., 2008). In addition, there were no enough data related to characterization, applicability of adsorbent to real effluents, adsorption-desorption property of corncob adsorbent. Therefore, the present work use corncob adsorbent in natural form for reduction of selected metals (Pb, Cd, Cr and Cu) without chemical modification by focusing on characterizations of adsorbent (corncob) and crystalline structure of raw corncob adsorbent using techniques such as XRD, FTIR and pH point zero charge. The study investigated effects of adsorbent dose, contact time, pH, and initial metal ion concentrations on the removal efficiency of the corncob. Moreover, this work present studies of two empirical adsorption isotherms.
+
+
+ MATERIALS AND METHODS
+
+Sample collection
+
+Corncob samples were collected from Adola agricultural areas of Ethiopia, which fertilizer and other chemicals have not been used on farmland for growth of plant.
+
+Preparation of corncob adsorbent
+
+The collected corncob was first washed with tap water several times to remove dirty dust and then washed with distilled water to remove unwanted contaminants. The washed corncobs were dried in sun light for six hours. The dried corncob cut into small pieces then put in drying oven at 110°C for 24 h and finally the dried mass was grinded using grinder and was sieved with 250 µm porous sieve to have the same particle sizes then it was packed to use for adsorption experiments Figure 2.
+
+
+
+Preparation of standard (working solution)
+
+Synthetic solutions of different concentrations (10, 25, 40, 55, 70, 85 and 100 mg/L) of each metal were prepared from stock solutions of certified reference material (CRM) of 1000 mg/L of Pb, Cd, Cr and Cu for appropriate dilutions.
+
+Determination of metal ion concentration
+
+In this work, Flame Atomic absorption spectroscopy FAAS (Analytikjena ZEEnit 700P Germany) was used to measure metal ions concentration at Addis Ababa University, Ethiopia. The working conditions for metal ions were shown in Table 1.
+
+
+
+Characterization of the corncob powder
+
+X-ray diffraction (XRD)
+
+X-ray diffraction is used to obtain structural information about crystalline solids of Corncob. In this study, Corncob powder adsorbent was ground to fine particles and analyzed by a BRUKER D8 Advance XRD, AXS GMBH, Karlsruhe, West Germany X-ray diffract meter (XRD) equipped with a Cu target for generating a Cu Kα radiation (λ = 0.15406 nm) at Addis Ababa University, Ethiopia. The accelerating voltage and the applied current were 40 kV and 15 mA, respectively.
+
+FTIR analysis
+
+The functional groups that are present in corncob adsorbent and frequency deviation of the functional groups of adsorbent before and after the metals adsorption were characterized by Fourier transform infrared spectroscopy (FTIR SHIMIDAZU) instrument at Addis Ababa University, Ethiopia.
+
+Batch method
+
+Batch method was performed in 250 ml Erlenmeyer flasks at Addis Ababa University at 25°C. All the batch adsorption studies were performed in triplicate.
+
+Effect of corncob dosage
+
+Corncob powder (0.5 - 4 gm.) was mixed with 50 ml of water and 10 mg/L of each metals (Pb, Cd, Cr and Cu) concentrations, shakes and analyzed by FAAS. From these data, optimum corncob adsorbent dosage was identify and used for the next experiments.
+
+Effect of contact time
+
+Effect of contact time (10, 30, 60, 90,120,150 and 180 min) was studied on corncob adsorbent.
+
+Effect of pH
+
+The sample at different pH values (2 - 10) shaking at room temperature with 120 rpm on the adsorption of metals was studied.
+
+Effect of concentration
+
+The concentration of metals (Pb, Cd, Cr and Cu) on adsorbent corncob was examined varying initial concentrations (10, 25, 40, 55, 70, 85 and 100 mg/L) while keeping other parameters constant at optimum conditions in 50 mL of aqueous solution.
+
+Adsorption isotherms
+
+Metals (Pb, Cd, Cr and Cu) concentration were varied (10 to 100 mg/L) at optimum conditions for each metal was fitted into the two most commonly used adsorption isotherms (Langmuir-monolayer surface and Freundlich-homogeneous surface) models for adsorption studies.
+
+Data analysis
+
+Analysis  of  variance   (ANOVA)   was   used   to   test  significance differences in the mean concentrations of heavy metals at p < 0.05 level of significance.
+
+
+ RESULTS AND DISCUSSION
+
+Characterization of the corncob adsorbent
+
+XRD analysis
+
+Characterized crystalline structure of raw corncob is shown in Figure 3; a sample was analyzed in powdered form, previously segregated with 250 µm mesh sieve. The radiation employed was Cu Kα (λ = 0.15406 nm) with none filter and the conditions of measurements were 40 KV and 15 mA. The scan was obtained from a range of 5 to 50 (Bragg angle 2θ) of 0.02 to 0.02° every 0.12 s. The XRD analysis of amorphous materials do not give clear peaks rather the pattern has noise signals, smeared peak or it can have some short order bumps (Chauhan, 2014; Fonseca et al., 2015). From Figure 3, it can be observed that the diffracted pattern did not shows well defined sharp peaks instead shows bumps peaks; this indicates that the diffraction patterns of the corncob is low crystallinity (amorphous). In addition the result from the diffraction pattern calculated by Match! Software shows the crystal structure was triclic (anorthic) with a = 12.819Çº, b = 22.5511Çº, c = 25.188Çº and α = 100.326° at 2θ = 49.96 and d = 1.8240.
+
+
+
+The amorphous characteristic of raw corncob is due to the high lignin content (amorphous compound) in its structure (Davydova, 2005; Kumar et al., 2010). Generally admits that the more lignin and hemicellulose content (amorphous compounds) present in the lingo-cellulosic materials lower crystallinity to the material. Corncob is composed mainly of cellulose, lignin and hemicellulose (Adriano, 2001).
+
+FTIR analysis
+
+FT-IR analysis of corncob adsorbent before and after adsorption is shown in Figure 4; broad band absorption peak at 3431 - 3436 cm-1 were found to be 3500 - 3200 cm-1 indicating the presence of hydroxyl group (OH). The absorption at 2923 cm-1 is found in the region 3000 - 2850 cm-1 indicating the presence of aliphatic C-H vibration peaks due to sp3-hybridized carbon atoms. The absorption peak occurred at 1632 cm-1 was found to be 1650 - 1600 cm-1 depicting existence of carboxyl and carbonyl which may conjugate with carboxylic acid, ester and ketones and aldehydes (Coates, 1996).
+
+
+
+The absorption at 1447 cm-1 is found to be 1478 - 1458 cm-1, indicating the existence aromatic rings. The absorption 836 cm-1 is found between 900 and 670 cm-1 and the absorption 536 cm-1 shows several aromatic (C-H) bonds (Shishehbore et al., 2011). Adsorption peaks at 3431 changed to 3436 cm-1, 1447 to  1460 cm-1  and  542 to 539 cm-1 which may be due to functional process of metals on corncob adsorbent (Sarma et al., 2015).
+
+Determination of pH point zero charge
+
+The pH point zero charge of raw corncob adsorption experiment was carried out varying pH values (2 to 12) shown in Figure 5.
+
+
+
+As can be seen in Figure 5, for this particular work, the point zero charge was determined where the graph intersects the X-axis (y = 0), therefore, the pH point zero charge  value   was   found  to  be  7.05  for  raw  corncob adsorbent. From this result, it can be concluded that basic modification of the adsorbate gave a negative (basic) surface charge for the adsorbent.
+
+Batch adsorption studies
+
+Effect adsorbent dose
+
+The experimental results shown in Figure 6 observed that removal efficiency generally increased with increasing quantity of corncob. It is due to the availability of exchangeable   sites   for   the   adsorbate   (Prasad   and Saxena, 2008). The (%) removal Cr and Cu decrease suddenly after gradual increase from lower to higher doses at 2.5 g and continued slightly increasing. Latter, at higher doses, metal removal efficiency decreased. The maximum adsorption was observed at 99.4% at dose 3 g for Pb, 84.4 and 83.8 for Cd and Cr(VI) respectively at dose 3.5 g for both and 77.1% for Cu at dose of 2 g. At higher doses, the availability active binding site retards the metals’ adsorption onto corncob (Ho, 2008; Karthikeyan et al., 2007). Thus, 3 g for Pb, 3.5 g for Cd and Cr(VI) and 2 g for Cu of corncob adsorbent dose were chosen to use for other experiments.
+
+
+
+Effect of contact time
+
+Experimental results plotted in Figure 7, shows the rate of metals (Pb, Cd, Cr and Cu) was very rapid during first from 10 to 30 min, It can be observed that the Pb2+ was the most rapidly removed from solution, followed by Cd2+ and Cr2+ and finally Cu2+ which adsorbed the most slowly. Thus, the amount of metal ion adsorbed at a given equilibrium concentration increases in the order Cu2+ < Cr2+ < Cd2+ < Pb2+, which might be explained on the basis of their ionic radii, hydration energy, ionic mobility and diffusion coefficient. The same order has been found by other authors using different raw materials (Saka et al., 2012). The highest removal observed for Pb and Cd 99.8 and 98.7% at 30 min respectively, and for Cr(VI) 98.4% at 60 min and 75% for Cu at 120 min. Thus, 30 min for Pb and Cd 60 min for Cr(VI) and 120 min for Cu were chosen to use for other experiments.
+
+
+
+Effect solution pH
+
+Maximum percent removal were observed in Figure 8; 99.5, 71.2 and 87.2% at pH 8, 4 and 7 for metals (Pb, Cr and Cu) respectively. However, removal of Cd is highest at pH 2 and attained a maximum value of 68.9% very soon. Latter removal of Cr(VI) decreases continuously beyond pH 2 with an increase in pH. From the experimental results, pH 8, 2, 4 and 7 were an optimum pH values for Pb, Cd, Cr and Cu, respectively.
+
+
+
+Effect of metal concentration
+
+The initial metals (Pb, Cd, Cr and Cu) concentrations were increased from 10 to 100 mg/L, the equilibrium adsorption capacities increased from 0.15 - 1.47, 0.10 - 1.23, 0.10 - 1.04 and 0.22 - 1.95 mg/g for Pb, Cd, Cr and Cu, respectively at the room temperature that shown in (Table 2). The maximum (%) removal of (Pb, Cd, Cr and Cu) observed were 92.28, 85.91, 99.56 and 87.2% at 25, 100, 85 and 10 ppm respectively. In this study, initial concentrations at high percentage removal attained were considered as optimum initial concentration for each metal.
+
+
+
+Adsorption isotherms
+
+Isotherm constants and maximum adsorption capacity of the raw corncob was calculated for different initial concentrations  of  metals  (Pb,  Cd, Cr and Cu); 10 – 100 mg /L solution to understand the sorption behavior clearly. The Langmuir isotherm assumes that adsorption takes place at specific homogeneous sites within the adsorbent and there is no significant interaction among the adsorbed species. The Langmuir isotherm can be expressed by:
+
+
+
+Freundlich isotherm model assumes a heterogeneous surface  with a non-uniform   distribution  of heat of adsorption over the surface. The Freundlich isotherm can be expressed by Pearce et al. (2003)
+
+
+
+Where K is adsorption capacity and n is degree of nonlinearity between solution concentration and adsorption respectively.
+
+From Figures 9 and 10, Langmuir and Freundlich isotherms yields a straight line and having good correlation coefficients for all metals (R2 > 0.9), except Cr(VI) metal (R2 < 0.9)  but  the  values  of  RL and Kf for Langmuir and Freundlich isotherms respectively (Table 3), indicating that the equilibrium data fitted well with the Freundlich isotherm for Pb, Cd and Cu metals but Langmuir isotherm for Cr(VI) metal ion (Pagnanelli et al., 2003).
+
+
+
+
+
+
+
+
+ CONCLUSIONS
+
+Corncob adsorbent was prepared through environmental friendly process without any additional chemical treatment. The  prepared  material  was  characterized by XRD, FTIR and pH of the point Zero charge techniques. The XRD diffracted pattern of corncob adsorbent did not shows well-defined sharp peaks instead it shows pumps peaks, this indicates that the diffraction patterns of the corncob adsorbent has low crystallinity (amorphous). FTIR characterizations of corncob indicate hydroxyl, carboxyl and carbonyl groups. The point Zero charge of corncob adsorbent found to be 7.05, it can be concluded that basic modification of the adsorbate gave a negative (basic) surface charge for the adsorbent. Adsorbent dosage of metals (Pb, Cd, Cr and Cu), beyond maximum adsorption capacity observed at dose 3 g for Pb(II), 3.5 g for both Cd and Cr(VI), for Cu a dose of 2 g. The optimum contact time was observed for Pb and Cd at 30 min and Cr(VI) at 60 min and Cu at 120 min. The optimum pH were found to at the maximum percent removal were observed for metals (Pb, Cd, Cr and Cu) at pH 8, 2, 4 and 7 respectively. The adsorption equilibrium data fitted well with the Freundlich isotherm for Pb, Cd and Cu metals but Langmuir isotherm for Cr(VI) metal ion.
