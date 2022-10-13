@@ -5,7 +5,7 @@ import { SearchPropTypes } from '../types';
 
 const Home: React.FC<SearchPropTypes> = ({ searchString, setSearchString }) => {
     return (
-        <Box data-testid={'home-container'}>
+        <Box data-testid={'home-page-container'}>
             <Grid container sx={{ maxWidth: '1200px', margin: '0 auto' }}>
                 <h1>GLSE</h1>
                 <Grid item xs={12}>

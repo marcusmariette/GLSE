@@ -9,7 +9,7 @@ const Help: React.FC = () => {
     const symbolData: Array<HelpData> = helpConfig;
 
     return (
-        <Box className="section section-help">
+        <Box data-testid={'help-page-container'}>
             <Grid container sx={{ maxWidth: '1200px', margin: '0 auto' }}>
                 <Grid item xs={12}>
                     <h3 style={{ color: orange }}>{'Symbols'}</h3>
@@ -19,12 +19,7 @@ const Help: React.FC = () => {
                 </Grid>
                 {symbolData.map((symbol: HelpData, index) => (
                     <Grid key={`${index}-${symbol.name}`} item xs={12}>
-                        <HelpBox
-                            parameter={symbol.parameter}
-                            name={symbol.name}
-                            description={symbol.description}
-                            examples={symbol.examples}
-                        />
+                        <HelpBox parameter={symbol.parameter} name={symbol.name} description={symbol.description} examples={symbol.examples} />
                     </Grid>
                 ))}
             </Grid>
