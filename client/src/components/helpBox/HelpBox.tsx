@@ -12,14 +12,14 @@ const HelpBox: React.FC<HelpData> = ({ parameter, name, description, examples })
 
     const renderParameter = () => {
         if (parameter.length > 2) {
-            return <StyledParameterSmall>{parameter}</StyledParameterSmall>;
+            return <StyledParameterSmall data-testid={'help-param'}>{parameter}</StyledParameterSmall>;
         }
 
-        return <StyledParameter>{parameter}</StyledParameter>;
+        return <StyledParameter data-testid={'help-param'}>{parameter}</StyledParameter>;
     };
 
     return (
-        <StyledHelpBox>
+        <StyledHelpBox data-testid={'help-container'}>
             <Grid container>
                 <Grid item xs={1}>
                     {renderParameter()}
@@ -35,10 +35,10 @@ const HelpBox: React.FC<HelpData> = ({ parameter, name, description, examples })
                         <Grid item xs={12} sx={{ marginTop: '1%' }}>
                             <p>{'Examples:'}</p>
                         </Grid>
-                        {examples.map((example) => {
+                        {examples.map((example, index) => {
                             return (
-                                <Grid item xs={12} sx={{ marginTop: '1%' }}>
-                                    <StyledExampleText>{parse(changeParameterColour(example))}</StyledExampleText>
+                                <Grid key={index} item xs={12} sx={{ marginTop: '1%' }}>
+                                    <StyledExampleText data-testid={'help-example'}>{parse(changeParameterColour(example))}</StyledExampleText>
                                 </Grid>
                             );
                         })}
