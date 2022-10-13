@@ -4,11 +4,17 @@ import LoaderScreen from './components/loader/LoaderScreen';
 
 const App: React.FC = () => {
     const [searchString, setSearchString] = useState<string>('');
+    const [searchReload, setSearchReload] = useState<boolean>(false);
 
     return (
         <>
             <LoaderScreen />
-            <Router searchString={searchString} setSearchString={setSearchString} />
+            <Router 
+                setSearchString={setSearchString}
+                searchString={searchString}
+                setSearchReload={setSearchReload}
+                searchReload={searchReload}  
+            />
         </>
     );
 };

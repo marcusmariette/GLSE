@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const md5 = require('md5');
 
 const { searchWithPOS } = require('./utils/search-pos');
 const { searchOneWord } = require('./utils/search-one-word');
@@ -17,6 +18,7 @@ app.listen(3001, () => {
 });
 
 app.get('/getResults', async (req, res) => {
+    res.set('Access-Control-Allow-Origin', '*');
     const responseData = {
         status: 0,
         message: '',
@@ -30,6 +32,7 @@ app.get('/getResults', async (req, res) => {
 
     if (searchQuery !== null) {
         const searchSymbol = findSearchSymbol(searchQuery);
+        const fileNameAsMD5 = md5(req.query.search.toLowerCase());
 
         if (searchSymbol !== null) {
             switch (searchSymbol) {
@@ -63,70 +66,70 @@ app.get('/getResults', async (req, res) => {
                 let knowledgeBaseContent;
 
                 // If we want to check the database/filesystem for existing queries run
-                // if (fs.existsSync('resources/results/' + req.query.search.toLowerCase().replaceAll(' ', '+')) + '.json') {
-                //     var resultData = fs.readFileSync(
-                //         'resources/results/' + req.query.search.toLowerCase().replaceAll(' ', '+') + '.json',
-                //         'utf-8'
-                //     );
-
-                //     responseData.status = 1;
-                //     responseData.message = 'success';
-                //     responseData.sentences = JSON.parse(resultData);
-
-                //     res.json(responseData);
-                // }
-
-                fs.readdir(directoryPath, (error, files) => {
-                    if (error) return console.log('Unable To Scan Directory: ' + err);
-
-                    files.forEach((file) => {
-                        knowledgeBaseContent += fs.readFileSync('resources/documents/' + file, 'utf-8');
-                    });
-
-                    const allSentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
-                    const allValidKBSentences = [];
-
-                    // Reduce Sentences for Symbols that can be stripped
-                    if (canStripSymbol(searchSymbol)) {
-                        const kbFilter = stripPosTag(searchQuery);
-                        allSentences.forEach((sentence) => {
-                            if (sentence.toLowerCase().match(new RegExp('\\b' + kbFilter + '\\b'))) {
-                                allValidKBSentences.push(sentence);
-                            }
-                        });
-                    } else {
-                        allSentences.forEach((sentence) => allValidKBSentences.push(sentence));
-                    }
-
-                    queryResults.forEach((result) => {
-                        const regExSearch = allValidKBSentences
-                            .join(' ')
-                            .toLowerCase()
-                            .match(new RegExp('\\b' + result.toLowerCase() + '\\b', 'g'));
-                        if (regExSearch) {
-                            const sentenceInstanceCount = regExSearch.length;
-                            if (sentenceInstanceCount > 0) {
-                                returnResults.push({
-                                    sentence: result,
-                                    count: sentenceInstanceCount,
-                                });
-                            }
-                        }
-                    });
+                if (fs.existsSync('resources/results/' + fileNameAsMD5 + '.json')) {
+                    var resultData = fs.readFileSync(
+                        'resources/results/' + fileNameAsMD5 + '.json',
+                        'utf-8'
+                    );
 
                     responseData.status = 200;
                     responseData.message = 'success';
-                    responseData.match = returnResults;
-                    res.json(responseData);
+                    responseData.match = JSON.parse(resultData);
 
-                    // If we want to save the results to the database/filesystem
-                    // if (sentences.length > 0) {
-                    //     fs.writeFileSync(
-                    //         'resources/results/' + req.query.search.toLowerCase().replaceAll(' ', '+') + '.json',
-                    //         JSON.stringify(sentences)
-                    //     );
-                    // }
-                });
+                    res.json(responseData);
+                } else {
+                    fs.readdir(directoryPath, (error, files) => {
+                        if (error) return console.log('Unable To Scan Directory: ' + err);
+    
+                        files.forEach((file) => {
+                            knowledgeBaseContent += fs.readFileSync('resources/documents/' + file, 'utf-8');
+                        });
+    
+                        const allSentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
+                        const allValidKBSentences = [];
+    
+                        // Reduce Sentences for Symbols that can be stripped
+                        if (canStripSymbol(searchSymbol)) {
+                            const kbFilter = stripPosTag(searchQuery);
+                            allSentences.forEach((sentence) => {
+                                if (sentence.toLowerCase().match(new RegExp('\\b' + kbFilter + '\\b'))) {
+                                    allValidKBSentences.push(sentence);
+                                }
+                            });
+                        } else {
+                            allSentences.forEach((sentence) => allValidKBSentences.push(sentence));
+                        }
+
+                        queryResults.forEach((result) => {
+                            const regExSearch = allValidKBSentences
+                                .join(' ')
+                                .toLowerCase()
+                                .match(new RegExp('\\b' + result.toLowerCase() + '\\b', 'g'));
+                            if (regExSearch) {
+                                const sentenceInstanceCount = regExSearch.length;
+                                if (sentenceInstanceCount > 0) {
+                                    returnResults.push({
+                                        sentence: result,
+                                        count: sentenceInstanceCount,
+                                    });
+                                }
+                            }
+                        });
+    
+                        responseData.status = 200;
+                        responseData.message = 'success';
+                        responseData.match = returnResults;
+                        res.json(responseData);
+    
+                        // If we want to save the results to the database/filesystem
+                        if (returnResults.length > 0) {
+                            fs.writeFileSync(
+                                'resources/results/' + fileNameAsMD5 + '.json',
+                                JSON.stringify(returnResults)
+                            );
+                        }
+                    });
+                }
             } else {
                 responseData.status = 400;
                 responseData.message = 'Error: Query Invalid';

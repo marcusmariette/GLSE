@@ -8,9 +8,10 @@ import { SearchPropTypes } from '../../types';
 import { findSymbols, validateSymbolRegex } from '../../utils/validationUtils';
 import ErrorMessage from '../error/ErrorMessage';
 
-const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString }) => {
+const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString, searchReload, setSearchReload}) => {
     const navigate = useNavigate();
     const [showError, setShowError] = useState<boolean>(false);
+    const [errorSeverity, setErrorSeverity] = useState<string>("error");
     const [errorMessage, setErrorMessage] = useState<string>('');
 
     // Handles search input value setter
@@ -30,10 +31,12 @@ const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString })
                 } else {
                     setErrorMessage('');
                     setShowError(false);
-                    navigate('/search');
+                    navigate('/search?' + searchString);
+                    setSearchReload(true);
                 }
             } else {
                 setErrorMessage('Error: Must use a single symbol. (Example: I am/are happy)');
+                setErrorSeverity('error');
                 setShowError(true);
             }
         }
@@ -60,7 +63,7 @@ const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString })
             </Grid>
             {showError && (
                 <Grid item xs={12} sx={{ paddingTop: '2%' }}>
-                    <ErrorMessage errorMessage={errorMessage} />
+                    <ErrorMessage errorSeverity={errorSeverity} errorMessage={errorMessage} />
                 </Grid>
             )}
         </Grid>

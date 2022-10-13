@@ -15,8 +15,11 @@ export type SearchResultItem = {
 export interface SearchPropTypes {
     setSearchString: Dispatch<SetStateAction<string>>;
     searchString: string;
+    setSearchReload: Dispatch<SetStateAction<boolean>>;
+    searchReload: boolean
 }
 
 export interface ErrorMessagePropTypes {
     errorMessage: string;
+    errorSeverity: string;
 }
