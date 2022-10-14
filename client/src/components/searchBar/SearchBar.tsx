@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IconButton, Grid } from '@mui/material';
 import { Search as SearchIcon, QuestionMark as QuestionMarkIcon } from 'tabler-icons-react';
 import { StyledSearchBarBox, StyledSearchBarTextField } from './SearchBarStyles';
@@ -8,36 +8,59 @@ import { SearchPropTypes } from '../../types';
 import { findSymbols, validateSymbolRegex } from '../../utils/validationUtils';
 import ErrorMessage from '../error/ErrorMessage';
 
-const SearchBar: React.FC<SearchPropTypes> = ({ setSearchString, searchString, searchReload, setSearchReload }) => {
+const SearchBar: React.FC<SearchPropTypes> = ({ searchString, setSearchString, setSearchReload, fetchingData, noResultsFound }) => {
     const navigate = useNavigate();
     const [showError, setShowError] = useState<boolean>(false);
-    const [errorSeverity, setErrorSeverity] = useState<string>('error');
+    const [errorSeverity, setErrorSeverity] = useState<string>('');
     const [errorMessage, setErrorMessage] = useState<string>('');
+    const [previousSearch, setPreviousSearch] = useState<string>(searchString);
 
     // Handles search input value setter
     const handleSearchInputChange = (event: any) => {
         setSearchString(event.target.value);
     };
 
+    const hideErrorMessage = () => {
+        setErrorMessage('');
+        setErrorSeverity('');
+        setShowError(false);
+    };
+
+    const renderErrorMessage = (message, severity) => {
+        setShowError(true);
+        setErrorSeverity(severity);
+        setErrorMessage(message);
+    };
+
+    useEffect(() => {
+        if (noResultsFound && previousSearch && !fetchingData) {
+            renderErrorMessage(`No Results Found for: ${previousSearch}`, 'info');
+        } else {
+            hideErrorMessage();
+        }
+    }, [noResultsFound, previousSearch, fetchingData]);
+
     // Handle Keyword Search Execution
     const handleSearchInputKeyDown = (event: any) => {
         if (event.key === 'Enter' && searchString.length > 0) {
-            const foundSymbols = findSymbols(searchString);
-            if (foundSymbols.length === 1) {
-                const validationError = validateSymbolRegex(searchString, foundSymbols[0]);
-                if (validationError) {
-                    setErrorMessage(validationError);
-                    setShowError(true);
-                } else {
-                    setErrorMessage('');
-                    setShowError(false);
-                    navigate('/search?' + searchString);
-                    setSearchReload(true);
-                }
+            hideErrorMessage();
+            if (fetchingData) {
+                renderErrorMessage('Warning: Please wait for results before performing another search!', 'info');
             } else {
-                setErrorMessage('Error: Must use a single symbol. (Example: I am/are happy)');
-                setErrorSeverity('error');
-                setShowError(true);
+                const foundSymbols = findSymbols(searchString);
+                if (foundSymbols.length === 1) {
+                    const validationError = validateSymbolRegex(searchString, foundSymbols[0]);
+                    if (validationError) {
+                        renderErrorMessage(validationError, 'error');
+                    } else {
+                        hideErrorMessage();
+                        setSearchReload && setSearchReload(true);
+                        setPreviousSearch && setPreviousSearch(searchString);
+                        navigate('/search?' + searchString);
+                    }
+                } else {
+                    renderErrorMessage('Error: Must use a single symbol. (Example: I am/are happy)', 'error');
+                }
             }
         }
     };

@@ -17,6 +17,7 @@
         "csstype": "^3.0.11",
         "dotenv": "^16.0.2",
         "html-react-parser": "^3.0.4",
+        "jest-mock-axios": "^4.7.0-beta",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-router-dom": "^6.3.0",

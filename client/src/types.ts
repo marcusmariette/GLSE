@@ -13,10 +13,13 @@ export type SearchResultItem = {
 };
 
 export interface SearchPropTypes {
-    setSearchString: Dispatch<SetStateAction<string>>;
     searchString: string;
-    setSearchReload: Dispatch<SetStateAction<boolean>>;
-    searchReload: boolean
+    setSearchString: Dispatch<SetStateAction<string>>;
+    searchReload?: boolean;
+    setSearchReload?: Dispatch<SetStateAction<boolean>>;
+    fetchingData?: boolean;
+    setFetchingData?: Dispatch<SetStateAction<boolean>>;
+    noResultsFound?: boolean;
 }
 
 export interface ErrorMessagePropTypes {
