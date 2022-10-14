@@ -11,7 +11,7 @@ function findSearchSymbol(searchString) {
 }
 
 function getStringWithMostWords(stringArray) {
-    let resultString = '';
+    let resultString = stringArray.length > 0 ? stringArray[0] : '';
 
     stringArray.forEach((string) => {
         if (string.split(' ').length > resultString.split(' ').length) {

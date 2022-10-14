@@ -11,7 +11,16 @@ jest.mock('react-router-dom', () => ({
 
 describe('SearchBar Tests', () => {
     const renderComponent = (searchString: string = '') => {
-        return renderWithRouting(<SearchBar setSearchReload={jest.fn()} searchReload={false} setSearchString={jest.fn()} searchString={searchString} />);
+        return renderWithRouting(
+            <SearchBar
+                setSearchString={jest.fn()}
+                searchString={searchString}
+                setSearchReload={jest.fn()}
+                searchReload={false}
+                setFetchingData={jest.fn()}
+                fetchingData={false}
+            />
+        );
     };
 
     describe('SearchBar Rendering', () => {
@@ -47,7 +56,7 @@ describe('SearchBar Tests', () => {
             renderComponent('search/some value');
             const searchField = screen.getByTestId('search-field');
             fireEvent.keyDown(searchField, { key: 'Enter' });
-            expect(mockedUsedNavigate).toHaveBeenCalledWith('/search');
+            expect(mockedUsedNavigate).toHaveBeenCalledWith('/search?search/some value');
         });
 
         test('should not navigate if search string is empty', () => {
