@@ -1,310 +1,362 @@
 {
-    "info": {
-        "_postman_id": "26499112-b6f2-4611-a9c0-0ded41a58154",
-        "name": "GLSE Collection",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "_exporter_id": "14471843"
-    },
-    "item": [
-        {
-            "name": "GET - Search with Optional",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with optional symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=good ?morning",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "good ?morning"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with Synonym",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with synonym symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=~good",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "~good"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with OR",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with OR symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=good/bad",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "good/bad"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with placeholder word",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with one word symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=good _",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "good _"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with noun",
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=cool n.",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "cool n."
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with verb",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with verb symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=v.",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "v."
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with adjective",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with adjective symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=adj. day",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "adj. day"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        },
-        {
-            "name": "GET - Search with adverb",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"GET /getResults with adverb symbol\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "    const json = pm.response.json()",
-                            "",
-                            "    pm.expect(json.message).to.be.eq(\"success\")",
-                            "    json.match.forEach(match => {",
-                            "        pm.expect(match.sentence).to.be.a(\"string\")",
-                            "        pm.expect(match.count).to.be.a(\"number\")",
-                            "    });",
-                            "});"
-                        ],
-                        "type": "text/javascript"
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "localhost:3001/getResults?search=adv.",
-                    "host": ["localhost"],
-                    "port": "3001",
-                    "path": ["getResults"],
-                    "query": [
-                        {
-                            "key": "search",
-                            "value": "adv."
-                        }
-                    ]
-                }
-            },
-            "response": []
-        }
-    ]
+	"info": {
+		"_postman_id": "26499112-b6f2-4611-a9c0-0ded41a58154",
+		"name": "GLSE Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14471843"
+	},
+	"item": [
+		{
+			"name": "GET - Search with Optional",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with optional symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=available ?online",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "available ?online"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with Synonym",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with synonym symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=~good",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "~good"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with OR",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with OR symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=good/bad",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "good/bad"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with placeholder word",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with one word symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=good _",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "good _"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with noun",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with noun symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=my n. ",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "my n. "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with verb",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with verb symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=I am v.",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "I am v."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with adjective",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with adjective symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=adj. day",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "adj. day"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Search with adverb",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GET /getResults with adverb symbol\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const json = pm.response.json()",
+							"",
+							"    pm.expect(json.message).to.be.eq(\"success\")",
+							"    json.match.forEach(match => {",
+							"        pm.expect(match.sentence).to.be.a(\"string\")",
+							"        pm.expect(match.count).to.be.a(\"number\")",
+							"    });",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/getResults?search=adv. run",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getResults"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "adv. run"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
