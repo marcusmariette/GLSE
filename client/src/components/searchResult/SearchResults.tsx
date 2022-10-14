@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
 import { StyledSearchResultBox, StyledSearchResultRow, StyledSearchResultProgress, StyledSearchResultFooter } from './SearchResultsStyles';
 import SearchBar from '../searchBar/SearchBar';
@@ -27,7 +27,6 @@ const SearchResults: React.FC<SearchPropTypes> = ({ searchString, setSearchStrin
                         // Sort Sentences in order of count
                         results.sort((a, b) => (a.count !== b.count ? (a.count < b.count ? 1 : -1) : 0));
 
-                        console.log('results', results);
                         // Calculate total amount of sentences found (denominator)
                         const totalCount = getTotalCount(results);
 
@@ -42,32 +41,29 @@ const SearchResults: React.FC<SearchPropTypes> = ({ searchString, setSearchStrin
                 })
                 .catch((error) => {
                     setFetchingData && setFetchingData(false);
+                    setNoResultsFound(true);
                     console.log('Axios Error:', error);
                 });
         }
     };
 
-    useEffect(() => {
-        setTimeout(() => {
-            if (searchString && searchReload === false) {
-                setSearchReload && setSearchReload(true);
-            }
-        }, 1500);
-    }, []);
+    useCallback(() => {
+        if (searchString && !searchReload) {
+            setSearchReload && setSearchReload(true);
+        }
+    }, [searchString, searchReload, setSearchReload]);
 
     useEffect(() => {
-        if (searchReload === true) {
+        if (searchReload) {
             setSearchResults([]);
             setNoResultsFound(false);
-            setTimeout(() => {
-                fetchSentences();
-            }, 500);
+            fetchSentences();
             setSearchReload && setSearchReload(false);
         }
     }, [searchReload]);
 
     return (
-        <Grid container spacing={3} sx={{ paddingTop: '2%' }}>
+        <Grid container spacing={3} sx={{ paddingTop: '2%', paddingBottom: '2%' }}>
             <Grid item xs={12}>
                 <SearchBar
                     searchString={searchString}
@@ -80,11 +76,11 @@ const SearchResults: React.FC<SearchPropTypes> = ({ searchString, setSearchStrin
             {!noResultsFound && (
                 <>
                     <Grid item xs={12}>
-                        <StyledSearchResultBox>
+                        <StyledSearchResultBox data-testid={'results-container'}>
                             {searchResults.length !== 0 ? (
                                 <>
-                                    {searchResults.map((item) => (
-                                        <StyledSearchResultRow key={item.sentence + item.occurrencePercentage} className="search-result-row">
+                                    {searchResults.map((item, index) => (
+                                        <StyledSearchResultRow key={index} className="search-result-row">
                                             <Box sx={{ flex: 1 }}>
                                                 <Stack direction="row" justifyContent="space-between">
                                                     <Typography variant="h5">{item.sentence}</Typography>
