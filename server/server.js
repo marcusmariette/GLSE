@@ -13,7 +13,86 @@ const { findSearchSymbol, stripPosTag, canStripSymbol } = require('./utils/serve
 const app = express();
 
 app.listen(3001, () => {
-    console.log('GLSE Backend Server Started on Port 3001...');
+    console.log('GLSE Backend Server Started on Port 3001...\n');
+});
+
+app.get('/getExamples', async (req, res) => {
+    const startTime = performance.now();
+
+    res.set('Access-Control-Allow-Origin', '*');
+    const responseData = {
+        status: 0,
+        message: '',
+        match: [],
+    };
+
+    console.log(`[ > ] Get Examples Call from ${req.headers['x-forwarded-for'] || req.socket.remoteAddress} @ ${new Date().toLocaleTimeString()}\n`);
+
+    const returnResults = [];
+    const searchSentence = req.query.search.toLowerCase();
+
+    if(searchSentence !== null && searchSentence !== undefined) {
+        console.log('Search Sentence: ' + searchSentence);
+        const fileNameAsMD5 = md5(req.query.search.toLowerCase());
+
+        // If we want to check the database/filesystem for existing queries run
+        if (fs.existsSync('resources/results/getExamples/' + fileNameAsMD5 + '.json')) {
+            var resultData = fs.readFileSync('resources/results/getExamples/' + fileNameAsMD5 + '.json', 'utf-8');
+
+            console.log('Found existing file in database cache');
+            const endTime = performance.now();
+            console.log('Operation Time:', Math.floor(endTime - startTime) / 1000, 's\n');
+
+            responseData.status = 200;
+            responseData.message = 'success';
+            responseData.match = JSON.parse(resultData);
+            res.json(responseData);
+        } else {
+            const directoryPath = path.join(__dirname, 'resources/documents');
+
+            fs.readdir(directoryPath, (error, files) => {
+                if (error) return console.error('Unable To Scan Directory: ' + error);
+
+                let knowledgeBaseContent;
+
+                files.forEach((file) => {
+                    knowledgeBaseContent += fs.readFileSync('resources/documents/' + file, 'utf-8');
+                });
+
+                const allSentences = knowledgeBaseContent.match(/[^\.!\?]+[\.!\?]+/g);
+                const allValidKBSentences = [];
+
+                allSentences.forEach((sentence) => {
+                    if(allValidKBSentences.length < 5) {
+                        if (sentence.toLowerCase().match(new RegExp('\\b' + searchSentence + '\\b'))) {
+                            allValidKBSentences.push(sentence);
+                        }
+                    }
+                });
+
+                console.log('allValidKBSentences size:', allValidKBSentences.length);
+
+                allValidKBSentences.forEach((result) => {
+                    returnResults.push({
+                        sentence: result.replace(new RegExp("(" + searchSentence + ")"), "<span>$1</span>")
+                    })
+                });
+
+                // If we want to save the results to the database/filesystem
+                if (returnResults.length > 0) {
+                    fs.writeFileSync('resources/results/getExamples/' + fileNameAsMD5 + '.json', JSON.stringify(returnResults));
+                }
+
+                const endTime = performance.now();
+                console.log('Operation Time:', Math.floor(endTime - startTime) / 1000, 's\n');
+
+                responseData.status = 200;
+                responseData.message = 'success';
+                responseData.match = returnResults;
+                res.json(responseData);
+            });
+        }
+    }
 });
 
 app.get('/getResults', async (req, res) => {
@@ -26,6 +105,8 @@ app.get('/getResults', async (req, res) => {
         match: [],
     };
 
+    console.log(`[ > ] Get Results Call from ${req.headers['x-forwarded-for'] || req.socket.remoteAddress} @ ${new Date().toLocaleTimeString()}\n`);
+
     let queryResults = [];
     const returnResults = [];
     const searchQuery = req.query.search;
@@ -36,8 +117,8 @@ app.get('/getResults', async (req, res) => {
         const fileNameAsMD5 = md5(req.query.search.toLowerCase());
 
         // If we want to check the database/filesystem for existing queries run
-        if (fs.existsSync('resources/results/' + fileNameAsMD5 + '.json')) {
-            var resultData = fs.readFileSync('resources/results/' + fileNameAsMD5 + '.json', 'utf-8');
+        if (fs.existsSync('resources/results/getResults/' + fileNameAsMD5 + '.json')) {
+            var resultData = fs.readFileSync('resources/results/getResults/' + fileNameAsMD5 + '.json', 'utf-8');
 
             console.log('Found existing file in database cache');
             const endTime = performance.now();
@@ -126,7 +207,7 @@ app.get('/getResults', async (req, res) => {
 
                         // If we want to save the results to the database/filesystem
                         if (returnResults.length > 0) {
-                            fs.writeFileSync('resources/results/' + fileNameAsMD5 + '.json', JSON.stringify(returnResults));
+                            fs.writeFileSync('resources/results/getResults/' + fileNameAsMD5 + '.json', JSON.stringify(returnResults));
                         }
 
                         const endTime = performance.now();
