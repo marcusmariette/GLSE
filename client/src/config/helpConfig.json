@@ -3,48 +3,48 @@
         "parameter": "/",
         "name": "Or",
         "description": "any collection of words",
-        "examples": ["it is a/an apple", "gather/collect information"]
+        "examples": ["good/bad", "gather/collect information"]
     },
     {
         "parameter": "~",
         "name": "Synonyms",
         "description": "any words with the same meaning",
-        "examples": ["I am ~stressed", "please ~explain"]
+        "examples": ["~good", "please ~explain"]
     },
     {
         "parameter": "_",
         "name": "1 word",
         "description": "any single word",
-        "examples": ["the dog is _", "the man _ the woman"]
+        "examples": ["he is _", "the man _ "]
     },
     {
         "parameter": "?",
         "name": "Optional",
         "description": "returns results with/without the word",
-        "examples": ["I ?really worked late", "How to learn skills ?quickly"]
+        "examples": ["Available ?online", "How ?to"]
     },
     {
         "parameter": "v.",
         "name": "Verb",
         "description": "returns any verb (is, are, was, has)",
-        "examples": ["I v. so much", "it v. lovely today"]
+        "examples": ["I v.", "it v."]
     },
     {
         "parameter": "n.",
         "name": "Noun",
         "description": "returns any noun (apple, dog, cat, man, woman)",
-        "examples": ["I really dislike n.", "n. is going to teach you today"]
+        "examples": ["my n.", "n. is"]
     },
     {
         "parameter": "adj.",
         "name": "Adjective",
         "description": "returns any adjective (sad, stressed, angry, frustrated)",
-        "examples": ["I'm feeling very adj.", "It is adj. for the student"]
+        "examples": ["I'm very adj.", "adj. day"]
     },
     {
         "parameter": "adv.",
         "name": "Adverb",
         "description": "returns any adverb (so, too, really)",
-        "examples": ["It is adv. easy for me", "The team are doing adv."]
+        "examples": ["adv. run", "The team are doing adv."]
     }
 ]
