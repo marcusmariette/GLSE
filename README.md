@@ -6,7 +6,7 @@ This project has been proposed by our client at Monash University, Xiao Chen, wh
 
 GLSE is a React-Typescript web based application, supported by a Node-Javascript backend service. GLSE utilises an array of NLP theories and practices to assist academic students from different backgrounds to structure well-formed English sentences by searching for nouns, adjectives, verbs and many other parts of speech.
 
-## Project setup 
+## Project setup and run
 - Install IDE of your choice (Recommended: Visual Studio Code OR Webstorm)
 - Install npm
 - Install node.js
@@ -30,6 +30,8 @@ In your terminal:
 4. You should see the line<br/> `GLSE Backend Server Started on Port 3001...` 
 5. You can now use Postman to make a request from the collection OR you can start using the frontend to search
 
+If you are having issues with running either, try:<br/>`npm audit fix --force`
+
 ## Technical Implementation
 - `React.js`: Frontend JavaScript/Typescript library that assists in building user interfaces
 - `Axios`: React Javascript/Typescript library used to call REST APIs from our backend ode.js service
@@ -51,7 +53,7 @@ In your terminal:
 
 **Node.js Backend**<br/>
 In your terminal:
-1. `cd client`
+1. `cd server`
 2. `npm run test`
 3. You should then see all tests pass
 
@@ -62,14 +64,14 @@ This can be done in two ways:<br/>
 2. Open Postman
 3. Go to `Collections`
 4. Click `Import` and import `GLSE_postman_collection.json` located in folder `GLSE/server/test`
-5. Run GLSE application (follow setup)
+5. Run GLSE application (follow setup and run)
 6. Right click the collection `GLSE Collection` and click `Run collection`
 7. Make sure all requests are selected and click `Run GLSE Collection`
 8. You should then see all tests pass
 
 **Through Newman CLI**
 1. Install Newman - https://www.npmjs.com/package/newman
-2. Run GLSE application (follow setup)
+2. Run GLSE application (follow setup and run)
 3. In your terminal: <br/>`newman run server/test/GLSE_postman_collection.json`
 4. You should then see all tests pass
 
