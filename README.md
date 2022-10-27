@@ -6,10 +6,11 @@ This project has been proposed by our client at Monash University, Xiao Chen, wh
 
 GLSE is a React-Typescript web based application, supported by a Node-Javascript backend service. GLSE utilises an array of NLP theories and practices to assist academic students from different backgrounds to structure well-formed English sentences by searching for nouns, adjectives, verbs and many other parts of speech.
 
-## Project setup and run
+## Project Setup
 - Install IDE of your choice (Recommended: Visual Studio Code OR Webstorm)
+- Install node.js: https://nodejs.org/en/download/
 - Install npm
-- Install node.js
+- You can verify you have installed correctly by running:<br/>`node -v` and `npm -v`
 
 Clone project from GitHub: https://github.com/marcusmariette/GLSE
 
@@ -20,7 +21,6 @@ In your terminal:
 3. `npm start`
 4. If started correctly, you should see the multiple lines of text with `Compiled successfully!` 
 5. You can visit the link shown in the terminal: http://localhost:3000
-
 
 **Node.js Backend**<br/>
 In your terminal:
@@ -35,10 +35,11 @@ If you are having issues with running either, try:<br/>`npm audit fix --force`
 ## Technical Implementation
 ### Technologies used
 - `React.js`: Frontend JavaScript/Typescript library that assists in building user interfaces
+- `TypeScript`: A strong typed programming language built ontop of Javascript. Used for development via React Typescript app setup.
+- `MaterialUI`: React UI Package for building compenents. See more at: https://mui.com/
 - `Axios`: React Javascript/Typescript library used to call REST APIs from our backend ode.js service
 - `Node.js`: Backend JavaScript library used for server side programming to create reactive, event-driven API services
 - `Express`: Backend framework used alongside Node.js to build REST APIs
-- `Jest`: Library to unit test both our frontend and backend
 - `prettier`: Code Linting
 - `Postman/Newman`: Used to create a collection to easily make API requests and write end to end backend tests
 - `Natural`: Library used to search for synonyms and single words
