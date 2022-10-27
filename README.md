@@ -33,6 +33,7 @@ In your terminal:
 If you are having issues with running either, try:<br/>`npm audit fix --force`
 
 ## Technical Implementation
+### Technologies used
 - `React.js`: Frontend JavaScript/Typescript library that assists in building user interfaces
 - `Axios`: React Javascript/Typescript library used to call REST APIs from our backend ode.js service
 - `Node.js`: Backend JavaScript library used for server side programming to create reactive, event-driven API services
@@ -40,6 +41,12 @@ If you are having issues with running either, try:<br/>`npm audit fix --force`
 - `Jest`: Library to unit test both our frontend and backend
 - `prettier`: Code Linting
 - `Postman/Newman`: Used to create a collection to easily make API requests and write end to end backend tests
+- `Natural`: Library used to search for synonyms and single words
+
+### Data Sources
+Our data sources are `.txt` files stored in `server/resources/documents`. This can be added to or removed from to allow for better data. Note that this could affect search times.
+
+Our parts of speech data sources are `.txt` files stored in `server/resources/pos`. This can be added to and removed from to improve reliability. Note that this could affect search times.
 
 ## Testing
 ### Unit Tests
